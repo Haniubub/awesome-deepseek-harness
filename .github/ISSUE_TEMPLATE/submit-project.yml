@@ -1,0 +1,143 @@
+name: Submit a Project
+description: Propose a new project for the Awesome DeepSeek Harness directory.
+title: "[Submit] <project-name>"
+labels: [submission]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      description: Name of the project / repository.
+    validations:
+      required: true
+
+  - type: input
+    id: repository
+    attributes:
+      label: Repository URL
+      description: Public GitHub repository URL.
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: Primary classification (one only).
+      options:
+        - plugin
+        - skill
+        - workflow
+        - agent
+        - client
+        - tool
+        - integration
+        - example
+        - tutorial
+        - awesome-list
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - discovery
+        - memory
+        - search
+        - developer
+        - ui
+        - vision
+        - fun
+        - workflow
+        - automation
+        - multi-agent
+        - research
+        - desktop
+        - terminal
+        - mobile
+        - mcp
+        - ide
+        - browser
+        - channel
+        - learning
+        - registry
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description (English)
+      description: One line describing what the project does.
+    validations:
+      required: true
+
+  - type: textarea
+    id: description_zh
+    attributes:
+      label: Description (中文)
+      description: 一句话中文描述。
+    validations:
+      required: true
+
+  - type: dropdown
+    id: capabilities
+    attributes:
+      label: Capabilities
+      description: Select all that apply.
+      multiple: true
+      options:
+        - browser
+        - search
+        - coding
+        - git
+        - memory
+        - context
+        - research
+        - multimodal
+        - workflow
+        - multi-agent
+        - ui
+        - desktop
+        - terminal
+        - mcp
+        - files
+        - notifications
+        - channels
+        - security
+        - observability
+        - automation
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - active
+        - experimental
+        - wip
+        - inactive
+
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: SPDX identifier, e.g. MIT.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Verification
+      description: Confirm the project targets the official deepseek-ai/deepseek-harness.
+      options:
+        - label: The project directly supports deepseek-ai/deepseek-harness or provides clearly useful surrounding tooling.
+          required: true
+        - label: The repository contains meaningful source code or documentation.
+          required: true
+        - label: The project is not an unrelated "DeepSeek Harness" API wrapper.
+          required: true

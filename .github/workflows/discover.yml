@@ -1,0 +1,56 @@
+name: discover
+on:
+  schedule:
+    - cron: "0 3 * * 1"  # every Monday 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Discover new ecosystem candidates
+        id: discover
+        run: python3 scripts/discover-github.py --token "${{ secrets.GITHUB_TOKEN }}" --limit 25
+        continue-on-error: true
+
+      - name: Refresh metadata
+        run: python3 scripts/update-metadata.py --token "${{ secrets.GITHUB_TOKEN }}" || true
+
+      - name: Open candidate review issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let body = 'No new candidates this week.';
+            try {
+              const cands = JSON.parse(fs.readFileSync('data/candidates.json', 'utf8'));
+              if (cands.length) {
+                body = 'New ecosystem candidates found. Review and add to `data/`:\n\n' +
+                  cands.slice(0, 25).map(c =>
+                    `- [ ] ${c.repository} ⭐${c.stars} — ${c.description}`).join('\n');
+              }
+            } catch (e) { /* candidates.json may not exist */ }
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'Weekly discovery: new DeepSeek Harness ecosystem candidates',
+              body,
+            });
+
+      - name: Commit refreshed metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ README.md README.zh-CN.md docs/ || true
+          git diff --cached --quiet || git commit -m "chore: refresh ecosystem metadata"
+          git push

@@ -1,0 +1,363 @@
+[
+  {
+    "id": "openbiliclaw",
+    "name": "openbiliclaw",
+    "type": "agent",
+    "category": "research",
+    "repository": "https://github.com/whiteguo233/OpenBiliClaw",
+    "description": "本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin）",
+    "description_zh": "本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin）",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2324
+  },
+  {
+    "id": "dsh-agent-teams",
+    "name": "dsh-agent-teams",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/NanmiCoder/dsh-agent-teams",
+    "description": "Multi-agent team-oriented extensions for DSH.",
+    "description_zh": "面向团队的 DSH 多 Agent 扩展。",
+    "capabilities": [
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": true,
+    "stars": 222
+  },
+  {
+    "id": "dsh-agent-rp",
+    "name": "dsh-agent-rp",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/hewzhew/dsh-agent-rp",
+    "description": "SillyTavern migration and next-generation Agent roleplay for DSH.",
+    "description_zh": "SillyTavern 迁移与下一代 Agent 角色扮演。",
+    "capabilities": [
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 101
+  },
+  {
+    "id": "allinluna",
+    "name": "allinluna",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/zenx0x/allinluna",
+    "description": "Resource-aware multi-agent orchestration for Codex and DeepSeek Harness (All in Flash DSH plugin).",
+    "description_zh": "面向 Codex 与 DeepSeek Harness 的资源感知多 Agent 编排。",
+    "capabilities": [
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 25
+  },
+  {
+    "id": "dsh-interconnect",
+    "name": "dsh-interconnect",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/Chinesezjc/dsh-interconnect",
+    "description": "Cross-instance message/event handoff plugins (interconnect service + tools).",
+    "description_zh": "跨实例消息/事件交接插件（interconnect 服务 + 工具）。",
+    "capabilities": [
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 24
+  },
+  {
+    "id": "dsh-data-agent",
+    "name": "dsh-data-agent",
+    "type": "agent",
+    "category": "research",
+    "repository": "https://github.com/omdsh-dev/dsh-data-agent",
+    "description": "Session-scoped database connections with a dedicated data agent: let the model connect to databases and write SQL.",
+    "description_zh": "会话级数据库连接 + 专用数据 Agent：让模型连数据库、写 SQL。",
+    "capabilities": [
+      "research",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 17
+  },
+  {
+    "id": "dsh-plugin-cc",
+    "name": "dsh-plugin-cc",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/cpj-dev/dsh-plugin-cc",
+    "description": "Bridge DeepSeek Harness into Claude Code for review, critique, delegation and session import.",
+    "description_zh": "将 DSH 桥接到 Claude Code：审查、批判、委托与会话导入。",
+    "capabilities": [
+      "multi-agent",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 12
+  },
+  {
+    "id": "dsh-plugin-product-subagents",
+    "name": "dsh-plugin-product-subagents",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/shaokeyibb/dsh-plugin-product-subagents",
+    "description": "Role-based Codex/Claude Code/ACP subagent providers: continuable children with durable state.",
+    "description_zh": "基于角色的 Codex/Claude Code/ACP 子代理提供方：可延续的子任务，带持久状态。",
+    "capabilities": [
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 8
+  },
+  {
+    "id": "task-passport",
+    "name": "Task Passport",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/dongsheng123132/task-passport",
+    "description": "Open task handoff protocol for DeepSeek Harness, WorkBuddy, Claude Code and Codex: verified state, not chat logs.",
+    "description_zh": "跨编码 Agent 环境的开放任务交接协议：交接可验证的状态而非聊天记录。",
+    "capabilities": [
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
+  },
+  {
+    "id": "dsh-plugin-yet-another-subagent",
+    "name": "dsh-plugin-yet-another-subagent",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent",
+    "description": "Configurable subagent profile system: a single subagent tool with profile parameters, Web UI settings and live progress.",
+    "description_zh": "可配置子代理 profile 系统：单一 subagent 工具 + profile 参数，含 Web UI 设置与实时进度。",
+    "capabilities": [
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
+  },
+  {
+    "id": "dsh-plugin-claude-bridge",
+    "name": "dsh-plugin-claude-bridge",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/YYTbit/dsh-plugin-claude-bridge",
+    "description": "Bridge Claude Code memory, skills and config into DeepSeek Harness.",
+    "description_zh": "把 Claude Code 的记忆、技能与配置桥接到 DSH。",
+    "capabilities": [
+      "multi-agent",
+      "memory"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
+  },
+  {
+    "id": "dsh-advisor",
+    "name": "dsh-advisor",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/omdsh-dev/dsh-advisor",
+    "description": "Pair a second model that passively reviews each turn and injects notes.",
+    "description_zh": "配对第二模型被动审查每一回合并注入建议。",
+    "capabilities": [
+      "multi-agent",
+      "context"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
+  },
+  {
+    "id": "dsh-agent-messaging",
+    "name": "dsh-agent-messaging",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/happyren/dsh-agent-messaging",
+    "description": "Cross-session agent-to-agent messaging: address another session by name.",
+    "description_zh": "跨会话 Agent 互发消息：按名称寻址其他会话。",
+    "capabilities": [
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
+  },
+  {
+    "id": "dsh-sidechain",
+    "name": "dsh-sidechain",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/omdsh-dev/dsh-sidechain",
+    "description": "Side sessions: persistent /side sessions (Codex style) and one-off /btw questions (Claude style) in temporary forks.",
+    "description_zh": "侧会话：/side 持续性侧会话（Codex 风格）与 /btw 一次性侧问（Claude 风格），临时 fork 中运行。",
+    "capabilities": [
+      "multi-agent",
+      "context"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
+  },
+  {
+    "id": "dsh-a2a",
+    "name": "dsh-a2a",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/dpskh/dsh-a2a",
+    "description": "Agent2Agent mesh for the Harness.",
+    "description_zh": "面向 Harness 的 Agent2Agent 网状网络。",
+    "capabilities": [
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2
+  },
+  {
+    "id": "dsh-llm-fallbacks",
+    "name": "dsh-llm-fallbacks",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/omdsh-dev/dsh-llm-fallbacks",
+    "description": "Role-based LLM retry and fallback strategy plugin.",
+    "description_zh": "基于角色的模型重试与备用策略插件。",
+    "capabilities": [
+      "context",
+      "automation"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2
+  },
+  {
+    "id": "dsh-crosstalk",
+    "name": "dsh-crosstalk",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/Jesse-njx/dsh-crosstalk",
+    "description": "Cross-session messaging: DSH sessions on the same machine can discover, message and coordinate with each other.",
+    "description_zh": "跨会话消息：同机 DSH 会话之间可发现、互发消息并协同。",
+    "capabilities": [
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1
+  },
+  {
+    "id": "dsh-subagent-tools",
+    "name": "dsh-subagent-tools",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/lynx-gt/dsh-subagent-tools",
+    "description": "Per-call model/provider/persona/toolFilter overrides for subagent delegation with @preset references.",
+    "description_zh": "子代理委托的逐调用模型/provider/persona/toolFilter 覆盖，支持 @preset 引用。",
+    "capabilities": [
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1
+  },
+  {
+    "id": "dsh-supervisor",
+    "name": "dsh-supervisor",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/Wha1eChai/dsh-supervisor",
+    "description": "Same-runtime cross-session discovery and communication for DeepSeek Harness.",
+    "description_zh": "同运行时跨会话发现与通信。",
+    "capabilities": [
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1
+  },
+  {
+    "id": "dsh-slice-agent-loop",
+    "name": "dsh-slice-agent-loop",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/TT-Wang/dsh-slice-agent-loop",
+    "description": "Drop-in agent loop whose context engine is a bounded slice instead of a growing transcript.",
+    "description_zh": "可替换的 Agent 循环：上下文引擎是有界切片而非不断增长的记录。",
+    "capabilities": [
+      "context",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1
+  },
+  {
+    "id": "dsh-cross-session",
+    "name": "dsh-cross-session",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/Wha1eChai/dsh-cross-session",
+    "description": "Same-runtime cross-session discovery and communication for DeepSeek Harness.",
+    "description_zh": "同运行时跨会话发现与通信。",
+    "capabilities": [
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1
+  },
+  {
+    "id": "dsh-tianshu-build",
+    "name": "dsh-tianshu-build",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/huiliyi37/dsh-tianshu-build",
+    "description": "DeepSeek X Tianshu  Harness build 是一款完全体开源 coding agent:在 dsh harness 基础之上带视觉、跨会话记忆、验证门、agent 路由、语义 + 图谱代码检索、文件回滚和全屏终端 UI——全部以插件组合。  它是 DeepSeek Harness(dsh)的友好 MIT fork, 它保留了上游一切皆插件的架构，并将以harness最佳形态和架构往下演进。",
+    "description_zh": "DeepSeek X Tianshu  Harness build 是一款完全体开源 coding agent:在 dsh harness 基础之上带视觉、跨会话记忆、验证门、agent 路由、语义 + 图谱代码检索、文件回滚和全屏终端 UI——全部以插件组合。  它是 DeepSeek Harness(dsh)的友好 MIT fork, 它保留了上游一切皆插件的架构，并将以harness最佳形态和架构往下演进。",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 19
+  },
+  {
+    "id": "dsh-openbiliclaw",
+    "name": "dsh-openbiliclaw",
+    "type": "agent",
+    "category": "research",
+    "repository": "https://github.com/whiteguo233/dsh-openbiliclaw",
+    "description": "OpenBiliClaw 是本地运行的跨平台个性化内容推荐 Agent，持续理解你的兴趣并主动找内容。本仓库是它的 DeepSeek Harness 插件：DSH 界面常驻第四栏（推荐/内容库/对话/画像/设置），注册 22 个 Agent Bridge 工具，让 Agent 也能读推荐、答探测、闭环学习。",
+    "description_zh": "OpenBiliClaw 是本地运行的跨平台个性化内容推荐 Agent，持续理解你的兴趣并主动找内容。本仓库是它的 DeepSeek Harness 插件：DSH 界面常驻第四栏（推荐/内容库/对话/画像/设置），注册 22 个 Agent Bridge 工具，让 Agent 也能读推荐、答探测、闭环学习。",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 19
+  }
+]

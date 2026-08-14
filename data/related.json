@@ -1,0 +1,132 @@
+[
+  {
+    "id": "deer-flow",
+    "name": "DeerFlow",
+    "type": "related",
+    "category": "harness",
+    "repository": "https://github.com/bytedance/deer-flow",
+    "description": "Open-source long-horizon SuperAgent harness by ByteDance: skills, memory, sandboxes, subagents, tools and a message gateway.",
+    "description_zh": "字节跳动开源的长时间跨度 SuperAgent harness：技能、记忆、沙箱、子代理、工具与消息网关。",
+    "capabilities": [
+      "harness",
+      "workflow",
+      "memory"
+    ],
+    "status": "active",
+    "verified": true,
+    "stars": 80001
+  },
+  {
+    "id": "cordis",
+    "name": "Cordis",
+    "type": "related",
+    "category": "harness",
+    "repository": "https://github.com/cordiverse/cordis",
+    "description": "Meta-Framework of Spatiotemporal Composability — the plugin runtime DeepSeek Harness is built on.",
+    "description_zh": "时空可组合性元框架——DeepSeek Harness 底层的插件运行时。",
+    "capabilities": [
+      "harness",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": true,
+    "stars": 3182
+  },
+  {
+    "id": "sandbase-harness",
+    "name": "sandbase-harness",
+    "type": "related",
+    "category": "harness",
+    "repository": "https://github.com/sandbaseai/sandbase-harness",
+    "description": "Open-source CMA-compatible agent runtime for any model: MCP tools, sandboxed sessions, audit, replay.",
+    "description_zh": "开源 CMA 兼容的任意模型 Agent 运行时：MCP 工具、沙箱会话、审计与回放。",
+    "capabilities": [
+      "harness",
+      "mcp",
+      "security"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 573
+  },
+  {
+    "id": "mnemon",
+    "name": "mnemon",
+    "type": "related",
+    "category": "harness",
+    "repository": "https://github.com/mnemon-dev/mnemon",
+    "description": "LLM-supervised persistent memory for AI agents: graph-based recall and cross-session knowledge in a single binary.",
+    "description_zh": "LLM 监督的 Agent 持久记忆：图召回与跨会话知识，单二进制。",
+    "capabilities": [
+      "memory",
+      "harness"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 430
+  },
+  {
+    "id": "claude-paper",
+    "name": "claude-paper",
+    "type": "related",
+    "category": "harness",
+    "repository": "https://github.com/alaliqing/claude-paper",
+    "description": "Cross-agent research paper toolkit for Claude Code, Codex, OpenCode and DeepSeek Harness: quick summaries and deep dives.",
+    "description_zh": "跨 Agent 论文研究工具包：快速摘要与深度精读，支持 Claude Code/Codex/OpenCode/DSH。",
+    "capabilities": [
+      "research",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 294
+  },
+  {
+    "id": "axern",
+    "name": "Axern",
+    "type": "related",
+    "category": "harness",
+    "repository": "https://github.com/cofy-x/axern",
+    "description": "Open-source sandboxes for AI agents: untrusted code execution and durable services.",
+    "description_zh": "面向 AI Agent 的开源沙箱：不可信代码执行与持久服务。",
+    "capabilities": [
+      "security",
+      "harness"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 272
+  },
+  {
+    "id": "open-managed-agents",
+    "name": "open-managed-agents",
+    "type": "related",
+    "category": "harness",
+    "repository": "https://github.com/openma-ai/open-managed-agents",
+    "description": "Open-source Claude Managed Agents API implementation and self-hosted Claude Tag-style agent runtime.",
+    "description_zh": "开源 Claude Managed Agents API 实现与自托管 Claude Tag 风格 Agent 运行时。",
+    "capabilities": [
+      "harness",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 235
+  },
+  {
+    "id": "deepseek-auto-evolving-harness",
+    "name": "deepseek-auto-evolving-harness",
+    "type": "related",
+    "category": "harness",
+    "repository": "https://github.com/liuchen6667/deepseek-auto-evolving-harness",
+    "description": "Auto-evolving LLM agent harness: benchmark-driven evolution via Claude Code and a self_evolution.md guide.",
+    "description_zh": "自进化 LLM Agent Harness：通过 Claude Code 与 self_evolution.md 指南进行基准驱动进化。",
+    "capabilities": [
+      "harness",
+      "research"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 28
+  }
+]

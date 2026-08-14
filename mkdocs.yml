@@ -1,0 +1,99 @@
+site_name: Awesome DeepSeek Harness
+site_description: Curated ecosystem of plugins, skills, workflows, agents, clients, tools and examples for DeepSeek Harness.
+site_url: https://deepseekserver.com
+repo_url: https://github.com/awesome-deepSeek-harness
+repo_name: awesome-deepSeek-harness
+edit_uri: edit/main/docs/en
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: fontawesome/solid/fish
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tracking
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - content.code.copy
+
+extra_css:
+  - assets/extra.css
+
+extra:
+  alternate:
+    - name: English
+      link: /index.html
+      lang: en
+    - name: 简体中文
+      link: /zh/
+      lang: zh
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/awesome-deepSeek-harness
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      default_language: en
+      languages:
+        - locale: en
+          name: English
+          default: true
+        - locale: zh
+          name: 简体中文
+          build: true
+          nav_translations:
+            Home: 首页
+            Plugins: 插件
+            Skills: 技能
+            Workflows & Automation: 工作流与自动化
+            Agents & Multi-Agent: 智能体与多智能体
+            Clients (Desktop & TUI): 客户端（桌面与终端）
+            MCP & Integrations: MCP 与集成
+            Examples & Starters: 示例与模板
+            Tutorials & Learning: 教程与学习
+            Awesome Lists & Registries: 精选列表与注册表
+            Related Agent Harnesses: 相关 Agent Harness
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Plugins: plugins.md
+  - Skills: skills.md
+  - Workflows & Automation: workflows.md
+  - Agents & Multi-Agent: agents.md
+  - Clients (Desktop & TUI): clients.md
+  - MCP & Integrations: integrations.md
+  - Examples & Starters: examples.md
+  - Tutorials & Learning: tutorials.md
+  - Awesome Lists & Registries: awesome-lists.md
+  - Related Agent Harnesses: related.md
+
+copyright: Copyright &copy; 2026 Awesome DeepSeek Harness contributors

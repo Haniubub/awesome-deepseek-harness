@@ -1,0 +1,326 @@
+[
+  {
+    "id": "dsh-workflow",
+    "name": "dsh_workflow",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/icetomoyo/dsh_workflow",
+    "description": "Brings Claude Code's UltraCode mode to DSH: upgrade one-shot multi-agent dispatch into a generatable, saveable, governable, observable, recoverable workflow layer.",
+    "description_zh": "把 Claude Code 的 UltraCode 模式带给 DSH：将一次性多 Agent 调度升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层。",
+    "capabilities": [
+      "workflow",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 54
+  },
+  {
+    "id": "mstar-harness",
+    "name": "mstar-harness",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/btspoony/mstar-harness",
+    "description": "Skill-driven harness/loop engineering workflow agent: tune agent loops as a first-class workflow.",
+    "description_zh": "技能驱动的 Harness/Loop 工程工作流 Agent：把 Agent 循环调优作为一等工作流。",
+    "capabilities": [
+      "workflow",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 42
+  },
+  {
+    "id": "dsh-automation",
+    "name": "dsh-automation",
+    "type": "workflow",
+    "category": "automation",
+    "repository": "https://github.com/titanwings/dsh-automation",
+    "description": "Run coding tasks on a schedule in fresh Agent sessions, managed by the user or the agent itself.",
+    "description_zh": "让 Coding 任务按计划在全新 Agent Session 中运行，由用户或 Agent 创建和管理定时任务。",
+    "capabilities": [
+      "automation",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 27
+  },
+  {
+    "id": "dsh-deep-research",
+    "name": "dsh-deep-research",
+    "type": "workflow",
+    "category": "research",
+    "repository": "https://github.com/omdsh-dev/dsh-deep-research",
+    "description": "Adaptive deep-research orchestrator built on the official workflow engine.",
+    "description_zh": "基于官方 workflow 引擎的自适应深度研究编排器。",
+    "capabilities": [
+      "research",
+      "workflow",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 9
+  },
+  {
+    "id": "dsh-auto-continue",
+    "name": "dsh-auto-continue",
+    "type": "workflow",
+    "category": "automation",
+    "repository": "https://github.com/HsiangNianian/dsh-auto-continue",
+    "description": "Auto-resumes interrupted DSH Web requests: failure classification, adaptive retry, configurable continue message and browser notifications.",
+    "description_zh": "自动恢复中断的请求：失败分类、自适应退避重试、可配置续写消息与浏览器通知。",
+    "capabilities": [
+      "automation",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 9
+  },
+  {
+    "id": "dsh-harness-ops",
+    "name": "dsh-harness-ops",
+    "type": "workflow",
+    "category": "automation",
+    "repository": "https://github.com/fakechris/dsh-harness-ops",
+    "description": "Ops toolbox: A/B dual-slot daily snapshot rotation with atomic switch and one-click rollback, plus a 10s watchdog.",
+    "description_zh": "运维工具箱：官方每日快照 A/B 双槽轮换、原子切换、一键回滚、守护进程自动拉起。",
+    "capabilities": [
+      "automation",
+      "observability"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7
+  },
+  {
+    "id": "engineer-software",
+    "name": "engineer-software",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/KirschBluteX/engineer-software",
+    "description": "Runtime-neutral, evidence-driven software engineering workflow for Codex and DeepSeek Harness.",
+    "description_zh": "与运行时无关、证据驱动的软件工程工作流，适用于 Codex 与 DeepSeek Harness。",
+    "capabilities": [
+      "workflow",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
+  },
+  {
+    "id": "dsh-track",
+    "name": "dsh-track",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/fakechris/dsh-track",
+    "description": "Embedded task-management engine: decision-point protocol, thought-capture wall and Linear-style issue storage.",
+    "description_zh": "嵌入式任务管理引擎：决策点协议、念头捕获墙、Linear 形 issue 存储。",
+    "capabilities": [
+      "workflow",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
+  },
+  {
+    "id": "dsh-plans",
+    "name": "dsh-plans",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/Optim-Agent/dsh-plans",
+    "description": "Human-in-the-loop planning preset adapted from prime-plans: researched, reviewed, executed.",
+    "description_zh": "从 prime-plans 移植的人机协同规划预设：调研、评审、执行。",
+    "capabilities": [
+      "workflow",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
+  },
+  {
+    "id": "dsh-companion",
+    "name": "dsh-companion",
+    "type": "workflow",
+    "category": "automation",
+    "repository": "https://github.com/william-jin-cmu/dsh-companion",
+    "description": "Resident desktop assistant: global hotkey, scheduled automation, quick replies and a plugin market.",
+    "description_zh": "常驻桌面助手：全局唤起、定时自动化、快捷回复、插件市场。",
+    "capabilities": [
+      "automation",
+      "desktop",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
+  },
+  {
+    "id": "dsh-deepresearch",
+    "name": "dsh-deepresearch",
+    "type": "workflow",
+    "category": "research",
+    "repository": "https://github.com/havingautism/dsh-deepresearch",
+    "description": "DeepResearch plugin (cordis) for the Harness.",
+    "description_zh": "面向 Harness 的 DeepResearch 插件（cordis）。",
+    "capabilities": [
+      "research",
+      "search"
+    ],
+    "status": "experimental",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "dsh-inspect",
+    "name": "dsh-inspect",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/omdsh-dev/dsh-inspect",
+    "description": "Adversarial checkup → fix → review loop built on the official workflow engine.",
+    "description_zh": "发现问题(checkup) → 修复交付(fix) → 质量复查(review) 的对抗式闭环。",
+    "capabilities": [
+      "workflow",
+      "coding",
+      "security"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "dsh-prime-agent",
+    "name": "dsh-prime-agent",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/yoke233/dsh-prime-agent",
+    "description": "Prime Agent-inspired persistent RLM control plane for DSH Code Mode.",
+    "description_zh": "Prime Agent 启发的持久 RLM 控制平面，面向 DSH Code 模式。",
+    "capabilities": [
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "dsh-spur",
+    "name": "dsh-plugin-spur",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/HuanLinOTO/dsh-plugin-spur",
+    "description": "Hang a whip in the chat stream: flick it (>2.0 px/ms) to send the agent a 'go work' message.",
+    "description_zh": "聊天流中悬挂皮鞭：甩动鞭梢即向 agent 发送 go work 消息（整活）。",
+    "capabilities": [
+      "ui",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "dsh-doublecheck",
+    "name": "dsh-doublecheck",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/PerryLink/dsh-doublecheck",
+    "description": "Engineering-discipline loop: requirement grilling before edits, red/green test-evidence gates and adversarial delivery review.",
+    "description_zh": "工程纪律循环：编辑前需求拷问、红/绿测试证据门、对抗式交付审查。",
+    "capabilities": [
+      "workflow",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1
+  },
+  {
+    "id": "dsh-governance",
+    "name": "dsh-governance",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/tappass/dsh-governance",
+    "description": "Authority layer for agentic AI as a DSH plugin: governs every tool call against your policies.",
+    "description_zh": "Agentic AI 的权威层插件：按你的策略治理每次工具调用。",
+    "capabilities": [
+      "security",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1
+  },
+  {
+    "id": "dsh-task-dag",
+    "name": "dsh-task-dag",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/LeemanCheung/dsh-task-dag",
+    "description": "Persistent live DAG visualization of workflow runs, subagents, status and dependencies.",
+    "description_zh": "工作流运行、子代理、状态与依赖的持久化实时 DAG 可视化。",
+    "capabilities": [
+      "workflow",
+      "observability",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0
+  },
+  {
+    "id": "dsh-report-studio",
+    "name": "dsh-report-studio",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/ciceroyang/dsh-report-studio",
+    "description": "Turn a DSH session into deliverable work reports (daily/weekly/handoff/article) with verifiable receipts.",
+    "description_zh": "把 DSH 会话变成可交付工作报告（日报/周报/交接/文章），带可验证凭证。",
+    "capabilities": [
+      "workflow",
+      "research"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0
+  },
+  {
+    "id": "dsh-eval",
+    "name": "dsh-eval",
+    "type": "workflow",
+    "category": "research",
+    "repository": "https://github.com/hccccc01333/dsh-eval",
+    "description": "Agent evaluation platform: benchmark YAML, headless dsh runs, trace-based metrics, scripted grading and run comparison.",
+    "description_zh": "Agent 评测平台：benchmark YAML、无头 dsh 运行、基于 trace 的指标、脚本评分与运行对比。",
+    "capabilities": [
+      "research",
+      "workflow",
+      "observability"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0
+  },
+  {
+    "id": "dsh-trajectory-debug",
+    "name": "dsh-trajectory-debug",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/devmom/dsh-trajectory-debug",
+    "description": "Trajectory waterfall, deterministic replay, breakpoints, edit-and-rerun, fork compare and performance analytics.",
+    "description_zh": "轨迹瀑布流、确定性回放、断点、编辑重跑、fork 对比与性能分析。",
+    "capabilities": [
+      "observability",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0
+  }
+]

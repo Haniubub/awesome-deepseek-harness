@@ -1,0 +1,109 @@
+[
+  {
+    "id": "hello-dsh",
+    "name": "hello-dsh",
+    "type": "example",
+    "category": "learning",
+    "repository": "https://github.com/pingfanfan/hello-dsh",
+    "description": "Zero-to-plugin tutorial: understand 'everything is a plugin' with 22 Chinese skill examples.",
+    "description_zh": "从零开始看懂「万物皆可插件」：零基础插件开发教程，含 22 个中文技能实例。",
+    "capabilities": [
+      "coding",
+      "learning"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 37
+  },
+  {
+    "id": "dsh-plugin-template",
+    "name": "dsh-plugin-template",
+    "type": "example",
+    "category": "learning",
+    "repository": "https://github.com/bugmaker2/dsh-plugin-template",
+    "description": "Template for DeepSeek Harness plugin development.",
+    "description_zh": "DeepSeek Harness 插件开发模板。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 16
+  },
+  {
+    "id": "turtle-ui",
+    "name": "turtle-ui",
+    "type": "example",
+    "category": "learning",
+    "repository": "https://github.com/turtle1999/turtle-ui",
+    "description": "Official UI plugin reference implementation.",
+    "description_zh": "官方 UI 插件参考实现。",
+    "capabilities": [
+      "ui",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6
+  },
+  {
+    "id": "dsh-plugin-template-sunshine",
+    "name": "dsh-plugin-template (sunshine-lang)",
+    "type": "example",
+    "category": "learning",
+    "repository": "https://github.com/sunshine-lang/dsh-plugin-template",
+    "description": "Ready-to-publish plugin skeleton: bundle format, tool DSL, config and tests.",
+    "description_zh": "可直接发布的插件骨架：bundle 格式、工具 DSL、配置与测试。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2
+  },
+  {
+    "id": "dsh-101",
+    "name": "dsh-101",
+    "type": "example",
+    "category": "learning",
+    "repository": "https://github.com/bill9109/dsh-101",
+    "description": "DSH documentation reading mode.",
+    "description_zh": "DSH 文档阅读模式。",
+    "capabilities": [
+      "learning"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2
+  },
+  {
+    "id": "plugin-template-omdsh",
+    "name": "plugin-template (omdsh-dev)",
+    "type": "example",
+    "category": "learning",
+    "repository": "https://github.com/omdsh-dev/plugin-template",
+    "description": "Plugin template repository derived from the original turtle-ui official repo.",
+    "description_zh": "基于原 turtle-ui 官方仓库创建的插件模板。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0
+  },
+  {
+    "id": "dsh-plugin-hello",
+    "name": "dsh-plugin-hello",
+    "type": "example",
+    "category": "learning",
+    "repository": "https://github.com/xu1132/dsh-plugin-hello",
+    "description": "Hello-world style starter plugin for DSH.",
+    "description_zh": "Hello-world 风格 DSH 起步插件。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0
+  }
+]

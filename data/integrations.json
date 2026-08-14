@@ -1,0 +1,396 @@
+[
+  {
+    "id": "coding-tools-mcp",
+    "name": "Coding Tools MCP",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/xyTom/coding-tools-mcp",
+    "description": "Coding-oriented MCP tool collection that appears in the emerging DSH ecosystem: give any AI agent the ability to code.",
+    "description_zh": "面向编码的 MCP 工具集：让任何 AI Agent 获得编码能力。",
+    "capabilities": [
+      "mcp",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 758
+  },
+  {
+    "id": "dsh-openpencil",
+    "name": "dsh-openpencil",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/ZSeven-W/dsh-openpencil",
+    "description": "OpenPencil design preview and editing integration.",
+    "description_zh": "OpenPencil 设计预览与编辑集成。",
+    "capabilities": [
+      "ide",
+      "ui",
+      "multimodal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 64
+  },
+  {
+    "id": "dsh-lark",
+    "name": "dsh-lark",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/omdsh-dev/dsh-lark",
+    "description": "Lark/Feishu IM bot channel for DeepSeek Harness | 飞书 DeepSeek Harness 插件",
+    "description_zh": "Lark/Feishu IM bot channel for DeepSeek Harness | 飞书 DeepSeek Harness 插件",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 14
+  },
+  {
+    "id": "deepseek-harness-acp",
+    "name": "deepseek-harness-acp",
+    "type": "integration",
+    "category": "acp",
+    "repository": "https://github.com/openma-ai/deepseek-harness-acp",
+    "description": "ACP server implementation for DeepSeek Harness: exposes the full DSH agent to ACP clients while reusing credentials and sessions.",
+    "description_zh": "DeepSeek Harness 的 ACP 服务器实现：复用凭据与会话，将完整 DSH Agent 暴露给 ACP 客户端。",
+    "capabilities": [
+      "workflow",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6
+  },
+  {
+    "id": "dsh-oauth-mcp-client",
+    "name": "dsh-oauth-mcp-client",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/springbrand-lab/dsh-oauth-mcp-client",
+    "description": "OAuth 2.1 Streamable HTTP MCP client plugin for DeepSeek Harness.",
+    "description_zh": "OAuth 2.1 Streamable HTTP MCP 客户端插件。",
+    "capabilities": [
+      "mcp",
+      "security"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6
+  },
+  {
+    "id": "deepseek-harness-docker",
+    "name": "deepseek-harness-docker",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/runzhliu/deepseek-harness-docker",
+    "description": "Community Docker and Kubernetes packaging for @deepseek-ai/dsh with a hardened image.",
+    "description_zh": "@deepseek-ai/dsh 的社区 Docker/K8s 打包，加固镜像。",
+    "capabilities": [
+      "automation"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6
+  },
+  {
+    "id": "dsh-mcp-manager",
+    "name": "dsh-mcp-manager",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/hyqhyq3/dsh-mcp-manager",
+    "description": "MCP server manager: Settings page with OAuth (PKCE + dynamic client registration) or static-token auth.",
+    "description_zh": "MCP 服务器管理器：设置页 OAuth（PKCE + 动态客户端注册）或静态 Token 认证。",
+    "capabilities": [
+      "mcp",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
+  },
+  {
+    "id": "deepseek-harness-action",
+    "name": "deepseek-harness-action",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/Lixiaoyiao/deepseek-harness-action",
+    "description": "Community GitHub Action: AI code review, CI diagnosis, auto-fix and issue-to-PR implementation.",
+    "description_zh": "社区 GitHub Action：AI 代码审查、CI 诊断、自动修复、Issue 转 PR。",
+    "capabilities": [
+      "coding",
+      "automation",
+      "git"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
+  },
+  {
+    "id": "picgo-dsh-plugin",
+    "name": "PicGo DSH Plugin",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/PicGo/dsh-plugin",
+    "description": "Official PicGo plugin: upload images/files to your image host from DSH and get public URLs.",
+    "description_zh": "PicGo 官方插件：从 DSH 上传图片/文件到图床并获取公网 URL。",
+    "capabilities": [
+      "files"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
+  },
+  {
+    "id": "dsh-telegram-channel",
+    "name": "dsh-telegram-channel",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/hi-wenw/dsh-telegram-channel",
+    "description": "Telegram mobile remote for live DSH Web sessions: session picker, bind/unbind, same trajectory as desktop.",
+    "description_zh": "Telegram 手机远程控制 DSH 实时会话：会话选择、绑定/解绑，轨迹与桌面一致。",
+    "capabilities": [
+      "channels",
+      "mobile"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
+  },
+  {
+    "id": "dsh-telegram-relay",
+    "name": "DSH Telegram Relay",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/congchuanling-dot/DSH-Telegram-Relay",
+    "description": "Relay that turns Telegram into a remote conversation channel for DSH with notifications.",
+    "description_zh": "把 Telegram 变成 DSH 远程对话渠道并接收通知。",
+    "capabilities": [
+      "channels"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
+  },
+  {
+    "id": "dsh-mcp-panel",
+    "name": "dsh-mcp-panel",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/PerryLink/dsh-mcp-panel",
+    "description": "Read-only runtime management panel for the official DSH MCP client: /mcp command and a Settings tab.",
+    "description_zh": "官方 DSH MCP 客户端的只读运行时管理面板：/mcp 命令 + 设置 Tab。",
+    "capabilities": [
+      "mcp",
+      "ui",
+      "observability"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "dsh-search-mcp",
+    "name": "dsh-search-mcp",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/gxpppp/dsh-search-mcp",
+    "description": "Replace DSH's built-in web search with search MCP servers (Tavily/Brave/Exa/Perplexity/DuckDuckGo).",
+    "description_zh": "用搜索 MCP 服务器（Tavily/Brave/Exa/Perplexity/DDG）替换 DSH 内置搜索。",
+    "capabilities": [
+      "mcp",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "dsh-browser-xylt",
+    "name": "dsh-browser",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/xylt369/dsh-browser",
+    "description": "Browser capability for DeepSeek Harness: headed Edge/Playwright provider, SSRF-safe navigation, a11y-ref clicking, permission gate with auto-remember, gated evaluate",
+    "description_zh": "Browser capability for DeepSeek Harness: headed Edge/Playwright provider, SSRF-safe navigation, a11y-ref clicking, permission gate with auto-remember, gated evaluate",
+    "capabilities": [
+      "browser",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "dsh-harness-mcp-server",
+    "name": "dsh-harness-mcp-server",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/chushixixin/dsh-harness-mcp-server",
+    "description": "Expose DeepSeek Harness agent capabilities as an MCP server (brain=Hermes, arms=Harness).",
+    "description_zh": "将 DSH Agent 能力暴露为 MCP 服务器（大脑=Hermes，双手=Harness）。",
+    "capabilities": [
+      "mcp",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2
+  },
+  {
+    "id": "vscode-deepseek-harness",
+    "name": "vscode-deepseek-harness",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/kalynnka/vscode-deepseek-harness",
+    "description": "Unofficial: drive your own dsh as a native VS Code chat agent.",
+    "description_zh": "非官方：把 dsh 作为 VS Code 原生聊天 Agent 使用。",
+    "capabilities": [
+      "ide",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1
+  },
+  {
+    "id": "dsh-chrome",
+    "name": "dsh-chrome",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/YJSoooooo/dsh-chrome",
+    "description": "Chrome profile bridge: control an existing signed-in Chrome profile through Chrome DevTools Protocol.",
+    "description_zh": "Chrome 配置档桥接：通过 CDP 操控已登录的 Chrome。",
+    "capabilities": [
+      "browser"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1
+  },
+  {
+    "id": "url-manager-mcp",
+    "name": "URL Manager MCP",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/Piccolo123/url-manager-mcp",
+    "description": "MCP companion for URL Manager: 21 tools for save/search/categorize/share with magic-link delivery.",
+    "description_zh": "URL Manager 的 MCP 伴生服务器：21 个工具用于保存/搜索/分类/共享与魔法链接投递。",
+    "capabilities": [
+      "mcp",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0
+  },
+  {
+    "id": "dsh4vscode",
+    "name": "dsh4vscode",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/DoggyHU/dsh4vscode",
+    "description": "VS Code chat windows backed by the DSH agent: OpenCode-style independent sessions with model auto-routing.",
+    "description_zh": "由 DSH Agent 驱动的 VS Code 聊天窗口：OpenCode 风格独立会话，模型自动路由。",
+    "capabilities": [
+      "ide",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0
+  },
+  {
+    "id": "opendsh",
+    "name": "opendsh",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/TheChengXi/opendsh",
+    "description": "Open the DeepSeek Harness Web UI inside VS Code with one-command start/stop.",
+    "description_zh": "在 VS Code 内打开 DSH Web UI，一键启停。",
+    "capabilities": [
+      "ide",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0
+  },
+  {
+    "id": "dsh-super-injector",
+    "name": "dsh-super-injector",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/yjh051108/dsh-super-injector",
+    "description": "Super-injector plugin (cordis) for context injection.",
+    "description_zh": "上下文注入增强插件（cordis）。",
+    "capabilities": [
+      "context"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0
+  },
+  {
+    "id": "dsh-github-integration",
+    "name": "dsh-github-integration",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/omdsh-dev/dsh-github-integration",
+    "description": "GitHub integration plugin for DSH.",
+    "description_zh": "DSH 的 GitHub 集成插件。",
+    "capabilities": [
+      "git",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0
+  },
+  {
+    "id": "deepseek-harness-rs",
+    "name": "deepseek-harness-rs",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/Tokimorphling/deepseek-harness-rs",
+    "description": "A Rust port of DeepSeek Harness.",
+    "description_zh": "DeepSeek Harness 的 Rust 移植。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "experimental",
+    "verified": false,
+    "stars": 0
+  },
+  {
+    "id": "dsh-lan-access",
+    "name": "dsh-lan-access",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/Leon0555/dsh-lan-access",
+    "description": "LAN access for the Web GUI: 0.0.0.0 bind plus a crypto.randomUUID polyfill for non-secure contexts.",
+    "description_zh": "Web GUI 局域网访问：0.0.0.0 绑定 + 非安全上下文 polyfill。",
+    "capabilities": [
+      "automation"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0
+  },
+  {
+    "id": "deepseek-harness-vsc-extension",
+    "name": "deepseek-harness-vsc-extension",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/weinibuliu/deepseek-harness-vsc-extension",
+    "description": "DeepSeek Harness for VS Code as extension",
+    "description_zh": "DeepSeek Harness for VS Code as extension",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
+  }
+]

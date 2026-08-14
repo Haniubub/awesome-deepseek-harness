@@ -1,0 +1,35 @@
+# Tutorials & Learning
+
+## 🔥 Top 10
+
+| # | 项目 | 星数 | 说明 | 状态 |
+|---|---|---|---|---|
+| 1 | [DeepSeek Harness Orange Book](https://github.com/alchaincyf/deepseek-harness-orange-book) | ⭐465 | 《DeepSeek Harness 橙皮书》：完整系统提示词、129 行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML 免费下载。 | ✅ 活跃 |
+| 2 | [dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | ⭐167 | 从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF）。 | ✅ 活跃 |
+| 3 | [dshfind](https://github.com/hikariming/dshfind) | ⭐56 | DSH 原理学习、插件市场与最佳实践：从 Cordis 论文逐章精读到插件自动聚合市场。 | ✅ 活跃 |
+| 4 | [dsh-harness-tutorial](https://github.com/yanhua1010/dsh-harness-tutorial) | ⭐32 | DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent —— 一切皆插件的中文教程（VitePress 站点 + 8 个 Demo + mini-harness 教学项目） | ✅ 活跃 |
+| 5 | [deepseek-harness-tutorial](https://github.com/ht426/deepseek-harness-tutorial) | ⭐17 | DeepSeek Harness 中文详细学习教程。 | ✅ 活跃 |
+| 6 | [dsh-explain](https://github.com/yuezengwu/dsh-explain) | ⭐9 | 本地优先学习模式：跨会话全局学习线程、按来源讲解、ExplainContext、压缩与可诊断设置。 | ✅ 活跃 |
+| 7 | [deepseek-harness-prompts](https://github.com/demouo/deepseek-harness-prompts) | ⭐6 | 不同模式下的 DeepSeek Harness 提示词集。 | ✅ 活跃 |
+| 8 | [deepseek-harness-learning](https://github.com/Lucky2024-pllove/deepseek-harness-learning) | ⭐5 | 基于 deepseek-harness 仓库系统化拆解的学习网站：面向想了解 AI Agent 框架如何工作的开发者。 | ✅ 活跃 |
+| 9 | [dsh-book-deepseek-harness](https://github.com/LaplaceYoung/dsh-book-deepseek-harness) | ⭐5 | 《深入理解 DeepSeek Harness：一切皆插件的 Agent 架构》——源码级架构拆解科普书：37 个章节文件、PDF、Mermaid 图。 | ✅ 活跃 |
+| 10 | [dsh-learn-everything](https://github.com/cendaifeng/dsh-learn-everything) | ⭐3 | 费曼学习模式：教→复述→评判→重讲循环，渲染为富 HTML 课程卡片。 | ✅ 活跃 |
+
+## 完整列表（11）
+
+
+**学习**
+
+| 项目 | 星数 | 说明 | 状态 |
+|---|---|---|---|
+| [DeepSeek Harness Orange Book](https://github.com/alchaincyf/deepseek-harness-orange-book) | ⭐465 | 《DeepSeek Harness 橙皮书》：完整系统提示词、129 行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML 免费下载。 | ✅ 活跃 |
+| [dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | ⭐167 | 从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF）。 | ✅ 活跃 |
+| [dshfind](https://github.com/hikariming/dshfind) | ⭐56 | DSH 原理学习、插件市场与最佳实践：从 Cordis 论文逐章精读到插件自动聚合市场。 | ✅ 活跃 |
+| [dsh-harness-tutorial](https://github.com/yanhua1010/dsh-harness-tutorial) | ⭐32 | DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent —— 一切皆插件的中文教程（VitePress 站点 + 8 个 Demo + mini-harness 教学项目） | ✅ 活跃 |
+| [deepseek-harness-tutorial](https://github.com/ht426/deepseek-harness-tutorial) | ⭐17 | DeepSeek Harness 中文详细学习教程。 | ✅ 活跃 |
+| [dsh-explain](https://github.com/yuezengwu/dsh-explain) | ⭐9 | 本地优先学习模式：跨会话全局学习线程、按来源讲解、ExplainContext、压缩与可诊断设置。 | ✅ 活跃 |
+| [deepseek-harness-prompts](https://github.com/demouo/deepseek-harness-prompts) | ⭐6 | 不同模式下的 DeepSeek Harness 提示词集。 | ✅ 活跃 |
+| [deepseek-harness-learning](https://github.com/Lucky2024-pllove/deepseek-harness-learning) | ⭐5 | 基于 deepseek-harness 仓库系统化拆解的学习网站：面向想了解 AI Agent 框架如何工作的开发者。 | ✅ 活跃 |
+| [dsh-book-deepseek-harness](https://github.com/LaplaceYoung/dsh-book-deepseek-harness) | ⭐5 | 《深入理解 DeepSeek Harness：一切皆插件的 Agent 架构》——源码级架构拆解科普书：37 个章节文件、PDF、Mermaid 图。 | ✅ 活跃 |
+| [dsh-learn-everything](https://github.com/cendaifeng/dsh-learn-everything) | ⭐3 | 费曼学习模式：教→复述→评判→重讲循环，渲染为富 HTML 课程卡片。 | ✅ 活跃 |
+| [deepseek-protocol-doctor](https://github.com/Whning0513/deepseek-protocol-doctor) | ⭐1 | 检查 DeepSeek 工具循环、reasoning_content、严格 schema 与捕获的 SSE，也可作为 DSH 插件。 | ✅ 活跃 |

@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# MkDocs build output
+site/
+
+# Local candidates produced by discovery
+data/candidates.json
+
+# macOS
+.DS_Store

@@ -1,0 +1,173 @@
+[
+  {
+    "id": "deepseek-harness-orange-book",
+    "name": "DeepSeek Harness Orange Book",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/alchaincyf/deepseek-harness-orange-book",
+    "description": "Community Orange Book: complete system prompts, a 129-line startup checklist and three raw session logs — first-hand testing the official docs lack. Free PDF/EPUB/HTML.",
+    "description_zh": "《DeepSeek Harness 橙皮书》：完整系统提示词、129 行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML 免费下载。",
+    "capabilities": [
+      "learning"
+    ],
+    "status": "active",
+    "verified": true,
+    "stars": 465
+  },
+  {
+    "id": "dsh-handbook",
+    "name": "dsh-handbook",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/Electricitysheep/dsh-handbook",
+    "description": "From 0 to 1 handbook: installation, plugin development, performance tuning, real-world cases and same-model multi-agent comparisons (CN + EN PDF).",
+    "description_zh": "从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF）。",
+    "capabilities": [
+      "learning"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 167
+  },
+  {
+    "id": "dshfind",
+    "name": "dshfind",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/hikariming/dshfind",
+    "description": "Learn DSH principles, plugin marketplace and best practices — from chapter-by-chapter Cordis paper reading to an auto-aggregated plugin market.",
+    "description_zh": "DSH 原理学习、插件市场与最佳实践：从 Cordis 论文逐章精读到插件自动聚合市场。",
+    "capabilities": [
+      "learning",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 56
+  },
+  {
+    "id": "dsh-harness-tutorial",
+    "name": "dsh-harness-tutorial",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/yanhua1010/dsh-harness-tutorial",
+    "description": "DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent —— 一切皆插件的中文教程（VitePress 站点 + 8 个 Demo + mini-harness 教学项目）",
+    "description_zh": "DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent —— 一切皆插件的中文教程（VitePress 站点 + 8 个 Demo + mini-harness 教学项目）",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 32
+  },
+  {
+    "id": "deepseek-harness-tutorial",
+    "name": "deepseek-harness-tutorial",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/ht426/deepseek-harness-tutorial",
+    "description": "Detailed Chinese learning tutorial for DeepSeek Harness.",
+    "description_zh": "DeepSeek Harness 中文详细学习教程。",
+    "capabilities": [
+      "learning"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 17
+  },
+  {
+    "id": "dsh-explain",
+    "name": "dsh-explain",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/yuezengwu/dsh-explain",
+    "description": "Local-first learning mode: cross-session global learning threads, explain-by-source, ExplainContext and compression.",
+    "description_zh": "本地优先学习模式：跨会话全局学习线程、按来源讲解、ExplainContext、压缩与可诊断设置。",
+    "capabilities": [
+      "learning",
+      "context"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 9
+  },
+  {
+    "id": "deepseek-harness-prompts",
+    "name": "deepseek-harness-prompts",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/demouo/deepseek-harness-prompts",
+    "description": "DeepSeek Harness prompts for different modes.",
+    "description_zh": "不同模式下的 DeepSeek Harness 提示词集。",
+    "capabilities": [
+      "learning",
+      "context"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6
+  },
+  {
+    "id": "dsh-book-deepseek-harness",
+    "name": "dsh-book-deepseek-harness",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/LaplaceYoung/dsh-book-deepseek-harness",
+    "description": "'Deep Dive into DeepSeek Harness' — source-level architecture book: 37 chapter files, PDF, Mermaid diagrams and writing conventions.",
+    "description_zh": "《深入理解 DeepSeek Harness：一切皆插件的 Agent 架构》——源码级架构拆解科普书：37 个章节文件、PDF、Mermaid 图。",
+    "capabilities": [
+      "learning"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
+  },
+  {
+    "id": "deepseek-harness-learning",
+    "name": "deepseek-harness-learning",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/Lucky2024-pllove/deepseek-harness-learning",
+    "description": "Learning website built from a systematic breakdown of the deepseek-harness repository, for developers curious how AI agent frameworks work.",
+    "description_zh": "基于 deepseek-harness 仓库系统化拆解的学习网站：面向想了解 AI Agent 框架如何工作的开发者。",
+    "capabilities": [
+      "learning"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
+  },
+  {
+    "id": "dsh-learn-everything",
+    "name": "dsh-learn-everything",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/cendaifeng/dsh-learn-everything",
+    "description": "Feynman learning-mode plugin: teach → teach-back → judge → re-explain loop rendered as rich HTML lesson cards.",
+    "description_zh": "费曼学习模式：教→复述→评判→重讲循环，渲染为富 HTML 课程卡片。",
+    "capabilities": [
+      "learning",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "deepseek-protocol-doctor",
+    "name": "deepseek-protocol-doctor",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/Whning0513/deepseek-protocol-doctor",
+    "description": "Checks DeepSeek tool loops, reasoning_content, strict schemas and captured SSE; also works as a DSH plugin.",
+    "description_zh": "检查 DeepSeek 工具循环、reasoning_content、严格 schema 与捕获的 SSE，也可作为 DSH 插件。",
+    "capabilities": [
+      "learning",
+      "observability"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1
+  }
+]

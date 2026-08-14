@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://deepseekserver.com/schemas/resource.schema.json",
+  "title": "DeepSeek Harness Ecosystem Resource",
+  "description": "Schema for entries in the Awesome DeepSeek Harness data registries.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "type",
+    "category",
+    "repository",
+    "description",
+    "description_zh",
+    "capabilities",
+    "status",
+    "verified",
+    "stars"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$",
+      "description": "Unique kebab-case identifier."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name of the resource."
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "plugin",
+        "skill",
+        "workflow",
+        "agent",
+        "client",
+        "tool",
+        "integration",
+        "example",
+        "tutorial",
+        "awesome-list",
+        "related"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "discovery",
+        "memory",
+        "search",
+        "developer",
+        "ui",
+        "vision",
+        "fun",
+        "input-editing",
+        "notifications",
+        "workflow",
+        "automation",
+        "multi-agent",
+        "research",
+        "desktop",
+        "terminal",
+        "mobile",
+        "mcp",
+        "ide",
+        "browser",
+        "channel",
+        "acp",
+        "learning",
+        "registry",
+        "harness",
+        "coding",
+        "security"
+      ]
+    },
+    "repository": {
+      "type": "string",
+      "pattern": "^https://github\\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$",
+      "description": "GitHub repository URL."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "One-line English description."
+    },
+    "description_zh": {
+      "type": "string",
+      "minLength": 1,
+      "description": "One-line Chinese description."
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "browser",
+          "search",
+          "coding",
+          "git",
+          "memory",
+          "context",
+          "research",
+          "multimodal",
+          "workflow",
+          "multi-agent",
+          "ui",
+          "desktop",
+          "terminal",
+          "mcp",
+          "files",
+          "notifications",
+          "channels",
+          "security",
+          "observability",
+          "automation",
+          "ide",
+          "vision",
+          "mobile",
+          "learning",
+          "harness"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "experimental", "wip", "inactive"]
+    },
+    "verified": {
+      "type": "boolean",
+      "description": "Manually checked: repo exists, has source code, relates to the official DeepSeek Harness."
+    },
+    "stars": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "GitHub star count, refreshed by scripts/update-metadata.py."
+    },
+    "install": {
+      "type": "string",
+      "description": "Optional install command or hint."
+    },
+    "license": {
+      "type": "string",
+      "description": "Optional SPDX license identifier."
+    }
+  }
+}
