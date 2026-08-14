@@ -217,7 +217,7 @@ Plugins are discovered via the official GitHub topic: [`dsh-plugin`](https://git
 
 ## Project
 
-- Source repository: [awesome-deepSeek-harness](https://github.com/awesome-deepSeek-harness)
+- Source repository: [awesome-deepseek-harness](https://github.com/fendouai/awesome-deepseek-harness)
 - Data registries: `data/*.json` (machine-readable, validated by CI)
 - [简体中文](/zh/) · [English](/index.html)
 """
@@ -266,7 +266,7 @@ dsh plugin --profile web add <package>
 
 ## 项目说明
 
-- 源仓库：[awesome-deepSeek-harness](https://github.com/awesome-deepSeek-harness)
+- 源仓库：[awesome-deepseek-harness](https://github.com/fendouai/awesome-deepseek-harness)
 - 数据注册表：`data/*.json`（机器可读，CI 校验）
 - [English](/index.html)
 """

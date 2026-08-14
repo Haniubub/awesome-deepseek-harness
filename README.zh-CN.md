@@ -13,6 +13,8 @@ DeepSeek Harness（`dsh`）是 DeepSeek AI 开源的智能体 Harness，围绕�
 
 **插件 · 技能 · 工作流 · 智能体 · 工具 · 桌面端 · 终端 · 集成 · 示例 · 教程**
 
+**✨ 自带特性：** 🔥 **Trending 热度榜**（每类自动排序 Top 10 + 全网 Top 20）· 🧮 机器可读注册表（`data/*.json`）· ✅ 链接实时核验 · 🌐 中英双语 · 📊 每周自动刷新
+
 > ⚠️ DeepSeek Harness 目前处于开发者预览阶段，迭代极快，兼容性可能随时变化。安装前请务必查看对应仓库。
 >
 > 本列表为**社区维护、独立验证**——许多旧注册表（如前 `dsh-external` 组织）已含大量死链。本目录中每条资源均于 2026-08-14 通过 GitHub API 实时核验。
@@ -122,20 +124,27 @@ dsh web
 
 # 🔥 热门
 
-> DeepSeek Harness 周边涌现的有趣项目（星数截至 2026-08-14）。
+> **✨ 自带 Trending 热度榜。** 这不是一份静态列表——它内置了实时排序引擎：
 
-| 项目 | ⭐ | 亮点 |
-|---|---|---|
-| [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 1.7k | 最大的插件/皮肤合集：任务看板、Git 图、宠物、Token 统计 |
-| [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 793 | Claude Code 风格全屏终端插件 |
-| [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 684 | 工作台式侧边栏：文件、终端、Git、子代理 |
-| [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 506 | 鲸鱼娘皮肤系列 |
-| [DeepSeek Harness 橙皮书](https://github.com/alchaincyf/deepseek-harness-orange-book) | 465 | 社区一手实测：系统提示词、启动清单、原始日志 |
-| [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 302 | 纯文本模型的视觉工具箱：图片问答、OCR、UI 还原 |
-| [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 222 | 多智能体团队扩展 |
-| [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) | 160 | 一站式社区发行版（TUI + 桌面 + Web UI） |
-| [dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | 167 | 从 0 到 1 深度手册（中英 PDF） |
-| [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | 116 | Codex 风格 `@file` 提及 |
+> * **🔥 每类 Top 10** —— 下文每个分类都会按 GitHub 实时星数自动排序，一眼看清社区最关注什么
+> * **🌍 全网 Top 20** —— 覆盖整个生态的排行榜，见 [文档站点](https://deepseekserver.com) 首页
+> * **♻️ 自动刷新** —— 星数与状态自动更新（`scripts/update-metadata.py` + 每周 GitHub Action），每次构建都会重算排序
+> * **🧭 信号路线图** —— 计划推出 trending（星数增长/提交/发布）、popular（长期采纳）、new（新发现）与 verified 多维度排序，见[路线图](#路线图)
+
+> 当前热门项目（按星数，截至 2026-08-14）：
+
+| # | 项目 | ⭐ | 亮点 |
+|---|---|---|---|
+| 1 | [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 1.7k | 最大的插件/皮肤合集：任务看板、Git 图、宠物、Token 统计 |
+| 2 | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 793 | Claude Code 风格全屏终端插件 |
+| 3 | [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 684 | 工作台式侧边栏：文件、终端、Git、子代理 |
+| 4 | [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 506 | 鲸鱼娘皮肤系列 |
+| 5 | [DeepSeek Harness 橙皮书](https://github.com/alchaincyf/deepseek-harness-orange-book) | 465 | 社区一手实测：系统提示词、启动清单、原始日志 |
+| 6 | [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 302 | 纯文本模型的视觉工具箱：图片问答、OCR、UI 还原 |
+| 7 | [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 222 | 多智能体团队扩展 |
+| 8 | [dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | 167 | 从 0 到 1 深度手册（中英 PDF） |
+| 9 | [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) | 160 | 一站式社区发行版（TUI + 桌面 + Web UI） |
+| 10 | [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | 116 | Codex 风格 `@file` 提及 |
 
 ---
 

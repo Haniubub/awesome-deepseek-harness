@@ -64,6 +64,6 @@ Plugins are discovered via the official GitHub topic: [`dsh-plugin`](https://git
 
 ## Project
 
-- Source repository: [awesome-deepSeek-harness](https://github.com/awesome-deepSeek-harness)
+- Source repository: [awesome-deepseek-harness](https://github.com/fendouai/awesome-deepseek-harness)
 - Data registries: `data/*.json` (machine-readable, validated by CI)
 - [简体中文](/zh/) · [English](/index.html)

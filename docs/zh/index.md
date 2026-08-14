@@ -63,6 +63,6 @@ dsh plugin --profile web add <package>
 
 ## 项目说明
 
-- 源仓库：[awesome-deepSeek-harness](https://github.com/awesome-deepSeek-harness)
+- 源仓库：[awesome-deepseek-harness](https://github.com/fendouai/awesome-deepseek-harness)
 - 数据注册表：`data/*.json`（机器可读，CI 校验）
 - [English](/index.html)

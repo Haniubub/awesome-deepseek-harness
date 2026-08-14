@@ -1,8 +1,8 @@
 site_name: Awesome DeepSeek Harness
 site_description: Curated ecosystem of plugins, skills, workflows, agents, clients, tools and examples for DeepSeek Harness.
 site_url: https://deepseekserver.com
-repo_url: https://github.com/awesome-deepSeek-harness
-repo_name: awesome-deepSeek-harness
+repo_url: https://github.com/fendouai/awesome-deepseek-harness
+repo_name: awesome-deepseek-harness
 edit_uri: edit/main/docs/en
 
 theme:
@@ -45,7 +45,7 @@ extra:
       lang: zh
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/awesome-deepSeek-harness
+      link: https://github.com/fendouai/awesome-deepseek-harness
 
 plugins:
   - search
