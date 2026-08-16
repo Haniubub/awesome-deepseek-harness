@@ -5,7 +5,7 @@ keywords: "plugin-registry, registry, awesome-list, workflow, ui, deepseek harne
 ---
 # plugin-registry
 
-> ⭐ 40 · ✅ active · awesome-list
+> ⭐ 49 · ✅ active · awesome-list
 
 ## One-liner
 

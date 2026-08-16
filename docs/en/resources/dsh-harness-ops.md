@@ -5,7 +5,7 @@ keywords: "dsh-harness-ops, automation, workflow, observability, deepseek harnes
 ---
 # dsh-harness-ops
 
-> ⭐ 9 · ✅ active · workflow
+> ⭐ 11 · ✅ active · workflow
 
 ## One-liner
 

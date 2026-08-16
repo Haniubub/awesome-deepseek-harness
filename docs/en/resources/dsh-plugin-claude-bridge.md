@@ -5,7 +5,7 @@ keywords: "dsh-plugin-claude-bridge, multi-agent, agent, memory, deepseek harnes
 ---
 # dsh-plugin-claude-bridge
 
-> ⭐ 5 · ✅ active · agent
+> ⭐ 6 · ✅ active · agent
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-notebooks, discovery, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-notebooks
 
-> ⭐ 3 · ✅ active · plugin
+> ⭐ 4 · ✅ active · plugin
 
 ## One-liner
 

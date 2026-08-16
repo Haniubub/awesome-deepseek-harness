@@ -5,7 +5,7 @@ keywords: "deepseek-harness-desktop (salathleizhang), desktop, client, deepseek 
 ---
 # deepseek-harness-desktop (salathleizhang)
 
-> ⭐ 94 · ✅ active · client
+> ⭐ 106 · ✅ active · client
 
 ## One-liner
 

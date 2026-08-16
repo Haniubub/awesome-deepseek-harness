@@ -5,7 +5,7 @@ keywords: "oh-my-dsh, registry, awesome-list, coding, deepseek harness, dsh"
 ---
 # oh-my-dsh
 
-> ⭐ 31 · ✅ active · awesome-list
+> ⭐ 40 · ✅ active · awesome-list
 
 ## One-liner
 

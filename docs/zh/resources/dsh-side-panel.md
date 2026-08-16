@@ -5,7 +5,7 @@ keywords: "dsh-side-panel, ui, plugin, files, terminal, git, deepseek harness, d
 ---
 # dsh-side-panel
 
-> ⭐ 16 · 💤 停更 · 插件
+> ⭐ 15 · 💤 停更 · 插件
 
 ## 一句话介绍
 

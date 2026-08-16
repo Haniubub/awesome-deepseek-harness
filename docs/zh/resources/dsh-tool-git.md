@@ -5,7 +5,7 @@ keywords: "dsh-tool-git, developer, plugin, git, coding, deepseek harness, dsh"
 ---
 # dsh-tool-git
 
-> ⭐ 3 · ✅ 活跃 · 插件
+> ⭐ 4 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

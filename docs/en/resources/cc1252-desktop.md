@@ -5,7 +5,7 @@ keywords: "deepseek-harness-desktop (cc1252), desktop, client, deepseek harness,
 ---
 # deepseek-harness-desktop (cc1252)
 
-> ⭐ 17 · ✅ active · client
+> ⭐ 18 · ✅ active · client
 
 ## One-liner
 

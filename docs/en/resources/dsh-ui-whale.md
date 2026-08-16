@@ -5,7 +5,7 @@ keywords: "dsh-ui-whale, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-ui-whale
 
-> ⭐ 30 · ✅ active · plugin
+> ⭐ 29 · ✅ active · plugin
 
 ## One-liner
 

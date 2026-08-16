@@ -5,7 +5,7 @@ keywords: "Awesome-DeepSeek-Harness-Plugins, registry, awesome-list, search, dee
 ---
 # Awesome-DeepSeek-Harness-Plugins
 
-> ⭐ 61 · ✅ 活跃 · 精选列表
+> ⭐ 88 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

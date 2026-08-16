@@ -5,7 +5,7 @@ keywords: "dsh-prompt-studio, developer, plugin, ui, context, deepseek harness, 
 ---
 # dsh-prompt-studio
 
-> ⭐ 2 · ✅ active · plugin
+> ⭐ 3 · ✅ active · plugin
 
 ## One-liner
 

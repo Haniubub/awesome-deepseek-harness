@@ -5,7 +5,7 @@ keywords: "dsh-skin, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-skin
 
-> ⭐ 11 · ✅ active · plugin
+> ⭐ 16 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "deepseek-harness-zh_pro, vision, plugin, coding, deepseek harness, ds
 ---
 # deepseek-harness-zh_pro
 
-> ⭐ 4 · ✅ 活跃 · 插件
+> ⭐ 6 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

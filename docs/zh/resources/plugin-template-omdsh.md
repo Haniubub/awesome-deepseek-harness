@@ -5,7 +5,7 @@ keywords: "plugin-template (omdsh-dev), learning, example, coding, deepseek harn
 ---
 # plugin-template (omdsh-dev)
 
-> ⭐ 5 · ✅ 活跃 · 示例
+> ⭐ 8 · ✅ 活跃 · 示例
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-tdai-memory, memory, plugin, coding, multi-agent, deepseek harnes
 ---
 # dsh-tdai-memory
 
-> ⭐ 3 · ✅ active · plugin
+> ⭐ 5 · ✅ active · plugin
 
 ## One-liner
 

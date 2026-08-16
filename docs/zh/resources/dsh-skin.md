@@ -5,7 +5,7 @@ keywords: "dsh-skin, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-skin
 
-> ⭐ 11 · ✅ 活跃 · 插件
+> ⭐ 16 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "hello-dsh, learning, example, coding, deepseek harness, dsh"
 ---
 # hello-dsh
 
-> ⭐ 48 · ✅ active · example
+> ⭐ 61 · ✅ active · example
 
 ## One-liner
 

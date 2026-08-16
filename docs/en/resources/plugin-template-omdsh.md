@@ -5,7 +5,7 @@ keywords: "plugin-template (omdsh-dev), learning, example, coding, deepseek harn
 ---
 # plugin-template (omdsh-dev)
 
-> ⭐ 5 · ✅ active · example
+> ⭐ 8 · ✅ active · example
 
 ## One-liner
 

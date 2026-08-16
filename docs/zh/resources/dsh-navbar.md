@@ -5,7 +5,7 @@ keywords: "dsh-navbar, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-navbar
 
-> ⭐ 23 · ✅ 活跃 · 插件
+> ⭐ 26 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

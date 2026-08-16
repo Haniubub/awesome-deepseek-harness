@@ -5,7 +5,7 @@ keywords: "dsh-handbook, learning, tutorial, deepseek harness, dsh"
 ---
 # dsh-handbook
 
-> ⭐ 273 · ✅ active · tutorial
+> ⭐ 345 · ✅ active · tutorial
 
 ## One-liner
 

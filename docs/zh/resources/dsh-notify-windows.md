@@ -5,7 +5,7 @@ keywords: "dsh-notify-windows, notifications, plugin, deepseek harness, dsh"
 ---
 # dsh-notify-windows
 
-> ⭐ 3 · ✅ 活跃 · 插件
+> ⭐ 4 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

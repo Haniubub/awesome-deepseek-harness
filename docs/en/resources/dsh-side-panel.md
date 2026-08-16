@@ -5,7 +5,7 @@ keywords: "dsh-side-panel, ui, plugin, files, terminal, git, deepseek harness, d
 ---
 # dsh-side-panel
 
-> ⭐ 16 · 💤 inactive · plugin
+> ⭐ 15 · 💤 inactive · plugin
 
 ## One-liner
 

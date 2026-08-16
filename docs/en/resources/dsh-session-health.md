@@ -5,7 +5,7 @@ keywords: "dsh-session-health, memory, plugin, observability, files, deepseek ha
 ---
 # dsh-session-health
 
-> ⭐ 9 · ✅ active · plugin
+> ⭐ 8 · ✅ active · plugin
 
 ## One-liner
 

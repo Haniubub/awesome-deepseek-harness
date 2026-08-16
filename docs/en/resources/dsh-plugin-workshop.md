@@ -5,7 +5,7 @@ keywords: "dsh-plugin-workshop, discovery, plugin, ui, workflow, deepseek harnes
 ---
 # dsh-plugin-workshop
 
-> ⭐ 20 · ✅ active · plugin
+> ⭐ 25 · ✅ active · plugin
 
 ## One-liner
 

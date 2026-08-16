@@ -5,7 +5,7 @@ keywords: "deepseek-harness-desktop (chyra-moon), desktop, client, deepseek harn
 ---
 # deepseek-harness-desktop (chyra-moon)
 
-> ⭐ 10 · ✅ 活跃 · 客户端
+> ⭐ 11 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

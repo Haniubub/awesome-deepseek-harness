@@ -5,7 +5,7 @@ keywords: "dsh-plugin-session-delete, desktop, client, coding, multi-agent, ui, 
 ---
 # dsh-plugin-session-delete
 
-> ⭐ 15 · ✅ active · client
+> ⭐ 19 · ✅ active · client
 
 ## One-liner
 

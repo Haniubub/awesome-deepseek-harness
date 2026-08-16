@@ -5,7 +5,7 @@ keywords: "dsh-passwords, discovery, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-passwords
 
-> ⭐ 3 · ✅ active · plugin
+> ⭐ 6 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "deepseek-harness-desktop (xiincs), desktop, client, deepseek harness,
 ---
 # deepseek-harness-desktop (xiincs)
 
-> ⭐ 36 · ✅ active · client
+> ⭐ 51 · ✅ active · client
 
 ## One-liner
 

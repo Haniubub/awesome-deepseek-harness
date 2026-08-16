@@ -5,7 +5,7 @@ keywords: "DeepSeek Harness TUI (openma-ai), terminal, client, deepseek harness,
 ---
 # DeepSeek Harness TUI (openma-ai)
 
-> ⭐ 25 · ✅ 活跃 · 客户端
+> ⭐ 29 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "deepseek-harness-tutorial, learning, tutorial, deepseek harness, dsh"
 ---
 # deepseek-harness-tutorial
 
-> ⭐ 43 · ✅ 活跃 · 教程
+> ⭐ 129 · ✅ 活跃 · 教程
 
 ## 一句话介绍
 

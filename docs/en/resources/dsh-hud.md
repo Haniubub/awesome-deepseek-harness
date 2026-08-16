@@ -5,7 +5,7 @@ keywords: "dsh-hud, developer, plugin, ui, observability, git, deepseek harness,
 ---
 # dsh-hud
 
-> ⭐ 3 · ✅ active · plugin
+> ⭐ 6 · ✅ active · plugin
 
 ## One-liner
 

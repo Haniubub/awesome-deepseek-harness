@@ -5,7 +5,7 @@ keywords: "dsh-harness-ops, automation, workflow, observability, deepseek harnes
 ---
 # dsh-harness-ops
 
-> ⭐ 9 · ✅ 活跃 · 工作流
+> ⭐ 11 · ✅ 活跃 · 工作流
 
 ## 一句话介绍
 

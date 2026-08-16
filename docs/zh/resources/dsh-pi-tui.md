@@ -5,7 +5,7 @@ keywords: "dsh-pi-tui, terminal, client, deepseek harness, dsh"
 ---
 # dsh-pi-tui
 
-> ⭐ 1 · ✅ 活跃 · 客户端
+> ⭐ 2 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

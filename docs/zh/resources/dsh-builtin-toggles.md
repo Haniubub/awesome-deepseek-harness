@@ -5,7 +5,7 @@ keywords: "dsh-builtin-toggles, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-builtin-toggles
 
-> ⭐ 5 · ✅ 活跃 · 插件
+> ⭐ 7 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

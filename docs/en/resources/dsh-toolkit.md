@@ -5,7 +5,7 @@ keywords: "dsh-toolkit, developer, plugin, files, coding, deepseek harness, dsh"
 ---
 # dsh-toolkit
 
-> ⭐ 17 · ✅ active · plugin
+> ⭐ 19 · ✅ active · plugin
 
 ## One-liner
 

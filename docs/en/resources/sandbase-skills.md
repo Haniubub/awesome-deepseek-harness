@@ -5,7 +5,7 @@ keywords: "sandbase-skills, registry, awesome-list, coding, multi-agent, search,
 ---
 # sandbase-skills
 
-> ⭐ 3 · ✅ active · awesome-list
+> ⭐ 4 · ✅ active · awesome-list
 
 ## One-liner
 

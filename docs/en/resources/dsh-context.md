@@ -5,7 +5,7 @@ keywords: "dsh-context, memory, plugin, coding, context, deepseek harness, dsh"
 ---
 # dsh-context
 
-> ⭐ 40 · ✅ active · plugin
+> ⭐ 104 · ✅ active · plugin
 
 ## One-liner
 

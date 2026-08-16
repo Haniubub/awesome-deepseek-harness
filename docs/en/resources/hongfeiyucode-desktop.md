@@ -5,7 +5,7 @@ keywords: "deepseek-harness-desktop (hongfeiyucode), desktop, client, deepseek h
 ---
 # deepseek-harness-desktop (hongfeiyucode)
 
-> ⭐ 37 · ✅ active · client
+> ⭐ 39 · ✅ active · client
 
 ## One-liner
 

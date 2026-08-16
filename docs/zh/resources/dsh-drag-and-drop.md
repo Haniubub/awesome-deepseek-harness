@@ -5,7 +5,7 @@ keywords: "dsh-drag-and-drop, input-editing, plugin, files, ui, deepseek harness
 ---
 # dsh-drag-and-drop
 
-> ⭐ 7 · ✅ 活跃 · 插件
+> ⭐ 13 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

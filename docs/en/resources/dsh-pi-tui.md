@@ -5,7 +5,7 @@ keywords: "dsh-pi-tui, terminal, client, deepseek harness, dsh"
 ---
 # dsh-pi-tui
 
-> ⭐ 1 · ✅ active · client
+> ⭐ 2 · ✅ active · client
 
 ## One-liner
 

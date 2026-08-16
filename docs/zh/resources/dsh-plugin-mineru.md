@@ -5,7 +5,7 @@ keywords: "dsh-plugin-mineru, developer, plugin, files, multimodal, deepseek har
 ---
 # dsh-plugin-mineru
 
-> ⭐ 20 · ✅ 活跃 · 插件
+> ⭐ 26 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

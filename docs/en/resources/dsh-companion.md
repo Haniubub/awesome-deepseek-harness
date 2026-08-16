@@ -5,7 +5,7 @@ keywords: "dsh-companion, automation, workflow, desktop, ui, deepseek harness, d
 ---
 # dsh-companion
 
-> ⭐ 5 · ✅ active · workflow
+> ⭐ 5 · 💤 inactive · workflow
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "DSH-Plugins-Marketplace, discovery, plugin, ui, workflow, deepseek ha
 ---
 # DSH-Plugins-Marketplace
 
-> ⭐ 64 · ✅ active · plugin
+> ⭐ 78 · ✅ active · plugin
 
 ## One-liner
 

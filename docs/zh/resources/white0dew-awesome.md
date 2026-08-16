@@ -5,7 +5,7 @@ keywords: "awesome-dsh-plugins (white0dew), registry, awesome-list, search, deep
 ---
 # awesome-dsh-plugins (white0dew)
 
-> ⭐ 9 · ✅ 活跃 · 精选列表
+> ⭐ 10 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

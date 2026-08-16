@@ -5,7 +5,7 @@ keywords: "dsh-reverse-skill, learning, skill, coding, search, deepseek harness,
 ---
 # dsh-reverse-skill
 
-> ⭐ 12 · ✅ 活跃 · 技能
+> ⭐ 19 · ✅ 活跃 · 技能
 
 ## 一句话介绍
 

@@ -12,11 +12,11 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 706,
+    "stars": 846,
     "_source_description": "DeepSeek Harness橙皮书《从开机到拆开》：完整系统提示词、129行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML免费下载",
     "_updated": "2026-08-15",
-    "_stars_prev": 649,
-    "growth": 57
+    "_stars_prev": 706,
+    "growth": 140
   },
   {
     "id": "dsh-handbook",
@@ -31,11 +31,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 273,
+    "stars": 345,
     "_source_description": "DeepSeek Harness (dsh) 从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF）",
-    "_updated": "2026-08-15",
-    "_stars_prev": 242,
-    "growth": 31
+    "_updated": "2026-08-16",
+    "_stars_prev": 273,
+    "growth": 72
   },
   {
     "id": "dshfind",
@@ -51,11 +51,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 80,
+    "stars": 98,
     "_source_description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
-    "_updated": "2026-08-15",
-    "_stars_prev": 72,
-    "growth": 8
+    "_updated": "2026-08-16",
+    "_stars_prev": 80,
+    "growth": 18
   },
   {
     "id": "dsh-harness-tutorial",
@@ -71,11 +71,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 40,
+    "stars": 45,
     "_source_description": "DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent —— 一切皆插件的中文教程（VitePress 站点 + 8 个 Demo + mini-harness 教学项目）",
     "_updated": "2026-08-13",
-    "_stars_prev": 39,
-    "growth": 1
+    "_stars_prev": 40,
+    "growth": 5
   },
   {
     "id": "deepseek-harness-tutorial",
@@ -90,11 +90,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 43,
+    "stars": 129,
     "_source_description": "deepseek harness中文详细学习教程",
     "_updated": "2026-08-13",
-    "_stars_prev": 36,
-    "growth": 7
+    "_stars_prev": 43,
+    "growth": 86
   },
   {
     "id": "dsh-explain",

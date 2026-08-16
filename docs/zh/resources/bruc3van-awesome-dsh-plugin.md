@@ -5,7 +5,7 @@ keywords: "awesome-dsh-plugin (bruc3van), registry, awesome-list, search, deepse
 ---
 # awesome-dsh-plugin (bruc3van)
 
-> ⭐ 139 · ✅ 活跃 · 精选列表
+> ⭐ 173 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

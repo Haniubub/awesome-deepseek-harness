@@ -5,7 +5,7 @@ keywords: "dsh-group-photo, fun, plugin, coding, git, deepseek harness, dsh"
 ---
 # dsh-group-photo
 
-> ⭐ 16 · ✅ 活跃 · 插件
+> ⭐ 17 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

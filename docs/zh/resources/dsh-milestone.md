@@ -5,7 +5,7 @@ keywords: "dsh-milestone, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-milestone
 
-> ⭐ 14 · ✅ 活跃 · 插件
+> ⭐ 16 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

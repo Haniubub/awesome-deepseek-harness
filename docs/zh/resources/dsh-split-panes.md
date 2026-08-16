@@ -5,7 +5,7 @@ keywords: "dsh-split-panes, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-split-panes
 
-> ⭐ 4 · ✅ 活跃 · 插件
+> ⭐ 5 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

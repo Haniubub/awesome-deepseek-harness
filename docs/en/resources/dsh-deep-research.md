@@ -5,7 +5,7 @@ keywords: "dsh-deep-research, research, workflow, search, deepseek harness, dsh"
 ---
 # dsh-deep-research
 
-> ⭐ 12 · ✅ active · workflow
+> ⭐ 13 · ✅ active · workflow
 
 ## One-liner
 

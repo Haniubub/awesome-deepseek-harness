@@ -5,7 +5,7 @@ keywords: "dsh-visualize, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-visualize
 
-> ⭐ 100 · ✅ active · plugin
+> ⭐ 148 · ✅ active · plugin
 
 ## One-liner
 

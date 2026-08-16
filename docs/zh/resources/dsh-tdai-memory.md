@@ -5,7 +5,7 @@ keywords: "dsh-tdai-memory, memory, plugin, coding, multi-agent, deepseek harnes
 ---
 # dsh-tdai-memory
 
-> ⭐ 3 · ✅ 活跃 · 插件
+> ⭐ 5 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

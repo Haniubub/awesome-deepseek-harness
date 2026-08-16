@@ -5,7 +5,7 @@ keywords: "dsh-pet, fun, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-pet
 
-> ⭐ 38 · ✅ 活跃 · 插件
+> ⭐ 54 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

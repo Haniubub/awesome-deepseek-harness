@@ -5,7 +5,7 @@ keywords: "dsh-mnemon, memory, plugin, context, deepseek harness, dsh"
 ---
 # dsh-mnemon
 
-> ⭐ 26 · ✅ active · plugin
+> ⭐ 48 · ✅ active · plugin
 
 ## One-liner
 

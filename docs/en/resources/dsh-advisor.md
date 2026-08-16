@@ -5,7 +5,7 @@ keywords: "dsh-advisor, multi-agent, agent, context, deepseek harness, dsh"
 ---
 # dsh-advisor
 
-> ⭐ 9 · ✅ active · agent
+> ⭐ 11 · ✅ active · agent
 
 ## One-liner
 

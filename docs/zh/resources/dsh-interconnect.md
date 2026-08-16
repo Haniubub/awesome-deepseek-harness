@@ -5,7 +5,7 @@ keywords: "dsh-interconnect, multi-agent, agent, deepseek harness, dsh"
 ---
 # dsh-interconnect
 
-> ⭐ 27 · ✅ 活跃 · 智能体
+> ⭐ 28 · ✅ 活跃 · 智能体
 
 ## 一句话介绍
 

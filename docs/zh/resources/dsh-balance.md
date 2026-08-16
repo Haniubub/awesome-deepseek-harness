@@ -5,7 +5,7 @@ keywords: "dsh-balance, developer, plugin, observability, ui, deepseek harness, 
 ---
 # dsh-balance
 
-> ⭐ 14 · ✅ 活跃 · 插件
+> ⭐ 19 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

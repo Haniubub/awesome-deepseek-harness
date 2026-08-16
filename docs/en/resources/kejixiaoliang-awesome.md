@@ -5,7 +5,7 @@ keywords: "awesome-dsh-plugins (kejixiaoliang), registry, awesome-list, search, 
 ---
 # awesome-dsh-plugins (kejixiaoliang)
 
-> ⭐ 12 · ✅ active · awesome-list
+> ⭐ 17 · ✅ active · awesome-list
 
 ## One-liner
 

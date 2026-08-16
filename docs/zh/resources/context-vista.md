@@ -5,7 +5,7 @@ keywords: "context-vista, memory, plugin, context, observability, deepseek harne
 ---
 # context-vista
 
-> ⭐ 4 · ✅ 活跃 · 插件
+> ⭐ 5 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

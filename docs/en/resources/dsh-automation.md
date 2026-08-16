@@ -5,7 +5,7 @@ keywords: "dsh-automation, automation, workflow, deepseek harness, dsh"
 ---
 # dsh-automation
 
-> ⭐ 39 · ✅ active · workflow
+> ⭐ 45 · ✅ active · workflow
 
 ## One-liner
 

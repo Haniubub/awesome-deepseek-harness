@@ -5,7 +5,7 @@ keywords: "awesome-deepseek-harness (0xsline), registry, awesome-list, search, d
 ---
 # awesome-deepseek-harness (0xsline)
 
-> ⭐ 465 · ✅ 活跃 · 精选列表
+> ⭐ 577 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-ui-whale, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-ui-whale
 
-> ⭐ 30 · ✅ 活跃 · 插件
+> ⭐ 29 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

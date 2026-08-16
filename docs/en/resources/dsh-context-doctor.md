@@ -5,7 +5,7 @@ keywords: "dsh-context-doctor, memory, plugin, context, observability, deepseek 
 ---
 # dsh-context-doctor
 
-> ⭐ 7 · ✅ active · plugin
+> ⭐ 11 · ✅ active · plugin
 
 ## One-liner
 

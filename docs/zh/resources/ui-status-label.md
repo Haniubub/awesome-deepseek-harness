@@ -5,7 +5,7 @@ keywords: "ui-status-label, ui, plugin, deepseek harness, dsh"
 ---
 # ui-status-label
 
-> ⭐ 32 · ✅ 活跃 · 插件
+> ⭐ 36 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "deepseek-harness-desktop (cc1252), desktop, client, deepseek harness,
 ---
 # deepseek-harness-desktop (cc1252)
 
-> ⭐ 17 · ✅ 活跃 · 客户端
+> ⭐ 18 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

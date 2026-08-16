@@ -5,7 +5,7 @@ keywords: "dsh-git-graph, ide, integration, coding, git, ui, deepseek harness, d
 ---
 # dsh-git-graph
 
-> ⭐ 8 · ✅ active · integration
+> ⭐ 12 · ✅ active · integration
 
 ## One-liner
 

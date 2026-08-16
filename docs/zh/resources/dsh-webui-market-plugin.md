@@ -5,7 +5,7 @@ keywords: "dsh-webui-market-plugin, discovery, plugin, ui, workflow, deepseek ha
 ---
 # dsh-webui-market-plugin
 
-> ⭐ 42 · ✅ 活跃 · 插件
+> ⭐ 61 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

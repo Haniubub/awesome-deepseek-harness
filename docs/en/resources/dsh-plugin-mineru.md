@@ -5,7 +5,7 @@ keywords: "dsh-plugin-mineru, developer, plugin, files, multimodal, deepseek har
 ---
 # dsh-plugin-mineru
 
-> ⭐ 20 · ✅ active · plugin
+> ⭐ 26 · ✅ active · plugin
 
 ## One-liner
 

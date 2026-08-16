@@ -5,7 +5,7 @@ keywords: "dsh-ohos-patch, developer, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-ohos-patch
 
-> ⭐ 5 · ✅ 活跃 · 插件
+> ⭐ 6 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

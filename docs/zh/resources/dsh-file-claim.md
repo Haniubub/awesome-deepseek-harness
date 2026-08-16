@@ -5,7 +5,7 @@ keywords: "dsh-file-claim, developer, plugin, files, multi-agent, git, deepseek 
 ---
 # dsh-file-claim
 
-> ⭐ 3 · ✅ 活跃 · 插件
+> ⭐ 4 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-web-attention-badge, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-web-attention-badge
 
-> ⭐ 4 · ✅ active · plugin
+> ⭐ 5 · ✅ active · plugin
 
 ## One-liner
 

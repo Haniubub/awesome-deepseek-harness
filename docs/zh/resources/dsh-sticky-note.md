@@ -5,7 +5,7 @@ keywords: "dsh-sticky-note, input-editing, plugin, coding, deepseek harness, dsh
 ---
 # dsh-sticky-note
 
-> ⭐ 7 · ✅ 活跃 · 插件
+> ⭐ 9 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

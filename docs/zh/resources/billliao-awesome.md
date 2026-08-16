@@ -5,7 +5,7 @@ keywords: "awesome-dsh-plugin (billLiao), registry, awesome-list, search, deepse
 ---
 # awesome-dsh-plugin (billLiao)
 
-> ⭐ 7 · ✅ 活跃 · 精选列表
+> ⭐ 10 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

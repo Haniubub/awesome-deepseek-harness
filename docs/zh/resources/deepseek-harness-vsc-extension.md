@@ -5,7 +5,7 @@ keywords: "deepseek-harness-vsc-extension, ide, integration, coding, deepseek ha
 ---
 # deepseek-harness-vsc-extension
 
-> ⭐ 7 · ✅ 活跃 · 集成
+> ⭐ 10 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

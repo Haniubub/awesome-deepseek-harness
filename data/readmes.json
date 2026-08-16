@@ -4647,5 +4647,92 @@
   "usage": "",
   "license": "",
   "_done": true
+ },
+ "dsh-smooth-stream": {
+  "intro": "[English](README.en.md) | 中文 **dsh-smooth-stream** 是 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh`）的社区插件，给 Web 对话做**丝滑流式渲染**：字跟着模型走、换行滑入、不闪。不是官方发行的一部分。 项目主页：<https://laplace-bit.github.io/dsh-smooth-stream/>",
+  "features": [
+   "**揭示跟着模型走。** 助手文本按到达速率出现。突发不会整段倒出来，慢流也不会停住再猛地补上。",
+   "**一直是 Markdown。** 代码、强调等在流式过程中就按格式渲染，没有先出纯文本再换成排版的交接。",
+   "**换行是滑进来的。** 新的一行或正在变高的工具卡片会滑入视野，而不是把整段记录往上顶一格。",
+   "**滚动条归你。** 往上翻看前文时 overlay 会松手。只有回到底部才会继续跟随——点「回到底部」也算。"
+  ],
+  "install": "pnpm dsh plugin --profile web add dsh-smooth-stream",
+  "usage": "dsh plugin --profile web add dsh-smooth-stream",
+  "license": "",
+  "_done": true
+ },
+ "dsh-ecc": {
+  "intro": "<div align=\"center\"> [English](README.en.md) | **简体中文** </div> 把 [affaan-m/ECC](https://github.com/affaan-m/ECC)(~227k⭐ 的\"操作员系统\",285 个 技能)渐进移植到 **DeepSeek Harness (DSH)** 的 Cordis 插件架构。 插件向 `ctx.skills` 注册表的 **host 层** 注册技能提供者;技能随包分发 (`skills/<name>/SKILL.md`),无需用户配置。",
+  "features": [],
+  "install": "# npm(包名 dsh-ecc 已被同名项目占用,本包发布为 dsh-ecc-skills)\ndsh plugin --profile web add dsh-ecc-skills\n\n# GitHub\ndsh plugin --profile web add github:gongyijie85/dsh-ecc\n\n# 本地开发\ndsh plugin --profile web add D:\\plugins\\dsh-ecc",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "mattpocock-skills-dsh-zh": {
+  "intro": "[mattpocock-skills-dsh](https://github.com/gongyijie85/mattpocock-skills-dsh) 的 **中文技能版**:Matt Pocock 完整发布技能集(25 个 SKILL.md)的正文全部译为中文, 适配 **DeepSeek Harness (DSH)** 的 Cordis 插件架构。",
+  "features": [],
+  "install": "dsh plugin --profile web add mattpocock-skills-dsh-zh\n# 或 GitHub\ndsh plugin --profile web add github:gongyijie85/mattpocock-skills-dsh-zh",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "dsh-repo-setup": {
+  "intro": "<div align=\"center\"> [English](README.en.md) | **简体中文** </div> 仓库体检引导插件 —— Anthropic **claude-code-setup** 的 DeepSeek Harness 版。 注册一个**只读**工具 `repo_setup_scan`:扫描项目目录的语言栈、测试设置、 文档、git、Docker 与数据库线索,然后给出设置建议:该装哪些 DSH 技能插件、 该挂哪些 MCP 服务器、该补哪些卫生文件。**绝不修改任何东西。**",
+  "features": [],
+  "install": "# npm\ndsh plugin --profile web add dsh-repo-setup\n\n# GitHub\ndsh plugin --profile web add github:gongyijie85/dsh-repo-setup\n\n# 本地开发\ndsh plugin --profile web add D:\\plugins\\dsh-repo-setup",
+  "usage": "node --check lib/index.js\n# 功能冒烟(伪 ctx 注册 + 直接调 scanRepo 逻辑见 scripts/verify-tool.mjs)\nnode scripts/verify-tool.mjs",
+  "license": "",
+  "_done": true
+ },
+ "dsh-island": {
+  "intro": "开发 AI agent 时，最常见的烦恼是「切窗口看它到底在干嘛、是不是卡在审批」。**dsh-island 把 DSH 的实时状态带进 macOS 菜单栏**： - 插件 apply 时**自动拉起原生 Swift 面板**（`bin/dsh-island-panel`，NSStatusItem + NSPopover + SwiftUI，借鉴 [CodeIsland](https://github.com/wxtsky/CodeIsland) 的实现） - 菜单栏按钮文案**随状态动态变化**：`🐋 DSH`（空闲）→ `🔧 运行中 / 🔧 <工具>`（执行中）→ `🛡️ 需要授权`（审批中） - 点击菜单栏图标 → 弹出毛玻璃灵动岛面板：会话、工具调用、事件流 - 审批请求直接在面板上点「允许 / 拒绝」，决策回写 DSH DSH 进程 └─ dsh-island 插件（cordis） ├─ apply() 时 spawn → bin/dsh-island-panel（Swift 原生，常驻菜单栏） ├─ 监听 DSH 事件（session/tools/approval/suba",
+  "features": [
+   "**自动拉起**：插件加载即常驻菜单栏（已运行则不重复启动）",
+   "**动态菜单栏**：按钮文案随状态变（空闲/运行中/等待授权）",
+   "**会话状态**：`SessionStart` / `SessionEnd` 跟随 DSH 会话生命周期",
+   "**工具调用**：`PreToolUse` / `PostToolUse` / `PostToolUseFailure` 实时展示正在执行的工具",
+   "**面板审批**：`approval/request` → 面板出现「需要授权」卡，点「允许 / 拒绝」直接回写 DSH",
+   "**子代理**：`SubagentStart` / `SubagentStop`"
+  ],
+  "install": "dsh plugin --profile <profile> add github:cdxiaodong/dsh-island",
+  "usage": "import type { Context } from 'cordis'\n\nexport const inject = ['island']\n\nexport function apply(ctx: Context) {\n  // 注册一个菜单项（出现在托盘右键菜单，图标 + 标题）\n  ctx.island.registerMenuItem({\n    id: 'my-plugin',\n    title: '我的插件',\n    icon: '🔧',\n    action: () => {\n      // 用户点击托盘菜单项时执行\n      console.log('my-plugin clicked')\n    },\n  })\n  // 插件卸载时自动注销（ctx 生命周期自动清理）\n}",
+  "license": "MIT",
+  "_done": true
+ },
+ "dsh-ponytail": {
+  "intro": "<div align=\"center\"> [English](README.en.md) | **简体中文** </div> 把 [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)(~76k⭐ 的 \"最懒资深工程师\"代码风格)移植到 **DeepSeek Harness (DSH)** 的 Cordis 插件架构。 插件向 `ctx.skills` 注册表的 **host 层** 注册技能提供者,6 个技能随包分发 (`skills/<name>/SKILL.md`),无需任何用户配置。",
+  "features": [],
+  "install": "# npm(包名 dsh-ponytail 已被同名项目占用,本包发布为 dsh-ponytail-skills)\ndsh plugin --profile web add dsh-ponytail-skills\n\n# GitHub\ndsh plugin --profile web add github:gongyijie85/dsh-ponytail\n\n# 本地开发\ndsh plugin --profile web add D:\\plugins\\dsh-ponytail",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "dsh-llm-inspector": {
+  "intro": "一个插件收编四类能力，全部通过配置开关：reasoning 控制、外部思考（think）导出、流量/包分析、会话落盘审计。",
+  "features": [],
+  "install": "dsh plugin --profile <你的profile> add github:cdxiaodong/dsh-llm-inspector",
+  "usage": "plugins:\n  dsh-llm-inspector:\n    reasoningEffort: 'none'      # 可选:'none' 关推理,或 adapter 支持的 'low'/'medium'/'high'\n    externalThinking: true       # 是否启用 think 导出\n    trafficAnalysis: true        # 是否做流量/包分析\n    persistSession: true         # 是否落盘审计\n    logDir: '.dsh-inspector'     # 落盘目录\n    # thinkPrompt: '...'         # 可选,覆盖默认强制提示",
+  "license": "MIT",
+  "_done": true
+ },
+ "mattpocock-skills-dsh": {
+  "intro": "<div align=\"center\"> [English](README.en.md) | **简体中文** </div> 为 **DeepSeek Harness (DSH)** 打造的 Matt Pocock 技能插件包:把 [mattpocock/skills](https://github.com/mattpocock/skills)(来自 [aihero.dev/skills](https://www.aihero.dev/skills) 的\"真实工程师\"技能集) 移植到 DSH 的 Cordis 插件架构上。 插件会向 `ctx.skills` 注册表的 **host 层** 注册一个技能提供者,因此每个 agent preset 的作用域链都会合并这些技能。技能正文随包分发 (`skills/<name>/SKILL.md`),通过 `import.meta.url` 定位——这是包的 组装事实,不需要任何用户配置。",
+  "features": [],
+  "install": "# 方式一:全局安装 dsh,永久可用(推荐)\n  npm install -g @deepseek-ai/dsh\n  dsh --version\n\n  # 方式二:不安装,所有命令用 npx 形式\n  npx @deepseek-ai/dsh --version",
+  "usage": "npx @deepseek-ai/dsh plugin --profile web add github:gongyijie85/mattpocock-skills-dsh",
+  "license": "",
+  "_done": true
+ },
+ "dsh-guardian": {
+  "intro": "LLM Agent（Claude Code / DeepSeek Harness）能自主执行 shell、读写文件、发网络请求。一旦被**提示注入**、**工具投毒**或**模型误判**带偏，可能在你不知情时 `rm -rf`、读取 `.ssh/id_rsa`、把密钥外泄到远程。本插件是一道**运行时安全网**： Agent 想执行工具 → guardian/check 前置审查 → 命中规则 → 拦截 / 人工批准 → 才放行",
+  "features": [
+   "**路径沙箱**（`guardian/path`）：realpath 解析 + 白名单根目录 + 编码变体解码 + 空字节截断检测——比纯正则可靠",
+   "**风险评分引擎**（`risk.ts`）：多信号并集概率式加权成 0~1 分，按阈值分级处置（deny/block/warn/allow）"
+  ],
+  "install": "dsh plugin --profile web add github:cdxiaodong/dsh-guardian",
+  "usage": "npm ci && npm test     # 19/19 通过",
+  "license": "",
+  "_done": true
  }
 }

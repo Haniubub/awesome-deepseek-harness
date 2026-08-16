@@ -5,7 +5,7 @@ keywords: "dsh-remote, developer, plugin, automation, files, deepseek harness, d
 ---
 # dsh-remote
 
-> ⭐ 12 · ✅ active · plugin
+> ⭐ 14 · ✅ active · plugin
 
 ## One-liner
 

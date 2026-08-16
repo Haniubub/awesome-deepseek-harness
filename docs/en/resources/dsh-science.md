@@ -5,7 +5,7 @@ keywords: "dsh-science, learning, skill, search, deepseek harness, dsh"
 ---
 # dsh-science
 
-> ⭐ 10 · ✅ active · skill
+> ⭐ 12 · ✅ active · skill
 
 ## One-liner
 

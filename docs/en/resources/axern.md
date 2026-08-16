@@ -5,7 +5,7 @@ keywords: "Axern, harness, related, security, deepseek harness, dsh"
 ---
 # Axern
 
-> ⭐ 167 · ✅ active · related
+> ⭐ 168 · ✅ active · related
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-godot-skill, coding, skill, deepseek harness, dsh"
 ---
 # dsh-godot-skill
 
-> ⭐ 4 · ✅ active · skill
+> ⭐ 7 · ✅ active · skill
 
 ## One-liner
 

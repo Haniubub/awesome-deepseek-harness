@@ -5,7 +5,7 @@ keywords: "dsh-turn-navigator, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-turn-navigator
 
-> ⭐ 1 · ✅ active · plugin
+> ⭐ 2 · ✅ active · plugin
 
 ## One-liner
 

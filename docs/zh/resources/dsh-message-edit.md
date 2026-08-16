@@ -5,7 +5,7 @@ keywords: "dsh-message-edit, developer, plugin, ui, context, deepseek harness, d
 ---
 # dsh-message-edit
 
-> ⭐ 21 · ✅ 活跃 · 插件
+> ⭐ 24 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

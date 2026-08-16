@@ -5,7 +5,7 @@ keywords: "dsh-plugin-diff-review, vision, plugin, coding, deepseek harness, dsh
 ---
 # dsh-plugin-diff-review
 
-> ⭐ 3 · ✅ 活跃 · 插件
+> ⭐ 6 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

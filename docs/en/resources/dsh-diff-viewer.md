@@ -5,7 +5,7 @@ keywords: "dsh-diff-viewer, ui, plugin, git, deepseek harness, dsh"
 ---
 # dsh-diff-viewer
 
-> ⭐ 12 · ✅ active · plugin
+> ⭐ 15 · ✅ active · plugin
 
 ## One-liner
 

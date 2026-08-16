@@ -5,7 +5,7 @@ keywords: "dsh-mcp-panel, mcp, integration, ui, observability, deepseek harness,
 ---
 # dsh-mcp-panel
 
-> ⭐ 4 · ✅ active · integration
+> ⭐ 5 · ✅ active · integration
 
 ## One-liner
 

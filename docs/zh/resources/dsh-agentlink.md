@@ -5,7 +5,7 @@ keywords: "dsh-agentlink, ide, integration, coding, multi-agent, deepseek harnes
 ---
 # dsh-agentlink
 
-> ⭐ 3 · ✅ 活跃 · 集成
+> ⭐ 6 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

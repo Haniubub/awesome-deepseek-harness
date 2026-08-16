@@ -5,7 +5,7 @@ keywords: "dsh-status-rotator, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-status-rotator
 
-> ⭐ 8 · ✅ active · plugin
+> ⭐ 13 · ✅ active · plugin
 
 ## One-liner
 

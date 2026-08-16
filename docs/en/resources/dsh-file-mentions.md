@@ -5,7 +5,7 @@ keywords: "dsh-file-mentions, developer, plugin, files, ui, deepseek harness, ds
 ---
 # dsh-file-mentions
 
-> ⭐ 2 · ✅ active · plugin
+> ⭐ 3 · ✅ active · plugin
 
 ## One-liner
 

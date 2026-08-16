@@ -5,7 +5,7 @@ keywords: "dsh-balance, developer, plugin, observability, ui, deepseek harness, 
 ---
 # dsh-balance
 
-> ⭐ 14 · ✅ active · plugin
+> ⭐ 19 · ✅ active · plugin
 
 ## One-liner
 

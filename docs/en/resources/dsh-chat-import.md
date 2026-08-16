@@ -5,7 +5,7 @@ keywords: "dsh-chat-import, developer, plugin, files, coding, deepseek harness, 
 ---
 # dsh-chat-import
 
-> ⭐ 29 · ✅ active · plugin
+> ⭐ 45 · ✅ active · plugin
 
 ## One-liner
 

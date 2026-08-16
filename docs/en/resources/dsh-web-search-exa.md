@@ -5,7 +5,7 @@ keywords: "dsh-web-search-exa, search, plugin, deepseek harness, dsh"
 ---
 # dsh-web-search-exa
 
-> ⭐ 4 · ✅ active · plugin
+> ⭐ 5 · ✅ active · plugin
 
 ## One-liner
 

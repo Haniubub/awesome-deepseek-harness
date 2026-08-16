@@ -5,7 +5,7 @@ keywords: "dsh-session-health, memory, plugin, observability, files, deepseek ha
 ---
 # dsh-session-health
 
-> ⭐ 9 · ✅ 活跃 · 插件
+> ⭐ 8 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

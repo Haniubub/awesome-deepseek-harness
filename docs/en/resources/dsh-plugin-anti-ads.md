@@ -5,7 +5,7 @@ keywords: "dsh-plugin-anti-ads, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-plugin-anti-ads
 
-> ⭐ 6 · ✅ active · plugin
+> ⭐ 7 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-plugin-workshop, discovery, plugin, ui, workflow, deepseek harnes
 ---
 # dsh-plugin-workshop
 
-> ⭐ 20 · ✅ 活跃 · 插件
+> ⭐ 25 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

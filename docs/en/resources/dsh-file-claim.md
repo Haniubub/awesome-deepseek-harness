@@ -5,7 +5,7 @@ keywords: "dsh-file-claim, developer, plugin, files, multi-agent, git, deepseek 
 ---
 # dsh-file-claim
 
-> ⭐ 3 · ✅ active · plugin
+> ⭐ 4 · ✅ active · plugin
 
 ## One-liner
 

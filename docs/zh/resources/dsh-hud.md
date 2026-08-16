@@ -5,7 +5,7 @@ keywords: "dsh-hud, developer, plugin, ui, observability, git, deepseek harness,
 ---
 # dsh-hud
 
-> ⭐ 3 · ✅ 活跃 · 插件
+> ⭐ 6 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "awesome-deepseek-harness (Dominic789654), registry, awesome-list, sea
 ---
 # awesome-deepseek-harness (Dominic789654)
 
-> ⭐ 47 · ✅ active · awesome-list
+> ⭐ 85 · ✅ active · awesome-list
 
 ## One-liner
 

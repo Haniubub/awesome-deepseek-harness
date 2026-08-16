@@ -5,7 +5,7 @@ keywords: "dsh-plugin-aigc-canvas, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-plugin-aigc-canvas
 
-> ⭐ 6 · ✅ active · plugin
+> ⭐ 7 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-mcp-manager, mcp, integration, ui, deepseek harness, dsh"
 ---
 # dsh-mcp-manager
 
-> ⭐ 6 · ✅ 活跃 · 集成
+> ⭐ 7 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

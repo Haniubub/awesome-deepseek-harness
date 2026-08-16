@@ -5,7 +5,7 @@ keywords: "dsh-plugin-diff-review, vision, plugin, coding, deepseek harness, dsh
 ---
 # dsh-plugin-diff-review
 
-> ⭐ 3 · ✅ active · plugin
+> ⭐ 6 · ✅ active · plugin
 
 ## One-liner
 

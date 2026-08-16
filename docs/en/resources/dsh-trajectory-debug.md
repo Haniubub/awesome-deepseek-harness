@@ -5,7 +5,7 @@ keywords: "dsh-trajectory-debug, workflow, observability, deepseek harness, dsh"
 ---
 # dsh-trajectory-debug
 
-> ⭐ 0 · ✅ active · workflow
+> ⭐ 1 · ✅ active · workflow
 
 ## One-liner
 

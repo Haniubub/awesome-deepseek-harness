@@ -5,7 +5,7 @@ keywords: "dsh-workspace-search, ui, plugin, search, files, deepseek harness, ds
 ---
 # dsh-workspace-search
 
-> ⭐ 4 · ✅ active · plugin
+> ⭐ 5 · ✅ active · plugin
 
 ## One-liner
 

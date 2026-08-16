@@ -5,7 +5,7 @@ keywords: "dsh-ads, fun, plugin, ui, deepseek harness, dsh"
 ---
 # dsh-ads
 
-> ⭐ 396 · ✅ 活跃 · 插件
+> ⭐ 447 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

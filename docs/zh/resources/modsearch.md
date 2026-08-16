@@ -5,7 +5,7 @@ keywords: "modsearch, search, plugin, deepseek harness, dsh"
 ---
 # modsearch
 
-> ⭐ 104 · ✅ 活跃 · 插件
+> ⭐ 110 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

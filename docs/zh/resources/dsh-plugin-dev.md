@@ -5,7 +5,7 @@ keywords: "dsh-plugin-dev, learning, skill, coding, deepseek harness, dsh"
 ---
 # dsh-plugin-dev
 
-> ⭐ 10 · ✅ 活跃 · 技能
+> ⭐ 11 · ✅ 活跃 · 技能
 
 ## 一句话介绍
 

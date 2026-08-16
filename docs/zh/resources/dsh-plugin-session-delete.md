@@ -5,7 +5,7 @@ keywords: "dsh-plugin-session-delete, desktop, client, coding, multi-agent, ui, 
 ---
 # dsh-plugin-session-delete
 
-> ⭐ 15 · ✅ 活跃 · 客户端
+> ⭐ 19 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

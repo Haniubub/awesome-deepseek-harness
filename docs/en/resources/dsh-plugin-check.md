@@ -5,7 +5,7 @@ keywords: "dsh-plugin-check, developer, plugin, observability, deepseek harness,
 ---
 # dsh-plugin-check
 
-> ⭐ 17 · ✅ active · plugin
+> ⭐ 22 · ✅ active · plugin
 
 ## One-liner
 

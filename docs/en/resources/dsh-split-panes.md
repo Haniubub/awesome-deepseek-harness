@@ -5,7 +5,7 @@ keywords: "dsh-split-panes, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-split-panes
 
-> ⭐ 4 · ✅ active · plugin
+> ⭐ 5 · ✅ active · plugin
 
 ## One-liner
 

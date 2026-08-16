@@ -5,7 +5,7 @@ keywords: "dsh-tool-git, developer, plugin, git, coding, deepseek harness, dsh"
 ---
 # dsh-tool-git
 
-> ⭐ 3 · ✅ active · plugin
+> ⭐ 4 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-notebooks, discovery, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-notebooks
 
-> ⭐ 3 · ✅ 活跃 · 插件
+> ⭐ 4 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

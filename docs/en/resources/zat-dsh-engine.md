@@ -5,7 +5,7 @@ keywords: "zat-dsh-engine, registry, awesome-list, coding, search, deepseek harn
 ---
 # zat-dsh-engine
 
-> ⭐ 29 · ✅ active · awesome-list
+> ⭐ 55 · ✅ active · awesome-list
 
 ## One-liner
 

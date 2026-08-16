@@ -5,7 +5,7 @@ keywords: "oh-dsh, desktop, client, terminal, ui, deepseek harness, dsh"
 ---
 # oh-dsh
 
-> ⭐ 184 · ✅ active · client
+> ⭐ 212 · ✅ active · client
 
 ## One-liner
 

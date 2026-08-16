@@ -5,7 +5,7 @@ keywords: "dsh-builtin-toggles, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-builtin-toggles
 
-> ⭐ 5 · ✅ active · plugin
+> ⭐ 7 · ✅ active · plugin
 
 ## One-liner
 

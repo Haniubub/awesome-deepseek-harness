@@ -5,7 +5,7 @@ keywords: "dsh-ohos-patch, developer, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-ohos-patch
 
-> ⭐ 5 · ✅ active · plugin
+> ⭐ 6 · ✅ active · plugin
 
 ## One-liner
 

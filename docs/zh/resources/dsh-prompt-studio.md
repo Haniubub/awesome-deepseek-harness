@@ -5,7 +5,7 @@ keywords: "dsh-prompt-studio, developer, plugin, ui, context, deepseek harness, 
 ---
 # dsh-prompt-studio
 
-> ⭐ 2 · ✅ 活跃 · 插件
+> ⭐ 3 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

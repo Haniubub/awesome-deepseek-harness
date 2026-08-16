@@ -5,7 +5,7 @@ keywords: "dsh-harness-tutorial, learning, tutorial, coding, multi-agent, deepse
 ---
 # dsh-harness-tutorial
 
-> ⭐ 40 · ✅ active · tutorial
+> ⭐ 45 · ✅ active · tutorial
 
 ## One-liner
 

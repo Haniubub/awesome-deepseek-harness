@@ -5,7 +5,7 @@ keywords: "dsh-group-photo, fun, plugin, coding, git, deepseek harness, dsh"
 ---
 # dsh-group-photo
 
-> ⭐ 16 · ✅ active · plugin
+> ⭐ 17 · ✅ active · plugin
 
 ## One-liner
 

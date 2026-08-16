@@ -5,7 +5,7 @@ keywords: "dsh-search-mcp, mcp, integration, search, deepseek harness, dsh"
 ---
 # dsh-search-mcp
 
-> ⭐ 8 · ✅ active · integration
+> ⭐ 10 · ✅ active · integration
 
 ## One-liner
 

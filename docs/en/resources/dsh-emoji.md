@@ -5,7 +5,7 @@ keywords: "dsh-emoji, fun, plugin, ui, deepseek harness, dsh"
 ---
 # dsh-emoji
 
-> ⭐ 17 · ✅ active · plugin
+> ⭐ 20 · ✅ active · plugin
 
 ## One-liner
 

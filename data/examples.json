@@ -13,11 +13,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 48,
+    "stars": 61,
     "_source_description": "从零开始，看懂 DeepSeek Harness 的「万物皆可插件」— 零基础插件开发教程（含 22 个中文技能实例）| Zero-to-plugin tutorial for DeepSeek Harness",
     "_updated": "2026-08-14",
-    "_stars_prev": 44,
-    "growth": 4
+    "_stars_prev": 48,
+    "growth": 13
   },
   {
     "id": "dsh-plugin-template",
@@ -32,11 +32,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 16,
+    "stars": 25,
     "_source_description": "Template for deepseek-harness plugin development.",
     "_updated": "2026-08-14",
-    "_stars_prev": 12,
-    "growth": 4
+    "_stars_prev": 16,
+    "growth": 9
   },
   {
     "id": "turtle-ui",
@@ -69,9 +69,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 5,
+    "stars": 8,
     "_source_description": "基于原turtle ui官方仓库创建的plugin模板仓库",
-    "_updated": "2026-08-12"
+    "_updated": "2026-08-16",
+    "_stars_prev": 5,
+    "growth": 3
   },
   {
     "id": "dsh-plugin-template-sunshine",

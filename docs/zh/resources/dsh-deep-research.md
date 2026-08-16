@@ -5,7 +5,7 @@ keywords: "dsh-deep-research, research, workflow, search, deepseek harness, dsh"
 ---
 # dsh-deep-research
 
-> ⭐ 12 · ✅ 活跃 · 工作流
+> ⭐ 13 · ✅ 活跃 · 工作流
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "DSH Telegram Relay, channel, integration, channels, deepseek harness,
 ---
 # DSH Telegram Relay
 
-> ⭐ 5 · ✅ 活跃 · 集成
+> ⭐ 6 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

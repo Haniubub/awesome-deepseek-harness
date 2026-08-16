@@ -5,7 +5,7 @@ keywords: "dsh-notification, notifications, plugin, deepseek harness, dsh"
 ---
 # dsh-notification
 
-> ⭐ 47 · ✅ 活跃 · 插件
+> ⭐ 52 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

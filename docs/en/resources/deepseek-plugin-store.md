@@ -5,7 +5,7 @@ keywords: "deepseek-plugin-store, registry, awesome-list, coding, deepseek harne
 ---
 # deepseek-plugin-store
 
-> ⭐ 13 · ✅ active · awesome-list
+> ⭐ 15 · ✅ active · awesome-list
 
 ## One-liner
 

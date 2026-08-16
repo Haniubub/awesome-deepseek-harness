@@ -5,7 +5,7 @@ keywords: "dsh-gitbash-preset, vision, plugin, coding, git, multi-agent, deepsee
 ---
 # dsh-gitbash-preset
 
-> ⭐ 86 · ✅ 活跃 · 插件
+> ⭐ 118 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

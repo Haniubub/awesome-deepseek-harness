@@ -5,7 +5,7 @@ keywords: "dsh4vscode, ide, integration, coding, deepseek harness, dsh"
 ---
 # dsh4vscode
 
-> ⭐ 3 · ✅ 活跃 · 集成
+> ⭐ 4 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

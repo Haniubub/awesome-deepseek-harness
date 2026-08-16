@@ -5,7 +5,7 @@ keywords: "dsh-plugin-check, developer, plugin, observability, deepseek harness,
 ---
 # dsh-plugin-check
 
-> ⭐ 17 · ✅ 活跃 · 插件
+> ⭐ 22 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

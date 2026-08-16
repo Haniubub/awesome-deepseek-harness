@@ -5,7 +5,7 @@ keywords: "deepseek-harness-acp, acp, integration, workflow, coding, deepseek ha
 ---
 # deepseek-harness-acp
 
-> ⭐ 7 · ✅ 活跃 · 集成
+> ⭐ 8 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 
