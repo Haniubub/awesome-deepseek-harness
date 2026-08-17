@@ -14,9 +14,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 71,
+    "stars": 72,
     "_source_description": "把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层",
-    "_updated": "2026-08-13"
+    "_updated": "2026-08-13",
+    "_stars_prev": 71,
+    "growth": 1
   },
   {
     "id": "dsh-workflow",
@@ -32,11 +34,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 71,
+    "stars": 72,
     "_source_description": "把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层",
     "_updated": "2026-08-13",
-    "_stars_prev": 62,
-    "growth": 9
+    "_stars_prev": 71,
+    "growth": 1
   },
   {
     "id": "mstar-harness",

@@ -9,25 +9,25 @@ keywords: "deepseek harness, dsh, awesome lists registries, plugin, awesome"
 
 | # | Project | Growth | Stars | Description |
 |---|---|---|---|---|
-| 1 | [awesome-dsh-plugins (Radar)](resources/adamplatin-awesome-dsh-plugins.md) | ⬆️ +95 | ⭐1,131 | Radar index repo: auto-scanning all discovered dsh plugin candidates with an evidence-based compatibility matrix. |
-| 2 | [awesome-dsh-plugin (bruc3van)](resources/bruc3van-awesome-dsh-plugin.md) | ⬆️ +29 | ⭐202 | Find the right DSH plugin in 30 seconds: what problem each plugin solves, who it is for and where to start. |
-| 3 | [Awesome-DeepSeek-Harness-Plugins](resources/zhiyuan-fan-awesome.md) | ⬆️ +29 | ⭐117 | Curated list of DeepSeek Harness plugins. |
-| 4 | [awesome-deepseek-harness (libukai)](resources/libukai-awesome.md) | ⬆️ +24 | ⭐109 | Ultimate guide: quick start, resources, curated plugins and practical tools. |
-| 5 | [awesome-deepseek-agent (official)](resources/awesome-deepseek-agent.md) | ⬆️ +23 | ⭐5,906 | Official curated guides for integrating DeepSeek models into agent/coding-assistant tools (AstrBot, Cherry Studio, Claude Code, Codex, DeepSeek-TUI, Reasonix and more). |
+| 1 | [awesome-deepseek-harness (libukai)](resources/libukai-awesome.md) | ⬆️ +24 | ⭐109 | Ultimate guide: quick start, resources, curated plugins and practical tools. |
+| 2 | [awesome-deepseek-agent (official)](resources/awesome-deepseek-agent.md) | ⬆️ +23 | ⭐5,906 | Official curated guides for integrating DeepSeek models into agent/coding-assistant tools (AstrBot, Cherry Studio, Claude Code, Codex, DeepSeek-TUI, Reasonix and more). |
+| 3 | [zat-dsh-engine](resources/zat-dsh-engine.md) | ⬆️ +15 | ⭐70 | Visual plugin marketplace for DeepSeek Harness — browse, search and install community plugins |
+| 4 | [oh-my-dsh](resources/oh-my-dsh-dup2.md) | ⬆️ +13 | ⭐53 | 🐳 DeepSeek Harness 插件聚合社区 — 自动同步 dsh-plugin 生态 · 精选目录 · 每 8 小时自动维护 | Oh-My-DSH: a community-maintained catalog of DeepSeek Harness plugins, auto-synced from the dsh-plugin topic |
+| 5 | [sandbase-skills](resources/sandbase-skills.md) | ⬆️ +10 | ⭐14 | 88 installable open-source Agent Skills for research, social intelligence, marketing, and business workflows—compatible with Codex, Claude Code, Cursor, Gemini CLI, and DeepSeek Harness. |
 
 ## 🔥 Top 10
 
 | # | Project | Stars | Description | Status |
 |---|---|---|---|---|
-| 1 | [awesome-dsh-plugin](resources/awesome-dsh-plugin-org.md) | ⭐7,371 | Large curated list of installable DSH plugins (bilingual). | ✅ active |
+| 1 | [awesome-dsh-plugin](resources/awesome-dsh-plugin-org.md) | ⭐7,380 | Large curated list of installable DSH plugins (bilingual). | ✅ active |
 | 2 | [awesome-deepseek-agent (official)](resources/awesome-deepseek-agent.md) | ⭐5,906 | Official curated guides for integrating DeepSeek models into agent/coding-assistant tools (AstrBot, Cherry Studio, Claude Code, Codex, DeepSeek-TUI, Reasonix and more). | ✅ active |
-| 3 | [awesome-dsh-plugins (Radar)](resources/adamplatin-awesome-dsh-plugins.md) | ⭐1,131 | Radar index repo: auto-scanning all discovered dsh plugin candidates with an evidence-based compatibility matrix. | ✅ active |
+| 3 | [awesome-dsh-plugins (Radar)](resources/adamplatin-awesome-dsh-plugins.md) | ⭐1,132 | Radar index repo: auto-scanning all discovered dsh plugin candidates with an evidence-based compatibility matrix. | ✅ active |
 | 4 | [awesome-deepseek-harness](resources/awesome-deepseek-harness.md) | ⭐924 | Curated guide to DeepSeek Harness (dsh) and its best community plugins | ✅ active |
 | 5 | [awesome-deepseek-harness (0xsline)](resources/0xsline-awesome-deepseek-harness.md) | ⭐679 | Curated DSH ecosystem directory: plugins, tools and infrastructure from dsh-external/hub and the public dsh-plugin topic. | ✅ active |
-| 6 | [awesome-dsh-plugin (bruc3van)](resources/bruc3van-awesome-dsh-plugin.md) | ⭐202 | Find the right DSH plugin in 30 seconds: what problem each plugin solves, who it is for and where to start. | ✅ active |
+| 6 | [awesome-dsh-plugin (bruc3van)](resources/bruc3van-awesome-dsh-plugin.md) | ⭐203 | Find the right DSH plugin in 30 seconds: what problem each plugin solves, who it is for and where to start. | ✅ active |
 | 7 | [notes (zhaoolee)](resources/zhaoolee-notes.md) | ⭐144 | Open-source Smartisan Notes clone: Docker private deployment, skill invocation, dsh plugin support and one-click WeChat-format export. | ✅ active |
 | 8 | [awesome-deepseek-harness (Dominic789654)](resources/dominic-awesome.md) | ⭐118 | Curated list of plugins, skills, MCP servers, patch/profile layers, orchestrators and UIs for DeepSeek Harness. | ✅ active |
-| 9 | [Awesome-DeepSeek-Harness-Plugins](resources/zhiyuan-fan-awesome.md) | ⭐117 | Curated list of DeepSeek Harness plugins. | ✅ active |
+| 9 | [Awesome-DeepSeek-Harness-Plugins](resources/zhiyuan-fan-awesome.md) | ⭐118 | Curated list of DeepSeek Harness plugins. | ✅ active |
 | 10 | [awesome-deepseek-harness (libukai)](resources/libukai-awesome.md) | ⭐109 | Ultimate guide: quick start, resources, curated plugins and practical tools. | ✅ active |
 
 ## Complete list (38)
@@ -37,15 +37,15 @@ keywords: "deepseek harness, dsh, awesome lists registries, plugin, awesome"
 
 | Project | Stars | Description | Status |
 |---|---|---|---|
-| [awesome-dsh-plugin](resources/awesome-dsh-plugin-org.md) | ⭐7,371 | Large curated list of installable DSH plugins (bilingual). | ✅ active |
+| [awesome-dsh-plugin](resources/awesome-dsh-plugin-org.md) | ⭐7,380 | Large curated list of installable DSH plugins (bilingual). | ✅ active |
 | [awesome-deepseek-agent (official)](resources/awesome-deepseek-agent.md) | ⭐5,906 | Official curated guides for integrating DeepSeek models into agent/coding-assistant tools (AstrBot, Cherry Studio, Claude Code, Codex, DeepSeek-TUI, Reasonix and more). | ✅ active |
-| [awesome-dsh-plugins (Radar)](resources/adamplatin-awesome-dsh-plugins.md) | ⭐1,131 | Radar index repo: auto-scanning all discovered dsh plugin candidates with an evidence-based compatibility matrix. | ✅ active |
+| [awesome-dsh-plugins (Radar)](resources/adamplatin-awesome-dsh-plugins.md) | ⭐1,132 | Radar index repo: auto-scanning all discovered dsh plugin candidates with an evidence-based compatibility matrix. | ✅ active |
 | [awesome-deepseek-harness](resources/awesome-deepseek-harness.md) | ⭐924 | Curated guide to DeepSeek Harness (dsh) and its best community plugins | ✅ active |
 | [awesome-deepseek-harness (0xsline)](resources/0xsline-awesome-deepseek-harness.md) | ⭐679 | Curated DSH ecosystem directory: plugins, tools and infrastructure from dsh-external/hub and the public dsh-plugin topic. | ✅ active |
-| [awesome-dsh-plugin (bruc3van)](resources/bruc3van-awesome-dsh-plugin.md) | ⭐202 | Find the right DSH plugin in 30 seconds: what problem each plugin solves, who it is for and where to start. | ✅ active |
+| [awesome-dsh-plugin (bruc3van)](resources/bruc3van-awesome-dsh-plugin.md) | ⭐203 | Find the right DSH plugin in 30 seconds: what problem each plugin solves, who it is for and where to start. | ✅ active |
 | [notes (zhaoolee)](resources/zhaoolee-notes.md) | ⭐144 | Open-source Smartisan Notes clone: Docker private deployment, skill invocation, dsh plugin support and one-click WeChat-format export. | ✅ active |
 | [awesome-deepseek-harness (Dominic789654)](resources/dominic-awesome.md) | ⭐118 | Curated list of plugins, skills, MCP servers, patch/profile layers, orchestrators and UIs for DeepSeek Harness. | ✅ active |
-| [Awesome-DeepSeek-Harness-Plugins](resources/zhiyuan-fan-awesome.md) | ⭐117 | Curated list of DeepSeek Harness plugins. | ✅ active |
+| [Awesome-DeepSeek-Harness-Plugins](resources/zhiyuan-fan-awesome.md) | ⭐118 | Curated list of DeepSeek Harness plugins. | ✅ active |
 | [awesome-deepseek-harness (libukai)](resources/libukai-awesome.md) | ⭐109 | Ultimate guide: quick start, resources, curated plugins and practical tools. | ✅ active |
 | [awesome-dsh-plugin](resources/awesome-dsh-plugin.md) | ⭐75 | Awesome DeepSeek Harness (DSH) Plugin | ✅ active |
 | [zat-dsh-engine](resources/zat-dsh-engine.md) | ⭐70 | Visual plugin marketplace for DeepSeek Harness — browse, search and install community plugins | ✅ active |

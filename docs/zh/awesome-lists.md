@@ -9,25 +9,25 @@ keywords: "deepseek harness, dsh, awesome lists registries, plugin, awesome"
 
 | # | 项目 | 增长 | 星数 | 说明 |
 |---|---|---|---|---|
-| 1 | [awesome-dsh-plugins (Radar)](resources/adamplatin-awesome-dsh-plugins.md) | ⬆️ +95 | ⭐1,131 | 雷达索引仓库：自动扫描发现的所有 dsh 插件候选，带证据驱动的兼容性矩阵。 |
-| 2 | [awesome-dsh-plugin (bruc3van)](resources/bruc3van-awesome-dsh-plugin.md) | ⬆️ +29 | ⭐202 | 用 30 秒找到适合你的 DSH 插件：不仅列仓库，还说明插件解决什么问题、适合谁、从哪开始。 |
-| 3 | [Awesome-DeepSeek-Harness-Plugins](resources/zhiyuan-fan-awesome.md) | ⬆️ +29 | ⭐117 | DeepSeek Harness 插件精选列表。 |
-| 4 | [awesome-deepseek-harness (libukai)](resources/libukai-awesome.md) | ⬆️ +24 | ⭐109 | 终极指南：快速入门、资源推荐、精选插件与实用工具。 |
-| 5 | [awesome-deepseek-agent (official)](resources/awesome-deepseek-agent.md) | ⬆️ +23 | ⭐5,906 | 官方精选：将 DeepSeek 模型集成到主流 Agent/编码助手工具的指南（AstrBot、Cherry Studio、Claude Code、Codex、DeepSeek-TUI、Reasonix 等）。 |
+| 1 | [awesome-deepseek-harness (libukai)](resources/libukai-awesome.md) | ⬆️ +24 | ⭐109 | 终极指南：快速入门、资源推荐、精选插件与实用工具。 |
+| 2 | [awesome-deepseek-agent (official)](resources/awesome-deepseek-agent.md) | ⬆️ +23 | ⭐5,906 | 官方精选：将 DeepSeek 模型集成到主流 Agent/编码助手工具的指南（AstrBot、Cherry Studio、Claude Code、Codex、DeepSeek-TUI、Reasonix 等）。 |
+| 3 | [zat-dsh-engine](resources/zat-dsh-engine.md) | ⬆️ +15 | ⭐70 | Visual plugin marketplace for DeepSeek Harness — browse, search and install community plugins |
+| 4 | [oh-my-dsh](resources/oh-my-dsh-dup2.md) | ⬆️ +13 | ⭐53 | 🐳 DeepSeek Harness 插件聚合社区 — 自动同步 dsh-plugin 生态 · 精选目录 · 每 8 小时自动维护 | Oh-My-DSH: a community-maintained catalog of DeepSeek Harness plugins, auto-synced from the dsh-plugin topic |
+| 5 | [sandbase-skills](resources/sandbase-skills.md) | ⬆️ +10 | ⭐14 | 88 installable open-source Agent Skills for research, social intelligence, marketing, and business workflows—compatible with Codex, Claude Code, Cursor, Gemini CLI, and DeepSeek Harness. |
 
 ## 🔥 Top 10
 
 | # | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|---|
-| 1 | [awesome-dsh-plugin](resources/awesome-dsh-plugin-org.md) | ⭐7,371 | 大型 DSH 插件精选目录（双语）。 | ✅ 活跃 |
+| 1 | [awesome-dsh-plugin](resources/awesome-dsh-plugin-org.md) | ⭐7,380 | 大型 DSH 插件精选目录（双语）。 | ✅ 活跃 |
 | 2 | [awesome-deepseek-agent (official)](resources/awesome-deepseek-agent.md) | ⭐5,906 | 官方精选：将 DeepSeek 模型集成到主流 Agent/编码助手工具的指南（AstrBot、Cherry Studio、Claude Code、Codex、DeepSeek-TUI、Reasonix 等）。 | ✅ 活跃 |
-| 3 | [awesome-dsh-plugins (Radar)](resources/adamplatin-awesome-dsh-plugins.md) | ⭐1,131 | 雷达索引仓库：自动扫描发现的所有 dsh 插件候选，带证据驱动的兼容性矩阵。 | ✅ 活跃 |
+| 3 | [awesome-dsh-plugins (Radar)](resources/adamplatin-awesome-dsh-plugins.md) | ⭐1,132 | 雷达索引仓库：自动扫描发现的所有 dsh 插件候选，带证据驱动的兼容性矩阵。 | ✅ 活跃 |
 | 4 | [awesome-deepseek-harness](resources/awesome-deepseek-harness.md) | ⭐924 | Curated guide to DeepSeek Harness (dsh) and its best community plugins | ✅ 活跃 |
 | 5 | [awesome-deepseek-harness (0xsline)](resources/0xsline-awesome-deepseek-harness.md) | ⭐679 | DSH 生态目录：来自 dsh-external/hub 与公开 dsh-plugin 主题的插件、工具与基础设施精选。 | ✅ 活跃 |
-| 6 | [awesome-dsh-plugin (bruc3van)](resources/bruc3van-awesome-dsh-plugin.md) | ⭐202 | 用 30 秒找到适合你的 DSH 插件：不仅列仓库，还说明插件解决什么问题、适合谁、从哪开始。 | ✅ 活跃 |
+| 6 | [awesome-dsh-plugin (bruc3van)](resources/bruc3van-awesome-dsh-plugin.md) | ⭐203 | 用 30 秒找到适合你的 DSH 插件：不仅列仓库，还说明插件解决什么问题、适合谁、从哪开始。 | ✅ 活跃 |
 | 7 | [notes (zhaoolee)](resources/zhaoolee-notes.md) | ⭐144 | 开源版锤子便签：一键 Docker 私有化部署、skill 调用、dsh plugin 支持、一键生成公众号格式。 | ✅ 活跃 |
 | 8 | [awesome-deepseek-harness (Dominic789654)](resources/dominic-awesome.md) | ⭐118 | DSH 插件、技能、MCP 服务器、patch/profile 层、编排器与 UI 精选列表。 | ✅ 活跃 |
-| 9 | [Awesome-DeepSeek-Harness-Plugins](resources/zhiyuan-fan-awesome.md) | ⭐117 | DeepSeek Harness 插件精选列表。 | ✅ 活跃 |
+| 9 | [Awesome-DeepSeek-Harness-Plugins](resources/zhiyuan-fan-awesome.md) | ⭐118 | DeepSeek Harness 插件精选列表。 | ✅ 活跃 |
 | 10 | [awesome-deepseek-harness (libukai)](resources/libukai-awesome.md) | ⭐109 | 终极指南：快速入门、资源推荐、精选插件与实用工具。 | ✅ 活跃 |
 
 ## 完整列表（38）
@@ -37,15 +37,15 @@ keywords: "deepseek harness, dsh, awesome lists registries, plugin, awesome"
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
-| [awesome-dsh-plugin](resources/awesome-dsh-plugin-org.md) | ⭐7,371 | 大型 DSH 插件精选目录（双语）。 | ✅ 活跃 |
+| [awesome-dsh-plugin](resources/awesome-dsh-plugin-org.md) | ⭐7,380 | 大型 DSH 插件精选目录（双语）。 | ✅ 活跃 |
 | [awesome-deepseek-agent (official)](resources/awesome-deepseek-agent.md) | ⭐5,906 | 官方精选：将 DeepSeek 模型集成到主流 Agent/编码助手工具的指南（AstrBot、Cherry Studio、Claude Code、Codex、DeepSeek-TUI、Reasonix 等）。 | ✅ 活跃 |
-| [awesome-dsh-plugins (Radar)](resources/adamplatin-awesome-dsh-plugins.md) | ⭐1,131 | 雷达索引仓库：自动扫描发现的所有 dsh 插件候选，带证据驱动的兼容性矩阵。 | ✅ 活跃 |
+| [awesome-dsh-plugins (Radar)](resources/adamplatin-awesome-dsh-plugins.md) | ⭐1,132 | 雷达索引仓库：自动扫描发现的所有 dsh 插件候选，带证据驱动的兼容性矩阵。 | ✅ 活跃 |
 | [awesome-deepseek-harness](resources/awesome-deepseek-harness.md) | ⭐924 | Curated guide to DeepSeek Harness (dsh) and its best community plugins | ✅ 活跃 |
 | [awesome-deepseek-harness (0xsline)](resources/0xsline-awesome-deepseek-harness.md) | ⭐679 | DSH 生态目录：来自 dsh-external/hub 与公开 dsh-plugin 主题的插件、工具与基础设施精选。 | ✅ 活跃 |
-| [awesome-dsh-plugin (bruc3van)](resources/bruc3van-awesome-dsh-plugin.md) | ⭐202 | 用 30 秒找到适合你的 DSH 插件：不仅列仓库，还说明插件解决什么问题、适合谁、从哪开始。 | ✅ 活跃 |
+| [awesome-dsh-plugin (bruc3van)](resources/bruc3van-awesome-dsh-plugin.md) | ⭐203 | 用 30 秒找到适合你的 DSH 插件：不仅列仓库，还说明插件解决什么问题、适合谁、从哪开始。 | ✅ 活跃 |
 | [notes (zhaoolee)](resources/zhaoolee-notes.md) | ⭐144 | 开源版锤子便签：一键 Docker 私有化部署、skill 调用、dsh plugin 支持、一键生成公众号格式。 | ✅ 活跃 |
 | [awesome-deepseek-harness (Dominic789654)](resources/dominic-awesome.md) | ⭐118 | DSH 插件、技能、MCP 服务器、patch/profile 层、编排器与 UI 精选列表。 | ✅ 活跃 |
-| [Awesome-DeepSeek-Harness-Plugins](resources/zhiyuan-fan-awesome.md) | ⭐117 | DeepSeek Harness 插件精选列表。 | ✅ 活跃 |
+| [Awesome-DeepSeek-Harness-Plugins](resources/zhiyuan-fan-awesome.md) | ⭐118 | DeepSeek Harness 插件精选列表。 | ✅ 活跃 |
 | [awesome-deepseek-harness (libukai)](resources/libukai-awesome.md) | ⭐109 | 终极指南：快速入门、资源推荐、精选插件与实用工具。 | ✅ 活跃 |
 | [awesome-dsh-plugin](resources/awesome-dsh-plugin.md) | ⭐75 | Awesome DeepSeek Harness (DSH) Plugin | ✅ 活跃 |
 | [zat-dsh-engine](resources/zat-dsh-engine.md) | ⭐70 | Visual plugin marketplace for DeepSeek Harness — browse, search and install community plugins | ✅ 活跃 |

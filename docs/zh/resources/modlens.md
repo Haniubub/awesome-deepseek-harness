@@ -5,7 +5,7 @@ keywords: "modlens, vision, plugin, multimodal, deepseek harness, dsh"
 ---
 # modlens
 
-> ⭐ 2,723 · ✅ 活跃 · 插件
+> ⭐ 2,726 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

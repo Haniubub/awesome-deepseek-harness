@@ -5,7 +5,7 @@ keywords: "deepseek-harness-studio, desktop, client, coding, deepseek harness, d
 ---
 # deepseek-harness-studio
 
-> ⭐ 223 · ✅ active · client
+> ⭐ 224 · ✅ active · client
 
 ## One-liner
 

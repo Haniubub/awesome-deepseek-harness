@@ -33,10 +33,10 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 4021,
+    "stars": 4023,
     "_source_description": "Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.",
     "_updated": "2026-08-17",
-    "_stars_prev": 4019,
+    "_stars_prev": 4021,
     "growth": 2,
     "subcategory": "skins-themes"
   },
@@ -72,11 +72,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 3388,
+    "stars": 3389,
     "_source_description": "Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99)",
     "_updated": "2026-08-17",
-    "_stars_prev": 3386,
-    "growth": 2,
+    "_stars_prev": 3388,
+    "growth": 1,
     "subcategory": "vision-tools"
   },
   {
@@ -93,11 +93,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 2723,
+    "stars": 2726,
     "_source_description": "The first vision plugin for DeepSeek Harness, and the vision bridge for every text-only coding agent. Paste an image, get structured JSON evidence (OCR, layout, semantics). | 全网最强 DeepSeek Harness 外挂视觉插件，为 DeepSeek、GLM 等纯文本模型外挂视觉能力，粘贴图片即得结构化 JSON 证据（OCR、版面、语义）。",
     "_updated": "2026-08-17",
-    "_stars_prev": 2258,
-    "growth": 465,
+    "_stars_prev": 2723,
+    "growth": 3,
     "subcategory": "vision-tools"
   },
   {
@@ -116,12 +116,30 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 1904,
+    "stars": 1907,
     "_source_description": "开放的侧边栏底座，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/Git/子代理页面",
     "_updated": "2026-08-17",
-    "_stars_prev": 1901,
+    "_stars_prev": 1904,
     "growth": 3,
     "subcategory": "generative-ui"
+  },
+  {
+    "id": "tokentracker",
+    "name": "TokenTracker",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/xiufengsun/TokenTracker",
+    "description": "Local-first AI token usage & cost tracker for 31 coding tools including Claude Code, Codex, Cursor, Gemini & DeepSeek Harness.",
+    "description_zh": "本地优先的 AI Token 用量与费用追踪器，支持 31 款编码工具（含 Claude Code、Codex、Cursor、Gemini 与 DeepSeek Harness）。",
+    "capabilities": [
+      "observability"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1346,
+    "subcategory": "cost-billing",
+    "_source_description": "Local-first AI token usage & cost tracker for 31 coding tools incl. Claude Code, Codex, Cursor, Gemini & DeepSeek Harness—with native apps. Never reads prompts.",
+    "_updated": "2026-08-17"
   },
   {
     "id": "dsh-deep-whale",
@@ -136,11 +154,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 1224,
+    "stars": 1225,
     "_source_description": "DSH Web 鲸鱼娘皮肤系列(深海女仆工坊 maid-atelier)——CC BY-NC-SA 4.0",
     "_updated": "2026-08-17",
-    "_stars_prev": 1221,
-    "growth": 3,
+    "_stars_prev": 1224,
+    "growth": 1,
     "subcategory": "skins-themes"
   },
   {
@@ -179,10 +197,10 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 603,
+    "stars": 604,
     "_source_description": "让纯文本模型更好地做视觉任务的DeepSeek Harness插件：带意图的图片问答、长截图 OCR、UI 还原等｜DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, long-screenshot OCR, UI restoration, grounding, pixel diff, Artifacts, and Web UI.",
     "_updated": "2026-08-17",
-    "_stars_prev": 602,
+    "_stars_prev": 603,
     "growth": 1,
     "subcategory": "vision-tools"
   },
@@ -200,11 +218,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 593,
+    "stars": 597,
     "_source_description": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots). One-command install, no Python, image turns work like ordinary tool-calling turns.",
     "_updated": "2026-08-17",
-    "_stars_prev": 591,
-    "growth": 2,
+    "_stars_prev": 593,
+    "growth": 4,
     "subcategory": "vision-tools"
   },
   {
@@ -704,11 +722,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 71,
+    "stars": 70,
     "_source_description": "Three-tier memory control plane for DeepSeek Harness: persistent runtime context, searchable project documents, pluggable long-term memory, smart routing, supervised agent workflows, WebUI, and headless tools.",
     "_updated": "2026-08-17",
-    "_stars_prev": 48,
-    "growth": 23,
+    "_stars_prev": 71,
+    "growth": 0,
     "subcategory": "memory-systems"
   },
   {
@@ -724,12 +742,12 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 71,
+    "stars": 70,
     "_source_description": "DeepSeek Harness Session Cost Statistics & OpenCode Go Quota Display, DS Official Balance Display, Codex-like Token Heatmap Plugin: Current Session Cost, Daily Cost, Budget Limit Display, History Records, Peak/off-peak pricing hours display, Synced with Official Pricing",
     "_updated": "2026-08-17",
     "subcategory": "vision-tools",
-    "_stars_prev": 45,
-    "growth": 26
+    "_stars_prev": 71,
+    "growth": 0
   },
   {
     "id": "dsh-annotation",
@@ -940,11 +958,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 52,
+    "stars": 53,
     "_source_description": "Kun Like 桌宠 —— DeepSeek Harness 桌面宠物插件：右下角小坤宠随 Agent 工作状态切换 9 种动作，任务完成播放「你干嘛~哎哟」",
     "_updated": "2026-08-14",
-    "_stars_prev": 44,
-    "growth": 8
+    "_stars_prev": 52,
+    "growth": 1
   },
   {
     "id": "dockyard-dsh",
@@ -1200,10 +1218,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 29,
+    "stars": 28,
     "_updated": "2026-08-13",
-    "_stars_prev": 28,
-    "growth": 1,
+    "_stars_prev": 29,
+    "growth": 0,
     "subcategory": "skins-themes"
   },
   {
@@ -1621,12 +1639,12 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 18,
+    "stars": 19,
     "_source_description": "A DeepSeek Harness (dsh) web plugin that replaces the \"Deep diving…\" turn-status label with phase-aware, typewriter-animated, rainbow-gradient phrases — all configurable from a JSON file.",
     "_updated": "2026-08-15",
     "subcategory": "status-stats",
-    "_stars_prev": 13,
-    "growth": 5
+    "_stars_prev": 18,
+    "growth": 1
   },
   {
     "id": "dsh-annotation-office",
@@ -1915,6 +1933,27 @@
     "growth": 2
   },
   {
+    "id": "dsh-recall-plugin",
+    "name": "dsh-recall-plugin",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/limbo947/dsh-recall-plugin",
+    "description": "DSH 消息撤回插件：回到发送该消息时的状态 DSH Message Recall Plugin: Return to the state when the message was sent",
+    "description_zh": "DSH 消息撤回插件：回到发送该消息时的状态 DSH Message Recall Plugin: Return to the state when the message was sent",
+    "capabilities": [
+      "coding",
+      "context"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 14,
+    "_source_description": "DSH 消息撤回插件：回到发送该消息时的状态 DSH Message Recall Plugin: Return to the state when the message was sent",
+    "_updated": "2026-08-17",
+    "subcategory": "memory-systems",
+    "_stars_prev": 13,
+    "growth": 1
+  },
+  {
     "id": "dsh-gomoku",
     "name": "dsh-gomoku",
     "type": "plugin",
@@ -1950,27 +1989,6 @@
     "_updated": "2026-08-14",
     "_stars_prev": 7,
     "growth": 6
-  },
-  {
-    "id": "dsh-recall-plugin",
-    "name": "dsh-recall-plugin",
-    "type": "plugin",
-    "category": "memory",
-    "repository": "https://github.com/limbo947/dsh-recall-plugin",
-    "description": "DSH 消息撤回插件：回到发送该消息时的状态 DSH Message Recall Plugin: Return to the state when the message was sent",
-    "description_zh": "DSH 消息撤回插件：回到发送该消息时的状态 DSH Message Recall Plugin: Return to the state when the message was sent",
-    "capabilities": [
-      "coding",
-      "context"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 14,
-    "_source_description": "DSH 消息撤回插件：回到发送该消息时的状态 DSH Message Recall Plugin: Return to the state when the message was sent",
-    "_updated": "2026-08-17",
-    "subcategory": "memory-systems",
-    "_stars_prev": 13,
-    "growth": 1
   },
   {
     "id": "dsh-plugin-guard",
@@ -2131,6 +2149,25 @@
     "_stars_prev": 8,
     "growth": 3,
     "subcategory": "sidebar-panels"
+  },
+  {
+    "id": "dsh-passwords",
+    "name": "dsh-passwords",
+    "type": "plugin",
+    "category": "discovery",
+    "repository": "https://github.com/slywalker2006/dsh-passwords",
+    "description": "dsh-passwords: DeepSeek Harness login gateway - first-run setup, at-rest encryption, brute-force lockout, audit log, HTTPS",
+    "description_zh": "dsh-passwords: DeepSeek Harness login gateway - first-run setup, at-rest encryption, brute-force lockout, audit log, HTTPS",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 11,
+    "_source_description": "Server-grade gateway that turns DeepSeek Harness into a multi-tenant platform: remote access + auto HTTPS, subuser permissions & quotas, sandbox enforcement, encrypted auth, audit log.",
+    "_updated": "2026-08-17",
+    "_stars_prev": 10,
+    "growth": 1
   },
   {
     "id": "deepseek-harness-vision-tools",
@@ -2306,25 +2343,6 @@
     "growth": 4
   },
   {
-    "id": "dsh-passwords",
-    "name": "dsh-passwords",
-    "type": "plugin",
-    "category": "discovery",
-    "repository": "https://github.com/slywalker2006/dsh-passwords",
-    "description": "dsh-passwords: DeepSeek Harness login gateway - first-run setup, at-rest encryption, brute-force lockout, audit log, HTTPS",
-    "description_zh": "dsh-passwords: DeepSeek Harness login gateway - first-run setup, at-rest encryption, brute-force lockout, audit log, HTTPS",
-    "capabilities": [
-      "coding"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 11,
-    "_source_description": "Server-grade gateway that turns DeepSeek Harness into a multi-tenant platform: remote access + auto HTTPS, subuser permissions & quotas, sandbox enforcement, encrypted auth, audit log.",
-    "_updated": "2026-08-17",
-    "_stars_prev": 10,
-    "growth": 1
-  },
-  {
     "id": "dsh-deepseek-billing",
     "name": "DeepSeek-Harness-billing-plugin",
     "type": "plugin",
@@ -2477,6 +2495,27 @@
     "subcategory": "vision-tools",
     "_stars_prev": 6,
     "growth": 3
+  },
+  {
+    "id": "dsh-memento",
+    "name": "dsh-memento",
+    "type": "plugin",
+    "category": "memory",
+    "repository": "https://github.com/PerryLink/dsh-memento",
+    "description": "Bounded, layered, approval-gated and auditable cross-session memory with frozen snapshot injection.",
+    "description_zh": "有界分层、审批门控、可审计的跨会话记忆，支持冻结快照注入。",
+    "capabilities": [
+      "memory",
+      "security"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 17,
+    "_source_description": "Bounded, layered, approval-gated, auditable cross-session memory for DeepSeek Harness (capability seam: ctx.memory + SQLite provider + memory tool + frozen snapshot injection)",
+    "_updated": "2026-08-17",
+    "subcategory": "memory-systems",
+    "_stars_prev": 9,
+    "growth": 8
   },
   {
     "id": "dsh-session-health",
@@ -2954,6 +2993,26 @@
     "subcategory": "files-import"
   },
   {
+    "id": "zotero-harvest",
+    "name": "zotero-harvest",
+    "type": "plugin",
+    "category": "search",
+    "repository": "https://github.com/Fisfzy/zotero-harvest",
+    "description": "Zotero 文献采集入库插件（DSH external plugin）：多源检索（OpenAlex/arXiv/Crossref/Europe PMC/Semantic Scholar）+ OA 下载链接解析（Unpaywall）+ 充分性审计 + 入库本地 Zotero + 触发 zotero-wave-rag 重建",
+    "description_zh": "Zotero 文献采集入库插件（DSH external plugin）：多源检索（OpenAlex/arXiv/Crossref/Europe PMC/Semantic Scholar）+ OA 下载链接解析（Unpaywall）+ 充分性审计 + 入库本地 Zotero + 触发 zotero-wave-rag 重建",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6,
+    "_source_description": "Zotero 文献采集入库插件（DSH external plugin）：多源检索（OpenAlex/arXiv/Crossref/Europe PMC/Semantic Scholar）+ OA 下载链接解析（Unpaywall）+ 充分性审计 + 入库本地 Zotero + 触发 zotero-wave-rag 重建",
+    "_updated": "2026-08-08",
+    "subcategory": "web-search",
+    "_stars_prev": 5,
+    "growth": 1
+  },
+  {
     "id": "nowledge-mem-deepseek-harness",
     "name": "nowledge-mem-deepseek-harness",
     "type": "plugin",
@@ -3006,26 +3065,6 @@
     "_source_description": "DSH 插件：基于 @firecrawl/anydoc 将 Word、PPT、Excel、PDF、EPUB、CSV 等文档转换为 GitHub-Flavored Markdown",
     "_updated": "2026-08-14",
     "subcategory": "code-testing"
-  },
-  {
-    "id": "zotero-harvest",
-    "name": "zotero-harvest",
-    "type": "plugin",
-    "category": "search",
-    "repository": "https://github.com/Fisfzy/zotero-harvest",
-    "description": "Zotero 文献采集入库插件（DSH external plugin）：多源检索（OpenAlex/arXiv/Crossref/Europe PMC/Semantic Scholar）+ OA 下载链接解析（Unpaywall）+ 充分性审计 + 入库本地 Zotero + 触发 zotero-wave-rag 重建",
-    "description_zh": "Zotero 文献采集入库插件（DSH external plugin）：多源检索（OpenAlex/arXiv/Crossref/Europe PMC/Semantic Scholar）+ OA 下载链接解析（Unpaywall）+ 充分性审计 + 入库本地 Zotero + 触发 zotero-wave-rag 重建",
-    "capabilities": [
-      "coding"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 6,
-    "_source_description": "Zotero 文献采集入库插件（DSH external plugin）：多源检索（OpenAlex/arXiv/Crossref/Europe PMC/Semantic Scholar）+ OA 下载链接解析（Unpaywall）+ 充分性审计 + 入库本地 Zotero + 触发 zotero-wave-rag 重建",
-    "_updated": "2026-08-08",
-    "subcategory": "web-search",
-    "_stars_prev": 5,
-    "growth": 1
   },
   {
     "id": "dsh-split-panes",
@@ -3439,6 +3478,26 @@
     "growth": 4
   },
   {
+    "id": "xgone-dsh-remote",
+    "name": "xgone/dsh-remote",
+    "type": "plugin",
+    "category": "security",
+    "repository": "https://github.com/xgone/dsh-remote",
+    "description": "Remote access & authentication for DeepSeek Harness web UI: account/password login gate, MFA (TOTP), signed session cookies, role-based access, in-browser directory picker, and a Settings page for account management.",
+    "description_zh": "让 DeepSeek Harness 可以被安全地远程访问：账号密码认证 + MFA（TOTP）登录门禁、签名会话 Cookie、角色权限、浏览器内目录选择器、账号管理设置页。",
+    "capabilities": [
+      "security",
+      "ui"
+    ],
+    "status": "experimental",
+    "verified": false,
+    "stars": 4,
+    "_stars_prev": 0,
+    "growth": 4,
+    "_source_description": "Remote access for DeepSeek Harness: account/password auth + MFA (TOTP) login gate, signed session cookies, role-based access, in-browser directory picker, and a Settings page for account management.",
+    "_updated": "2026-08-17"
+  },
+  {
     "id": "dsh-webbridge",
     "name": "dsh-webbridge",
     "type": "plugin",
@@ -3584,27 +3643,6 @@
     "_source_description": "DSH Web 预测回复插件：AI 回复后在输入框上方生成可点击填入草稿的下一步消息候选",
     "_updated": "2026-08-14",
     "subcategory": "generative-ui"
-  },
-  {
-    "id": "dsh-memento",
-    "name": "dsh-memento",
-    "type": "plugin",
-    "category": "memory",
-    "repository": "https://github.com/PerryLink/dsh-memento",
-    "description": "Bounded, layered, approval-gated and auditable cross-session memory with frozen snapshot injection.",
-    "description_zh": "有界分层、审批门控、可审计的跨会话记忆，支持冻结快照注入。",
-    "capabilities": [
-      "memory",
-      "security"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 9,
-    "_source_description": "Bounded, layered, approval-gated, auditable cross-session memory for DeepSeek Harness (capability seam: ctx.memory + SQLite provider + memory tool + frozen snapshot injection)",
-    "_updated": "2026-08-17",
-    "subcategory": "memory-systems",
-    "_stars_prev": 3,
-    "growth": 6
   },
   {
     "id": "dsh-telemetry-redactor",
@@ -3993,6 +4031,47 @@
     "growth": 2
   },
   {
+    "id": "dsh-vision-tools",
+    "name": "dsh-vision-tools",
+    "type": "plugin",
+    "category": "vision",
+    "repository": "https://github.com/moon09300731/dsh-vision-tools",
+    "description": "Full vision-capability bundle for DeepSeek Harness: a vision_understand tool (OpenAI-compatible vision APIs, free Zhipu GLM-4V-Flash by default) plus paste/drag-and-drop/button entry points for image recognition.",
+    "description_zh": "DeepSeek Harness 视觉能力全家桶：vision_understand 工具（OpenAI 兼容视觉 API，默认免费智谱 GLM-4V-Flash）+ 粘贴/拖拽/按钮三入口识图。",
+    "capabilities": [
+      "multimodal",
+      "vision"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2,
+    "_source_description": "DeepSeek Harness 视觉能力全家桶：vision_understand 工具 + 粘贴/拖拽/按钮三入口识图",
+    "_updated": "2026-08-17",
+    "_stars_prev": 1,
+    "growth": 1,
+    "subcategory": "vision-tools"
+  },
+  {
+    "id": "dsh-approval-gate",
+    "name": "dsh-approval-gate",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/moon09300731/dsh-approval-gate",
+    "description": "Risk-gated approval automation for DeepSeek Harness: flash pre-classifies whether a write/command is irreversible — safe operations are auto-approved, dangerous ones are escalated to human approval (fail-safe).",
+    "description_zh": "DeepSeek Harness 自动审批门控：Flash 预判写入/命令是否不可回补，安全操作自动批准、危险操作转人工（fail-safe）。",
+    "capabilities": [
+      "security"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2,
+    "_source_description": "DeepSeek Harness 自动审批门控：Flash 预判不可回补操作，安全自动批准、危险转人工（fail-safe）",
+    "_updated": "2026-08-17",
+    "_stars_prev": 0,
+    "growth": 2,
+    "subcategory": "security-ops"
+  },
+  {
     "id": "dsh-payload-capture",
     "name": "dsh-payload-capture",
     "type": "plugin",
@@ -4234,25 +4313,46 @@
     "growth": 1
   },
   {
-    "id": "dsh-vision-tools",
-    "name": "dsh-vision-tools",
+    "id": "dsh-what-changed",
+    "name": "dsh-what-changed",
     "type": "plugin",
-    "category": "vision",
-    "repository": "https://github.com/moon09300731/dsh-vision-tools",
-    "description": "Full vision-capability bundle for DeepSeek Harness: a vision_understand tool (OpenAI-compatible vision APIs, free Zhipu GLM-4V-Flash by default) plus paste/drag-and-drop/button entry points for image recognition.",
-    "description_zh": "DeepSeek Harness 视觉能力全家桶：vision_understand 工具（OpenAI 兼容视觉 API，默认免费智谱 GLM-4V-Flash）+ 粘贴/拖拽/按钮三入口识图。",
+    "category": "developer",
+    "repository": "https://github.com/sjh9714/dsh-what-changed",
+    "description": "Session-wide file change review in the session header. Lists every file the agent wrote this session with its hunks, counts refused writes separately from changes, and folds from a session projection rather than the on-disk log.",
+    "description_zh": "会话顶栏的整会话改动审阅。列出本次会话 Agent 写过的每个文件与逐处改动，被权限拒绝的写入单独计数不算改动，数据来自 session projection 而非磁盘日志。",
     "capabilities": [
-      "multimodal",
-      "vision"
+      "ui"
     ],
     "status": "active",
     "verified": false,
-    "stars": 2,
-    "_source_description": "DeepSeek Harness 视觉能力全家桶：vision_understand 工具 + 粘贴/拖拽/按钮三入口识图",
-    "_updated": "2026-08-17",
-    "_stars_prev": 1,
+    "stars": 1,
+    "subcategory": "code-testing",
+    "_stars_prev": 0,
     "growth": 1,
-    "subcategory": "vision-tools"
+    "_source_description": "看得见 Agent 到底改了什么。一个会话里所有文件改动，一屏看完再决定要不要提交 | See what the agent actually changed. Every file it wrote this session, in one review panel.",
+    "_updated": "2026-08-17"
+  },
+  {
+    "id": "open-sea-skin",
+    "name": "Open Sea Skin",
+    "type": "plugin",
+    "category": "ui",
+    "subcategory": "skins-themes",
+    "repository": "https://github.com/d-dev0101/open-sea-skin",
+    "description": "Realtime WebGPU ocean skin with controls for waves, daylight, glass opacity and automatic day cycling.",
+    "description_zh": "实时 WebGPU 海洋皮肤，可调节波浪、日光、玻璃不透明度和自动昼夜循环。",
+    "capabilities": [
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1,
+    "install": "dsh plugin --profile web add 'github:d-dev0101/open-sea-skin#v1.2.0'",
+    "license": "MIT",
+    "_stars_prev": 0,
+    "growth": 1,
+    "_source_description": "WebGPU ocean skin for DeepSeek Harness, Chrome and Edge — native plugin, static installer, and new-tab extension.",
+    "_updated": "2026-08-17"
   },
   {
     "id": "dsh-git-branch-switcher",
@@ -4306,88 +4406,6 @@
     "stars": 0,
     "_updated": "2026-08-14",
     "subcategory": "sidebar-panels"
-  },
-  {
-    "id": "xgone-dsh-remote",
-    "name": "xgone/dsh-remote",
-    "type": "plugin",
-    "category": "security",
-    "repository": "https://github.com/xgone/dsh-remote",
-    "description": "Remote access & authentication for DeepSeek Harness web UI: account/password login gate, MFA (TOTP), signed session cookies, role-based access, in-browser directory picker, and a Settings page for account management.",
-    "description_zh": "让 DeepSeek Harness 可以被安全地远程访问：账号密码认证 + MFA（TOTP）登录门禁、签名会话 Cookie、角色权限、浏览器内目录选择器、账号管理设置页。",
-    "capabilities": [
-      "security",
-      "ui"
-    ],
-    "status": "experimental",
-    "verified": false,
-    "stars": 4,
-    "_stars_prev": 0,
-    "growth": 4,
-    "_source_description": "Remote access for DeepSeek Harness: account/password auth + MFA (TOTP) login gate, signed session cookies, role-based access, in-browser directory picker, and a Settings page for account management.",
-    "_updated": "2026-08-17"
-  },
-  {
-    "id": "dsh-approval-gate",
-    "name": "dsh-approval-gate",
-    "type": "plugin",
-    "category": "developer",
-    "repository": "https://github.com/moon09300731/dsh-approval-gate",
-    "description": "Risk-gated approval automation for DeepSeek Harness: flash pre-classifies whether a write/command is irreversible — safe operations are auto-approved, dangerous ones are escalated to human approval (fail-safe).",
-    "description_zh": "DeepSeek Harness 自动审批门控：Flash 预判写入/命令是否不可回补，安全操作自动批准、危险操作转人工（fail-safe）。",
-    "capabilities": [
-      "security"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 2,
-    "_source_description": "DeepSeek Harness 自动审批门控：Flash 预判不可回补操作，安全自动批准、危险转人工（fail-safe）",
-    "_updated": "2026-08-17",
-    "_stars_prev": 0,
-    "growth": 2,
-    "subcategory": "security-ops"
-  },
-  {
-    "id": "dsh-what-changed",
-    "name": "dsh-what-changed",
-    "type": "plugin",
-    "category": "developer",
-    "repository": "https://github.com/sjh9714/dsh-what-changed",
-    "description": "Session-wide file change review in the session header. Lists every file the agent wrote this session with its hunks, counts refused writes separately from changes, and folds from a session projection rather than the on-disk log.",
-    "description_zh": "会话顶栏的整会话改动审阅。列出本次会话 Agent 写过的每个文件与逐处改动，被权限拒绝的写入单独计数不算改动，数据来自 session projection 而非磁盘日志。",
-    "capabilities": [
-      "ui"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 1,
-    "subcategory": "code-testing",
-    "_stars_prev": 0,
-    "growth": 1,
-    "_source_description": "看得见 Agent 到底改了什么。一个会话里所有文件改动，一屏看完再决定要不要提交 | See what the agent actually changed. Every file it wrote this session, in one review panel.",
-    "_updated": "2026-08-17"
-  },
-  {
-    "id": "open-sea-skin",
-    "name": "Open Sea Skin",
-    "type": "plugin",
-    "category": "ui",
-    "subcategory": "skins-themes",
-    "repository": "https://github.com/d-dev0101/open-sea-skin",
-    "description": "Realtime WebGPU ocean skin with controls for waves, daylight, glass opacity and automatic day cycling.",
-    "description_zh": "实时 WebGPU 海洋皮肤，可调节波浪、日光、玻璃不透明度和自动昼夜循环。",
-    "capabilities": [
-      "ui"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 1,
-    "install": "dsh plugin --profile web add 'github:d-dev0101/open-sea-skin#v1.2.0'",
-    "license": "MIT",
-    "_stars_prev": 0,
-    "growth": 1,
-    "_source_description": "WebGPU ocean skin for DeepSeek Harness, Chrome and Edge — native plugin, static installer, and new-tab extension.",
-    "_updated": "2026-08-17"
   },
   {
     "id": "dsh-llm-local-token",

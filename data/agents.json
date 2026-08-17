@@ -13,11 +13,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 2826,
+    "stars": 2827,
     "_source_description": "本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin）",
     "_updated": "2026-08-17",
-    "_stars_prev": 2704,
-    "growth": 122
+    "_stars_prev": 2826,
+    "growth": 1
   },
   {
     "id": "dsh-agent-teams",
@@ -53,11 +53,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 152,
+    "stars": 153,
     "_source_description": "SillyTavern migration and next-generation Agent RP for DSH",
     "_updated": "2026-08-15",
-    "_stars_prev": 140,
-    "growth": 12
+    "_stars_prev": 152,
+    "growth": 1
   },
   {
     "id": "dsh-tianshu-build",

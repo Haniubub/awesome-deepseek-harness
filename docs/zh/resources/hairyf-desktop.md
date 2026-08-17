@@ -5,7 +5,7 @@ keywords: "deepseek-harness-desktop (hairyf), desktop, client, deepseek harness,
 ---
 # deepseek-harness-desktop (hairyf)
 
-> ⭐ 415 · ✅ 活跃 · 客户端
+> ⭐ 416 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

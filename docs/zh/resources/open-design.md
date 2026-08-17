@@ -5,7 +5,7 @@ keywords: "open-design, desktop, client, coding, multi-agent, multimodal, deepse
 ---
 # open-design
 
-> ⭐ 88,135 · ✅ 活跃 · 客户端
+> ⭐ 88,142 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

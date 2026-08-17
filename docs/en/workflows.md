@@ -9,18 +9,18 @@ keywords: "deepseek harness, dsh, workflows automation, plugin, awesome"
 
 | # | Project | Growth | Stars | Description |
 |---|---|---|---|---|
-| 1 | [dsh_workflow](resources/dsh-workflow.md) | ⬆️ +9 | ⭐71 | Brings Claude Code's UltraCode mode to DSH: upgrade one-shot multi-agent dispatch into a generatable, saveable, governable, observable, recoverable workflow layer. |
-| 2 | [dsh-auto-continue](resources/dsh-auto-continue.md) | ⬆️ +5 | ⭐23 | Auto-resumes interrupted DSH Web requests: failure classification, adaptive retry, configurable continue message and browser notifications. |
-| 3 | [dsh-automation](resources/dsh-automation.md) | ⬆️ +4 | ⭐49 | Run coding tasks on a schedule in fresh Agent sessions, managed by the user or the agent itself. |
-| 4 | [dsh-plans](resources/dsh-plans.md) | ⬆️ +4 | ⭐23 | Human-in-the-loop planning preset adapted from prime-plans: researched, reviewed, executed. |
-| 5 | [mstar-harness](resources/mstar-harness.md) | ⬆️ +3 | ⭐49 | Skill-driven harness/loop engineering workflow agent: tune agent loops as a first-class workflow. |
+| 1 | [dsh-auto-continue](resources/dsh-auto-continue.md) | ⬆️ +5 | ⭐23 | Auto-resumes interrupted DSH Web requests: failure classification, adaptive retry, configurable continue message and browser notifications. |
+| 2 | [dsh-automation](resources/dsh-automation.md) | ⬆️ +4 | ⭐49 | Run coding tasks on a schedule in fresh Agent sessions, managed by the user or the agent itself. |
+| 3 | [dsh-plans](resources/dsh-plans.md) | ⬆️ +4 | ⭐23 | Human-in-the-loop planning preset adapted from prime-plans: researched, reviewed, executed. |
+| 4 | [mstar-harness](resources/mstar-harness.md) | ⬆️ +3 | ⭐49 | Skill-driven harness/loop engineering workflow agent: tune agent loops as a first-class workflow. |
+| 5 | [dsh-plugin-spur](resources/dsh-spur.md) | ⬆️ +3 | ⭐6 | Hang a whip in the chat stream: flick it (>2.0 px/ms) to send the agent a 'go work' message. |
 
 ## 🔥 Top 10
 
 | # | Project | Stars | Description | Status |
 |---|---|---|---|---|
-| 1 | [dsh_workflow](resources/dsh-workflow-dup.md) | ⭐71 | 把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层 | ✅ active |
-| 2 | [dsh_workflow](resources/dsh-workflow.md) | ⭐71 | Brings Claude Code's UltraCode mode to DSH: upgrade one-shot multi-agent dispatch into a generatable, saveable, governable, observable, recoverable workflow layer. | ✅ active |
+| 1 | [dsh_workflow](resources/dsh-workflow-dup.md) | ⭐72 | 把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层 | ✅ active |
+| 2 | [dsh_workflow](resources/dsh-workflow.md) | ⭐72 | Brings Claude Code's UltraCode mode to DSH: upgrade one-shot multi-agent dispatch into a generatable, saveable, governable, observable, recoverable workflow layer. | ✅ active |
 | 3 | [dsh-automation](resources/dsh-automation.md) | ⭐49 | Run coding tasks on a schedule in fresh Agent sessions, managed by the user or the agent itself. | ✅ active |
 | 4 | [mstar-harness](resources/mstar-harness.md) | ⭐49 | Skill-driven harness/loop engineering workflow agent: tune agent loops as a first-class workflow. | ✅ active |
 | 5 | [dsh-auto-continue](resources/dsh-auto-continue.md) | ⭐23 | Auto-resumes interrupted DSH Web requests: failure classification, adaptive retry, configurable continue message and browser notifications. | ✅ active |
@@ -37,8 +37,8 @@ keywords: "deepseek harness, dsh, workflows automation, plugin, awesome"
 
 | Project | Stars | Description | Status |
 |---|---|---|---|
-| [dsh_workflow](resources/dsh-workflow-dup.md) | ⭐71 | 把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层 | ✅ active |
-| [dsh_workflow](resources/dsh-workflow.md) | ⭐71 | Brings Claude Code's UltraCode mode to DSH: upgrade one-shot multi-agent dispatch into a generatable, saveable, governable, observable, recoverable workflow layer. | ✅ active |
+| [dsh_workflow](resources/dsh-workflow-dup.md) | ⭐72 | 把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层 | ✅ active |
+| [dsh_workflow](resources/dsh-workflow.md) | ⭐72 | Brings Claude Code's UltraCode mode to DSH: upgrade one-shot multi-agent dispatch into a generatable, saveable, governable, observable, recoverable workflow layer. | ✅ active |
 | [mstar-harness](resources/mstar-harness.md) | ⭐49 | Skill-driven harness/loop engineering workflow agent: tune agent loops as a first-class workflow. | ✅ active |
 | [dsh-plans](resources/dsh-plans.md) | ⭐23 | Human-in-the-loop planning preset adapted from prime-plans: researched, reviewed, executed. | ✅ active |
 | [dsh-inspect](resources/dsh-inspect.md) | ⭐6 | Adversarial checkup → fix → review loop built on the official workflow engine. | ✅ active |

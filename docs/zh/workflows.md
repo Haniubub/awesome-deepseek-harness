@@ -9,18 +9,18 @@ keywords: "deepseek harness, dsh, workflows automation, plugin, awesome"
 
 | # | 项目 | 增长 | 星数 | 说明 |
 |---|---|---|---|---|
-| 1 | [dsh_workflow](resources/dsh-workflow.md) | ⬆️ +9 | ⭐71 | 把 Claude Code 的 UltraCode 模式带给 DSH：将一次性多 Agent 调度升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层。 |
-| 2 | [dsh-auto-continue](resources/dsh-auto-continue.md) | ⬆️ +5 | ⭐23 | 自动恢复中断的请求：失败分类、自适应退避重试、可配置续写消息与浏览器通知。 |
-| 3 | [dsh-automation](resources/dsh-automation.md) | ⬆️ +4 | ⭐49 | 让 Coding 任务按计划在全新 Agent Session 中运行，由用户或 Agent 创建和管理定时任务。 |
-| 4 | [dsh-plans](resources/dsh-plans.md) | ⬆️ +4 | ⭐23 | 从 prime-plans 移植的人机协同规划预设：调研、评审、执行。 |
-| 5 | [mstar-harness](resources/mstar-harness.md) | ⬆️ +3 | ⭐49 | 技能驱动的 Harness/Loop 工程工作流 Agent：把 Agent 循环调优作为一等工作流。 |
+| 1 | [dsh-auto-continue](resources/dsh-auto-continue.md) | ⬆️ +5 | ⭐23 | 自动恢复中断的请求：失败分类、自适应退避重试、可配置续写消息与浏览器通知。 |
+| 2 | [dsh-automation](resources/dsh-automation.md) | ⬆️ +4 | ⭐49 | 让 Coding 任务按计划在全新 Agent Session 中运行，由用户或 Agent 创建和管理定时任务。 |
+| 3 | [dsh-plans](resources/dsh-plans.md) | ⬆️ +4 | ⭐23 | 从 prime-plans 移植的人机协同规划预设：调研、评审、执行。 |
+| 4 | [mstar-harness](resources/mstar-harness.md) | ⬆️ +3 | ⭐49 | 技能驱动的 Harness/Loop 工程工作流 Agent：把 Agent 循环调优作为一等工作流。 |
+| 5 | [dsh-plugin-spur](resources/dsh-spur.md) | ⬆️ +3 | ⭐6 | 聊天流中悬挂皮鞭：甩动鞭梢即向 agent 发送 go work 消息（整活）。 |
 
 ## 🔥 Top 10
 
 | # | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|---|
-| 1 | [dsh_workflow](resources/dsh-workflow-dup.md) | ⭐71 | 把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层 | ✅ 活跃 |
-| 2 | [dsh_workflow](resources/dsh-workflow.md) | ⭐71 | 把 Claude Code 的 UltraCode 模式带给 DSH：将一次性多 Agent 调度升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层。 | ✅ 活跃 |
+| 1 | [dsh_workflow](resources/dsh-workflow-dup.md) | ⭐72 | 把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层 | ✅ 活跃 |
+| 2 | [dsh_workflow](resources/dsh-workflow.md) | ⭐72 | 把 Claude Code 的 UltraCode 模式带给 DSH：将一次性多 Agent 调度升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层。 | ✅ 活跃 |
 | 3 | [dsh-automation](resources/dsh-automation.md) | ⭐49 | 让 Coding 任务按计划在全新 Agent Session 中运行，由用户或 Agent 创建和管理定时任务。 | ✅ 活跃 |
 | 4 | [mstar-harness](resources/mstar-harness.md) | ⭐49 | 技能驱动的 Harness/Loop 工程工作流 Agent：把 Agent 循环调优作为一等工作流。 | ✅ 活跃 |
 | 5 | [dsh-auto-continue](resources/dsh-auto-continue.md) | ⭐23 | 自动恢复中断的请求：失败分类、自适应退避重试、可配置续写消息与浏览器通知。 | ✅ 活跃 |
@@ -37,8 +37,8 @@ keywords: "deepseek harness, dsh, workflows automation, plugin, awesome"
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
-| [dsh_workflow](resources/dsh-workflow-dup.md) | ⭐71 | 把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层 | ✅ 活跃 |
-| [dsh_workflow](resources/dsh-workflow.md) | ⭐71 | 把 Claude Code 的 UltraCode 模式带给 DSH：将一次性多 Agent 调度升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层。 | ✅ 活跃 |
+| [dsh_workflow](resources/dsh-workflow-dup.md) | ⭐72 | 把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层 | ✅ 活跃 |
+| [dsh_workflow](resources/dsh-workflow.md) | ⭐72 | 把 Claude Code 的 UltraCode 模式带给 DSH：将一次性多 Agent 调度升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层。 | ✅ 活跃 |
 | [mstar-harness](resources/mstar-harness.md) | ⭐49 | 技能驱动的 Harness/Loop 工程工作流 Agent：把 Agent 循环调优作为一等工作流。 | ✅ 活跃 |
 | [dsh-plans](resources/dsh-plans.md) | ⭐23 | 从 prime-plans 移植的人机协同规划预设：调研、评审、执行。 | ✅ 活跃 |
 | [dsh-inspect](resources/dsh-inspect.md) | ⭐6 | 发现问题(checkup) → 修复交付(fix) → 质量复查(review) 的对抗式闭环。 | ✅ 活跃 |

@@ -5267,5 +5267,70 @@
   "usage": "",
   "license": "",
   "_done": true
+ },
+ "tokentracker": {
+  "intro": "**English** · [简体中文](./README.zh-CN.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [Deutsch](./README.de.md)",
+  "features": [
+   "🔌 **31 AI tools out of the box** — Claude Code, Codex CLI, Cursor, Gemini CLI, Antigravity, Kiro, OpenCode, OpenClaw, Every Code, Hermes Age",
+   "🏠 **100% local** — Token data never leaves your machine. No account, no API keys.",
+   "🚀 **Zero config** — Hooks auto-install on first run. From zero to dashboard in 30 seconds.",
+   "📊 **Beautiful dashboard** — Usage trends, cost breakdowns by model, GitHub-style activity heatmap, project attribution",
+   "🖥️ **Native desktop app** — macOS menu bar (+ widgets) and Windows system tray, each with an embedded server and the dashboard in a native w",
+   "🐾 **Desktop pet** — A pixel companion powered by real coding activity: it works when you work, celebrates streaks, and sleeps when you rest"
+  ],
+  "install": "npm i -g tokentracker-cli\n\ntokentracker              # Open the dashboard\ntokentracker sync         # Manual sync\ntokentracker status       # Check hook status\ntokentracker status --json     # Machine-readable summary (pipe to jq, ingest from AI agents)\ntokentracker status --light    # Plain ASCII table (CI / SSH, no spinner)\ntokentracker doctor       # Health check",
+  "usage": "# macOS menu bar app (DMG)\nbrew install --cask xiufengsun/tokentracker/tokentracker\n\n# CLI only\nbrew install xiufengsun/tokentracker/tokentracker",
+  "license": "[MIT](LICENSE)",
+  "_done": true
+ },
+ "agentmemory": {
+  "intro": "One command: npx @agentmemory/agentmemory The first run is an interactive setup: pick the agents to wire (Claude Code, Cursor, Codex, Gemini CLI, OpenCode, ...), pick an LLM provider or stay keyless, and it seeds the config, starts the memory server on `:3111`, and offers to install globally so the bare `agentmemory` command works everywhere afterwards. Then prove recall works and give your agent its skills: agentmemory demo --serve # seed sample sessions + watch recall find them npx skills add ",
+  "features": [],
+  "install": "npm install -g @agentmemory/agentmemory\n# If you hit EACCES on macOS/Linux system Node installs:\nsudo npm install -g @agentmemory/agentmemory",
+  "usage": "npx @agentmemory/agentmemory --data-dir ~/.agentmemory-projects/main\nAGENTMEMORY_DATA_DIR=~/.agentmemory-projects/main npx @agentmemory/agentmemory",
+  "license": "",
+  "_done": true
+ },
+ "deeptide": {
+  "intro": "This repository is the **community front door for all three** — docs, FAQ, issue tracking — and is the home of two npm packages: - [`deeptide`](./package.json) — the current TypeScript/Bun CLI (forwards to [`@paean-ai/zero-cli`](https://www.npmjs.com/package/@paean-ai/zero-cli)) - [`deeptide-rs`](./npm/deeptide-rs) — the Rust CLI (ships a native binary via GitHub Releases postinstall) The two CLI packages **do not conflict** — they expose different binary names (`deeptide`/`tide` vs `deeptide-rs",
+  "features": [
+   "**Multi-turn agentic loop** — plan → tool → observe → adapt",
+   "**Streaming responses** — see the model think and act in real time",
+   "**30+ built-in tools** — file I/O, shell, web, tasks, MCP, scheduling, sub-agents",
+   "**25+ slash commands** — `/status`, `/cost`, `/diff`, `/init`, `/permission`, `/hooks`, …",
+   "**Permission modes** — default · accept-edits · plan · bypass",
+   "**Hooks engine** — pre/post tool, user-prompt, session, compaction shell hooks"
+  ],
+  "install": "# bun (recommended, fastest install)\nbun add -g deeptide\n\n# npm (works too; bun is still required at runtime)\nnpm install -g deeptide\n\n# pnpm\npnpm add -g deeptide",
+  "usage": "tide                          # interactive REPL (preferred — short)\ndeeptide                      # same thing, full name\ntide -p \"explain this repo\"   # one-shot mode\ntide --help                   # all options",
+  "license": "MIT — see [`LICENSE`](./LICENSE) and [`NOTICE`](./NOTICE).",
+  "_done": true
+ },
+ "dsh-start": {
+  "intro": "A one-click launcher for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH) Web on macOS. Stop typing `dsh web` by hand — start, stop, and check the server from a single command, or build a Dock-able **DSH.app** that behaves like a normal macOS application.",
+  "features": [
+   "**One command, four modes** — `dsh-start` (foreground, logs visible, Ctrl+C to stop), `dsh-start -d` (daemon, logs to `~/.dsh/web.log`), `ds",
+   "**Duplicate-launch guard** — if the server is already up (default port 3080), it just opens the browser instead of starting a second instanc",
+   "**Auto-open browser** — polls the port after launch and opens `http://127.0.0.1:3080` once ready (both foreground and daemon modes).",
+   "**Normal-app feel (DSH.app)** — `scripts/build-dsh-app.sh` compiles a stay-open launcher app at `~/Applications/DSH.app`: double-click to st",
+   "**Permission-safe by design** — the app delegates the server process to Terminal (which has full file-access context), avoiding the macOS sa"
+  ],
+  "install": "npm install -g dsh-start\ndsh-start            # start in foreground\ndsh-start status     # is it running?",
+  "usage": "git clone https://github.com/zhengjy01/dsh-start.git\ncd dsh-start\n./bin/dsh-start      # same CLI",
+  "license": "[MIT](LICENSE) © zhengjy01",
+  "_done": true
+ },
+ "codewhale": {
+  "intro": "An open source coding agent for your terminal — bring your own model. Codewhale started as a native experience for DeepSeek. It has since grown into a community-driven project: one coding harness that fits a growing international community and supports as many models and providers as possible — open models first, hosted or local, none privileged over the rest. Give it a provider, a model, and a task. It reads your code, edits files, runs commands, and checks its own work, then stops when the job",
+  "features": [
+   "**Any model, any provider — and any mix of them.** DeepSeek, Claude, GPT,",
+   "**A harness you author.** Roles are files you can read and edit — a model, a",
+   "**Read-only until you allow more.** Plan mode can't change files, and",
+   "**Work you can resume.** A fleet records every step to an append-only ledger,"
+  ],
+  "install": "npm install -g codewhale",
+  "usage": "codewhale auth set --provider deepseek   # or export ANTHROPIC_API_KEY, etc.\ncodewhale                                # open the TUI\ncodewhale exec \"fix the failing test\"    # headless\ncodewhale web                            # local browser client on 127.0.0.1",
+  "license": "[MIT](LICENSE). An independent community project, not affili",
+  "_done": true
  }
 }

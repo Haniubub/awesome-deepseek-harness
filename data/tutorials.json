@@ -31,11 +31,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 442,
+    "stars": 443,
     "_source_description": "DeepSeek Harness (dsh) 从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF）",
     "_updated": "2026-08-17",
-    "_stars_prev": 345,
-    "growth": 97
+    "_stars_prev": 442,
+    "growth": 1
   },
   {
     "id": "deepseek-harness-tutorial",
@@ -50,11 +50,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 149,
+    "stars": 150,
     "_source_description": "deepseek harness中文详细学习教程",
     "_updated": "2026-08-13",
-    "_stars_prev": 129,
-    "growth": 20
+    "_stars_prev": 149,
+    "growth": 1
   },
   {
     "id": "dshfind",

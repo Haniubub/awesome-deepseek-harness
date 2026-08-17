@@ -21,6 +21,42 @@
     "growth": 67
   },
   {
+    "id": "codewhale",
+    "name": "CodeWhale",
+    "type": "related",
+    "category": "harness",
+    "repository": "https://github.com/Hmbown/CodeWhale",
+    "description": "Open-source, community-driven agent harness.",
+    "description_zh": "开源、社区驱动的 Agent Harness。",
+    "capabilities": [
+      "harness",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 40825,
+    "_source_description": "Open-source, community-driven agent harness",
+    "_updated": "2026-08-17"
+  },
+  {
+    "id": "agentmemory",
+    "name": "agentmemory",
+    "type": "related",
+    "category": "harness",
+    "repository": "https://github.com/rohitg00/agentmemory",
+    "description": "Persistent memory for AI coding agents based on real-world benchmarks (upstream of DSH agentmemory ports).",
+    "description_zh": "基于真实基准的 AI 编码 Agent 持久记忆（DSH agentmemory 移植的上游项目）。",
+    "capabilities": [
+      "memory",
+      "harness"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 27103,
+    "_source_description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+    "_updated": "2026-08-17"
+  },
+  {
     "id": "cordis",
     "name": "Cordis",
     "type": "related",
@@ -34,11 +70,29 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 5408,
+    "stars": 5415,
     "_source_description": "Meta-Framework of Spatiotemporal Composability",
     "_updated": "2026-08-13",
-    "_stars_prev": 5403,
-    "growth": 5
+    "_stars_prev": 5408,
+    "growth": 7
+  },
+  {
+    "id": "deeptide",
+    "name": "deeptide",
+    "type": "related",
+    "category": "harness",
+    "repository": "https://github.com/paean-ai/deeptide",
+    "description": "Swift-native macOS coding agent built by DeepSeek, for DeepSeek.",
+    "description_zh": "DeepSeek 官方出品的 Swift 原生 macOS 编码 Agent。",
+    "capabilities": [
+      "harness",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1075,
+    "_source_description": "Built by DeepSeek, for DeepSeek — a Swift-native macOS coding agent",
+    "_updated": "2026-07-08"
   },
   {
     "id": "sandbase-harness",

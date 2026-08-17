@@ -5,7 +5,7 @@ keywords: "deepseek-harness-desktop (hairyf), desktop, client, deepseek harness,
 ---
 # deepseek-harness-desktop (hairyf)
 
-> ⭐ 415 · ✅ active · client
+> ⭐ 416 · ✅ active · client
 
 ## One-liner
 

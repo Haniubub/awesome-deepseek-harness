@@ -15,9 +15,9 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 88135,
-    "_stars_prev": 88127,
-    "growth": 8,
+    "stars": 88142,
+    "_stars_prev": 88135,
+    "growth": 7,
     "_source_description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
     "_updated": "2026-08-17"
   },
@@ -35,11 +35,11 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 11284,
+    "stars": 11293,
     "_source_description": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
     "_updated": "2026-08-17",
-    "_stars_prev": 11265,
-    "growth": 19
+    "_stars_prev": 11284,
+    "growth": 9
   },
   {
     "id": "desktop-cc-gui",
@@ -93,33 +93,12 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 1782,
+    "stars": 1784,
     "install": "npm install -g dsh-TUI",
     "_source_description": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。  DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click.",
     "_updated": "2026-08-17",
-    "_stars_prev": 1478,
-    "growth": 304
-  },
-  {
-    "id": "deepseek-harness-eac",
-    "name": "deepseek-harness-eac",
-    "type": "client",
-    "category": "desktop",
-    "repository": "https://github.com/zouyuxuan122/Deepseek-Harness-EAC",
-    "description": "DeepSeek Harness (dsh) Windows desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象",
-    "description_zh": "DeepSeek Harness (dsh) Windows desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象",
-    "capabilities": [
-      "coding",
-      "desktop",
-      "ui"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 691,
-    "_source_description": "DeepSeek Harness (dsh) Windows / Linux desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象",
-    "_updated": "2026-08-17",
-    "_stars_prev": 688,
-    "growth": 3
+    "_stars_prev": 1782,
+    "growth": 2
   },
   {
     "id": "dataelement-dsh-desktop",
@@ -141,21 +120,25 @@
     "growth": 4
   },
   {
-    "id": "ai-novel-writer",
-    "name": "ai-novel-writer",
+    "id": "deepseek-harness-eac",
+    "name": "deepseek-harness-eac",
     "type": "client",
     "category": "desktop",
-    "repository": "https://github.com/EthanYoQ/AI-Novel-Writer",
-    "description": "本地优先 AI 小说创作工作台，提供 Windows/macOS 桌面版与 DeepSeek Harness 插件开发预览，支持角色、大纲、章节蓝图、审稿修稿和本地模型。",
-    "description_zh": "本地优先 AI 小说创作工作台，提供 Windows/macOS 桌面版与 DeepSeek Harness 插件开发预览，支持角色、大纲、章节蓝图、审稿修稿和本地模型。",
+    "repository": "https://github.com/zouyuxuan122/Deepseek-Harness-EAC",
+    "description": "DeepSeek Harness (dsh) Windows desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象",
+    "description_zh": "DeepSeek Harness (dsh) Windows desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象",
     "capabilities": [
-      "coding"
+      "coding",
+      "desktop",
+      "ui"
     ],
     "status": "active",
     "verified": false,
-    "stars": 374,
-    "_source_description": "本地优先 AI 小说创作工作台，提供 Windows/macOS 桌面版与 DeepSeek Harness 插件开发预览，支持角色、大纲、章节蓝图、审稿修稿和本地模型。",
-    "_updated": "2026-08-17"
+    "stars": 692,
+    "_source_description": "DeepSeek Harness (dsh) Windows / Linux desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象",
+    "_updated": "2026-08-17",
+    "_stars_prev": 691,
+    "growth": 1
   },
   {
     "id": "dsh-desktop-foolgry",
@@ -190,51 +173,28 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 415,
+    "stars": 416,
     "_source_description": "DeepSeek Harness Tauri 桌面版 | Only 5mb installer, zero environment setup. Windows / macOS / Linux.",
     "_updated": "2026-08-17",
-    "_stars_prev": 268,
-    "growth": 147
+    "_stars_prev": 415,
+    "growth": 1
   },
   {
-    "id": "deepseek-harness-studio",
-    "name": "deepseek-harness-studio",
+    "id": "ai-novel-writer",
+    "name": "ai-novel-writer",
     "type": "client",
     "category": "desktop",
-    "repository": "https://github.com/fufankeji/deepseek-harness-studio",
-    "description": "DeepSeek Harness 零代码桌面端｜一键启动，支持 Windows 与 macOS；内置插件发现、热点插件推送、一键安装与管理、AI 智能推荐和视觉增强。",
-    "description_zh": "DeepSeek Harness 零代码桌面端｜一键启动，支持 Windows 与 macOS；内置插件发现、热点插件推送、一键安装与管理、AI 智能推荐和视觉增强。",
+    "repository": "https://github.com/EthanYoQ/AI-Novel-Writer",
+    "description": "本地优先 AI 小说创作工作台，提供 Windows/macOS 桌面版与 DeepSeek Harness 插件开发预览，支持角色、大纲、章节蓝图、审稿修稿和本地模型。",
+    "description_zh": "本地优先 AI 小说创作工作台，提供 Windows/macOS 桌面版与 DeepSeek Harness 插件开发预览，支持角色、大纲、章节蓝图、审稿修稿和本地模型。",
     "capabilities": [
       "coding"
     ],
     "status": "active",
     "verified": false,
-    "stars": 223,
-    "_stars_prev": 222,
-    "growth": 1,
-    "_source_description": "DeepSeek Harness 零代码桌面端｜一键启动，支持 Windows 与 macOS；内置插件发现、热点插件推送、一键安装与管理、AI 智能推荐和视觉增强。",
+    "stars": 374,
+    "_source_description": "本地优先 AI 小说创作工作台，提供 Windows/macOS 桌面版与 DeepSeek Harness 插件开发预览，支持角色、大纲、章节蓝图、审稿修稿和本地模型。",
     "_updated": "2026-08-17"
-  },
-  {
-    "id": "oh-dsh",
-    "name": "oh-dsh",
-    "type": "client",
-    "category": "desktop",
-    "repository": "https://github.com/hust-open-atom-club/oh-dsh",
-    "description": "One-stop community distribution: TUI, desktop and Web UI in a unified experience with layered installation.",
-    "description_zh": "一站式社区发行版：TUI、桌面端与 Web UI 三种形态统一体验，分层安装。",
-    "capabilities": [
-      "desktop",
-      "terminal",
-      "ui"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 237,
-    "_source_description": "一套 DSH runtime，Desktop、Web 与 TUI 三种开发体验。",
-    "_updated": "2026-08-17",
-    "_stars_prev": 212,
-    "growth": 25
   },
   {
     "id": "deepseek-harness-desktop-app",
@@ -279,6 +239,46 @@
     "_updated": "2026-08-15",
     "_stars_prev": 211,
     "growth": 99
+  },
+  {
+    "id": "oh-dsh",
+    "name": "oh-dsh",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/hust-open-atom-club/oh-dsh",
+    "description": "One-stop community distribution: TUI, desktop and Web UI in a unified experience with layered installation.",
+    "description_zh": "一站式社区发行版：TUI、桌面端与 Web UI 三种形态统一体验，分层安装。",
+    "capabilities": [
+      "desktop",
+      "terminal",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 237,
+    "_source_description": "一套 DSH runtime，Desktop、Web 与 TUI 三种开发体验。",
+    "_updated": "2026-08-17",
+    "_stars_prev": 212,
+    "growth": 25
+  },
+  {
+    "id": "deepseek-harness-studio",
+    "name": "deepseek-harness-studio",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/fufankeji/deepseek-harness-studio",
+    "description": "DeepSeek Harness 零代码桌面端｜一键启动，支持 Windows 与 macOS；内置插件发现、热点插件推送、一键安装与管理、AI 智能推荐和视觉增强。",
+    "description_zh": "DeepSeek Harness 零代码桌面端｜一键启动，支持 Windows 与 macOS；内置插件发现、热点插件推送、一键安装与管理、AI 智能推荐和视觉增强。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 224,
+    "_stars_prev": 223,
+    "growth": 1,
+    "_source_description": "DeepSeek Harness 零代码桌面端｜一键启动，支持 Windows 与 macOS；内置插件发现、热点插件推送、一键安装与管理、AI 智能推荐和视觉增强。",
+    "_updated": "2026-08-17"
   },
   {
     "id": "dsh-tianshu-tui",
@@ -371,29 +371,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 108,
+    "stars": 109,
     "_source_description": "DSH桌面端，支持主题和背景图等多种个性化配置。Electron desktop shell for DeepSeek Harness web UI",
-    "_updated": "2026-08-16",
-    "_stars_prev": 96,
-    "growth": 12
-  },
-  {
-    "id": "dsh-launcher",
-    "name": "dsh-launcher",
-    "type": "client",
-    "category": "desktop",
-    "repository": "https://github.com/MarcoG-h/DSH-Launcher",
-    "description": "最全面的DeepSeek Harness🐋桌面启动器&第三方插件管理   | 离线部署 | 一键启动 | 插件管理 | API切换 |",
-    "description_zh": "最全面的DeepSeek Harness🐋桌面启动器&第三方插件管理   | 离线部署 | 一键启动 | 插件管理 | API切换 |",
-    "capabilities": [
-      "coding"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 61,
-    "_source_description": "最全面的DeepSeek Harness🐋桌面启动器&第三方插件管理   | 离线部署 | 一键启动 | 插件管理 | API切换 |",
     "_updated": "2026-08-17",
-    "_stars_prev": 60,
+    "_stars_prev": 108,
     "growth": 1
   },
   {
@@ -416,23 +397,23 @@
     "growth": 69
   },
   {
-    "id": "xiincs-desktop",
-    "name": "deepseek-harness-desktop (xiincs)",
+    "id": "dsh-launcher",
+    "name": "dsh-launcher",
     "type": "client",
     "category": "desktop",
-    "repository": "https://github.com/xiincs/deepseek-harness-desktop",
-    "description": "Native desktop built on Tauri 2 with bundled Node.js runtime, tray residency and auto-update.",
-    "description_zh": "基于 Tauri 2 的原生桌面版：内置 Node.js 运行时，托盘常驻，自动更新。",
+    "repository": "https://github.com/MarcoG-h/DSH-Launcher",
+    "description": "最全面的DeepSeek Harness🐋桌面启动器&第三方插件管理   | 离线部署 | 一键启动 | 插件管理 | API切换 |",
+    "description_zh": "最全面的DeepSeek Harness🐋桌面启动器&第三方插件管理   | 离线部署 | 一键启动 | 插件管理 | API切换 |",
     "capabilities": [
-      "desktop"
+      "coding"
     ],
     "status": "active",
     "verified": false,
-    "stars": 37,
-    "_source_description": "DeepSeek Harness 原生桌面版，基于 Tauri 2，内置 Node.js 运行时，一键安装，极速启动，托盘常驻，自动更新。DeepSeek Harness native desktop version: built on Tauri 2 with a bundled Node.js runtime.",
+    "stars": 62,
+    "_source_description": "最全面的DeepSeek Harness🐋桌面启动器&第三方插件管理   | 离线部署 | 一键启动 | 插件管理 | API切换 |",
     "_updated": "2026-08-17",
-    "_stars_prev": 51,
-    "growth": 0
+    "_stars_prev": 61,
+    "growth": 1
   },
   {
     "id": "bruc3van-dsh-desktop",
@@ -473,6 +454,25 @@
     "growth": 9
   },
   {
+    "id": "dsh-multica-runtime",
+    "name": "dsh-multica-runtime",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/multica-ai/dsh-multica-runtime",
+    "description": "Support the dsh runtime on Multica.",
+    "description_zh": "在 Multica 上支持 dsh 运行时。",
+    "capabilities": [
+      "desktop"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 46,
+    "_source_description": "Support dsh runtime on Multica.",
+    "_updated": "2026-08-14",
+    "_stars_prev": 45,
+    "growth": 1
+  },
+  {
     "id": "hongfeiyucode-desktop",
     "name": "deepseek-harness-desktop (hongfeiyucode)",
     "type": "client",
@@ -491,41 +491,23 @@
     "growth": 0
   },
   {
-    "id": "dsh-multica-runtime",
-    "name": "dsh-multica-runtime",
+    "id": "xiincs-desktop",
+    "name": "deepseek-harness-desktop (xiincs)",
     "type": "client",
     "category": "desktop",
-    "repository": "https://github.com/multica-ai/dsh-multica-runtime",
-    "description": "Support the dsh runtime on Multica.",
-    "description_zh": "在 Multica 上支持 dsh 运行时。",
+    "repository": "https://github.com/xiincs/deepseek-harness-desktop",
+    "description": "Native desktop built on Tauri 2 with bundled Node.js runtime, tray residency and auto-update.",
+    "description_zh": "基于 Tauri 2 的原生桌面版：内置 Node.js 运行时，托盘常驻，自动更新。",
     "capabilities": [
       "desktop"
     ],
     "status": "active",
     "verified": false,
-    "stars": 45,
-    "_source_description": "Support dsh runtime on Multica.",
-    "_updated": "2026-08-14",
-    "_stars_prev": 39,
-    "growth": 6
-  },
-  {
-    "id": "dsh-plugin-dev-skills",
-    "name": "dsh-plugin-dev-skills",
-    "type": "client",
-    "category": "desktop",
-    "repository": "https://github.com/zimodzh/dsh-plugin-dev-skills",
-    "description": "An Agent Skills skill for developing DeepSeek Harness (DSH) plugins（开发 DSH 插件的 Agent Skill）——插件/服务/事件/工具/LLM 适配器/打包安装的标准。Works with Claude Code, Codex, DSH, VS Code Copilot & any compatible agent.",
-    "description_zh": "An Agent Skills skill for developing DeepSeek Harness (DSH) plugins（开发 DSH 插件的 Agent Skill）——插件/服务/事件/工具/LLM 适配器/打包安装的标准。Works with Claude Code, Codex, DSH, VS Code Copilot & any compatible agent.",
-    "capabilities": [
-      "coding",
-      "multi-agent"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 34,
-    "_source_description": "An Agent Skills skill for developing DeepSeek Harness (DSH) plugins（开发 DSH 插件的 Agent Skill）——插件/服务/事件/工具/LLM 适配器/打包安装的标准。Works with Claude Code, Codex, DSH, VS Code Copilot & any compatible agent.",
-    "_updated": "2026-08-17"
+    "stars": 37,
+    "_source_description": "DeepSeek Harness 原生桌面版，基于 Tauri 2，内置 Node.js 运行时，一键安装，极速启动，托盘常驻，自动更新。DeepSeek Harness native desktop version: built on Tauri 2 with a bundled Node.js runtime.",
+    "_updated": "2026-08-17",
+    "_stars_prev": 51,
+    "growth": 0
   },
   {
     "id": "openma-tui",
@@ -547,22 +529,22 @@
     "growth": 6
   },
   {
-    "id": "ipfred-desktop",
-    "name": "deepseek-harness-app (ipfred)",
+    "id": "dsh-plugin-dev-skills",
+    "name": "dsh-plugin-dev-skills",
     "type": "client",
     "category": "desktop",
-    "repository": "https://github.com/ipfred/deepseek-harness-app",
-    "description": "Desktop app for DeepSeek Harness.",
-    "description_zh": "DeepSeek Harness 桌面应用。",
+    "repository": "https://github.com/zimodzh/dsh-plugin-dev-skills",
+    "description": "An Agent Skills skill for developing DeepSeek Harness (DSH) plugins（开发 DSH 插件的 Agent Skill）——插件/服务/事件/工具/LLM 适配器/打包安装的标准。Works with Claude Code, Codex, DSH, VS Code Copilot & any compatible agent.",
+    "description_zh": "An Agent Skills skill for developing DeepSeek Harness (DSH) plugins（开发 DSH 插件的 Agent Skill）——插件/服务/事件/工具/LLM 适配器/打包安装的标准。Works with Claude Code, Codex, DSH, VS Code Copilot & any compatible agent.",
     "capabilities": [
-      "desktop"
+      "coding",
+      "multi-agent"
     ],
     "status": "active",
     "verified": false,
-    "stars": 26,
-    "_updated": "2026-08-15",
-    "_stars_prev": 25,
-    "growth": 1
+    "stars": 34,
+    "_source_description": "An Agent Skills skill for developing DeepSeek Harness (DSH) plugins（开发 DSH 插件的 Agent Skill）——插件/服务/事件/工具/LLM 适配器/打包安装的标准。Works with Claude Code, Codex, DSH, VS Code Copilot & any compatible agent.",
+    "_updated": "2026-08-17"
   },
   {
     "id": "dsh-termux",
@@ -583,6 +565,24 @@
     "_updated": "2026-08-17",
     "_stars_prev": 24,
     "growth": 6
+  },
+  {
+    "id": "ipfred-desktop",
+    "name": "deepseek-harness-app (ipfred)",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/ipfred/deepseek-harness-app",
+    "description": "Desktop app for DeepSeek Harness.",
+    "description_zh": "DeepSeek Harness 桌面应用。",
+    "capabilities": [
+      "desktop"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 26,
+    "_updated": "2026-08-15",
+    "_stars_prev": 25,
+    "growth": 1
   },
   {
     "id": "dsh-usage-plugin-yihong89",
@@ -676,10 +676,50 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 16,
+    "stars": 17,
     "_updated": "2026-08-17",
-    "_stars_prev": 14,
+    "_stars_prev": 16,
+    "growth": 1
+  },
+  {
+    "id": "dsh-mobile-for-android",
+    "name": "dsh-mobile-for-android",
+    "type": "client",
+    "category": "mobile",
+    "repository": "https://github.com/Hongtwenfive1226/DSH-Mobile-for-Android",
+    "description": "The Android mobile version of DeepSeek Harness that relies on Tailscale.",
+    "description_zh": "The Android mobile version of DeepSeek Harness that relies on Tailscale.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 12,
+    "_source_description": "The Android mobile version of DeepSeek Harness that relies on Tailscale.",
+    "_updated": "2026-08-15",
+    "_stars_prev": 10,
     "growth": 2
+  },
+  {
+    "id": "deepseek-harness-fnos",
+    "name": "deepseek-harness-fnos",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/techysy/deepseek-harness-fnos",
+    "description": "DeepSeek Harness (DeepSeek 官方 agent 浏览器 UI) fnOS 应用 — 本地常驻服务, 官方统一网关接入",
+    "description_zh": "DeepSeek Harness (DeepSeek 官方 agent 浏览器 UI) fnOS 应用 — 本地常驻服务, 官方统一网关接入",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 12,
+    "_source_description": "DeepSeek Harness (DeepSeek 官方 agent 浏览器 UI) fnOS 应用 — 本地常驻服务",
+    "_updated": "2026-08-16",
+    "_stars_prev": 9,
+    "growth": 3
   },
   {
     "id": "omdsh-awesome-desktop",
@@ -718,44 +758,6 @@
     "growth": 1
   },
   {
-    "id": "dsh-grok-tui",
-    "name": "dsh-grok-tui",
-    "type": "client",
-    "category": "terminal",
-    "repository": "https://github.com/chen-001/dsh-grok-tui",
-    "description": "TUI built with grok-build.",
-    "description_zh": "基于 grok-build 构建的 TUI。",
-    "capabilities": [
-      "terminal"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 10,
-    "_source_description": "Use dsh via grok-build's TUI.",
-    "_updated": "2026-08-15",
-    "_stars_prev": 9,
-    "growth": 1
-  },
-  {
-    "id": "dsh-mobile-for-android",
-    "name": "dsh-mobile-for-android",
-    "type": "client",
-    "category": "mobile",
-    "repository": "https://github.com/Hongtwenfive1226/DSH-Mobile-for-Android",
-    "description": "The Android mobile version of DeepSeek Harness that relies on Tailscale.",
-    "description_zh": "The Android mobile version of DeepSeek Harness that relies on Tailscale.",
-    "capabilities": [
-      "coding"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 12,
-    "_source_description": "The Android mobile version of DeepSeek Harness that relies on Tailscale.",
-    "_updated": "2026-08-15",
-    "_stars_prev": 10,
-    "growth": 2
-  },
-  {
     "id": "dsh-melody-launcher",
     "name": "dsh-melody-launcher",
     "type": "client",
@@ -772,6 +774,25 @@
     "_source_description": "dsh-旋律启动器：DeepSeek Harness 桌面启动器与插件管理器",
     "_updated": "2026-08-17",
     "_stars_prev": 10,
+    "growth": 1
+  },
+  {
+    "id": "dsh-grok-tui",
+    "name": "dsh-grok-tui",
+    "type": "client",
+    "category": "terminal",
+    "repository": "https://github.com/chen-001/dsh-grok-tui",
+    "description": "TUI built with grok-build.",
+    "description_zh": "基于 grok-build 构建的 TUI。",
+    "capabilities": [
+      "terminal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 10,
+    "_source_description": "Use dsh via grok-build's TUI.",
+    "_updated": "2026-08-15",
+    "_stars_prev": 9,
     "growth": 1
   },
   {
@@ -836,46 +857,6 @@
     "growth": 1
   },
   {
-    "id": "deepseek-harness-fnos",
-    "name": "deepseek-harness-fnos",
-    "type": "client",
-    "category": "desktop",
-    "repository": "https://github.com/techysy/deepseek-harness-fnos",
-    "description": "DeepSeek Harness (DeepSeek 官方 agent 浏览器 UI) fnOS 应用 — 本地常驻服务, 官方统一网关接入",
-    "description_zh": "DeepSeek Harness (DeepSeek 官方 agent 浏览器 UI) fnOS 应用 — 本地常驻服务, 官方统一网关接入",
-    "capabilities": [
-      "coding",
-      "multi-agent",
-      "ui"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 12,
-    "_source_description": "DeepSeek Harness (DeepSeek 官方 agent 浏览器 UI) fnOS 应用 — 本地常驻服务",
-    "_updated": "2026-08-16",
-    "_stars_prev": 9,
-    "growth": 3
-  },
-  {
-    "id": "dsh-desktop",
-    "name": "dsh-desktop",
-    "type": "client",
-    "category": "desktop",
-    "repository": "https://github.com/foolgry/dsh-desktop",
-    "description": "Download-and-run desktop build of DeepSeek Harness — Electron shell with embedded Node, no npm required.",
-    "description_zh": "Download-and-run desktop build of DeepSeek Harness — Electron shell with embedded Node, no npm required.",
-    "capabilities": [
-      "coding"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 8,
-    "_source_description": "Download-and-run desktop build of DeepSeek Harness — Electron shell with embedded Node, no npm required.",
-    "_updated": "2026-08-16",
-    "_stars_prev": 7,
-    "growth": 1
-  },
-  {
     "id": "boxeryao-tui",
     "name": "deepseek-harness-tui (boxeryao)",
     "type": "client",
@@ -892,6 +873,25 @@
     "_source_description": "DSH-TUI: a lightweight and fast terminal plugin connected directly to the DSH runtime.",
     "_updated": "2026-08-16",
     "_stars_prev": 8,
+    "growth": 1
+  },
+  {
+    "id": "dsh-desktop",
+    "name": "dsh-desktop",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/foolgry/dsh-desktop",
+    "description": "Download-and-run desktop build of DeepSeek Harness — Electron shell with embedded Node, no npm required.",
+    "description_zh": "Download-and-run desktop build of DeepSeek Harness — Electron shell with embedded Node, no npm required.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 8,
+    "_source_description": "DeepSeek 桌面版客户端（社区构建，非官方）：下载即用，无需 Node。Download-and-run desktop build of DeepSeek Harness — Electron shell, no npm required.",
+    "_updated": "2026-08-17",
+    "_stars_prev": 7,
     "growth": 1
   },
   {
@@ -1058,6 +1058,25 @@
     "_updated": "2026-08-17"
   },
   {
+    "id": "deepseek-harness-desktop",
+    "name": "deepseek-harness-desktop",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/Easyhoov/deepseek-harness-desktop-windows",
+    "description": "Unofficial in-process desktop app for DeepSeek Harness: the host composition boots inside the Electron main process with zero ports and an IPC bridge. Not affiliated with DeepSeek.",
+    "description_zh": "Unofficial in-process desktop app for DeepSeek Harness: the host composition boots inside the Electron main process with zero ports and an IPC bridge. Not affiliated with DeepSeek.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "_source_description": "把 DeepSeek Harness 装进 Windows 桌面的应用：不用装 Node.js、不用敲命令，双击启动即用。进程内集成官方 DSH、零端口 IPC 传输；内置侧边栏工作台（文件 / 终端 / Git / 浏览器）与社区插件商店，托盘常驻、一键更新。非官方，仅供开源 DSH 封装。",
+    "_updated": "2026-08-17",
+    "_stars_prev": 2,
+    "growth": 1
+  },
+  {
     "id": "dsh-portable-launcher",
     "name": "dsh-portable-launcher",
     "type": "client",
@@ -1093,25 +1112,6 @@
     "growth": 1
   },
   {
-    "id": "deepseek-harness-desktop",
-    "name": "deepseek-harness-desktop",
-    "type": "client",
-    "category": "desktop",
-    "repository": "https://github.com/Easyhoov/deepseek-harness-desktop-windows",
-    "description": "Unofficial in-process desktop app for DeepSeek Harness: the host composition boots inside the Electron main process with zero ports and an IPC bridge. Not affiliated with DeepSeek.",
-    "description_zh": "Unofficial in-process desktop app for DeepSeek Harness: the host composition boots inside the Electron main process with zero ports and an IPC bridge. Not affiliated with DeepSeek.",
-    "capabilities": [
-      "coding"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 3,
-    "_source_description": "把 DeepSeek Harness 装进 Windows 桌面的应用：不用装 Node.js、不用敲命令，双击启动即用。进程内集成官方 DSH、零端口 IPC 传输；内置侧边栏工作台（文件 / 终端 / Git / 浏览器）与社区插件商店，托盘常驻、一键更新。非官方，仅供开源 DSH 封装。",
-    "_updated": "2026-08-17",
-    "_stars_prev": 2,
-    "growth": 1
-  },
-  {
     "id": "dsh-desktop-launcher",
     "name": "dsh-desktop-launcher",
     "type": "client",
@@ -1144,5 +1144,23 @@
     "stars": 0,
     "_source_description": "Desktop launcher for DeepSeek Harness - start dsh web with no console window and auto-open the browser. Tested on Windows; macOS/Linux in progress.",
     "_updated": "2026-08-16"
+  },
+  {
+    "id": "dsh-start",
+    "name": "dsh-start",
+    "type": "client",
+    "category": "desktop",
+    "repository": "https://github.com/zhengjy01/dsh-start",
+    "description": "One-click start/stop launcher for the DSH Web GUI on macOS: foreground/daemon start, stop, status, duplicate-launch guard, auto browser open, plus a Dock-able DSH.app built by script.",
+    "description_zh": "macOS 上 DSH Web GUI 的一键启停启动器：前台/后台启动、停止、状态、防重复启动、自动打开浏览器，并可用脚本构建程序坞版 DSH.app。",
+    "capabilities": [
+      "desktop",
+      "automation"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0,
+    "_source_description": "One-click start/stop launcher for DeepSeek Harness (DSH) Web on macOS: terminal script (start/stop/status/daemon) + Dock-able DSH.app",
+    "_updated": "2026-08-17"
   }
 ]
