@@ -15,9 +15,9 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 88127,
-    "_stars_prev": 87336,
-    "growth": 791,
+    "stars": 88135,
+    "_stars_prev": 88127,
+    "growth": 8,
     "_source_description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
     "_updated": "2026-08-17"
   },
@@ -35,11 +35,11 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 11265,
+    "stars": 11284,
     "_source_description": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
     "_updated": "2026-08-17",
-    "_stars_prev": 8286,
-    "growth": 2979
+    "_stars_prev": 11265,
+    "growth": 19
   },
   {
     "id": "desktop-cc-gui",
@@ -115,11 +115,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 688,
+    "stars": 691,
     "_source_description": "DeepSeek Harness (dsh) Windows / Linux desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象",
     "_updated": "2026-08-17",
-    "_stars_prev": 478,
-    "growth": 210
+    "_stars_prev": 688,
+    "growth": 3
   },
   {
     "id": "dataelement-dsh-desktop",
@@ -134,11 +134,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 731,
+    "stars": 735,
     "_source_description": "DeepSeek Harness Desktop",
     "_updated": "2026-08-17",
-    "_stars_prev": 454,
-    "growth": 277
+    "_stars_prev": 731,
+    "growth": 4
   },
   {
     "id": "ai-novel-writer",
@@ -390,9 +390,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 60,
+    "stars": 61,
     "_source_description": "最全面的DeepSeek Harness🐋桌面启动器&第三方插件管理   | 离线部署 | 一键启动 | 插件管理 | API切换 |",
-    "_updated": "2026-08-17"
+    "_updated": "2026-08-17",
+    "_stars_prev": 60,
+    "growth": 1
   },
   {
     "id": "ningbainb-desktop",
@@ -407,11 +409,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 8,
+    "stars": 77,
     "_source_description": "Open-source Windows desktop client and GUI for DeepSeek Harness — zero-setup installer with Codex, plugins, skills, SSH, mobile remote access, and 11 skins.",
     "_updated": "2026-08-17",
-    "_stars_prev": 58,
-    "growth": 0
+    "_stars_prev": 8,
+    "growth": 69
   },
   {
     "id": "xiincs-desktop",
@@ -787,11 +789,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 8,
+    "stars": 9,
     "_source_description": "Desktop cockpit for DeepSeek Harness (dsh): token usage & cost tracking, budget alerts, runtime auto-update with rollback, Quick Ask hotkey, scheduled tasks, session search. Win+macOS. DeepSeek Harness 桌面驾驶舱：成本/用量监控 · 自动更新 · 定时任务",
     "_updated": "2026-08-17",
-    "_stars_prev": 10,
-    "growth": 0
+    "_stars_prev": 8,
+    "growth": 1
   },
   {
     "id": "deepseek-harness-desktop-omdsh",

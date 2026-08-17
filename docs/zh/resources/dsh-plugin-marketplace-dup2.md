@@ -13,7 +13,7 @@ Verified plugin marketplace and autonomous registry for DeepSeek Harness
 
 ## 详细介绍
 
-Verified plugin marketplace and autonomous registry for DeepSeek Harness
+**经过验证的 DSH 插件市场，以及自主维护的中心 Registry。** **简体中文** · [English](./README.en.md) · [更新日志](./CHANGELOG.md) </div>
 
 ## 作者
 **[YELEBAI](https://github.com/YELEBAI)**

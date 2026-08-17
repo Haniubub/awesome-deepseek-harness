@@ -1,6 +1,6 @@
 ---
 title: "Plugins"
-description: "DeepSeek Harness (dsh) 精选 plugins：🔥 Top 10 与完整列表（219 条）。"
+description: "DeepSeek Harness (dsh) 精选 plugins：🔥 Top 10 与完整列表（226 条）。"
 keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 ---
 # Plugins
@@ -9,46 +9,48 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 
 | # | 项目 | 增长 | 星数 | 说明 |
 |---|---|---|---|---|
-| 1 | [dsh-web-ui](resources/dsh-web-ui.md) | ⬆️ +770 | ⭐4,019 | DSH Web 大型插件与皮肤集合：任务看板、Git 图、侧栏、远程/移动 UI、宠物、Token 统计与主题。 |
-| 2 | [dsh-anchored-standard](resources/dsh-anchored-standard.md) | ⬆️ +568 | ⭐3,386 | Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99) |
-| 3 | [modlens](resources/modlens.md) | ⬆️ +465 | ⭐2,723 | DSH 首个视觉插件，也是所有纯文本编码 Agent 的视觉桥梁：粘贴图片即可用。 |
-| 4 | [DSH Better Sidebar](resources/dsh-better-sidebar.md) | ⬆️ +366 | ⭐1,901 | 工作台式侧边栏：文件渲染/编辑、终端、Git、子代理，支持三方扩展 Tab。 |
-| 5 | [dsh-market](resources/dsh-market.md) | ⬆️ +299 | ⭐797 | DSH 内置可视化插件市场：浏览、搜索、一键安装。 |
+| 1 | [modlens](resources/modlens.md) | ⬆️ +465 | ⭐2,723 | DSH 首个视觉插件，也是所有纯文本编码 Agent 的视觉桥梁：粘贴图片即可用。 |
+| 2 | [dsh-market](resources/dsh-market.md) | ⬆️ +299 | ⭐797 | DSH 内置可视化插件市场：浏览、搜索、一键安装。 |
+| 3 | [dsh-context](resources/dsh-context.md) | ⬆️ +75 | ⭐179 | A DeepSeek Harness plugin for  Context insight dashboard — showing what the model's context window is made of and how it evolves. |
+| 4 | [v4-flash-godmode-opencode-go](resources/v4-flash-godmode-opencode-go.md) | ⬆️ +62 | ⭐509 | V4 Flash 神模式 (opencode-go)：让 opencode-go 的 DeepSeek V4 Flash 从鬼模式切换到神模式的 dsh agent preset |
+| 5 | [dsh-genui](resources/dsh-genui.md) | ⬆️ +45 | ⭐176 | 对话内生成式 UI：布局、图表、表单、测验、Mermaid 与交互事件内联渲染。 |
 
 ## 🔥 Top 10
 
 | # | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|---|
 | 1 | [voyager](resources/voyager.md) | ⭐19,580 | Enhancement suite for Gemini, AI Studio, Claude & ChatGPT — plus a prompt manager for any web UI, DeepSeek Harness included. / 面向 Gemini、AI Studio、Claude 与 ChatGPT 的增强套件；提示词管理器可用于任意 Web UI，含 DeepSeek Harness。 | ✅ 活跃 |
-| 2 | [dsh-web-ui](resources/dsh-web-ui.md) | ⭐4,019 | DSH Web 大型插件与皮肤集合：任务看板、Git 图、侧栏、远程/移动 UI、宠物、Token 统计与主题。 | ✅ 活跃 |
+| 2 | [dsh-web-ui](resources/dsh-web-ui.md) | ⭐4,021 | DSH Web 大型插件与皮肤集合：任务看板、Git 图、侧栏、远程/移动 UI、宠物、Token 统计与主题。 | ✅ 活跃 |
 | 3 | [petdex](resources/petdex.md) | ⭐3,872 | A public gallery of animated pets for Codex, Claude Code, DeepSeek Harness, Hermes, OpenCode, Gemini CLI, and more. | ✅ 活跃 |
-| 4 | [dsh-anchored-standard](resources/dsh-anchored-standard.md) | ⭐3,386 | Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99) | ✅ 活跃 |
+| 4 | [dsh-anchored-standard](resources/dsh-anchored-standard.md) | ⭐3,388 | Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99) | ✅ 活跃 |
 | 5 | [modlens](resources/modlens.md) | ⭐2,723 | DSH 首个视觉插件，也是所有纯文本编码 Agent 的视觉桥梁：粘贴图片即可用。 | ✅ 活跃 |
-| 6 | [DSH Better Sidebar](resources/dsh-better-sidebar.md) | ⭐1,901 | 工作台式侧边栏：文件渲染/编辑、终端、Git、子代理，支持三方扩展 Tab。 | ✅ 活跃 |
-| 7 | [dsh-deep-whale](resources/dsh-deep-whale.md) | ⭐1,221 | DSH Web 鲸鱼娘皮肤系列（CC BY-NC-SA 4.0）。 | ✅ 活跃 |
+| 6 | [DSH Better Sidebar](resources/dsh-better-sidebar.md) | ⭐1,904 | 工作台式侧边栏：文件渲染/编辑、终端、Git、子代理，支持三方扩展 Tab。 | ✅ 活跃 |
+| 7 | [dsh-deep-whale](resources/dsh-deep-whale.md) | ⭐1,224 | DSH Web 鲸鱼娘皮肤系列（CC BY-NC-SA 4.0）。 | ✅ 活跃 |
 | 8 | [dsh-market](resources/dsh-market.md) | ⭐797 | DSH 内置可视化插件市场：浏览、搜索、一键安装。 | ✅ 活跃 |
-| 9 | [dsh-vision-toolkit](resources/dsh-vision-toolkit.md) | ⭐602 | 让纯文本模型更好的视觉工具箱：带意图图片问答、长截图 OCR、UI 还原、grounding、像素 diff。 | ✅ 活跃 |
-| 10 | [dsh-vision-router](resources/dsh-vision-router.md) | ⭐591 | 纯文本 Agent 的眼睛：内置免费免密钥视觉链路 + 像素级工具（问答、grounding、裁剪、OCR、SVG 描摹）。 | ✅ 活跃 |
+| 9 | [dsh-vision-toolkit](resources/dsh-vision-toolkit.md) | ⭐603 | 让纯文本模型更好的视觉工具箱：带意图图片问答、长截图 OCR、UI 还原、grounding、像素 diff。 | ✅ 活跃 |
+| 10 | [dsh-vision-router](resources/dsh-vision-router.md) | ⭐593 | 纯文本 Agent 的眼睛：内置免费免密钥视觉链路 + 像素级工具（问答、grounding、裁剪、OCR、SVG 描摹）。 | ✅ 活跃 |
 
-## 完整列表（219）
+## 完整列表（226）
 
 
-**界面与体验（48）**
+**界面与体验（50）**
 
-*🎨 皮肤与主题（10）*
+*🎨 皮肤与主题（12）*
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
-| [dsh-web-ui](resources/dsh-web-ui.md) | ⭐4,019 | DSH Web 大型插件与皮肤集合：任务看板、Git 图、侧栏、远程/移动 UI、宠物、Token 统计与主题。 | ✅ 活跃 |
-| [dsh-deep-whale](resources/dsh-deep-whale.md) | ⭐1,221 | DSH Web 鲸鱼娘皮肤系列（CC BY-NC-SA 4.0）。 | ✅ 活跃 |
-| [dsh-transparent-ui-plugin](resources/dsh-transparent-ui-plugin.md) | ⭐231 | 是一层高自由度的玻璃质感主题，套在 DeepSeek Harness 网页端。顶栏、侧边栏、输入框、统计行、轨迹视图都成了磨砂玻璃片。玻璃模糊度、磨砂度、背景（流体或自定义壁纸，壁纸还能单独调模糊和磨砂）全都能在设置卡片里自由调节。关掉开关就回到原生界面，不改 DSH 任何一行源码。 | ✅ 活跃 |
+| [dsh-web-ui](resources/dsh-web-ui.md) | ⭐4,021 | DSH Web 大型插件与皮肤集合：任务看板、Git 图、侧栏、远程/移动 UI、宠物、Token 统计与主题。 | ✅ 活跃 |
+| [dsh-deep-whale](resources/dsh-deep-whale.md) | ⭐1,224 | DSH Web 鲸鱼娘皮肤系列（CC BY-NC-SA 4.0）。 | ✅ 活跃 |
+| [dsh-transparent-ui-plugin](resources/dsh-transparent-ui-plugin.md) | ⭐232 | 是一层高自由度的玻璃质感主题，套在 DeepSeek Harness 网页端。顶栏、侧边栏、输入框、统计行、轨迹视图都成了磨砂玻璃片。玻璃模糊度、磨砂度、背景（流体或自定义壁纸，壁纸还能单独调模糊和磨砂）全都能在设置卡片里自由调节。关掉开关就回到原生界面，不改 DSH 任何一行源码。 | ✅ 活跃 |
 | [dsh-undo-plugin](resources/dsh-undo-plugin.md) | ⭐63 | DSH plugin: snapshot & rollback your plugin/skin/settings configs. Auto-save on change, undo/redo stack, snapshot manager panel, keyboard shortcuts, plus an offline PowerShell CLI & GUI that work even when DSH won't boot. | ✅ 活跃 |
-| [deepseek-harness-snowsalt](resources/deepseek-harness-snowsalt.md) | ⭐28 | 雪盐主题皮肤。 | ✅ 活跃 |
+| [dsh-dream-skin](resources/dsh-dream-skin.md) | ⭐45 | DSH Web 一键换肤插件：8 套原创主题、背景壁纸（透明度/模糊/渐变/URL）、每用户强调色、主题包导入导出与分享链接、收藏与随机，纯原生 token 系统。 | ✅ 活跃 |
+| [deepseek-harness-snowsalt](resources/deepseek-harness-snowsalt.md) | ⭐29 | 雪盐主题皮肤。 | ✅ 活跃 |
 | [dsh-skin](resources/dsh-skin.md) | ⭐18 | Codex 风格皮肤切换器 + 自定义半透明壁纸，支持透明度/模糊控制。 | ✅ 活跃 |
 | [dsh-theme-plugin](resources/dsh-theme-plugin.md) | ⭐17 | Chinese traditional colors as a DeepSeek Harness theme pack. | ✅ 活跃 |
 | [dsh-deepcel](resources/dsh-deepcel.md) | ⭐10 | Excel 风格电子表格皮肤。 | ✅ 活跃 |
 | [dsh-ui-appearance](resources/dsh-ui-appearance.md) | ⭐7 | Appearance customization plugin for DeepSeek Harness: theme color palette, background image, opacity/blur, glass effect | ✅ 活跃 |
 | [dskin](resources/dskin.md) | ⭐7 | 卡通像素皮肤插件：原始界面不动，像素宠物散步、眨眼、跳跃。 | ✅ 活跃 |
+| [Open Sea Skin](resources/open-sea-skin.md) | ⭐1 | 实时 WebGPU 海洋皮肤，可调节波浪、日光、玻璃不透明度和自动昼夜循环。 | ✅ 活跃 |
 *其他（9）*
 
 | 项目 | 星数 | 说明 | 状态 |
@@ -66,7 +68,7 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
-| [DSH Better Sidebar](resources/dsh-better-sidebar.md) | ⭐1,901 | 工作台式侧边栏：文件渲染/编辑、终端、Git、子代理，支持三方扩展 Tab。 | ✅ 活跃 |
+| [DSH Better Sidebar](resources/dsh-better-sidebar.md) | ⭐1,904 | 工作台式侧边栏：文件渲染/编辑、终端、Git、子代理，支持三方扩展 Tab。 | ✅ 活跃 |
 | [dsh-genui](resources/dsh-genui.md) | ⭐176 | 对话内生成式 UI：布局、图表、表单、测验、Mermaid 与交互事件内联渲染。 | ✅ 活跃 |
 | [dsh-visualize](resources/dsh-visualize.md) | ⭐164 | 对话内交互式 HTML UI：流式预览与沙箱渲染。 | ✅ 活跃 |
 | [deepseek-harness-skin](resources/deepseek-harness-skin.md) | ⭐43 | 换肤系统：21 套内置皮肤 + 一张图生成整套配色，构建期校验可读性。 | ✅ 活跃 |
@@ -91,7 +93,7 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
 | [whale-girl](resources/whale-girl.md) | ⭐217 | QQ 宠物形态桌面宠物：DSH Web 右下角悬浮，可拖拽/投喂/玩耍。 | ✅ 活跃 |
-| [ui-status-label](resources/ui-status-label.md) | ⭐37 | 把鲸鱼娘思考时的 deep diving 状态自定义成任意文字。 | ✅ 活跃 |
+| [ui-status-label](resources/ui-status-label.md) | ⭐38 | 把鲸鱼娘思考时的 deep diving 状态自定义成任意文字。 | ✅ 活跃 |
 | [dsh-ui-whale](resources/dsh-ui-whale.md) | ⭐29 | 会话标题栏全手绘像素鲸鱼伙伴：眨眼、摆尾、回合完成喷水，零核心改动。 | ✅ 活跃 |
 | [dsh-plugin-pet-rs](resources/dsh-plugin-pet-rs.md) | ⭐18 | Rust 桌宠：5 态鲸鱼 + 双 SSE 实时推送 + 透明置顶窗 + 系统托盘，三端支持。 | ✅ 活跃 |
 | [dsh-web-attention-badge](resources/dsh-web-attention-badge.md) | ⭐5 | Attention reminders for the DeepSeek Harness Web UI: frame badge, (N) tab title and whale-favicon recolor for sessions waiting for input or finished unopened. | ✅ 活跃 |
@@ -112,23 +114,9 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 | [dsh-deepseek-quota](resources/dsh-deepseek-quota.md) | ⭐3 | DeepSeek API quota (balance) widget for the DSH web GUI: a floating bottom-right card showing remaining DeepSeek API balance. | ✅ 活跃 |
 | [dsh-cost-meter](resources/dsh-cost-meter.md) | ⭐1 | dsh plugin: per-turn USD cost badge in the Web UI (session total + per-message footer, hover breakdown) from token usage x a configurable pricing table. | ✅ 活跃 |
 
-**开发者工具（45）**
+**开发者工具（48）**
 
-*📁 文件与导入（10）*
-
-| 项目 | 星数 | 说明 | 状态 |
-|---|---|---|---|
-| [dsh-at-file](resources/dsh-at-file.md) | ⭐319 | Codex 风格 @file 提及：在 DSH 输入框中搜索工作区文件并附加内容到提示词。 | ✅ 活跃 |
-| [dsh-turn-rewind](resources/dsh-turn-rewind.md) | ⭐73 | 对话与代码状态回退插件，基于持久化变更账本。 | ✅ 活跃 |
-| [dsh-chat-import](resources/dsh-chat-import.md) | ⭐56 | 从 Claude Code、Codex、ChatGPT、Cursor、Gemini、Reasonix、OpenCode 导入历史消息并在 DSH 中继续对话。 | ✅ 活跃 |
-| [dsh-open-in-vscode](resources/dsh-open-in-vscode.md) | ⭐49 | 从 Web GUI 直接在工作区中打开 VS Code 目录/文件。 | ✅ 活跃 |
-| [dsh-plugin-mineru](resources/dsh-plugin-mineru.md) | ⭐33 | 向模型暴露 MinerU 文档解析：PDF/图片/DOCX/PPTX/XLSX 转结构化 Markdown/JSON。 | ✅ 活跃 |
-| [dsh-remote](resources/dsh-remote.md) | ⭐17 | 远程工作区：SSH 连接远程主机，用 rw_pick_workspace/rw_read_file/rw_exec 等工具远程操作。 | ✅ 活跃 |
-| [dsh-file-claim](resources/dsh-file-claim.md) | ⭐6 | 并行 Agent 会话的文件归属/认领系统：认领/释放、心跳过期接管、异步三路合并。 | ✅ 活跃 |
-| [dsh-file-mentions](resources/dsh-file-mentions.md) | ⭐6 | 回复中文件路径可点击：内联打开、文件管理器揭示、提及文件芯片列表。 | ✅ 活跃 |
-| [dsh-pdf](resources/dsh-pdf.md) | ⭐4 | PDF 工具箱：pdfjs-dist 本地提取文本、元数据与页区间，无需 API Key。 | ✅ 活跃 |
-| [dsh-telemetry-redactor](resources/dsh-telemetry-redactor.md) | ⭐3 | Fail-closed export-copy redaction for DeepSeek Harness session telemetry | ✅ 活跃 |
-*💰 费用与统计（10）*
+*💰 费用与统计（11）*
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
@@ -142,7 +130,22 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 | [dsh-cost-plugin](resources/dsh-cost-plugin.md) | ⭐5 | DSH 费用/余额读数插件：在输入框统计行旁实时显示「本次 ≈¥x · 会话 ≈¥x · 余额 ¥x」，内置 DeepSeek 官方价目表，支持 2026-08-17 起生效的峰谷定价（按节点时间戳自动选档），余额经官方 /user/balance 实时查询，失败静默降级。 | ✅ 活跃 |
 | [dsh-calculator](resources/dsh-calculator.md) | ⭐4 | Calculate the real-time cost of DeepSeek API calls made by DeepSeek Harness. | ✅ 活跃 |
 | [dsh-usage-plugin](resources/dsh-usage-plugin.md) | ⭐3 | DeepSeek Harness (DSH) plugins. First: dsh-usage-report — per-session token usage & estimated cost (/usage + usage_report), priced from the DeepSeek pricing table. | ✅ 活跃 |
-*🧪 代码·测试·审查（9）*
+| [dsh-llm-local-token](resources/dsh-llm-local-token.md) | – | 复用本机 Codex CLI 与 Claude Code OAuth 凭据的 DSH 模型提供方路由，无需另配 API Key。 | ✅ 活跃 |
+*📁 文件与导入（10）*
+
+| 项目 | 星数 | 说明 | 状态 |
+|---|---|---|---|
+| [dsh-at-file](resources/dsh-at-file.md) | ⭐320 | Codex 风格 @file 提及：在 DSH 输入框中搜索工作区文件并附加内容到提示词。 | ✅ 活跃 |
+| [dsh-turn-rewind](resources/dsh-turn-rewind.md) | ⭐73 | 对话与代码状态回退插件，基于持久化变更账本。 | ✅ 活跃 |
+| [dsh-chat-import](resources/dsh-chat-import.md) | ⭐56 | 从 Claude Code、Codex、ChatGPT、Cursor、Gemini、Reasonix、OpenCode 导入历史消息并在 DSH 中继续对话。 | ✅ 活跃 |
+| [dsh-open-in-vscode](resources/dsh-open-in-vscode.md) | ⭐49 | 从 Web GUI 直接在工作区中打开 VS Code 目录/文件。 | ✅ 活跃 |
+| [dsh-plugin-mineru](resources/dsh-plugin-mineru.md) | ⭐33 | 向模型暴露 MinerU 文档解析：PDF/图片/DOCX/PPTX/XLSX 转结构化 Markdown/JSON。 | ✅ 活跃 |
+| [dsh-remote](resources/dsh-remote.md) | ⭐17 | 远程工作区：SSH 连接远程主机，用 rw_pick_workspace/rw_read_file/rw_exec 等工具远程操作。 | ✅ 活跃 |
+| [dsh-file-claim](resources/dsh-file-claim.md) | ⭐6 | 并行 Agent 会话的文件归属/认领系统：认领/释放、心跳过期接管、异步三路合并。 | ✅ 活跃 |
+| [dsh-file-mentions](resources/dsh-file-mentions.md) | ⭐6 | 回复中文件路径可点击：内联打开、文件管理器揭示、提及文件芯片列表。 | ✅ 活跃 |
+| [dsh-pdf](resources/dsh-pdf.md) | ⭐4 | PDF 工具箱：pdfjs-dist 本地提取文本、元数据与页区间，无需 API Key。 | ✅ 活跃 |
+| [dsh-telemetry-redactor](resources/dsh-telemetry-redactor.md) | ⭐3 | Fail-closed export-copy redaction for DeepSeek Harness session telemetry | ✅ 活跃 |
+*🧪 代码·测试·审查（10）*
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
@@ -154,7 +157,18 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 | [dsh-prompt-studio](resources/dsh-prompt-studio.md) | ⭐3 | 带实时预览编辑用户与内置系统提示词片段。 | ✅ 活跃 |
 | [dsh-test-runner](resources/dsh-test-runner.md) | ⭐2 | 结构化测试运行工具：自动识别 vitest/jest/pytest/node:test，运行并解析失败摘要。 | ✅ 活跃 |
 | [dsh-repo-setup](resources/dsh-repo-setup.md) | ⭐1 | 只读仓库体检引导工具（repo_setup_scan）：识别技术栈/测试/文档/git/数据库线索，给出插件、MCP 与卫生文件的安装建议（claude-code-setup 对应版）。 | ✅ 活跃 |
+| [dsh-what-changed](resources/dsh-what-changed.md) | ⭐1 | 会话顶栏的整会话改动审阅。列出本次会话 Agent 写过的每个文件与逐处改动，被权限拒绝的写入单独计数不算改动，数据来自 session projection 而非磁盘日志。 | ✅ 活跃 |
 | [dsh-git-branch-switcher](resources/dsh-git-branch-switcher.md) | – | 会话头部 git 分支胶囊：显示并在 Web UI 中切换工作区分支。 | ✅ 活跃 |
+*🛡️ 安全与运维（6）*
+
+| 项目 | 星数 | 说明 | 状态 |
+|---|---|---|---|
+| [dsh-plugin-check](resources/dsh-plugin-check.md) | ⭐24 | 插件健康检查：清单协议、patch 格式、构建陷阱与 hub 收录状态，零依赖只读。 | ✅ 活跃 |
+| [dsh-security-audit](resources/dsh-security-audit.md) | ⭐12 | DSH 本机安全审计插件：配置/插件来源/会话/网络暴露面，只读脱敏风险报告 | ✅ 活跃 |
+| [dsh-tool-git](resources/dsh-tool-git.md) | ⭐4 | 结构化安全 Git 工具：status/diff/log/branch/stage/commit/stash/show，带破坏性命令防护。 | ✅ 活跃 |
+| [dsh-llm-inspector](resources/dsh-llm-inspector.md) | ⭐3 | 统一 LLM 请求/响应检查器：调 reasoning effort、外部思考(think)导出、流量与包分析。 | ✅ 活跃 |
+| [dsh-approval-gate](resources/dsh-approval-gate.md) | ⭐2 | DeepSeek Harness 自动审批门控：Flash 预判写入/命令是否不可回补，安全操作自动批准、危险操作转人工（fail-safe）。 | ✅ 活跃 |
+| [dsh-review-loop](resources/dsh-review-loop.md) | ⭐2 | 增量代码审查：基于检查点的审查队列 + Web UI 面板 + /review 命令。 | ✅ 活跃 |
 *其他（6）*
 
 | 项目 | 星数 | 说明 | 状态 |
@@ -174,26 +188,17 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 | [dsh-director-toolkit](resources/dsh-director-toolkit.md) | ⭐7 | DSH Director Toolkit is a DeepSeek Harness plugin for 3D artists, technical designers, and creative coders. Paste a half-formed idea, a reference note, or a portfolio caption and get a compact direction pack for Blender, Three.js, Houdini, or C4D. | ✅ 活跃 |
 | [dsh-weather](resources/dsh-weather.md) | ⭐4 | 天气工具：Open-Meteo 当前天气与多日预报，免费免密钥。 | ✅ 活跃 |
 | [dsh-tool-search](resources/dsh-tool-search.md) | ⭐2 | 按 Agent 按需工具发现与渐进式 schema 披露。 | ✅ 活跃 |
-*🛡️ 安全与运维（5）*
+
+**视觉与多模态（31）**
+
+*👁️ 视觉工具（31）*
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
-| [dsh-plugin-check](resources/dsh-plugin-check.md) | ⭐24 | 插件健康检查：清单协议、patch 格式、构建陷阱与 hub 收录状态，零依赖只读。 | ✅ 活跃 |
-| [dsh-security-audit](resources/dsh-security-audit.md) | ⭐12 | DSH 本机安全审计插件：配置/插件来源/会话/网络暴露面，只读脱敏风险报告 | ✅ 活跃 |
-| [dsh-tool-git](resources/dsh-tool-git.md) | ⭐4 | 结构化安全 Git 工具：status/diff/log/branch/stage/commit/stash/show，带破坏性命令防护。 | ✅ 活跃 |
-| [dsh-llm-inspector](resources/dsh-llm-inspector.md) | ⭐3 | 统一 LLM 请求/响应检查器：调 reasoning effort、外部思考(think)导出、流量与包分析。 | ✅ 活跃 |
-| [dsh-review-loop](resources/dsh-review-loop.md) | ⭐2 | 增量代码审查：基于检查点的审查队列 + Web UI 面板 + /review 命令。 | ✅ 活跃 |
-
-**视觉与多模态（30）**
-
-*👁️ 视觉工具（30）*
-
-| 项目 | 星数 | 说明 | 状态 |
-|---|---|---|---|
-| [dsh-anchored-standard](resources/dsh-anchored-standard.md) | ⭐3,386 | Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99) | ✅ 活跃 |
+| [dsh-anchored-standard](resources/dsh-anchored-standard.md) | ⭐3,388 | Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99) | ✅ 活跃 |
 | [modlens](resources/modlens.md) | ⭐2,723 | DSH 首个视觉插件，也是所有纯文本编码 Agent 的视觉桥梁：粘贴图片即可用。 | ✅ 活跃 |
-| [dsh-vision-toolkit](resources/dsh-vision-toolkit.md) | ⭐602 | 让纯文本模型更好的视觉工具箱：带意图图片问答、长截图 OCR、UI 还原、grounding、像素 diff。 | ✅ 活跃 |
-| [dsh-vision-router](resources/dsh-vision-router.md) | ⭐591 | 纯文本 Agent 的眼睛：内置免费免密钥视觉链路 + 像素级工具（问答、grounding、裁剪、OCR、SVG 描摹）。 | ✅ 活跃 |
+| [dsh-vision-toolkit](resources/dsh-vision-toolkit.md) | ⭐603 | 让纯文本模型更好的视觉工具箱：带意图图片问答、长截图 OCR、UI 还原、grounding、像素 diff。 | ✅ 活跃 |
+| [dsh-vision-router](resources/dsh-vision-router.md) | ⭐593 | 纯文本 Agent 的眼睛：内置免费免密钥视觉链路 + 像素级工具（问答、grounding、裁剪、OCR、SVG 描摹）。 | ✅ 活跃 |
 | [museai](resources/museai.md) | ⭐577 | 创建你的 AI 角色，进入你的故事世界。和角色聊天、冒险、穿书，让每一次互动都留下羁绊（支持 DeepSeek Harness 插件，欢迎使用） | ✅ 活跃 |
 | [v4-flash-godmode-opencode-go](resources/v4-flash-godmode-opencode-go.md) | ⭐509 | V4 Flash 神模式 (opencode-go)：让 opencode-go 的 DeepSeek V4 Flash 从鬼模式切换到神模式的 dsh agent preset | ✅ 活跃 |
 | [dsh-gitbash-preset](resources/dsh-gitbash-preset.md) | ⭐126 | DeepSeek Harness 插件：一键安装「极简模式 (Git Bash)」agent preset —— 把 DSH 自带极简模式中的 bash 调用映射到 Git for Windows 的 bash（MSYS），让 Windows 上的极简模式真正可用。 | ✅ 活跃 |
@@ -220,6 +225,7 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 | [codex-eyes-hands](resources/codex-eyes-hands.md) | ⭐4 | 专为 DeepSeek Harness 打造：把本机 Codex CLI 变成纯文本 AI agent 的眼睛和手——看图/读文件/画图/监督执行/双通道容灾 | ✅ 活跃 |
 | [dsh-plugin-deepeye](resources/dsh-plugin-deepeye.md) | ⭐4 | DeepEye vision plugin for DeepSeek Harness (DSH): image description, OCR, VQA, UI layout, and clipboard analysis. | ✅ 活跃 |
 | [dsh-doctor](resources/dsh-doctor-jorinyang.md) | ⭐3 | Deterministic diagnostics and recovery for DeepSeek Harness | ✅ 活跃 |
+| [dsh-vision-tools](resources/dsh-vision-tools.md) | ⭐2 | DeepSeek Harness 视觉能力全家桶：vision_understand 工具（OpenAI 兼容视觉 API，默认免费智谱 GLM-4V-Flash）+ 粘贴/拖拽/按钮三入口识图。 | ✅ 活跃 |
 
 **记忆与上下文（24）**
 
@@ -232,12 +238,12 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 | [dsh-memory-evolve](resources/dsh-memory-evolve.md) | ⭐146 | 跨会话长期记忆 + 后台自我进化：五轨记忆、git 分支感知、回合内自我审查、技能自我进化。 | ✅ 活跃 |
 | [dsh-mnemon](resources/dsh-mnemon.md) | ⭐71 | 三层本地记忆系统：运行时热记忆、项目文档、长期记忆空间，监督式写回。 | ✅ 活跃 |
 | [dsh-mneme](resources/dsh-mneme.md) | ⭐21 | 记忆主权归用户的本地跨会话记忆：SQLite + 可人工编辑的 Markdown 镜像，autoDream 后台巩固。 | ✅ 活跃 |
-| [dsh-recall-plugin](resources/dsh-recall-plugin.md) | ⭐13 | DSH 消息撤回插件：回到发送该消息时的状态 DSH Message Recall Plugin: Return to the state when the message was sent | ✅ 活跃 |
+| [dsh-recall-plugin](resources/dsh-recall-plugin.md) | ⭐14 | DSH 消息撤回插件：回到发送该消息时的状态 DSH Message Recall Plugin: Return to the state when the message was sent | ✅ 活跃 |
 | [dsh-auto-memory](resources/dsh-auto-memory.md) | ⭐12 | DSH 自动记忆插件:三层记忆(用户级/项目笔记/每日日志)自动注入与检索、每日反思、可视化面板与设置页,支持继承其他 AI 工具的历史记忆。An auto-memory plugin for the DeepSeek Harness Web GUI: three-layer memory (user-level / project notes / daily logs) with automatic injection and retrieval, daily reflections, a visual panel and settings page, and inheritance of memories from other AI tools. | ✅ 活跃 |
+| [dsh-memento](resources/dsh-memento.md) | ⭐9 | 有界分层、审批门控、可审计的跨会话记忆，支持冻结快照注入。 | ✅ 活跃 |
 | [dsh-tdai-memory](resources/dsh-tdai-memory.md) | ⭐5 | Agent memory for DeepSeek Harness | DeepSeek Harness 记忆插件 | ✅ 活跃 |
 | [nowledge-mem-deepseek-harness](resources/nowledge-mem-deepseek-harness.md) | ⭐5 | 将 Nowledge Mem 记忆服务接入 DeepSeek Harness 的社区插件包。 | ✅ 活跃 |
 | [dsh-agentmemory](resources/dsh-agentmemory.md) | ⭐3 | agentmemory for DeepSeek Harness (dsh): full memory_* tools, capture hooks, and context injection over the local REST server | ✅ 活跃 |
-| [dsh-memento](resources/dsh-memento.md) | ⭐3 | 有界分层、审批门控、可审计的跨会话记忆，支持冻结快照注入。 | ✅ 活跃 |
 | [dsh-memory-evidence](resources/dsh-memory-evidence.md) | ⭐3 | Git-first memory navigation and bounded evidence tools for DeepSeek Harness. | 💤 停更 |
 | [dsh-plugin-meta-memory](resources/dsh-plugin-meta-memory.md) | ⭐3 | Structured long-term memory system for DeepSeek Harness | ✅ 活跃 |
 | [dsh-memory (Jesse-njx)](resources/dsh-jesse-memory.md) | ⭐2 | 基于 DSH 无损会话日志的引用式记忆：可人工审计的蒸馏事实，带引用来源。 | ✅ 活跃 |
@@ -273,12 +279,12 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 | [DSH-Plugins-Marketplace](resources/dsh-plugins-marketplace.md) | ⭐113 | 在 DSH Web GUI 中一键浏览、安装与更新全部 GitHub dsh-plugin 插件。 | ✅ 活跃 |
 | [dsh-webui-market-plugin](resources/dsh-webui-market-plugin.md) | ⭐76 | dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin.com 目录，一键安装/卸载到 profile。 | ✅ 活跃 |
 | [dsh-plugins-store](resources/dsh-plugins-store.md) | ⭐56 | 自动收录与分类 GitHub dsh-plugin Topic 项目的静态目录网站。 | ✅ 活跃 |
-| [dsh-web-plugin-manager](resources/dsh-web-plugin-manager.md) | ⭐55 | Web UI 中一键管理 DSH 插件：查看、实时启停、安装/卸载、环境管理、插件市场。 | ✅ 活跃 |
+| [dsh-web-plugin-manager](resources/dsh-web-plugin-manager.md) | ⭐56 | Web UI 中一键管理 DSH 插件：查看、实时启停、安装/卸载、环境管理、插件市场。 | ✅ 活跃 |
 | [dsh-find-plugin](resources/dsh-find-plugin.md) | ⭐47 | 会话内插件发现：直接在 DSH 中搜索 GitHub dsh-plugin 主题的实时插件。 | ✅ 活跃 |
 | [dsh-plugin-hub](resources/dsh-plugin-hub.md) | ⭐34 | 插件管理面板：一键启停已装插件 + GitHub dsh-plugin 市场，带详情与一键安装。 | ✅ 活跃 |
 | [dsh-plugin-workshop](resources/dsh-plugin-workshop.md) | ⭐25 | Steam 创意工坊风格插件浏览器：零服务器、GitHub 驱动搜索、一键安装。 | ✅ 活跃 |
 | [dsh-recommend](resources/dsh-recommend.md) | ⭐18 | 透明插件排行榜与推荐：每日自动抓取 dsh-plugin 主题数据，开放评分模型。 | ✅ 活跃 |
-| [dsh-passwords](resources/dsh-passwords.md) | ⭐10 | dsh-passwords: DeepSeek Harness login gateway - first-run setup, at-rest encryption, brute-force lockout, audit log, HTTPS | ✅ 活跃 |
+| [dsh-passwords](resources/dsh-passwords.md) | ⭐11 | dsh-passwords: DeepSeek Harness login gateway - first-run setup, at-rest encryption, brute-force lockout, audit log, HTTPS | ✅ 活跃 |
 | [dsh-plugin-installer](resources/dsh-plugin-installer.md) | ⭐6 | 将 DSH 接入 GitHub 插件生态的市场插件。 | ✅ 活跃 |
 | [dsh-notebooks](resources/dsh-notebooks.md) | ⭐4 | Notebooks plugin (cordis). | ✅ 活跃 |
 | [dsh-restart](resources/dsh-restart.md) | ⭐4 | Restart DSH: configurable restart method (Node native / legacy PowerShell), post-restart continue prompt, optional watchdog auto-relaunch. | ✅ 活跃 |
@@ -309,7 +315,7 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 | [dsh-free-search](resources/dsh-free-search.md) | ⭐9 | Free web search provider for DeepSeek Harness - DuckDuckGo backend, no API key needed | ✅ 活跃 |
 | [dsh-usage-chart](resources/dsh-usage-chart.md) | ⭐6 | A DeepSeek Harness Web plugin for real-time Token usage, cost estimates, per-round charts, and DeepSeek API balance. | ✅ 活跃 |
 | [dsh-web-search-exa](resources/dsh-web-search-exa.md) | ⭐6 | 零配置 Exa 网页搜索：免密钥匿名 MCP 回退 + API Key REST 搜索。 | ✅ 活跃 |
-| [zotero-harvest](resources/zotero-harvest.md) | ⭐5 | Zotero 文献采集入库插件（DSH external plugin）：多源检索（OpenAlex/arXiv/Crossref/Europe PMC/Semantic Scholar）+ OA 下载链接解析（Unpaywall）+ 充分性审计 + 入库本地 Zotero + 触发 zotero-wave-rag 重建 | ✅ 活跃 |
+| [zotero-harvest](resources/zotero-harvest.md) | ⭐6 | Zotero 文献采集入库插件（DSH external plugin）：多源检索（OpenAlex/arXiv/Crossref/Europe PMC/Semantic Scholar）+ OA 下载链接解析（Unpaywall）+ 充分性审计 + 入库本地 Zotero + 触发 zotero-wave-rag 重建 | ✅ 活跃 |
 | [deepseek-harness-plugin-manager](resources/deepseek-harness-plugin-manager.md) | ⭐3 | Web plugin manager for DeepSeek Harness (DSH): inspect, search, group, enable, and disable Cordis plugins. | ✅ 活跃 |
 | [dsh-prompt-stash](resources/dsh-prompt-stash.md) | ⭐3 | Local, per-session prompt stash for DeepSeek Harness Web | 本地、分对话的提示词输入暂存工具。写了一半的长提示词，临时需要先问一个短问题？ 同时准备多个方案，但尚未决定发哪一个？将未完成的想法放入草稿架中，准备好后再继续完成 | ✅ 活跃 |
 | [zotero-wave-rag](resources/zotero-wave-rag.md) | ⭐3 | 面向 Zotero 论文库的浪潮式 RAG 细节检索系统 —— DSH 外部插件。移植 VCPToolBox 浪潮语义动力学思想（标签河道图传播/虫洞跳转/钟型阻尼/Ω重排），配 BM25+RRF 混合检索、claim-evidence 忠实度校验、两级增量索引 | ✅ 活跃 |
@@ -355,7 +361,7 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
-| [dsh-browser](resources/dsh-browser-xylt2.md) | ⭐242 | Chrome 侧栏扩展：让 DSH 直接操控你的浏览器，无需视觉能力。 | ✅ 活跃 |
+| [dsh-browser](resources/dsh-browser-xylt2.md) | ⭐243 | Chrome 侧栏扩展：让 DSH 直接操控你的浏览器，无需视觉能力。 | ✅ 活跃 |
 | [ego-browser](resources/ego-browser.md) | ⭐22 | 把 ego-lite 智能体浏览器（为 AI Agent 打造的 Chromium）接入 DSH，13 个结构化工具。 | ✅ 活跃 |
 | [dsh-computer-use](resources/dsh-computer-use-anionex.md) | ⭐21 | 为 DeepSeek Harness 提供电脑控制插件：新鲜 Accessibility 观测、过期状态拒绝、作用域权限与安全输入（目前支持macos）｜Accessibility-first macOS Computer Use bundle for DSH with fresh observations, stale-state rejection, scoped permissions, and safe input. | ✅ 活跃 |
 | [dsh-browser](resources/dsh-browser.md) | ⭐5 | Self-contained browser runtime plugin for DeepSeek Harness — bundles Playwright (chromium) and OpenCLI as plugin-local dependencies, exposes a browser service and interactive browser tools. | ✅ 活跃 |
@@ -371,8 +377,9 @@ keywords: "deepseek harness, dsh, plugins, plugin, awesome"
 | [dsh-notify-windows](resources/dsh-notify-windows.md) | ⭐5 | DSH Windows 原生通知，零依赖。 | ✅ 活跃 |
 | [dsh-island](resources/dsh-island.md) | ⭐4 | 通过 Unix socket 把 DSH agent 的会话、工具调用与审批实时桥接到 CodeIsland macOS 刘海面板，可直接在面板上批准/拒绝。 | ✅ 活跃 |
 
-**安全（1）**
+**安全（2）**
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
 | [dsh-guardian](resources/dsh-guardian.md) | ⭐4 | Agent 安全护栏：拦截并审计所有工具调用，命中敏感操作就要求人工确认。 | ✅ 活跃 |
+| [xgone/dsh-remote](resources/xgone-dsh-remote.md) | ⭐4 | 让 DeepSeek Harness 可以被安全地远程访问：账号密码认证 + MFA（TOTP）登录门禁、签名会话 Cookie、角色权限、浏览器内目录选择器、账号管理设置页。 | 🧪 实验性 |

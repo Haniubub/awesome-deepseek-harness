@@ -12,8 +12,8 @@ keywords: "deepseek harness, dsh, mcp integrations, plugin, awesome"
 | 1 | [dsh-super-injector](resources/dsh-super-injector.md) | ⬆️ +14 | ⭐95 | Super-injector plugin (cordis) for context injection. |
 | 2 | [Coding Tools MCP](resources/coding-tools-mcp.md) | ⬆️ +13 | ⭐810 | Coding-oriented MCP tool collection that appears in the emerging DSH ecosystem: give any AI agent the ability to code. |
 | 3 | [dsh-openpencil](resources/dsh-openpencil.md) | ⬆️ +9 | ⭐105 | OpenPencil design preview and editing integration. |
-| 4 | [dsh-qqbot](resources/dsh-qqbot.md) | ⬆️ +8 | ⭐56 | 让 QQ 机器人接入 DeepSeek Harness（dsh）的官方插件 |
-| 5 | [deepseek-harness-vsc-extension](resources/deepseek-harness-vsc-extension.md) | ⬆️ +8 | ⭐18 | DeepSeek Harness for VS Code as extension |
+| 4 | [deepseek-harness-vsc-extension](resources/deepseek-harness-vsc-extension.md) | ⬆️ +8 | ⭐18 | DeepSeek Harness for VS Code as extension |
+| 5 | [dsh-lark](resources/dsh-lark.md) | ⬆️ +7 | ⭐30 | Lark/Feishu IM bot channel for DeepSeek Harness | 飞书 DeepSeek Harness 插件 |
 
 ## 🔥 Top 10
 
@@ -23,7 +23,7 @@ keywords: "deepseek harness, dsh, mcp integrations, plugin, awesome"
 | 2 | [memtrace-public](resources/memtrace-public.md) | ⭐453 | Structural memory for AI coding agents. Bi-temporal graph, MCP-native, zero LLM calls. Cursor · Claude Code · Codex · DeepSeek Harness · Hermes · VS Code · Windsurf. | ✅ active |
 | 3 | [dsh-openpencil](resources/dsh-openpencil.md) | ⭐105 | OpenPencil design preview and editing integration. | ✅ active |
 | 4 | [dsh-super-injector](resources/dsh-super-injector.md) | ⭐95 | Super-injector plugin (cordis) for context injection. | ✅ active |
-| 5 | [dsh-qqbot](resources/dsh-qqbot.md) | ⭐56 | 让 QQ 机器人接入 DeepSeek Harness（dsh）的官方插件 | ✅ active |
+| 5 | [dsh-qqbot](resources/dsh-qqbot.md) | ⭐57 | 让 QQ 机器人接入 DeepSeek Harness（dsh）的官方插件 | ✅ active |
 | 6 | [dsh-lark](resources/dsh-lark.md) | ⭐30 | Lark/Feishu IM bot channel for DeepSeek Harness | 飞书 DeepSeek Harness 插件 | ✅ active |
 | 7 | [deepseek-harness-docker](resources/deepseek-harness-docker.md) | ⭐19 | Community Docker and Kubernetes packaging for @deepseek-ai/dsh with a hardened image. | ✅ active |
 | 8 | [dsh-ide](resources/dsh-ide.md) | ⭐19 | dsh-IDE 把 DeepSeek Harness（DSH）网页版升级成一站式 IDE：JupyterLab 式文件树、带语法高亮的代码编辑、多格式预览、Trae 风格红绿 diff 和内置终端，再加上「本地大脑、远程手脚」的 SSH 远程工作区，让 AI 直接在本机操控远程服务器，全程零配置文件改动。 | ✅ active |
@@ -97,7 +97,7 @@ keywords: "deepseek harness, dsh, mcp integrations, plugin, awesome"
 
 | Project | Stars | Description | Status |
 |---|---|---|---|
-| [dsh-qqbot](resources/dsh-qqbot.md) | ⭐56 | 让 QQ 机器人接入 DeepSeek Harness（dsh）的官方插件 | ✅ active |
+| [dsh-qqbot](resources/dsh-qqbot.md) | ⭐57 | 让 QQ 机器人接入 DeepSeek Harness（dsh）的官方插件 | ✅ active |
 | [dsh-lark](resources/dsh-lark.md) | ⭐30 | Lark/Feishu IM bot channel for DeepSeek Harness | 飞书 DeepSeek Harness 插件 | ✅ active |
 | [dsh-telegram-channel](resources/dsh-telegram-channel.md) | ⭐7 | Telegram mobile remote for live DSH Web sessions: session picker, bind/unbind, same trajectory as desktop. | ✅ active |
 | [DSH Telegram Relay](resources/dsh-telegram-relay.md) | ⭐6 | Relay that turns Telegram into a remote conversation channel for DSH with notifications. | ✅ active |

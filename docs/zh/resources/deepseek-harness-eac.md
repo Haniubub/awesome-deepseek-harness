@@ -5,7 +5,7 @@ keywords: "deepseek-harness-eac, desktop, client, coding, ui, deepseek harness, 
 ---
 # deepseek-harness-eac
 
-> ⭐ 688 · ✅ 活跃 · 客户端
+> ⭐ 691 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

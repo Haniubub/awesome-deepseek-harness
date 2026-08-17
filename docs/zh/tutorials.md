@@ -9,17 +9,17 @@ keywords: "deepseek harness, dsh, tutorials learning, plugin, awesome"
 
 | # | 项目 | 增长 | 星数 | 说明 |
 |---|---|---|---|---|
-| 1 | [DeepSeek Harness Orange Book](resources/deepseek-harness-orange-book.md) | ⬆️ +100 | ⭐946 | 《DeepSeek Harness 橙皮书》：完整系统提示词、129 行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML 免费下载。 |
-| 2 | [dsh-handbook](resources/dsh-handbook.md) | ⬆️ +97 | ⭐442 | 从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF）。 |
-| 3 | [dshfind](resources/dshfind.md) | ⬆️ +34 | ⭐132 | DSH 原理学习、插件市场与最佳实践：从 Cordis 论文逐章精读到插件自动聚合市场。 |
-| 4 | [deepseek-harness-tutorial](resources/deepseek-harness-tutorial.md) | ⬆️ +20 | ⭐149 | DeepSeek Harness 中文详细学习教程。 |
-| 5 | [dsh-harness-tutorial](resources/dsh-harness-tutorial.md) | ⬆️ +4 | ⭐49 | DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent —— 一切皆插件的中文教程（VitePress 站点 + 8 个 Demo + mini-harness 教学项目） |
+| 1 | [dsh-handbook](resources/dsh-handbook.md) | ⬆️ +97 | ⭐442 | 从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF）。 |
+| 2 | [dshfind](resources/dshfind.md) | ⬆️ +34 | ⭐132 | DSH 原理学习、插件市场与最佳实践：从 Cordis 论文逐章精读到插件自动聚合市场。 |
+| 3 | [deepseek-harness-tutorial](resources/deepseek-harness-tutorial.md) | ⬆️ +20 | ⭐149 | DeepSeek Harness 中文详细学习教程。 |
+| 4 | [dsh-harness-tutorial](resources/dsh-harness-tutorial.md) | ⬆️ +4 | ⭐49 | DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent —— 一切皆插件的中文教程（VitePress 站点 + 8 个 Demo + mini-harness 教学项目） |
+| 5 | [DeepSeek Harness Orange Book](resources/deepseek-harness-orange-book.md) | ⬆️ +1 | ⭐947 | 《DeepSeek Harness 橙皮书》：完整系统提示词、129 行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML 免费下载。 |
 
 ## 🔥 Top 10
 
 | # | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|---|
-| 1 | [DeepSeek Harness Orange Book](resources/deepseek-harness-orange-book.md) | ⭐946 | 《DeepSeek Harness 橙皮书》：完整系统提示词、129 行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML 免费下载。 | ✅ 活跃 |
+| 1 | [DeepSeek Harness Orange Book](resources/deepseek-harness-orange-book.md) | ⭐947 | 《DeepSeek Harness 橙皮书》：完整系统提示词、129 行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML 免费下载。 | ✅ 活跃 |
 | 2 | [dsh-handbook](resources/dsh-handbook.md) | ⭐442 | 从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF）。 | ✅ 活跃 |
 | 3 | [deepseek-harness-tutorial](resources/deepseek-harness-tutorial.md) | ⭐149 | DeepSeek Harness 中文详细学习教程。 | ✅ 活跃 |
 | 4 | [dshfind](resources/dshfind.md) | ⭐132 | DSH 原理学习、插件市场与最佳实践：从 Cordis 论文逐章精读到插件自动聚合市场。 | ✅ 活跃 |
@@ -37,7 +37,7 @@ keywords: "deepseek harness, dsh, tutorials learning, plugin, awesome"
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
-| [DeepSeek Harness Orange Book](resources/deepseek-harness-orange-book.md) | ⭐946 | 《DeepSeek Harness 橙皮书》：完整系统提示词、129 行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML 免费下载。 | ✅ 活跃 |
+| [DeepSeek Harness Orange Book](resources/deepseek-harness-orange-book.md) | ⭐947 | 《DeepSeek Harness 橙皮书》：完整系统提示词、129 行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML 免费下载。 | ✅ 活跃 |
 | [dsh-handbook](resources/dsh-handbook.md) | ⭐442 | 从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF）。 | ✅ 活跃 |
 | [deepseek-harness-tutorial](resources/deepseek-harness-tutorial.md) | ⭐149 | DeepSeek Harness 中文详细学习教程。 | ✅ 活跃 |
 | [dshfind](resources/dshfind.md) | ⭐132 | DSH 原理学习、插件市场与最佳实践：从 Cordis 论文逐章精读到插件自动聚合市场。 | ✅ 活跃 |

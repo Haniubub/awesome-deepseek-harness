@@ -5,7 +5,7 @@ keywords: "dshcockpit, desktop, client, coding, ui, deepseek harness, dsh"
 ---
 # dshcockpit
 
-> ⭐ 8 · ✅ active · client
+> ⭐ 9 · ✅ active · client
 
 ## One-liner
 

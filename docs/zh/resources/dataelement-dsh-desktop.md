@@ -5,7 +5,7 @@ keywords: "dsh-desktop (DataElement), desktop, client, deepseek harness, dsh"
 ---
 # dsh-desktop (DataElement)
 
-> ⭐ 731 · ✅ 活跃 · 客户端
+> ⭐ 735 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

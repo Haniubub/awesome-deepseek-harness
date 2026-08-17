@@ -13,7 +13,7 @@ keywords: "dsh-launcher, desktop, client, deepseek harness, dsh"
 
 ## 详细介绍
 
-轻量 Windows 启动器：登录静默自启 + 极简 WebView2 窗口。
+<div align="center"> [English](docs/README.en.md) · [简体中文](README.md) </div>
 
 ## 作者
 **[Ruler4396](https://github.com/Ruler4396)**

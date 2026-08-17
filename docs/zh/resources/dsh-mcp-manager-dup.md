@@ -13,7 +13,7 @@ MCP 服务器管理器：设置页 OAuth（PKCE + 动态客户端注册）或静
 
 ## 详细介绍
 
-MCP 服务器管理器：设置页 OAuth（PKCE + 动态客户端注册）或静态 Token 认证。
+[简体中文](README.zh-CN.md) | English **MCP server manager for [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-harness)** — a Settings → MCP page where you add MCP servers once (remote HTTP or local stdio process), authenticate HTTP servers with **OAuth in the browser**, and expose their tools either directly or through a compact on-demand broker. The built-in `@deepseek-ai/dsh-mcp-client` only accepts a static `headers` config — it has no OAuth support and no local stdio transport.
 
 ## 作者
 **[hyqhyq3](https://github.com/hyqhyq3)**

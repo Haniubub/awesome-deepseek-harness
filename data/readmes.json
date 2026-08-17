@@ -5115,5 +5115,157 @@
   "usage": "dsh plugin --profile web add dsh-plugin-swift-cycle@0.1.1",
   "license": "",
   "_done": true
+ },
+ "dsh-vision-tools": {
+  "intro": "DeepSeek Harness（DSH）视觉能力全家桶 —— 让 DeepSeek 纯文本模型\"看得见\"。 - **vision_understand 工具**：调用 OpenAI 兼容视觉大模型 API 理解本地图片（描述画面、识别文字、回答问题），注册为全局工具，所有会话可用。 - **三入口识图**：`Cmd/Ctrl+V` 粘贴截图、拖图到按钮、点按钮选文件 → 图片自动落盘到 `$DSH_HOME/pasted-images/` → 输入框填入 `请识别这张图片：<路径>` → 发送后模型自动调用识图工具。 默认使用**智谱 GLM-4.6V-Flash（免费）**，支持 4 家 provider 切换。被限流时**自动降级到 GLM-4V（glm-4v-flash）**重试，免费模型高峰期也不容易失败。",
+  "features": [
+   "**vision_understand 工具**：调用 OpenAI 兼容视觉大模型 API 理解本地图片（描述画面、识别文字、回答问题），注册为全局工具，所有会话可用。",
+   "**三入口识图**：`Cmd/Ctrl+V` 粘贴截图、拖图到按钮、点按钮选文件 → 图片自动落盘到 `$DSH_HOME/pasted-images/` → 输入框填入 `请识别这张图片：<路径>` → 发送后模型自动调用识图工具。"
+  ],
+  "install": "# 方式一：npm 安装（推荐）\ndsh plugin --profile web add dsh-vision-tools\n\n# 方式二：GitHub 安装\ndsh plugin --profile web add \"github:moon09300731/dsh-vision-tools#main\"",
+  "usage": "VISION_PROVIDER=zhipu        # zhipu | dashscope | siliconflow | openai\nVISION_API_KEY=你的APIKey",
+  "license": "MIT",
+  "_done": true
+ },
+ "dsh-mcp-manager-dup": {
+  "intro": "[简体中文](README.zh-CN.md) | English **MCP server manager for [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-harness)** — a Settings → MCP page where you add MCP servers once (remote HTTP or local stdio process), authenticate HTTP servers with **OAuth in the browser**, and expose their tools either directly or through a compact on-demand broker. The built-in `@deepseek-ai/dsh-mcp-client` only accepts a static `headers` config — it has no OAuth support and no local stdio transport.",
+  "features": [
+   "**OAuth (authorization code + PKCE)** with RFC 7591 dynamic client registration, `refresh_token` rotation, and auto-reconnect across restart",
+   "**Static Bearer token** mode for servers without OAuth — stored as an environment-variable **name** (Codex-style `tokenEnv`), never as plain",
+   "**Custom HTTP headers** (`headers` for direct values, `headerEnv` for values read from environment variables) — matches Codex's `http_header",
+   "**stdio local processes**: run `npx` / `uvx` / `python` etc. directly; the plugin speaks JSON-RPC over the child's stdin/stdout (spawns the "
+  ],
+  "install": "npx -p @deepseek-ai/dsh dsh plugin --profile web add github:hyqhyq3/dsh-mcp-manager",
+  "usage": "mcp__odin__search_tools     mcp__odin__describe_tool\nmcp__odin__execute_tool     mcp__odin__list_tool_scopes",
+  "license": "MIT",
+  "_done": true
+ },
+ "dsh-plugin-hub-dup2": {
+  "intro": "全网 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh) 插件聚合检测站: 多数据源自动汇总 → 自己的逻辑去重/分类/排序 → 静态页检索,每小时刷新。 线上地址:https://dsh-plugin-hub.hupc.site",
+  "features": [],
+  "install": "",
+  "usage": "# 跑一次完整 ETL(实时拉取)\npython3 scripts/aggregate.py\n\n# 只用本地缓存调试\npython3 scripts/aggregate.py --offline\n\n# 本地预览站点\nmkdir -p site/data && cp data/plugins.json site/data/plugins.json\ncd site && python3 -m http.server 8000\n# 打开 http://localhost:8000",
+  "license": "MIT",
+  "_done": true
+ },
+ "dsh-plugin-marketplace-dup2": {
+  "intro": "**经过验证的 DSH 插件市场，以及自主维护的中心 Registry。** **简体中文** · [English](./README.en.md) · [更新日志](./CHANGELOG.md) </div>",
+  "features": [],
+  "install": "dsh plugin --profile web add github:YELEBAI/dsh-plugin-marketplace#v0.9.2",
+  "usage": "dsh plugin --profile web add D:/path/to/dsh_Market",
+  "license": "[MIT](./LICENSE) © YELEBAI",
+  "_done": true
+ },
+ "dsh-launcher-dup": {
+  "intro": "<div align=\"center\"> [English](docs/README.en.md) · [简体中文](README.md) </div>",
+  "features": [
+   "开机自启 · 独立小窗口（WebView2）· 自动拉起服务并等待就绪",
+   "出错弹窗带错误码，统一日志 `~/.dsh\\dsh-launcher\\dsh.log`",
+   "`DshWeb.exe --diagnose` 一键导出信息脱敏诊断包",
+   "服务生命周期：跟随窗口 / 常驻 / 托盘驻留（见下\"插件\"）",
+   "主题跟随 · 窗口位置记忆 · dsh 延迟更新（不打断会话）"
+  ],
+  "install": "dsh plugin --profile web add dsh-launcher-lifetime",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "oh-my-dsh-dup2": {
+  "intro": "DeepSeek Harness（以下简称 DSH）是由深度求索（DeepSeek AI）开源的人工智能 Agent 框架，其核心架构理念为“万物皆可插件”。随着生态体系快速扩展，社区插件数量持续增长，开发者在检索、甄别与选用插件方面的成本随之上升。 本仓库以 GitHub `dsh-plugin` 主题为数据源，对生态全量插件实施周期性自动监测，并在此基础上开展人工遴选、分类编目与信息核验，形成集完整性、时效性与可用性于一体的插件聚合目录。收录结果以分类目录、数据文件与检索站点三种形态同步发布。",
+  "features": [],
+  "install": "# 启动 DeepSeek Harness Web UI（官方开发者预览版）\nnpx @deepseek-ai/dsh web    # 默认地址 http://127.0.0.1:3080\n\n# 插件安装：通过官方插件市场或各插件仓库说明执行",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "dsh-dream-skin": {
+  "intro": "**让 DeepSeek Harness 换一张会呼吸、有情绪、属于你的脸。** 原生换肤 · 背景壁纸 · 主题包分享 —— 完全用官方 `--dsw-*` token 系统实现的浪漫工程。装一次，终身可换。 [English](./README.en.md) · [变更日志](./CHANGELOG.md) · [项目说明](./docs/PROJECT.md) · [发布指引](./docs/publishing-to-npm.md) -4f83f2) </div>",
+  "features": [],
+  "install": "dsh plugin --profile web add dsh-dream-skin && dsh web",
+  "usage": "┌────────────── dsh-dream-skin（标准 dsh-plugin / 双面插件）──────────────┐\n            │  dsh.bundle   → cordis.patch.yml 插入 dream-skin 入口   (host 半边)     │\n            │  dsh.client   → lib/client.js（浏览器 bundle）          (浏览器半边)     │\n            └─────────────────────────────────────────────────────────────────────────┘",
+  "license": "",
+  "_done": true
+ },
+ "dsh-plugin-aggregate-dup": {
+  "intro": "这是一个 Tabbit 浏览器为 Deepseek Harness 提供的一个 plugins。你可以在 Deepseek Harness 中安装这个插件，给 Deepseek Harness 提供控制 Tabbit 浏览器的能力。",
+  "features": [],
+  "install": "brew install node\nnpm install -g @deepseek-ai/dsh",
+  "usage": "winget install OpenJS.NodeJS.LTS",
+  "license": "",
+  "_done": true
+ },
+ "dsh-approval-gate": {
+  "intro": "**DeepSeek Harness 自动审批门控 —— 最小人工介入，安全自动放行、危险转人工（fail-safe）。** Flash 模型预判每次沙箱越界：常规操作自动放行，硬风险操作（删除 / 凭据 / 远程 / 系统 / 批量）永远转人工确认；学习沉淀只针对你确认过的操作，并提供界面化人工审查入口。",
+  "features": [
+   "⚡ **Flash 风险预判**：每次沙箱越界由 Flash 模型判定（`SAFE` / `RISKY:<类别>`），可回补操作自动放行",
+   "🛡️ **硬风险永远人工**：删除、凭据、远程/生产、系统路径、批量不可回补五类操作直接转人工，不计数、不学习",
+   "🎯 **确认制学习**：同一操作确认 N-1 次后自动放行；沉淀规则携带**操作指纹**，只放行你确认过的操作",
+   "🧠 **语义同类验证**：措辞变化但意图相同的操作，由 Flash 对照你的确认样本语义判断，不再依赖关键词",
+   "🔧 **配置热更新**：`allowlist.json` 修改即时生效，无需重启",
+   "✅ **人工审查 UI**：自动放行时输入框上方出现绿色提示；「审批」视图（轨迹右侧）展示当前会话完整放行时间线"
+  ],
+  "install": "dsh plugin --profile web add dsh-approval-gate",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "dsh-llm-local-token": {
+  "intro": "A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin that serves LLM calls with the OAuth tokens your **local CLIs already hold** — no separate API key, no extra login. If you are signed in to the Codex CLI or to Claude Code, those subscriptions become usable model routes inside DSH. Both routes appear in the model picker as soon as the plugin loads. A route whose credential is missing is skipped instead of failing the boot. <table> <tr> <td align=\"center\" width=\"50%\"><su",
+  "features": [],
+  "install": "dsh plugin --profile web add dsh-llm-local-token\n\n# or straight from git\ndsh plugin --profile web add https://github.com/tianxia--/dsh-llm-local-token.git",
+  "usage": "- insert:\n    - id: llm-local-token\n      name: dsh-llm-local-token",
+  "license": "MIT",
+  "_done": true
+ },
+ "open-sea-skin": {
+  "intro": "[中文](README.zh.md) · [Architecture](docs/architecture.md) · [Release guide](docs/releasing.md) A self-contained WebGPU ocean for new tabs and DeepSeek Harness. It keeps the original five-wave Gerstner/TSL look, adds a translucent Harness theme, and is available as a one-line DSH plugin, Chrome/Edge extension, one-command static installer, or native Harness source integration.",
+  "features": [
+   "WebGPU + three.js 0.178.0 + TSL, five Gerstner waves, analytic normals, FBM",
+   "A local-only runtime: three.js and Geist are vendored; the extension and",
+   "256×256 mesh (160×160 in low/reduced-motion mode), DPR cap 1.5, adaptive",
+   "Twelve-minute daylight cycle; manual daylight adjustment pins the selected",
+   "Shared host controller for the extension and static installer, with only the",
+   "Duplicate-render prevention across all installation methods, bilingual UI,"
+  ],
+  "install": "dsh plugin --profile web add 'github:d-dev0101/open-sea-skin#v1.2.0'",
+  "usage": "dsh plugin --profile web remove open-sea-skin",
+  "license": "Project code is [MIT licensed](LICENSE). three.js 0.178.0 re",
+  "_done": true
+ },
+ "xgone-dsh-remote": {
+  "intro": "[English](README.en.md) | **中文** **让 DeepSeek Harness 可以被安全地远程访问**：在 `dsh web` 前增加完整的账号密码认证 + MFA （两步验证）门禁，并打通外网部署所需的全部环节——外部浏览器登录后即可使用完整功能（含工作区 选择、添加工作区等），全程不会在宿主机上弹出任何原生窗口。 ---",
+  "features": [
+   "**外网/局域网可用**：经反向代理（nginx / ssh 隧道 / Tailscale / Frp 等）暴露后，外部浏览器",
+   "**工作区/添加工作区不弹宿主窗口**：DSH 默认的目录选择器在 loopback 部署下会调用宿主机原生",
+   "**WebSocket 全通**：事件下行流（`events.mux` / `events.host`）经认证后正常建立。"
+  ],
+  "install": "dsh plugin --profile web add @xgone/dsh-remote",
+  "usage": "# 从公开 Git 仓库安装\ndsh plugin --profile web add git@github.com:xgone/dsh-remote.git\n\n# 本地源码目录（开发/自用，路径替换为你实际的源码位置）\ndsh plugin --profile web add ~/path/to/dsh-remote",
+  "license": "",
+  "_done": true
+ },
+ "dsh-what-changed": {
+  "intro": "**看得见 Agent 到底改了什么。一个会话里所有文件改动，一屏看完再决定要不要提交。** [English](./README.en.md) <p> </p> 真实 `dsh web` 会话，不是拼的图。顶栏上的「1 个文件 · 1 处编辑」就是这个插件，点开是这一屏。",
+  "features": [],
+  "install": "dsh plugin --profile web add dsh-what-changed",
+  "usage": "Failed to load plugins\nbundle .../client.js loaded without registering \"dsh-what-changed\" via __ModuleLoader__.load",
+  "license": "MIT",
+  "_done": true
+ },
+ "dsh-workflow-dup": {
+  "intro": "DSH 已经有很强的 Harness 基础设施：模型路由、子 Agent provider、工具权限、审批、Session 日志、后台 jobs 与 UI 事件。但仅有这些“执行原语”，团队仍需在每次会话里重新描述如何拆解、并发、验证和汇总。 对 DSH 项目本身，这个插件的价值是把已有 Harness 能力串成完整闭环： flowchart LR A[\"DSH providers / models\"] --> W[\"DSH Workflow\"] B[\"tool filters / approval\"] --> W C[\"Session / jobs / commands\"] --> W W --> D[\"reusable capsules\"] W --> E[\"durable run graph\"] W --> F[\"resume / governance / evidence\"] 因此，DSH 不只会“调用 Agent”，还可以承载长期维护的 Agent 工作流库。",
+  "features": [],
+  "install": "# 构建产物已提交，git 源安装不需要在用户侧编译\ndsh plugin --profile web add \"github:dsh-external/dsh_workflow#main\"\n\n# 验证 bundle 已进入 profile 合成树\ndsh --profile web --dump-config",
+  "usage": "- id: dsh-external-workflow\n  name: '@dsh-external/workflow'",
+  "license": "MIT，见 [LICENSE](LICENSE)。",
+  "_done": true
+ },
+ "dsh-plugins-dup2": {
+  "intro": "dsh plugin --profile web add \"github:Sakana-yuyu/dsh-plugins\" 在系统终端运行，不要让 Agent 代跑，然后重启。",
+  "features": [],
+  "install": "dsh plugin --profile web add \"github:Sakana-yuyu/dsh-plugins\"",
+  "usage": "",
+  "license": "",
+  "_done": true
  }
 }

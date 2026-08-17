@@ -5,7 +5,7 @@ keywords: "dsh-desktop (DataElement), desktop, client, deepseek harness, dsh"
 ---
 # dsh-desktop (DataElement)
 
-> ⭐ 731 · ✅ active · client
+> ⭐ 735 · ✅ active · client
 
 ## One-liner
 

@@ -272,11 +272,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 8,
+    "stars": 9,
     "_source_description": "Open task handoff protocol for DeepSeek Harness, WorkBuddy, Claude Code and Codex — verified state, not chat logs",
     "_updated": "2026-08-15",
-    "_stars_prev": 6,
-    "growth": 2
+    "_stars_prev": 8,
+    "growth": 1
   },
   {
     "id": "dsh-plugin-claude-bridge",

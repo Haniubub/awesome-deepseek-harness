@@ -5,7 +5,7 @@ keywords: "sandbase-skills, registry, awesome-list, coding, multi-agent, search,
 ---
 # sandbase-skills
 
-> ⭐ 4 · ✅ 活跃 · 精选列表
+> ⭐ 14 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

@@ -12,11 +12,11 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 946,
+    "stars": 947,
     "_source_description": "DeepSeek Harness橙皮书《从开机到拆开》：完整系统提示词、129行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML免费下载",
     "_updated": "2026-08-17",
-    "_stars_prev": 846,
-    "growth": 100
+    "_stars_prev": 946,
+    "growth": 1
   },
   {
     "id": "dsh-handbook",

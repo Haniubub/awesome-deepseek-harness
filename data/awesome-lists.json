@@ -31,11 +31,11 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 7364,
+    "stars": 7371,
     "_source_description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
     "_updated": "2026-08-17",
-    "_stars_prev": 4375,
-    "growth": 2989
+    "_stars_prev": 7364,
+    "growth": 7
   },
   {
     "id": "adamplatin-awesome-dsh-plugins",
@@ -88,11 +88,11 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 678,
+    "stars": 679,
     "_source_description": "DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic.",
     "_updated": "2026-08-17",
-    "_stars_prev": 577,
-    "growth": 101
+    "_stars_prev": 678,
+    "growth": 1
   },
   {
     "id": "bruc3van-awesome-dsh-plugin",
@@ -185,11 +185,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 117,
+    "stars": 118,
     "_source_description": "A curated list of plugins, skills, MCP servers, patch/profile layers, orchestrators & UIs for DeepSeek Harness (DSH). Visualization · PPT · Coding · Agents · Loops (auto-research) and more. #dsh",
     "_updated": "2026-08-17",
-    "_stars_prev": 85,
-    "growth": 32
+    "_stars_prev": 117,
+    "growth": 1
   },
   {
     "id": "alex-yanggg-awesome",
@@ -282,11 +282,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 74,
+    "stars": 75,
     "_source_description": "Awesome DeepSeek Harness (DSH) Plugin",
     "_updated": "2026-08-17",
-    "_stars_prev": 48,
-    "growth": 26
+    "_stars_prev": 74,
+    "growth": 1
   },
   {
     "id": "oh-my-dsh-dup2",
@@ -478,11 +478,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 50,
+    "stars": 51,
     "_source_description": "DeepSeek Harness plugin store, marketplace and hub — 3,100+ dsh plugins with search, rankings, install commands and a free public API. DeepSeek Harness 插件市场 / 插件商店：自动收集与格式校验，免费搜索 API。deepseek1024.com",
     "_updated": "2026-08-17",
-    "_stars_prev": 15,
-    "growth": 35
+    "_stars_prev": 50,
+    "growth": 1
   },
   {
     "id": "jiji262-awesome",
@@ -647,11 +647,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 4,
+    "stars": 14,
     "_source_description": "88 installable open-source Agent Skills for research, social intelligence, marketing, and business workflows—compatible with Codex, Claude Code, Cursor, Gemini CLI, and DeepSeek Harness.",
     "_updated": "2026-08-15",
-    "_stars_prev": 3,
-    "growth": 1
+    "_stars_prev": 4,
+    "growth": 10
   },
   {
     "id": "dsh-plugins",

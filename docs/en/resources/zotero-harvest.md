@@ -5,7 +5,7 @@ keywords: "zotero-harvest, search, plugin, coding, deepseek harness, dsh"
 ---
 # zotero-harvest
 
-> ⭐ 5 · ✅ active · plugin
+> ⭐ 6 · ✅ active · plugin
 
 ## One-liner
 

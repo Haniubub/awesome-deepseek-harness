@@ -9,17 +9,17 @@ keywords: "deepseek harness, dsh, tutorials learning, plugin, awesome"
 
 | # | Project | Growth | Stars | Description |
 |---|---|---|---|---|
-| 1 | [DeepSeek Harness Orange Book](resources/deepseek-harness-orange-book.md) | ⬆️ +100 | ⭐946 | Community Orange Book: complete system prompts, a 129-line startup checklist and three raw session logs — first-hand testing the official docs lack. Free PDF/EPUB/HTML. |
-| 2 | [dsh-handbook](resources/dsh-handbook.md) | ⬆️ +97 | ⭐442 | From 0 to 1 handbook: installation, plugin development, performance tuning, real-world cases and same-model multi-agent comparisons (CN + EN PDF). |
-| 3 | [dshfind](resources/dshfind.md) | ⬆️ +34 | ⭐132 | Learn DSH principles, plugin marketplace and best practices — from chapter-by-chapter Cordis paper reading to an auto-aggregated plugin market. |
-| 4 | [deepseek-harness-tutorial](resources/deepseek-harness-tutorial.md) | ⬆️ +20 | ⭐149 | Detailed Chinese learning tutorial for DeepSeek Harness. |
-| 5 | [dsh-harness-tutorial](resources/dsh-harness-tutorial.md) | ⬆️ +4 | ⭐49 | DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent —— 一切皆插件的中文教程（VitePress 站点 + 8 个 Demo + mini-harness 教学项目） |
+| 1 | [dsh-handbook](resources/dsh-handbook.md) | ⬆️ +97 | ⭐442 | From 0 to 1 handbook: installation, plugin development, performance tuning, real-world cases and same-model multi-agent comparisons (CN + EN PDF). |
+| 2 | [dshfind](resources/dshfind.md) | ⬆️ +34 | ⭐132 | Learn DSH principles, plugin marketplace and best practices — from chapter-by-chapter Cordis paper reading to an auto-aggregated plugin market. |
+| 3 | [deepseek-harness-tutorial](resources/deepseek-harness-tutorial.md) | ⬆️ +20 | ⭐149 | Detailed Chinese learning tutorial for DeepSeek Harness. |
+| 4 | [dsh-harness-tutorial](resources/dsh-harness-tutorial.md) | ⬆️ +4 | ⭐49 | DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent —— 一切皆插件的中文教程（VitePress 站点 + 8 个 Demo + mini-harness 教学项目） |
+| 5 | [DeepSeek Harness Orange Book](resources/deepseek-harness-orange-book.md) | ⬆️ +1 | ⭐947 | Community Orange Book: complete system prompts, a 129-line startup checklist and three raw session logs — first-hand testing the official docs lack. Free PDF/EPUB/HTML. |
 
 ## 🔥 Top 10
 
 | # | Project | Stars | Description | Status |
 |---|---|---|---|---|
-| 1 | [DeepSeek Harness Orange Book](resources/deepseek-harness-orange-book.md) | ⭐946 | Community Orange Book: complete system prompts, a 129-line startup checklist and three raw session logs — first-hand testing the official docs lack. Free PDF/EPUB/HTML. | ✅ active |
+| 1 | [DeepSeek Harness Orange Book](resources/deepseek-harness-orange-book.md) | ⭐947 | Community Orange Book: complete system prompts, a 129-line startup checklist and three raw session logs — first-hand testing the official docs lack. Free PDF/EPUB/HTML. | ✅ active |
 | 2 | [dsh-handbook](resources/dsh-handbook.md) | ⭐442 | From 0 to 1 handbook: installation, plugin development, performance tuning, real-world cases and same-model multi-agent comparisons (CN + EN PDF). | ✅ active |
 | 3 | [deepseek-harness-tutorial](resources/deepseek-harness-tutorial.md) | ⭐149 | Detailed Chinese learning tutorial for DeepSeek Harness. | ✅ active |
 | 4 | [dshfind](resources/dshfind.md) | ⭐132 | Learn DSH principles, plugin marketplace and best practices — from chapter-by-chapter Cordis paper reading to an auto-aggregated plugin market. | ✅ active |
@@ -37,7 +37,7 @@ keywords: "deepseek harness, dsh, tutorials learning, plugin, awesome"
 
 | Project | Stars | Description | Status |
 |---|---|---|---|
-| [DeepSeek Harness Orange Book](resources/deepseek-harness-orange-book.md) | ⭐946 | Community Orange Book: complete system prompts, a 129-line startup checklist and three raw session logs — first-hand testing the official docs lack. Free PDF/EPUB/HTML. | ✅ active |
+| [DeepSeek Harness Orange Book](resources/deepseek-harness-orange-book.md) | ⭐947 | Community Orange Book: complete system prompts, a 129-line startup checklist and three raw session logs — first-hand testing the official docs lack. Free PDF/EPUB/HTML. | ✅ active |
 | [dsh-handbook](resources/dsh-handbook.md) | ⭐442 | From 0 to 1 handbook: installation, plugin development, performance tuning, real-world cases and same-model multi-agent comparisons (CN + EN PDF). | ✅ active |
 | [deepseek-harness-tutorial](resources/deepseek-harness-tutorial.md) | ⭐149 | Detailed Chinese learning tutorial for DeepSeek Harness. | ✅ active |
 | [dshfind](resources/dshfind.md) | ⭐132 | Learn DSH principles, plugin marketplace and best practices — from chapter-by-chapter Cordis paper reading to an auto-aggregated plugin market. | ✅ active |

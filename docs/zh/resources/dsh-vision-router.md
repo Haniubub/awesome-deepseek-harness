@@ -5,7 +5,7 @@ keywords: "dsh-vision-router, vision, plugin, multimodal, deepseek harness, dsh"
 ---
 # dsh-vision-router
 
-> ⭐ 591 · ✅ 活跃 · 插件
+> ⭐ 593 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

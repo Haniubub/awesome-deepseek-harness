@@ -34,11 +34,11 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 5403,
+    "stars": 5408,
     "_source_description": "Meta-Framework of Spatiotemporal Composability",
     "_updated": "2026-08-13",
-    "_stars_prev": 4490,
-    "growth": 913
+    "_stars_prev": 5403,
+    "growth": 5
   },
   {
     "id": "sandbase-harness",

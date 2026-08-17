@@ -5,7 +5,7 @@ keywords: "dsh-memento, memory, plugin, security, deepseek harness, dsh"
 ---
 # dsh-memento
 
-> ⭐ 3 · ✅ 活跃 · 插件
+> ⭐ 9 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -91,11 +91,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 56,
+    "stars": 57,
     "_source_description": "让 QQ Bot 接入 DeepSeek Harness（dsh）的官方插件",
     "_updated": "2026-08-17",
-    "_stars_prev": 48,
-    "growth": 8
+    "_stars_prev": 56,
+    "growth": 1
   },
   {
     "id": "dsh-lark",

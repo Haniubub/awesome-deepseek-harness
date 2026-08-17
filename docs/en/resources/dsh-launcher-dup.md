@@ -13,7 +13,7 @@ Lightweight Windows launcher: silent autostart at logon plus a minimal WebView2 
 
 ## About
 
-Lightweight Windows launcher: silent autostart at logon plus a minimal WebView2 window.
+<div align="center"> [English](docs/README.en.md) · [简体中文](README.md) </div>
 
 ## Author
 **[Ruler4396](https://github.com/Ruler4396)**

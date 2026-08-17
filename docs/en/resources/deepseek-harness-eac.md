@@ -5,7 +5,7 @@ keywords: "deepseek-harness-eac, desktop, client, coding, ui, deepseek harness, 
 ---
 # deepseek-harness-eac
 
-> ⭐ 688 · ✅ active · client
+> ⭐ 691 · ✅ active · client
 
 ## One-liner
 

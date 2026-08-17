@@ -46,8 +46,8 @@ keywords: "deepseek harness, dsh, agents multi-agent, plugin, awesome"
 | [dsh-advisor](resources/dsh-advisor.md) | ⭐11 | Pair a second model that passively reviews each turn and injects notes. | ✅ active |
 | [dsh-plugin-yet-another-subagent](resources/dsh-plugin-yet-another-subagent.md) | ⭐11 | Configurable subagent profile system: a single subagent tool with profile parameters, Web UI settings and live progress. | ✅ active |
 | [dsh-sidechain](resources/dsh-sidechain.md) | ⭐9 | Side sessions: persistent /side sessions (Codex style) and one-off /btw questions (Claude style) in temporary forks. | ✅ active |
+| [Task Passport](resources/task-passport.md) | ⭐9 | Open task handoff protocol for DeepSeek Harness, WorkBuddy, Claude Code and Codex: verified state, not chat logs. | ✅ active |
 | [dsh-plugin-claude-bridge](resources/dsh-plugin-claude-bridge.md) | ⭐8 | Bridge Claude Code memory, skills and config into DeepSeek Harness. | ✅ active |
-| [Task Passport](resources/task-passport.md) | ⭐8 | Open task handoff protocol for DeepSeek Harness, WorkBuddy, Claude Code and Codex: verified state, not chat logs. | ✅ active |
 | [dsh-llm-fallbacks](resources/dsh-llm-fallbacks.md) | ⭐7 | Role-based LLM retry and fallback strategy plugin. | ✅ active |
 | [dsh-a2a](resources/dsh-a2a.md) | ⭐4 | Agent2Agent mesh for the Harness. | ✅ active |
 | [dsh-agent-messaging](resources/dsh-agent-messaging.md) | ⭐4 | Cross-session agent-to-agent messaging: address another session by name. | ✅ active |

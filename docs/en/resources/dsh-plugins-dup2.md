@@ -13,7 +13,7 @@ DeepSeek Harness (DSH) 插件目录：官方包 + 社区插件按 GitHub stars �
 
 ## About
 
-DeepSeek Harness (DSH) 插件目录：官方包 + 社区插件按 GitHub stars 排名，GitHub Pages 可访问。
+dsh plugin --profile web add "github:Sakana-yuyu/dsh-plugins" 在系统终端运行，不要让 Agent 代跑，然后重启。
 
 ## Author
 **[Sakana-yuyu](https://github.com/Sakana-yuyu)**

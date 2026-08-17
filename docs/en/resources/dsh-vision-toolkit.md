@@ -5,7 +5,7 @@ keywords: "dsh-vision-toolkit, vision, plugin, multimodal, research, deepseek ha
 ---
 # dsh-vision-toolkit
 
-> ⭐ 602 · ✅ active · plugin
+> ⭐ 603 · ✅ active · plugin
 
 ## One-liner
 

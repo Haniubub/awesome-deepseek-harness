@@ -9,18 +9,18 @@ keywords: "deepseek harness, dsh, related agent harnesses, plugin, awesome"
 
 | # | 项目 | 增长 | 星数 | 说明 |
 |---|---|---|---|---|
-| 1 | [Cordis](resources/cordis.md) | ⬆️ +913 | ⭐5,403 | 时空可组合性元框架——DeepSeek Harness 底层的插件运行时。 |
-| 2 | [DeerFlow](resources/deer-flow.md) | ⬆️ +67 | ⭐80,151 | 字节跳动开源的长时间跨度 SuperAgent harness：技能、记忆、沙箱、子代理、工具与消息网关。 |
-| 3 | [sandbase-harness](resources/sandbase-harness.md) | ⬆️ +15 | ⭐613 | 开源 CMA 兼容的任意模型 Agent 运行时：MCP 工具、沙箱会话、审计与回放。 |
-| 4 | [mnemon](resources/mnemon.md) | ⬆️ +9 | ⭐468 | LLM 监督的 Agent 持久记忆：图召回与跨会话知识，单二进制。 |
-| 5 | [claude-paper](resources/claude-paper.md) | ⬆️ +9 | ⭐317 | 跨 Agent 论文研究工具包：快速摘要与深度精读，支持 Claude Code/Codex/OpenCode/DSH。 |
+| 1 | [DeerFlow](resources/deer-flow.md) | ⬆️ +67 | ⭐80,151 | 字节跳动开源的长时间跨度 SuperAgent harness：技能、记忆、沙箱、子代理、工具与消息网关。 |
+| 2 | [sandbase-harness](resources/sandbase-harness.md) | ⬆️ +15 | ⭐613 | 开源 CMA 兼容的任意模型 Agent 运行时：MCP 工具、沙箱会话、审计与回放。 |
+| 3 | [mnemon](resources/mnemon.md) | ⬆️ +9 | ⭐468 | LLM 监督的 Agent 持久记忆：图召回与跨会话知识，单二进制。 |
+| 4 | [claude-paper](resources/claude-paper.md) | ⬆️ +9 | ⭐317 | 跨 Agent 论文研究工具包：快速摘要与深度精读，支持 Claude Code/Codex/OpenCode/DSH。 |
+| 5 | [Cordis](resources/cordis.md) | ⬆️ +5 | ⭐5,408 | 时空可组合性元框架——DeepSeek Harness 底层的插件运行时。 |
 
 ## 🔥 Top 8
 
 | # | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|---|
 | 1 | [DeerFlow](resources/deer-flow.md) | ⭐80,151 | 字节跳动开源的长时间跨度 SuperAgent harness：技能、记忆、沙箱、子代理、工具与消息网关。 | ✅ 活跃 |
-| 2 | [Cordis](resources/cordis.md) | ⭐5,403 | 时空可组合性元框架——DeepSeek Harness 底层的插件运行时。 | ✅ 活跃 |
+| 2 | [Cordis](resources/cordis.md) | ⭐5,408 | 时空可组合性元框架——DeepSeek Harness 底层的插件运行时。 | ✅ 活跃 |
 | 3 | [sandbase-harness](resources/sandbase-harness.md) | ⭐613 | 开源 CMA 兼容的任意模型 Agent 运行时：MCP 工具、沙箱会话、审计与回放。 | ✅ 活跃 |
 | 4 | [mnemon](resources/mnemon.md) | ⭐468 | LLM 监督的 Agent 持久记忆：图召回与跨会话知识，单二进制。 | ✅ 活跃 |
 | 5 | [claude-paper](resources/claude-paper.md) | ⭐317 | 跨 Agent 论文研究工具包：快速摘要与深度精读，支持 Claude Code/Codex/OpenCode/DSH。 | ✅ 活跃 |
@@ -36,7 +36,7 @@ keywords: "deepseek harness, dsh, related agent harnesses, plugin, awesome"
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
 | [DeerFlow](resources/deer-flow.md) | ⭐80,151 | 字节跳动开源的长时间跨度 SuperAgent harness：技能、记忆、沙箱、子代理、工具与消息网关。 | ✅ 活跃 |
-| [Cordis](resources/cordis.md) | ⭐5,403 | 时空可组合性元框架——DeepSeek Harness 底层的插件运行时。 | ✅ 活跃 |
+| [Cordis](resources/cordis.md) | ⭐5,408 | 时空可组合性元框架——DeepSeek Harness 底层的插件运行时。 | ✅ 活跃 |
 | [sandbase-harness](resources/sandbase-harness.md) | ⭐613 | 开源 CMA 兼容的任意模型 Agent 运行时：MCP 工具、沙箱会话、审计与回放。 | ✅ 活跃 |
 | [mnemon](resources/mnemon.md) | ⭐468 | LLM 监督的 Agent 持久记忆：图召回与跨会话知识，单二进制。 | ✅ 活跃 |
 | [claude-paper](resources/claude-paper.md) | ⭐317 | 跨 Agent 论文研究工具包：快速摘要与深度精读，支持 Claude Code/Codex/OpenCode/DSH。 | ✅ 活跃 |

@@ -13,7 +13,7 @@ DSH 插件聚合站:全网 DeepSeek Harness 插件聚合检索,多源自动去�
 
 ## 详细介绍
 
-DSH 插件聚合站:全网 DeepSeek Harness 插件聚合检索,多源自动去重分类,每小时刷新 | https://dsh-plugin-hub.hupc.site
+全网 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh) 插件聚合检测站: 多数据源自动汇总 → 自己的逻辑去重/分类/排序 → 静态页检索,每小时刷新。 线上地址:https://dsh-plugin-hub.hupc.site
 
 ## 作者
 **[helloHupc](https://github.com/helloHupc)**

@@ -46,8 +46,8 @@ keywords: "deepseek harness, dsh, agents multi-agent, plugin, awesome"
 | [dsh-advisor](resources/dsh-advisor.md) | ⭐11 | 配对第二模型被动审查每一回合并注入建议。 | ✅ 活跃 |
 | [dsh-plugin-yet-another-subagent](resources/dsh-plugin-yet-another-subagent.md) | ⭐11 | 可配置子代理 profile 系统：单一 subagent 工具 + profile 参数，含 Web UI 设置与实时进度。 | ✅ 活跃 |
 | [dsh-sidechain](resources/dsh-sidechain.md) | ⭐9 | 侧会话：/side 持续性侧会话（Codex 风格）与 /btw 一次性侧问（Claude 风格），临时 fork 中运行。 | ✅ 活跃 |
+| [Task Passport](resources/task-passport.md) | ⭐9 | 跨编码 Agent 环境的开放任务交接协议：交接可验证的状态而非聊天记录。 | ✅ 活跃 |
 | [dsh-plugin-claude-bridge](resources/dsh-plugin-claude-bridge.md) | ⭐8 | 把 Claude Code 的记忆、技能与配置桥接到 DSH。 | ✅ 活跃 |
-| [Task Passport](resources/task-passport.md) | ⭐8 | 跨编码 Agent 环境的开放任务交接协议：交接可验证的状态而非聊天记录。 | ✅ 活跃 |
 | [dsh-llm-fallbacks](resources/dsh-llm-fallbacks.md) | ⭐7 | 基于角色的模型重试与备用策略插件。 | ✅ 活跃 |
 | [dsh-a2a](resources/dsh-a2a.md) | ⭐4 | 面向 Harness 的 Agent2Agent 网状网络。 | ✅ 活跃 |
 | [dsh-agent-messaging](resources/dsh-agent-messaging.md) | ⭐4 | 跨会话 Agent 互发消息：按名称寻址其他会话。 | ✅ 活跃 |
