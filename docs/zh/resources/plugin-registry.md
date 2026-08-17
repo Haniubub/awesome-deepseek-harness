@@ -5,7 +5,7 @@ keywords: "plugin-registry, registry, awesome-list, workflow, ui, deepseek harne
 ---
 # plugin-registry
 
-> ⭐ 49 · ✅ 活跃 · 精选列表
+> ⭐ 53 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

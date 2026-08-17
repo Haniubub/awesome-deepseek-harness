@@ -5,7 +5,7 @@ keywords: "whale-girl, ui, plugin, deepseek harness, dsh"
 ---
 # whale-girl
 
-> ⭐ 189 · ✅ active · plugin
+> ⭐ 217 · ✅ active · plugin
 
 ## One-liner
 

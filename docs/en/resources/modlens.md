@@ -5,7 +5,7 @@ keywords: "modlens, vision, plugin, multimodal, deepseek harness, dsh"
 ---
 # modlens
 
-> ⭐ 2,258 · ✅ active · plugin
+> ⭐ 2,723 · ✅ active · plugin
 
 ## One-liner
 

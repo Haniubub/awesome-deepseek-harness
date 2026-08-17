@@ -5,7 +5,7 @@ keywords: "open-design, desktop, client, coding, multi-agent, multimodal, deepse
 ---
 # open-design
 
-> ⭐ 87,336 · ✅ active · client
+> ⭐ 88,127 · ✅ active · client
 
 ## One-liner
 

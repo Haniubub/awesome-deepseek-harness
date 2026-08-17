@@ -5,7 +5,7 @@ keywords: "dsh-prime-agent, workflow, deepseek harness, dsh"
 ---
 # dsh-prime-agent
 
-> ⭐ 3 · ✅ 活跃 · 工作流
+> ⭐ 4 · ✅ 活跃 · 工作流
 
 ## 一句话介绍
 

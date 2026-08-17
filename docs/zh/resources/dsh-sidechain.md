@@ -5,7 +5,7 @@ keywords: "dsh-sidechain, multi-agent, agent, context, deepseek harness, dsh"
 ---
 # dsh-sidechain
 
-> ⭐ 7 · ✅ 活跃 · 智能体
+> ⭐ 9 · ✅ 活跃 · 智能体
 
 ## 一句话介绍
 

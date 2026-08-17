@@ -5,7 +5,7 @@ keywords: "deepseek-harness-tui (boxeryao), terminal, client, deepseek harness, 
 ---
 # deepseek-harness-tui (boxeryao)
 
-> ⭐ 8 · ✅ 活跃 · 客户端
+> ⭐ 9 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-plugin-spur, workflow, ui, deepseek harness, dsh"
 ---
 # dsh-plugin-spur
 
-> ⭐ 3 · ✅ 活跃 · 工作流
+> ⭐ 6 · ✅ 活跃 · 工作流
 
 ## 一句话介绍
 

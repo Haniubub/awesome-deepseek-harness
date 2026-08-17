@@ -5,7 +5,7 @@ keywords: "petdex, fun, plugin, coding, deepseek harness, dsh"
 ---
 # petdex
 
-> ⭐ 3,848 · ✅ 活跃 · 插件
+> ⭐ 3,872 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

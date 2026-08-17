@@ -14,11 +14,11 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 80084,
+    "stars": 80151,
     "_source_description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-    "_updated": "2026-08-16",
-    "_stars_prev": 80038,
-    "growth": 46
+    "_updated": "2026-08-17",
+    "_stars_prev": 80084,
+    "growth": 67
   },
   {
     "id": "cordis",
@@ -34,11 +34,11 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 4490,
+    "stars": 5403,
     "_source_description": "Meta-Framework of Spatiotemporal Composability",
     "_updated": "2026-08-13",
-    "_stars_prev": 3780,
-    "growth": 710
+    "_stars_prev": 4490,
+    "growth": 913
   },
   {
     "id": "sandbase-harness",
@@ -55,11 +55,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 598,
+    "stars": 613,
     "_source_description": "Open-source CMA-compatible agent runtime for any model, with MCP tools, sandboxed sessions, audit, replay, and a local console. Includes a native DeepSeek Harness bundle over stdio MCP.",
-    "_updated": "2026-08-15",
-    "_stars_prev": 586,
-    "growth": 12
+    "_updated": "2026-08-17",
+    "_stars_prev": 598,
+    "growth": 15
   },
   {
     "id": "mnemon",
@@ -75,11 +75,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 459,
+    "stars": 468,
     "_source_description": "LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Works with DeepSeek Harness, Claude Code, OpenClaw, and any agent runtime.",
     "_updated": "2026-08-16",
-    "_stars_prev": 449,
-    "growth": 10
+    "_stars_prev": 459,
+    "growth": 9
   },
   {
     "id": "claude-paper",
@@ -95,11 +95,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 308,
+    "stars": 317,
     "_source_description": "📖 Cross-agent research paper toolkit for Claude Code, Codex, OpenCode, and DeepSeek Harness—quick summaries, deep study materials, code demos, and a local web viewer.",
     "_updated": "2026-08-14",
-    "_stars_prev": 301,
-    "growth": 7
+    "_stars_prev": 308,
+    "growth": 9
   },
   {
     "id": "open-managed-agents",
@@ -115,11 +115,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 235,
+    "stars": 237,
     "_source_description": "Open-source Claude Managed Agents API implementation and self-hosted Claude Tag-style agent runtime. Drop-in compatible; runs on Cloudflare Workers/Durable Objects or Node.js. Apache 2.0.",
     "_updated": "2026-08-16",
-    "_stars_prev": 236,
-    "growth": 0
+    "_stars_prev": 235,
+    "growth": 2
   },
   {
     "id": "axern",
@@ -135,11 +135,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 168,
+    "stars": 56,
     "_source_description": "Open-source sandboxes for AI agents, untrusted code execution, and durable services.",
     "_updated": "2026-08-16",
-    "_stars_prev": 167,
-    "growth": 1
+    "_stars_prev": 168,
+    "growth": 0
   },
   {
     "id": "deepseek-auto-evolving-harness",

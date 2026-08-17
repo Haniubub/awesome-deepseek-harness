@@ -5,7 +5,7 @@ keywords: "dsh-godot-skill, coding, skill, deepseek harness, dsh"
 ---
 # dsh-godot-skill
 
-> ⭐ 7 · ✅ 活跃 · 技能
+> ⭐ 8 · ✅ 活跃 · 技能
 
 ## 一句话介绍
 

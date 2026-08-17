@@ -5,7 +5,7 @@ keywords: "dsh-telegram-channel, channel, integration, channels, mobile, deepsee
 ---
 # dsh-telegram-channel
 
-> ⭐ 6 · ✅ 活跃 · 集成
+> ⭐ 7 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

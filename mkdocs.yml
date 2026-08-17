@@ -38,6 +38,9 @@ extra_css:
   - assets/extra.css
 
 extra:
+  analytics:
+    provider: google
+    property: G-0MKSD0Z4PW
   alternate:
     - name: English
       link: /index.html

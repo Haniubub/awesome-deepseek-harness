@@ -5,7 +5,7 @@ keywords: "dsh-web-search-exa, search, plugin, deepseek harness, dsh"
 ---
 # dsh-web-search-exa
 
-> ⭐ 5 · ✅ 活跃 · 插件
+> ⭐ 6 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

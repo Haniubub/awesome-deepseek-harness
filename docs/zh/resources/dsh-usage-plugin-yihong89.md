@@ -5,7 +5,7 @@ keywords: "dsh-usage-plugin, desktop, client, coding, deepseek harness, dsh"
 ---
 # dsh-usage-plugin
 
-> ⭐ 20 · ✅ 活跃 · 客户端
+> ⭐ 23 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-island, notifications, plugin, deepseek harness, dsh"
 ---
 # dsh-island
 
-> ⭐ 0 · ✅ 活跃 · 插件
+> ⭐ 4 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

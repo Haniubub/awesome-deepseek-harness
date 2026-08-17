@@ -5,7 +5,7 @@ keywords: "dsh-inspect, workflow, coding, security, deepseek harness, dsh"
 ---
 # dsh-inspect
 
-> ⭐ 5 · ✅ 活跃 · 工作流
+> ⭐ 6 · ✅ 活跃 · 工作流
 
 ## 一句话介绍
 

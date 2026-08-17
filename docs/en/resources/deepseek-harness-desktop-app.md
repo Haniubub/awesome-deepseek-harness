@@ -5,7 +5,7 @@ keywords: "deepseek-harness-desktop-app, desktop, client, coding, search, deepse
 ---
 # deepseek-harness-desktop-app
 
-> ⭐ 211 · ✅ active · client
+> ⭐ 310 · ✅ active · client
 
 ## One-liner
 

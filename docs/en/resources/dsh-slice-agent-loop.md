@@ -5,7 +5,7 @@ keywords: "dsh-slice-agent-loop, multi-agent, agent, context, workflow, deepseek
 ---
 # dsh-slice-agent-loop
 
-> ⭐ 1 · ✅ active · agent
+> ⭐ 2 · ✅ active · agent
 
 ## One-liner
 

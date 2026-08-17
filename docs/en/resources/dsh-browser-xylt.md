@@ -5,7 +5,7 @@ keywords: "dsh-browser, browser, integration, coding, deepseek harness, dsh"
 ---
 # dsh-browser
 
-> ⭐ 5 · ✅ active · integration
+> ⭐ 8 · ✅ active · integration
 
 ## One-liner
 

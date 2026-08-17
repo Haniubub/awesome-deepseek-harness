@@ -5,7 +5,7 @@ keywords: "openbiliclaw, research, agent, coding, multi-agent, deepseek harness,
 ---
 # openbiliclaw
 
-> ⭐ 2,704 · ✅ 活跃 · 智能体
+> ⭐ 2,826 · ✅ 活跃 · 智能体
 
 ## 一句话介绍
 

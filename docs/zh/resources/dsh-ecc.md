@@ -5,7 +5,7 @@ keywords: "dsh-ecc, coding, skill, deepseek harness, dsh"
 ---
 # dsh-ecc
 
-> ⭐ 0 · ✅ 活跃 · 技能
+> ⭐ 1 · ✅ 活跃 · 技能
 
 ## 一句话介绍
 

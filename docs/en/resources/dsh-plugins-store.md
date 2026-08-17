@@ -5,7 +5,7 @@ keywords: "dsh-plugins-store, discovery, plugin, search, ui, deepseek harness, d
 ---
 # dsh-plugins-store
 
-> ⭐ 48 · ✅ active · plugin
+> ⭐ 56 · ✅ active · plugin
 
 ## One-liner
 

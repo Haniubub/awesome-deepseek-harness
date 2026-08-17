@@ -5,7 +5,7 @@ keywords: "dsh-plugin-interpreters, developer, plugin, coding, deepseek harness,
 ---
 # dsh-plugin-interpreters
 
-> ⭐ 6 · ✅ active · plugin
+> ⭐ 9 · ✅ active · plugin
 
 ## One-liner
 

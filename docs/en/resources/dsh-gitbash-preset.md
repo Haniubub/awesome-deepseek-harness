@@ -5,7 +5,7 @@ keywords: "dsh-gitbash-preset, vision, plugin, coding, git, multi-agent, deepsee
 ---
 # dsh-gitbash-preset
 
-> ⭐ 118 · ✅ active · plugin
+> ⭐ 126 · ✅ active · plugin
 
 ## One-liner
 

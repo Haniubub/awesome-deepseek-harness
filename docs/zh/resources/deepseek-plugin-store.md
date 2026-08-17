@@ -5,7 +5,7 @@ keywords: "deepseek-plugin-store, registry, awesome-list, coding, deepseek harne
 ---
 # deepseek-plugin-store
 
-> ⭐ 15 · ✅ 活跃 · 精选列表
+> ⭐ 20 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

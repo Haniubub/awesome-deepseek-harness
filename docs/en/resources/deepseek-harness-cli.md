@@ -5,7 +5,7 @@ keywords: "deepseek-harness-cli, terminal, client, coding, deepseek harness, dsh
 ---
 # deepseek-harness-cli
 
-> ⭐ 5 · ✅ active · client
+> ⭐ 6 · ✅ active · client
 
 ## One-liner
 

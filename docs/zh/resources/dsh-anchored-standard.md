@@ -5,7 +5,7 @@ keywords: "dsh-anchored-standard, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-anchored-standard
 
-> ⭐ 2,818 · ✅ 活跃 · 插件
+> ⭐ 3,386 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

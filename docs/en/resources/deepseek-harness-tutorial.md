@@ -5,7 +5,7 @@ keywords: "deepseek-harness-tutorial, learning, tutorial, deepseek harness, dsh"
 ---
 # deepseek-harness-tutorial
 
-> ⭐ 129 · ✅ active · tutorial
+> ⭐ 149 · ✅ active · tutorial
 
 ## One-liner
 

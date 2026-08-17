@@ -5,7 +5,7 @@ keywords: "dsh-inspect, workflow, coding, security, deepseek harness, dsh"
 ---
 # dsh-inspect
 
-> ⭐ 5 · ✅ active · workflow
+> ⭐ 6 · ✅ active · workflow
 
 ## One-liner
 

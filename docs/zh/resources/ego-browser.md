@@ -5,7 +5,7 @@ keywords: "ego-browser, browser, plugin, automation, deepseek harness, dsh"
 ---
 # ego-browser
 
-> ⭐ 18 · ✅ 活跃 · 插件
+> ⭐ 22 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

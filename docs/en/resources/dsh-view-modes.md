@@ -5,7 +5,7 @@ keywords: "dsh-view-modes, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-view-modes
 
-> ⭐ 1 · ✅ active · plugin
+> ⭐ 2 · ✅ active · plugin
 
 ## One-liner
 

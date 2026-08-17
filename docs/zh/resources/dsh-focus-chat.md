@@ -5,7 +5,7 @@ keywords: "dsh-focus-chat, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-focus-chat
 
-> ⭐ 16 · ✅ 活跃 · 插件
+> ⭐ 21 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "awesome-deepseek-harness-plugins, registry, awesome-list, coding, wor
 ---
 # awesome-deepseek-harness-plugins
 
-> ⭐ 6 · ✅ 活跃 · 精选列表
+> ⭐ 8 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

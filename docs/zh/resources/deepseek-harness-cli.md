@@ -5,7 +5,7 @@ keywords: "deepseek-harness-cli, terminal, client, coding, deepseek harness, dsh
 ---
 # deepseek-harness-cli
 
-> ⭐ 5 · ✅ 活跃 · 客户端
+> ⭐ 6 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

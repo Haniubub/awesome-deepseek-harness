@@ -5,7 +5,7 @@ keywords: "dsh-plugin-d399, fun, plugin, ui, deepseek harness, dsh"
 ---
 # dsh-plugin-d399
 
-> ⭐ 5 · ✅ active · plugin
+> ⭐ 8 · ✅ active · plugin
 
 ## One-liner
 

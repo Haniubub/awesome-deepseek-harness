@@ -5,7 +5,7 @@ keywords: "dsh-prime-agent, workflow, deepseek harness, dsh"
 ---
 # dsh-prime-agent
 
-> ⭐ 3 · ✅ active · workflow
+> ⭐ 4 · ✅ active · workflow
 
 ## One-liner
 

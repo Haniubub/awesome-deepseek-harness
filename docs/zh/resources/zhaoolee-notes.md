@@ -5,7 +5,7 @@ keywords: "notes (zhaoolee), registry, awesome-list, ui, files, deepseek harness
 ---
 # notes (zhaoolee)
 
-> ⭐ 142 · ✅ 活跃 · 精选列表
+> ⭐ 144 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

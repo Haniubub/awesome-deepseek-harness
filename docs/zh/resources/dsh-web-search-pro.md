@@ -5,7 +5,7 @@ keywords: "dsh-web-search-pro, search, plugin, browser, deepseek harness, dsh"
 ---
 # dsh-web-search-pro
 
-> ⭐ 12 · ✅ 活跃 · 插件
+> ⭐ 21 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

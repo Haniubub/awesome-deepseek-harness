@@ -1,5 +1,24 @@
 [
   {
+    "id": "dsh-workflow-dup",
+    "name": "dsh_workflow",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/omdsh-dev/dsh_workflow",
+    "description": "把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层",
+    "description_zh": "把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 71,
+    "_source_description": "把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层",
+    "_updated": "2026-08-13"
+  },
+  {
     "id": "dsh-workflow",
     "name": "dsh_workflow",
     "type": "workflow",
@@ -13,11 +32,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 62,
+    "stars": 71,
     "_source_description": "把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层",
     "_updated": "2026-08-13",
-    "_stars_prev": 56,
-    "growth": 6
+    "_stars_prev": 62,
+    "growth": 9
   },
   {
     "id": "mstar-harness",
@@ -33,10 +52,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 46,
-    "_source_description": "A Skill-driven Harness/Loop Engineering Workflow Agent Plugin",
-    "_updated": "2026-08-16",
-    "_stars_prev": 43,
+    "stars": 49,
+    "_source_description": "An omni-plugin for harness engineering workflows with multi-agents, programmatic gates and skills.",
+    "_updated": "2026-08-17",
+    "_stars_prev": 46,
     "growth": 3
   },
   {
@@ -53,11 +72,31 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 45,
+    "stars": 49,
     "_source_description": "DSH 自动化插件：让 Coding 任务按计划在全新 Agent Session 中运行，并由用户或 Agent 创建和管理定时任务。 / Run coding tasks in fresh Agent sessions and manage schedules from DSH Web or an Agent.",
-    "_updated": "2026-08-14",
-    "_stars_prev": 39,
-    "growth": 6
+    "_updated": "2026-08-17",
+    "_stars_prev": 45,
+    "growth": 4
+  },
+  {
+    "id": "dsh-plans",
+    "name": "dsh-plans",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/Optim-Agent/dsh-plans",
+    "description": "Human-in-the-loop planning preset adapted from prime-plans: researched, reviewed, executed.",
+    "description_zh": "从 prime-plans 移植的人机协同规划预设：调研、评审、执行。",
+    "capabilities": [
+      "workflow",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 23,
+    "_source_description": "Human-in-the-loop planning preset for DeepSeek Harness (DSH), adapted from prime-plans: researched Markdown plans in ./dsh-plans, reviewer/criticizer subagent refinement, per-workspace language & model settings, goal-driven execution with ponytail + MVP tests.",
+    "_updated": "2026-08-17",
+    "_stars_prev": 19,
+    "growth": 4
   },
   {
     "id": "dsh-auto-continue",
@@ -73,11 +112,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 18,
+    "stars": 23,
     "_source_description": "DSH Web UI plugin: auto-sends 「继续」 to resume requests interrupted by network errors or other non-human causes — error classification, adaptive backoff, templated continue text, browser notifications, all configurable from the settings card",
     "_updated": "2026-08-16",
-    "_stars_prev": 15,
-    "growth": 3
+    "_stars_prev": 18,
+    "growth": 5
   },
   {
     "id": "dsh-deep-research",
@@ -94,31 +133,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 13,
+    "stars": 14,
     "_source_description": "Adaptive deep-research orchestrator plugin for DeepSeek Harness (official workflow engine, cybernetics/information-theory design)",
     "_updated": "2026-08-12",
-    "_stars_prev": 12,
-    "growth": 1
-  },
-  {
-    "id": "dsh-plans",
-    "name": "dsh-plans",
-    "type": "workflow",
-    "category": "workflow",
-    "repository": "https://github.com/Optim-Agent/dsh-plans",
-    "description": "Human-in-the-loop planning preset adapted from prime-plans: researched, reviewed, executed.",
-    "description_zh": "从 prime-plans 移植的人机协同规划预设：调研、评审、执行。",
-    "capabilities": [
-      "workflow",
-      "multi-agent"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 19,
-    "_source_description": "Human-in-the-loop planning preset for DeepSeek Harness (DSH), adapted from prime-plans: researched Markdown plans in ./dsh-plans, reviewer/criticizer subagent refinement, per-workspace language & model settings, goal-driven execution with ponytail + MVP tests.",
-    "_updated": "2026-08-14",
     "_stars_prev": 13,
-    "growth": 6
+    "growth": 1
   },
   {
     "id": "dsh-harness-ops",
@@ -136,7 +155,7 @@
     "verified": false,
     "stars": 11,
     "_source_description": "DSH 运维工具箱：升级、重启、故障都不用操心。① 官方每日快照 A/B 双槽轮换——旧插件迁移+构建+验收全过才原子切换，一键回滚，旧版本永远兜底；② 守护 10s 自动拉起 web + agent 断点自动续接，重启无人值守；③ web 全挂（A/B 都坏、agent 不可用）时 dsh-doctor 一条命令自救：九项诊断→机械修复配置→LLM 深度检测修复（完整推理实时可见）→拉起 web。install via: git clone + bash scripts/install.sh",
-    "_updated": "2026-08-14",
+    "_updated": "2026-08-17",
     "_stars_prev": 9,
     "growth": 2
   },
@@ -155,7 +174,7 @@
     "status": "active",
     "verified": false,
     "stars": 6,
-    "_source_description": "A runtime-neutral, evidence-driven software engineering workflow for Codex and DeepSeek Harness.",
+    "_source_description": "Evidence-driven engineering workflows for Codex and DeepSeek Harness, backed by deterministic routing and behavior evaluations.",
     "_updated": "2026-08-15"
   },
   {
@@ -174,7 +193,26 @@
     "verified": false,
     "stars": 6,
     "_source_description": "DSH Track Bridge 插件：嵌入式任务管理引擎——决策点协议、念头捕获墙、Linear 形 issue 存储（bundle），AI 与人之间的任务轨道",
-    "_updated": "2026-08-16"
+    "_updated": "2026-08-17"
+  },
+  {
+    "id": "dsh-deepresearch",
+    "name": "dsh-deepresearch",
+    "type": "workflow",
+    "category": "research",
+    "repository": "https://github.com/havingautism/dsh-deepresearch",
+    "description": "DeepResearch plugin (cordis) for the Harness.",
+    "description_zh": "面向 Harness 的 DeepResearch 插件（cordis）。",
+    "capabilities": [
+      "research",
+      "search"
+    ],
+    "status": "experimental",
+    "verified": false,
+    "stars": 8,
+    "_updated": "2026-08-15",
+    "_stars_prev": 6,
+    "growth": 2
   },
   {
     "id": "dsh-inspect",
@@ -191,9 +229,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 5,
+    "stars": 6,
     "_source_description": "发现问题(checkup) → 修复交付(fix) → 质量复查(review) 的对抗式闭环插件：基于官方 workflow 引擎的检查/修复/复查工具集",
-    "_updated": "2026-08-12"
+    "_updated": "2026-08-17",
+    "_stars_prev": 5,
+    "growth": 1
   },
   {
     "id": "dsh-companion",
@@ -217,25 +257,6 @@
     "growth": 1
   },
   {
-    "id": "dsh-deepresearch",
-    "name": "dsh-deepresearch",
-    "type": "workflow",
-    "category": "research",
-    "repository": "https://github.com/havingautism/dsh-deepresearch",
-    "description": "DeepResearch plugin (cordis) for the Harness.",
-    "description_zh": "面向 Harness 的 DeepResearch 插件（cordis）。",
-    "capabilities": [
-      "research",
-      "search"
-    ],
-    "status": "experimental",
-    "verified": false,
-    "stars": 6,
-    "_updated": "2026-08-15",
-    "_stars_prev": 5,
-    "growth": 1
-  },
-  {
     "id": "dsh-prime-agent",
     "name": "dsh-prime-agent",
     "type": "workflow",
@@ -248,9 +269,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 3,
+    "stars": 4,
     "_source_description": "Prime Agent-inspired persistent RLM control plane for DeepSeek Harness Code Mode",
-    "_updated": "2026-08-16"
+    "_updated": "2026-08-17",
+    "_stars_prev": 3,
+    "growth": 1
   },
   {
     "id": "dsh-spur",
@@ -266,9 +289,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 3,
+    "stars": 6,
     "_source_description": "聊天流中悬挂皮鞭，甩动鞭梢（>2.0 px/ms）即向 agent 发送 go work 消息 | A whip hanging in the chat stream; flick the tip (>2.0 px/ms) to send the agent a \"go work!\" message",
-    "_updated": "2026-08-15"
+    "_updated": "2026-08-15",
+    "_stars_prev": 3,
+    "growth": 3
   },
   {
     "id": "dsh-agent-orchestration",
@@ -287,7 +312,7 @@
     "verified": false,
     "stars": 3,
     "_source_description": "Evidence-first multi-agent workflow planning, handoff validation, and Loop Guard skills for DeepSeek Harness.",
-    "_updated": "2026-08-14"
+    "_updated": "2026-08-16"
   },
   {
     "id": "dsh-doublecheck",
@@ -303,27 +328,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 2,
+    "stars": 4,
     "_source_description": "Double-check before you ship: grill the requirements, test the implementation, prove the delivery. An engineering-discipline bundle for DeepSeek Harness.",
-    "_updated": "2026-08-16"
-  },
-  {
-    "id": "dsh-governance",
-    "name": "dsh-governance",
-    "type": "workflow",
-    "category": "workflow",
-    "repository": "https://github.com/tappass/dsh-governance",
-    "description": "Authority layer for agentic AI as a DSH plugin: governs every tool call against your policies.",
-    "description_zh": "Agentic AI 的权威层插件：按你的策略治理每次工具调用。",
-    "capabilities": [
-      "security",
-      "workflow"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 1,
-    "_source_description": "The authority layer for agentic AI, as a DeepSeek Harness plugin. Governs every tool call against your business rules via TapPass /v1/govern.",
-    "_updated": "2026-08-13"
+    "_updated": "2026-08-17",
+    "_stars_prev": 2,
+    "growth": 2
   },
   {
     "id": "dsh-task-dag",
@@ -347,6 +356,24 @@
     "growth": 1
   },
   {
+    "id": "dsh-governance",
+    "name": "dsh-governance",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/tappass/dsh-governance",
+    "description": "Authority layer for agentic AI as a DSH plugin: governs every tool call against your policies.",
+    "description_zh": "Agentic AI 的权威层插件：按你的策略治理每次工具调用。",
+    "capabilities": [
+      "security",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1,
+    "_source_description": "The authority layer for agentic AI, as a DeepSeek Harness plugin. Governs every tool call against your business rules via TapPass /v1/govern.",
+    "_updated": "2026-08-13"
+  },
+  {
     "id": "dsh-report-studio",
     "name": "dsh-report-studio",
     "type": "workflow",
@@ -362,7 +389,26 @@
     "verified": false,
     "stars": 1,
     "_source_description": "Turn a DeepSeek Harness session into deliverable work reports (daily/weekly/handoff/article) with verifiable receipts",
-    "_updated": "2026-08-16",
+    "_updated": "2026-08-17",
+    "_stars_prev": 0,
+    "growth": 1
+  },
+  {
+    "id": "dsh-trajectory-debug",
+    "name": "dsh-trajectory-debug",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/devmom/dsh-trajectory-debug",
+    "description": "Trajectory waterfall, deterministic replay, breakpoints, edit-and-rerun, fork compare and performance analytics.",
+    "description_zh": "轨迹瀑布流、确定性回放、断点、编辑重跑、fork 对比与性能分析。",
+    "capabilities": [
+      "observability",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1,
+    "_updated": "2026-08-14",
     "_stars_prev": 0,
     "growth": 1
   },
@@ -381,25 +427,8 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 0,
-    "_source_description": "Agent evaluation platform for DeepSeek Harness: benchmark YAML, headless dsh orchestration, trace-based metrics, LLM judge, paired A/B, keyless replay, and cross-harness import.",
-    "_updated": "2026-08-14"
-  },
-  {
-    "id": "dsh-trajectory-debug",
-    "name": "dsh-trajectory-debug",
-    "type": "workflow",
-    "category": "workflow",
-    "repository": "https://github.com/devmom/dsh-trajectory-debug",
-    "description": "Trajectory waterfall, deterministic replay, breakpoints, edit-and-rerun, fork compare and performance analytics.",
-    "description_zh": "轨迹瀑布流、确定性回放、断点、编辑重跑、fork 对比与性能分析。",
-    "capabilities": [
-      "observability",
-      "workflow"
-    ],
-    "status": "active",
-    "verified": false,
     "stars": 1,
+    "_source_description": "Agent evaluation platform for DeepSeek Harness: benchmark YAML, headless dsh orchestration, trace-based metrics, LLM judge, paired A/B, keyless replay, and cross-harness import.",
     "_updated": "2026-08-14",
     "_stars_prev": 0,
     "growth": 1

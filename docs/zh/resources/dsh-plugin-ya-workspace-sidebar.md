@@ -5,7 +5,7 @@ keywords: "dsh-plugin-ya-workspace-sidebar, ui, plugin, coding, deepseek harness
 ---
 # dsh-plugin-ya-workspace-sidebar
 
-> ⭐ 8 · ✅ 活跃 · 插件
+> ⭐ 11 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

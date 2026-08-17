@@ -5,7 +5,7 @@ keywords: "dsh-data-agent, research, agent, coding, deepseek harness, dsh"
 ---
 # dsh-data-agent
 
-> ⭐ 30 · ✅ 活跃 · 智能体
+> ⭐ 40 · ✅ 活跃 · 智能体
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-find-plugins, discovery, plugin, search, deepseek harness, dsh"
 ---
 # dsh-find-plugins
 
-> ⭐ 123 · ✅ 活跃 · 插件
+> ⭐ 139 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

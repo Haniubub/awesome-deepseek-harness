@@ -5,7 +5,7 @@ keywords: "dsh-plugin-auto-blame, developer, plugin, coding, deepseek harness, d
 ---
 # dsh-plugin-auto-blame
 
-> ⭐ 6 · ✅ active · plugin
+> ⭐ 9 · ✅ active · plugin
 
 ## One-liner
 

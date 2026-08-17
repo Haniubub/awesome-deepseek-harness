@@ -5,7 +5,7 @@ keywords: "dsh-plugin-claude-bridge, multi-agent, agent, memory, deepseek harnes
 ---
 # dsh-plugin-claude-bridge
 
-> ⭐ 6 · ✅ 活跃 · 智能体
+> ⭐ 8 · ✅ 活跃 · 智能体
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "museai, vision, plugin, coding, deepseek harness, dsh"
 ---
 # museai
 
-> ⭐ 568 · ✅ active · plugin
+> ⭐ 577 · ✅ active · plugin
 
 ## One-liner
 

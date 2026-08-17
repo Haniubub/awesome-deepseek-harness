@@ -5,7 +5,7 @@ keywords: "DeepSeek-Harness-Web-Tools, search, plugin, deepseek harness, dsh"
 ---
 # DeepSeek-Harness-Web-Tools
 
-> ⭐ 12 · ✅ 活跃 · 插件
+> ⭐ 14 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

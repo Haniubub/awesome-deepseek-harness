@@ -5,7 +5,7 @@ keywords: "dsh-memory, memory, plugin, deepseek harness, dsh"
 ---
 # dsh-memory
 
-> ⭐ 0 · 🧪 experimental · plugin
+> ⭐ 1 · 🧪 experimental · plugin
 
 ## One-liner
 

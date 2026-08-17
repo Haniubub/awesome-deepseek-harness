@@ -5,7 +5,7 @@ keywords: "dsh-stickers, fun, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-stickers
 
-> ⭐ 18 · ✅ 活跃 · 插件
+> ⭐ 20 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

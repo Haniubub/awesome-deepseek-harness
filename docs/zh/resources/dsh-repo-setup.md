@@ -5,7 +5,7 @@ keywords: "dsh-repo-setup, developer, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-repo-setup
 
-> ⭐ 0 · ✅ 活跃 · 插件
+> ⭐ 1 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

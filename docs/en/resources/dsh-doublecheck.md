@@ -5,7 +5,7 @@ keywords: "dsh-doublecheck, workflow, coding, deepseek harness, dsh"
 ---
 # dsh-doublecheck
 
-> ⭐ 2 · ✅ active · workflow
+> ⭐ 4 · ✅ active · workflow
 
 ## One-liner
 

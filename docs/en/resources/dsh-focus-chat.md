@@ -5,7 +5,7 @@ keywords: "dsh-focus-chat, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-focus-chat
 
-> ⭐ 16 · ✅ active · plugin
+> ⭐ 21 · ✅ active · plugin
 
 ## One-liner
 

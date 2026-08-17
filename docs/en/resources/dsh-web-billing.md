@@ -5,7 +5,7 @@ keywords: "dsh-web-billing, ui, plugin, observability, deepseek harness, dsh"
 ---
 # dsh-web-billing
 
-> ⭐ 8 · ✅ active · plugin
+> ⭐ 9 · ✅ active · plugin
 
 ## One-liner
 

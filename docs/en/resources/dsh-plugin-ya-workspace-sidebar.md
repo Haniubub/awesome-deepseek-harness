@@ -5,7 +5,7 @@ keywords: "dsh-plugin-ya-workspace-sidebar, ui, plugin, coding, deepseek harness
 ---
 # dsh-plugin-ya-workspace-sidebar
 
-> ⭐ 8 · ✅ active · plugin
+> ⭐ 11 · ✅ active · plugin
 
 ## One-liner
 

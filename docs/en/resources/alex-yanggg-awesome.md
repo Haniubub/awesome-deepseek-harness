@@ -5,7 +5,7 @@ keywords: "awesome-DSH-plugin (Alex-Yanggg), registry, awesome-list, search, dee
 ---
 # awesome-DSH-plugin (Alex-Yanggg)
 
-> ⭐ 66 · ✅ active · awesome-list
+> ⭐ 68 · ✅ active · awesome-list
 
 ## One-liner
 

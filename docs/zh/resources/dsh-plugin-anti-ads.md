@@ -5,7 +5,7 @@ keywords: "dsh-plugin-anti-ads, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-plugin-anti-ads
 
-> ⭐ 7 · ✅ 活跃 · 插件
+> ⭐ 10 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

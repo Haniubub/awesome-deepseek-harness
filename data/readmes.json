@@ -4734,5 +4734,386 @@
   "usage": "npm ci && npm test     # 19/19 通过",
   "license": "",
   "_done": true
+ },
+ "ai-novel-writer": {
+  "intro": "除了 Windows 与 macOS 桌面版，本仓库还在 [插件目录](https://github.com/EthanYoQ/AI-Novel-Writer/tree/master/plugins/dsh-ai-novel-writer) 维护 `@ethanyoq/dsh-ai-novel-writer` `0.1.0` 开发预览。它把项目设置、人物设定、故事蓝图、章节蓝图和章节正文带入 DeepSeek Harness Web，并通过对话中的单文件审批卡片逐项保存；插件使用独立的 Harness 小说项目格式，不读取桌面版 `.vela` 项目。 该插件尚未进入桌面版正式 Release，也未发布到 npm。它是独立 pnpm workspace，拥有独立锁文件、CI 和 MIT 许可；仓库根目录仍为 GPL-3.0 桌面应用。从源码安装时进入插件目录执行： git clone https://github.com/EthanYoQ/AI-Novel-Writer.git cd AI-Novel-Writer/plugins/dsh-ai-novel-writer pnpm in",
+  "features": [],
+  "install": "git clone https://github.com/EthanYoQ/AI-Novel-Writer.git\ncd AI-Novel-Writer/plugins/dsh-ai-novel-writer\npnpm install\npnpm run build\ndsh plugin --profile web add .\ndsh --profile web",
+  "usage": "pnpm pack --pack-destination ../../.runtime/.cache\ncd ../..\ndsh plugin --profile web add ./.runtime/.cache/ethanyoq-dsh-ai-novel-writer-0.1.0.tgz\ndsh --profile web",
+  "license": "",
+  "_done": true
+ },
+ "dsh-vault": {
+  "intro": "**English** · [简体中文](./README.zh.md) [GitHub](https://github.com/feiyang-dev/dsh-vault) · [npm](https://www.npmjs.com/package/@feiyang666/dsh-vault) · MIT License **A community plugin for DeepSeek Harness** — auto backup → wipe detection → one-click restore. Backs up chat history, workspace data, settings, and credentials to a safe location outside `~/.dsh`. </div> --- ---",
+  "features": [],
+  "install": "# Prerequisite: install dsh (npm install -g @deepseek-ai/dsh)\ndsh plugin --profile web add @feiyang666/dsh-vault",
+  "usage": "# 1. Install into the profile (equivalent to the official bundle mechanism)\nnpm install --prefix \"$HOME/.dsh/profiles/web\" @feiyang666/dsh-vault\n\n# 2. Register the bundle in the profile's package.json (the dsh.vault row mounts automatically via cordis.patch.yml)\n#    Or use your desktop app's plugin manager",
+  "license": "MIT © dsh-vault",
+  "_done": true
+ },
+ "echobird": {
+  "intro": "<table> <tr> <td width=\"150\" align=\"center\"> <a href=\"https://passport.compshare.cn/register?referral_code=LlOJAWughXiDXtP9v1Srra\"></a> </td> <td> <a href=\"https://passport.compshare.cn/register?referral_code=LlOJAWughXiDXtP9v1Srra\"><strong>优云智算 CompShare</strong></a><br/> Thanks to <strong>CompShare (优云智算)</strong> for sponsoring EchoBird! CompShare is UCloud's AI cloud platform, offering stable, comprehensive access to domestic and overseas model APIs through a single API key. Its flagship Cod",
+  "features": [],
+  "install": "",
+  "usage": "irm https://echobird.ai/install.ps1 | iex",
+  "license": "& Trademarks",
+  "_done": true
+ },
+ "dsh-desk-pet": {
+  "intro": "<p align=\"center\"> </p> <p align=\"center\"> <b>A desk pet that shows you what your agent is doing.</b><br> It floats above every window — including fullscreen — and changes expression as DSH works, waits, finishes or fails. </p> <p align=\"center\"> <a href=\"https://www.npmjs.com/package/dsh-desk-pet\"></a> <a href=\"LICENSE\"></a> <a href=\"https://github.com/topics/dsh-plugin\"></a> </p> <p align=\"center\"> </p> <p align=\"center\"> <sub>idle · working · waiting · error · happy · sleeping</sub> </p> <p a",
+  "features": [],
+  "install": "dsh plugin --profile web add github:anneheartrecord/dsh-desk-pet#main\ndsh web",
+  "usage": "dsh plugin --profile web add dsh-desk-pet   # after the first npm release",
+  "license": "MIT.",
+  "_done": true
+ },
+ "deepseek-harness-for-android": {
+  "intro": "[English](README.md) | [中文](README.zh.md) `app/` is an independent Capacitor Android application for running DeepSeek Harness in a local Ubuntu userspace. Once the runtime is ready, opening the app starts Harness and enters the in-app conversation directly; no external browser is required. Harness service controls, Ubuntu installation and reset, terminals, runtime source details, and optional Shizuku-backed device shell access live under Settings.",
+  "features": [
+   "Node.js `^22.19.0 || >=24.0.0`, matching the current DeepSeek Harness engine range. Node.js 11.9 cannot build supported Capacitor releases o",
+   "JDK 23.0.1, with `JAVA_HOME` set explicitly when the system default still points to Java 8.",
+   "Android SDK 35 and a compatible Android NDK.",
+   "The pinned ARM64 PRoot runner and loader used by the release. The current"
+  ],
+  "install": "pnpm install --frozen-lockfile\npnpm run build\npnpm run android:sync",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "deepseek-harness-studio": {
+  "intro": "DeepSeek Harness Studio 使用 Electron 承载 DeepSeek Harness 的 Web 工作区，并由桌面主进程启动和管理本地 `dsh web` 服务。这个仓库提供完整源码开发环境，使用者可以从 GitHub 克隆或下载代码，在本地安装依赖、编辑源码、启动桌面应用并继续开发。 桌面安装包只通过本仓库的 GitHub Releases 发布，不使用第三方下载站。目前已经提供经过真实 Electron 验收的 macOS arm64 预览 ZIP 和 Windows x64 预览安装程序；需要继续开发时，仍可获取完整源码并在本地启动。",
+  "features": [
+   "**Electron 桌面端**：提供应用窗口、系统托盘、单实例运行、外部链接处理和安全的 preload 通信接口。",
+   "**本地 Harness Host**：桌面主进程启动 `dsh web`，等待本地服务就绪，并在应用退出时关闭 Host 进程。",
+   "**Web 工作区**：保留 DeepSeek Harness 的会话、工作区、模型、工具、Skills 和插件运行能力。",
+   "**插件发现与推荐**：自动读取在线目录，通过精选、最近更新、生态热门、场景分类和搜索，帮助用户快速找到值得尝试的插件。",
+   "**Agent 智能找插件**：用一句自然语言描述需求，Agent 自动检索公开 `dsh-plugin` 目录、筛选相关候选并说明推荐理由。",
+   "**公开插件中心**：在线搜索 npm 公共 `dsh-plugin` 生态，在安装前校验确定版本、产物完整性、Bundle 声明和本机兼容性，并在已安装区域管理启用、停用与卸载。"
+  ],
+  "install": "git clone https://github.com/fufankeji/deepseek-harness-studio.git\ncd deepseek-harness-studio",
+  "usage": "pnpm install",
+  "license": "",
+  "_done": true
+ },
+ "memtrace-public": {
+  "intro": "Memtrace runs as a [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin. Install Harness first (`npm install -g @deepseek-ai/dsh` — that is the `dsh` command), then add Memtrace: npx -y @deepseek-ai/dsh plugin --profile web add github:syncable-dev/dsh-plugin-memtrace Then ask the agent to index the workspace and pull blast radius, evolution, or an architecture briefing. Details: [syncable-dev/dsh-plugin-memtrace](https://github.com/syncable-dev/dsh-plugin-memtrace). ---",
+  "features": [],
+  "install": "npx -y @deepseek-ai/dsh plugin --profile web add github:syncable-dev/dsh-plugin-memtrace",
+  "usage": "npm install -g @deepseek-ai/dsh\ndsh plugin --profile web add github:syncable-dev/dsh-plugin-memtrace",
+  "license": "& ownership",
+  "_done": true
+ },
+ "awesome-deepseek-harness": {
+  "intro": "DeepSeek Harness is a runnable coding agent (Web UI + headless) built on [Cordis](https://github.com/cordiverse/cordis), where every part of the system — models, tools, sandboxes, session storage, UI, even the agent loop itself — is a swappable plugin. That architecture has produced a large, fast-moving plugin ecosystem: well over a thousand community plugins at last count. This list exists to make that ecosystem easy to scan: what a plugin does, in one line, sorted into the category you'd actua",
+  "features": [
+   "[1624318455/dsh-plugin-tavily](https://github.com/1624318455/dsh-plugin-tavily) — Tavily-backed web search provider for the built-in `web_se",
+   "[988hj7tczd-oss/dsh-computer-use](https://github.com/988hj7tczd-oss/dsh-computer-use) — Cross-platform Computer Use: virtual-mouse operation",
+   "[AbnerAI/dsh-monitor](https://github.com/AbnerAI/dsh-monitor) — Persistent background watchers that wake the agent on new messages — the har",
+   "[akqwpeter-prog/dsh-agent-conductor](https://github.com/akqwpeter-prog/dsh-agent-conductor) — Dispatches tasks from DSH to 11 external agent",
+   "[AngelosZou/dsh-multi-folder](https://github.com/AngelosZou/dsh-multi-folder) — Secondary working directories with equal read/write/exec per",
+   "[AngLi1997/dsh-plugin-sync](https://github.com/AngLi1997/dsh-plugin-sync) — Syncs the installed plugin manifest to a GitHub Gist with one-cl"
+  ],
+  "install": "dsh plugin --profile web add <plugin-name>",
+  "usage": "# run the Web UI (served at http://127.0.0.1:3080 by default)\nnpx @deepseek-ai/dsh web\n\n# or from a source checkout\ngit clone https://github.com/deepseek-ai/deepseek-harness.git\ncd deepseek-harness && pnpm install && pnpm run build && pnpm dsh web",
+  "license": "",
+  "_done": true
+ },
+ "dsh-plugin-dev-skills": {
+  "intro": "<p align=\"center\"> <samp> <strong>中文</strong> · <a href=\"./README.en.md\">English</a> </samp> </p> <p align=\"center\"> </p> 一套遵循 [Agent Skills 规范](https://agentskills.io) 的技能，用于开发 [**DeepSeek Harness（DSH）**](https://github.com/deepseek-ai/deepseek-harness) 插件。 DSH 是一个插件化的 Agent Harness SDK：模型适配器、工具注册表、会话日志、甚至 agent loop 本身，全都是可以从配置里替换的 Cordis 插件。本技能把[官方文档](https://deepseek-harness.github.io/deepseek-harness/guide/quickstart)里散落在教程、参考手册与生成目录中的约定，收敛成一套可执行的标准——任何加载了它的 agent，都能用同一种方式开发 DSH 插件。",
+  "features": [],
+  "install": "git clone https://github.com/zimodzh/dsh-plugin-dev-skills.git ~/.claude/skills/dsh-plugin-dev",
+  "usage": "dsh-plugin-dev/\n├── SKILL.md      # 入口：frontmatter、8 条硬规则、6 个场景工作流、决策速查表、完成前检查清单\n├── references/   # 12 份详细标准，按需加载（渐进式披露）\n├── examples/     # 两个可复制、可运行的最小示例\n│   ├── hello-plugin/\n│   └── greet-tool/\n└── evals/        # description 的触发评测集与评测方法",
+  "license": "MIT——见 [LICENSE](LICENSE)。",
+  "_done": true
+ },
+ "desktop-cc-gui": {
+  "intro": "**English** · [简体中文](./README.zh-CN.md) <a href=\"https://trendshift.io/repositories/25546\" target=\"_blank\"></a> ![][github-contributors-shield] ![][github-forks-shield] ![][github-stars-shield] ![][github-issues-shield] </div> **ccgui** is an open-source **multi-engine AI coding desktop client**. In plain words: it brings command-line AI coding runtimes such as Claude Code, Codex CLI, Gemini CLI, OpenCode, and **DeepSeek Harness (DSH)** into one graphical interface. It is **not** a DSH Web UI sh",
+  "features": [
+   "Registers runtime adapters for **Claude Code**, **Codex CLI**, **Gemini CLI**, **OpenCode**, and **DeepSeek Harness (DSH)**. Gemini is enabl",
+   "Claude and Codex support managed provider profiles. Gemini and OpenCode retain the provider/configuration model exposed by their own runtime",
+   "**DeepSeek Harness** is a native engine (`dsh-host-rpc`): ccgui can adopt a running local `dsh web` host or start one, then create / resume ",
+   "Sessions survive restarts: close the app and your conversation history is still there. Resume broken sessions and see how much context each "
+  ],
+  "install": "git clone https://github.com/zhukunpenglinyutong/desktop-cc-gui.git\ncd desktop-cc-gui\nnpm install",
+  "usage": "# macOS / Linux\nnpm run tauri:dev\n\n# Windows\nnpm run tauri:dev:win",
+  "license": "[MIT](https://github.com/zhukunpenglinyutong/desktop-cc-gui?",
+  "_done": true
+ },
+ "dsh-ide": {
+  "intro": "<p align=\"center\"> </p> 把 DeepSeek Harness（DSH）Web GUI 升级为**一体化开发环境**，四大核心能力： - 🖥️ **右侧边栏**：可停靠的右栏抽屉——文件树 + 预览/编辑同框；**拖 tab 拖出成浮窗，拖回右缘自动停靠**（下框 / 右栏 / 浮动 / 三栏 IDE 四态切换） - 📄 **预览**：Markdown / HTML / 图片 / CSV / Office（docx / xlsx / pptx）/ 日志等多格式直接预览 - ✏️ **编辑**：代码即时编辑（语法高亮 + 行号 + 斑马纹）+ Markdown/HTML **Word 式可视化编辑** + Office 框内富文本编辑 - 🧩 **IDE**：文件树、命令行终端、Trae 风格红绿 diff、类型颜色标签、Git 角标、监视路径——开箱即用的 JupyterLab 式工作区 同时内置 **SSH 远程工作区模式**：右上角（session log 左侧）配置 SSH 主机（密码 / 密钥，复用 `~/.dsh/dsh-ssh.json`），进入后右侧",
+  "features": [
+   "🖥️ **右侧边栏**：可停靠的右栏抽屉——文件树 + 预览/编辑同框；**拖 tab 拖出成浮窗，拖回右缘自动停靠**（下框 / 右栏 / 浮动 / 三栏 IDE 四态切换）",
+   "📄 **预览**：Markdown / HTML / 图片 / CSV / Office（docx / xlsx / pptx）/ 日志等多格式直接预览",
+   "✏️ **编辑**：代码即时编辑（语法高亮 + 行号 + 斑马纹）+ Markdown/HTML **Word 式可视化编辑** + Office 框内富文本编辑",
+   "🧩 **IDE**：文件树、命令行终端、Trae 风格红绿 diff、类型颜色标签、Git 角标、监视路径——开箱即用的 JupyterLab 式工作区"
+  ],
+  "install": "# 重启 dsh\nnpx @deepseek-ai/dsh web",
+  "usage": "dsh-IDE/\n├── packages/\n│   ├── dsh-aionui-panel/ # 右侧面板系统：文件树/预览/终端/编辑 diff/类型色标签（IDE 工作区本体）\n│   ├── dsh-ssh/          # SSH 引擎：ssh2 连接池、exec/PTY/SFTP/隧道/集群（SSH 远程模式依赖）\n│   └── dsh-easyssh/      # SSH 远程工作区：模式状态机、接缝门面、远程实现、Web GUI 前端\n└── README.md",
+  "license": "BSD-3-Clause。远程实现的 MIT 版权归 UynajGI/dsh-ssh 原作者（见 NOTICE）。",
+  "_done": true
+ },
+ "flowix": {
+  "intro": "Write in Markdown, point an agent to the context it needs, and save the result back to the same note — ready to review, edit, and reuse next time. ---",
+  "features": [],
+  "install": "git clone https://github.com/text2future/flowix.git\ncd flowix\nnpm install\n\nnpm run tauri dev\nnpm run dev\nnpm run tauri build",
+  "usage": "",
+  "license": "Flowix is open source under the MIT License.",
+  "_done": true
+ },
+ "dsh-vscode": {
+  "intro": "Bring DeepSeek Harness into the same place you write code. dsh-vscode gives DSH a Claude Code/Codex-style right sidebar that already understands your project, active file, and selected code. Ask DeepSeek to inspect, change, and verify code without switching between your editor, terminal, and a separate chat window. <p align=\"center\"> </p>",
+  "features": [
+   "**Work with the real DSH runtime.** Sessions, streaming, tool calls, approvals, follow-up questions, and official `/` commands stay inside t",
+   "**Start with the right context.** DeepSeek receives the current workspace, active file, and selected code. Add specific files or folders wit",
+   "**Control every session.** Switch official Permission and Plan modes from the composer, then choose Model and Reasoning Effort independently",
+   "**Review edits where you code.** Changed files are grouped by turn with `+/-` line counts. Open them in VS Code's native Diff Editor, then K",
+   "**Stay in control while DeepSeek works.** Queue, edit, remove, or steer follow-up messages. If DeepSeek reaches a dirty editor buffer, the t"
+  ],
+  "install": "npm install -g @deepseek-ai/dsh",
+  "usage": "",
+  "license": "[MIT](LICENSE)",
+  "_done": true
+ },
+ "dsh-reasoning-effort": {
+  "intro": "**把 Codex 风格的“模型 + 推理强度”控件直接带进 DeepSeek Harness。** [English](README.en.md) · [最新发行版](https://github.com/HanaAyane/dsh-reasoning-effort/releases/latest) · [反馈问题](https://github.com/HanaAyane/dsh-reasoning-effort/issues) </div> 第一次打开插件时，你会在 DSH 输入框下方看到新的模型入口。点击后，弹层上方是推理强度滑块，档位随当前模型自动适配，下方仍然是熟悉的模型选择入口。插件默认启用，并与 DSH 的 `/model` 命令保持同步。",
+  "features": [],
+  "install": "请为 DeepSeek Harness 的 web Profile 安装 dsh-reasoning-effort 插件。\n\n只执行下面两条命令，不要修改其他 Profile：\ndsh plugin --profile web add github:HanaAyane/dsh-reasoning-effort#main\ndsh --profile web --dump-config\n\n确认输出中出现 dsh-reasoning-effort 后告诉我安装结果。\n不要替我关闭或重启正在运行的 DSH；安装完成后提醒我手动重启 DSH Web Host。",
+  "usage": "dsh plugin --profile web add github:HanaAyane/dsh-reasoning-effort#main\ndsh --profile web --dump-config",
+  "license": "",
+  "_done": true
+ },
+ "anime-find": {
+  "intro": "DeepSeek Harness 搜番插件。在对话中搜索番剧，以可点击卡片展示结果，并在详情面板中查看字幕组、磁力链接和种子文件。",
+  "features": [
+   "聚合 [Mikan](https://mikanani.me)、[AniBT](https://anibt.net) 和 [AnimeGarden](https://animes.garden)",
+   "在对话流中展示番剧封面、标题、评分、格式和资源数量",
+   "根据 Asia/Shanghai 时区识别当前新番季度",
+   "支持「还有吗」「换一批」等追问并分页展示更多结果",
+   "点击卡片后按字幕组和集数浏览资源，并可查看 Bangumi 介绍、评分和短评",
+   "支持复制磁力链接和打开 `.torrent` 文件"
+  ],
+  "install": "dsh plugin --profile web add github:cocofhu/anime-find",
+  "usage": "dsh plugin --profile web add /absolute/path/to/anime-find",
+  "license": "",
+  "_done": true
+ },
+ "graph-memory": {
+  "intro": "<p align=\"center\"> <strong>Traceable, searchable, cross-session memory for AI agents.</strong><br> One memory core, native to DeepSeek Harness, with the OpenClaw plugin entry retained. </p> <p align=\"center\"> <a href=\"README_CN.md\">中文</a> · <a href=\"#core-advantages\">Advantages</a> · <a href=\"#graph-memory-architecture\">Architecture</a> · <a href=\"#install-on-deepseek-harness\">DSH Install</a> · <a href=\"#graph-memory-pro-as-a-dsh-plugin\">Pro Plugin</a> · <a href=\"docs/DSH_NATIVE_PLAN.md\">Technic",
+  "features": [
+   "`TASK`: goals, execution, and outcomes;",
+   "`SKILL`: validated reusable methods;",
+   "`EVENT`: errors, fixes, decisions, changes, and facts."
+  ],
+  "install": "git clone https://github.com/adoresever/graph-memory.git\ncd graph-memory\nnpm ci\nnpm test\nnpm run build\nnpm pack",
+  "usage": "npx @deepseek-ai/dsh plugin --profile web add /absolute/path/to/graph-memory-1.6.0-beta.1.tgz\nnpx @deepseek-ai/dsh --profile web --dump-config\nnpx @deepseek-ai/dsh web\n\n# From a deepseek-harness source checkout:\npnpm dsh plugin --profile web add /absolute/path/to/graph-memory-1.6.0-beta.1.tgz\npnpm dsh web",
+  "license": "[MIT](LICENSE) © 2026 adoresever",
+  "_done": true
+ },
+ "deepseek-acp": {
+  "intro": "把 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 接成一个**面向编辑器的完整编码 Agent**， 通过 [Agent Client Protocol](https://agentclientprotocol.com)（ACP）与客户端通话。 **可用客户端**：任何实现 ACP 的编辑器。开发期在 **[codeg](https://github.com/xintaofei/codeg)** 里实测； **[Zed](https://zed.dev)** 走同一套协议、配置方式见下，但尚未逐项验收过。 ---",
+  "features": [
+   "**看不到模型在干什么。** 工具调用、命令输出、文件改动全部只留在会话日志里，界面上",
+   "**没有逐字流式。** 只在整段消息提交后才推一次，长回答期间界面是静止的。",
+   "**一次性会话。** 关掉就没了——没有恢复、没有列表、没有标题。",
+   "**控制面全无。** 换模型、调文件权限、开计划模式、执行 slash 命令，都没有入口。"
+  ],
+  "install": "",
+  "usage": "{ \"id\": \"terminal\", \"type\": \"terminal\", \"args\": [\"--setup\"] }",
+  "license": "",
+  "_done": true
+ },
+ "voyager": {
+  "intro": "We love AI chatbots, but sometimes we wish they had just a _bit_ more structure. That's why I built **Voyager**. It's a companion that helps you keep your AI conversations organized, accessible, and productive — whether you're on Gemini, Claude, or ChatGPT. If you're a researcher juggling dozens of threads, a developer saving code snippets, or just someone who loves order, Voyager is designed for you. <p align=\"center\"> <a href=\"https://x.com/Nag1ovo/status/2024509398601597412?s=20\" target=\"_bla",
+  "features": [
+   "**📂 [Folder Organization](https://voyager.nagi.fun/en/guide/folders)**: Organize chats into a two-level folder hierarchy with drag-and-drop ",
+   "**💡 [Prompt Vault](https://voyager.nagi.fun/en/guide/prompts)**: Save and reuse prompts across Gemini, AI Studio, and [custom websites](http",
+   "**☁️ [Cloud Sync](https://voyager.nagi.fun/en/guide/cloud-sync)**: Sync folders and prompts through Google Drive, or iCloud on Safari.",
+   "**🗑️ [Batch Delete](https://voyager.nagi.fun/en/guide/batch-delete)**: Bulk delete conversations."
+  ],
+  "install": "",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "dsh-claude-ux": {
+  "intro": "Claude 式「区域风控 + 自主结束对话」插件 —— 适用于 DeepSeek Harness 的 web profile。 复刻 Anthropic/Claude 的两类行为，**除两个默认关闭的可选外部调用外全部本地判定**（详见 [docs/PRIVACY.md](docs/PRIVACY.md)）： - **区域风控（可反向）**：检测目标用户（时区、系统/浏览器语言、中文字体、代理、代理/中转域名黑名单、公网 IP 归属、WebRTC IP 一致性）。`regionTarget` 选 `cn` = 风控中国用户（Claude 原版行为），选 `non-cn` = **反向风控**（检测到不是中国人就风控）。命中后按惩罚阶梯处置：拒绝文案（带尝试计数）→ 达到 `refusalEndsAfter` 次数后结束会话（Chat ended 面板 + 服务端持续拒绝，重启后依然生效）→ 系统提示词注入模型级区域指令。 - **自主性**：用户持续辱骂或反复要求严重有害内容时，先警告、再主动结束对话；自伤/他伤风险消息永不触发结束（对齐 Claude 的公开限制）。辱骂结束与严重有",
+  "features": [
+   "**区域风控（可反向）**：检测目标用户（时区、系统/浏览器语言、中文字体、代理、代理/中转域名黑名单、公网 IP 归属、WebRTC IP 一致性）。`regionTarget` 选 `cn` = 风控中国用户（Claude 原版行为），选 `non-cn` = **反向风控*",
+   "**自主性**：用户持续辱骂或反复要求严重有害内容时，先警告、再主动结束对话；自伤/他伤风险消息永不触发结束（对齐 Claude 的公开限制）。辱骂结束与严重有害结束使用**独立文案**（均可在设置页自定义，空值灰字显示内置默认）。辱骂判定采用**词表秒判 + LLM 语境兜底*",
+   "**隐写通道**：系统提示词日期格式（`2026-06-30` ↔ `2026/06/30`）编码区域判定，Unicode 撇号变体（U+2019 ↔ U+02BC）编码黑名单命中。"
+  ],
+  "install": "npx -y @deepseek-ai/dsh plugin --profile web add github:eri64/dsh-claude-ux",
+  "usage": "npm test   # 运行主机（115 项）与客户端（17 项）单元测试，无需 dsh 实例",
+  "license": "",
+  "_done": true
+ },
+ "dsh-recall-plugin": {
+  "intro": "--- **在任意一条你发过的消息下方**，**点「↶ 撤回」**，**工作区文件和对话历史一起回到那条消息发出之前的状态**。",
+  "features": [
+   "**文件 + 对话，整段回退**：撤回的不只是聊天记录，agent 改过的文件也一并回到原样。",
+   "**不碰你项目自己的 git**：快照存在独立的影子 git 仓库里，你的分支、暂存区、未提交改动统统不受影响；`.git`、`node_modules` 自动排除。",
+   "**项目目录保持干净**：快照始终存在 `$DSH_HOME` 下，不会往项目里塞任何东西；与会话的沙箱权限无关（workspace-write / read-only 会话照常快照与回退），仅当 home 本身不可写（如指到只读盘）才降级到项目内 `.dsh-recall-sn",
+   "**可以反复后悔**：只要会话还在（含归档），快照全量保留、不修剪。撤回一次后还能再撤到更早；撤回时被覆盖的文件也一直找得回来。会话被彻底删除后，其快照随之清理（见下）。",
+   "**先看清单再动手**：点撤回先弹出将变更的文件清单（修改 / 恢复 / 删除），确认后才执行，不会稀里糊涂覆盖。",
+   "**磁盘友好**：快照走 git delta 压缩，是增量不是整目录拷贝；超过 100MB 的大文件自动跳过。"
+  ],
+  "install": "dsh plugin --profile web add dsh-recall-plugin",
+  "usage": "dsh plugin --profile web add github:limbo947/dsh-recall-plugin",
+  "license": "MIT",
+  "_done": true
+ },
+ "dockyard-dsh": {
+  "intro": "**A macOS-only account-pool and native provider plugin for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`).** [中文](#中文) · [English](#english)",
+  "features": [
+   "在 DSH 内使用 `/dockyard` 命令管理账号和 provider。",
+   "点击“登录添加账号”直接打开 provider 官方浏览器授权页，选择账号并安全导入账号池；provider 不可用时保留 CLI fallback。",
+   "扫描本机已有的官方登录态；扫描和新增账号是两个独立操作，已有账号不会被“新增”静默重复导入。",
+   "支持手动选择、sticky session、round-robin 和 failover 账号池策略。",
+   "读取 provider 返回的实时模型目录、推理档位、套餐和额度窗口。",
+   "所有命令、模型选择和 LLM 生成都读取同一个 Dockyard runtime，不维护第二套账号池或额度缓存。"
+  ],
+  "install": "# DSH 当前是 developer preview；请使用上游要求的 Node.js 版本。\n# 当前上游 package.json 要求 Node 22.19+ 的 22.x，或 Node 24+。\nnpm install --global @deepseek-ai/dsh\nnpm install --global pnpm\n\ndsh --version\npnpm --version",
+  "usage": "dsh plugin --profile web add github:AITabby/dockyard-dsh\ndsh web",
+  "license": "",
+  "_done": true
+ },
+ "dsh-commandcode-provider": {
+  "intro": "Unofficial [DeepSeek Harness](https://deepseek-harness.github.io/deepseek-harness/) LLM provider plugin for **Command Code**, ported from [pi-commandcode-provider](https://github.com/patlux/pi-commandcode-provider) (MIT). It registers a `commandcode` provider whose requests are translated to Command Code's Provider API (`POST /alpha/generate`, reverse-engineered by the pi plugin, `command-code@1.26.0`).",
+  "features": [
+   "insert:"
+  ],
+  "install": "npm i -g command-code@latest\ncmd login        # macOS/Linux; native Windows: cmdc login",
+  "usage": "dsh plugin --profile web add @mars-sea/dsh-commandcode-provider",
+  "license": "MIT — see [LICENSE](./LICENSE). Portions ported from [pi-com",
+  "_done": true
+ },
+ "dsh-surfing-plugin": {
+  "intro": "`dsh-surfing-plugin` adds self-hosted web access to [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): `web_search` uses SearXNG and `web_fetch` uses Crawl4AI. It registers providers with DSH's `ctx.web` service, so the native tool names, arguments, rendering, timeouts, cancellation, and result limits remain unchanged.",
+  "features": [
+   "Node.js `^22.19.0` or `>=24.0.0`",
+   "DeepSeek Harness `>=0.1.0-rc.6 <0.2.0`",
+   "Reachable SearXNG and Crawl4AI services",
+   "JSON enabled in SearXNG's `search.formats`"
+  ],
+  "install": "dsh plugin --profile web add .\ndsh --profile web --dump-config\ndsh --profile web",
+  "usage": "dsh plugin --profile web add dsh-surfing-plugin",
+  "license": "MIT",
+  "_done": true
+ },
+ "dsh-plugin-subscriptions": {
+  "intro": "Use your **ChatGPT (Codex)**, **Claude**, and **Grok (X Premium)** subscriptions as LLM providers in [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) — no API keys. Login happens in the dsh web UI (Settings → Subscriptions); tokens live at `~/.dsh/plugins/subscriptions/auth.json` (mode 0600) and refresh automatically.",
+  "features": [
+   "**`x_search`** tool (Grok) — xAI's hosted X search, returning `{ answer, citations }`.",
+   "**`image_generate`** tool (ChatGPT) — `gpt-image-2` via the Codex backend; PNGs are saved under `~/.dsh/plugins/subscriptions/images/` and t"
+  ],
+  "install": "dsh plugin --profile web add dsh-plugin-subscriptions",
+  "usage": "dsh plugin --profile web add github:V1ki/dsh-plugin-subscriptions",
+  "license": "",
+  "_done": true
+ },
+ "dsh-plugin-guard": {
+  "intro": "A bad plugin install can leave the app unable to boot, and fixing it by hand usually means digging through config files. This plugin automates the whole chain: Install a plugin (any method) │ tools.guard hook: automatic snapshot BEFORE the install (in-process) ▼ Guarded boot (boot-guard script) │ snapshot before boot → start dsh web → health check ├─ healthy ─────────────────────────────► passes through untouched └─ unhealthy ─► auto-rollback to last good snapshot → retry once → write an inciden",
+  "features": [],
+  "install": "# From GitHub source (current):\ndsh plugin --profile web add github:lxzy-7/dsh-plugin-guard\n\n# From the tarball stored in the repo:\ndsh plugin --profile web add https://raw.githubusercontent.com/lxzy-7/dsh-plugin-guard/main/dist/dsh-plugin-guard-0.2.2.tgz",
+  "usage": "@echo off\nset DSH_HOME=%~dp0.dsh-home\ncd /d %~dp0\npowershell -NoProfile -ExecutionPolicy Bypass -File node_modules\\dsh-plugin-guard\\scripts\\boot-guard.ps1",
+  "license": "MIT",
+  "_done": true
+ },
+ "dsh-free-search": {
+  "intro": "**DeepSeek Harness 免费搜索插件 —— 无需 API key，零成本，多引擎可切换。** 一个给 DeepSeek Harness (dsh) 添加多引擎搜索 provider 的插件，注册进 `ctx.web` seam。内置 `web_search` 工具自动选用，支持网页设置页切换引擎、配置 API key、一键测试所有引擎。 [English](./README.en.md) | 中文 <div align=\"center\"> <a href=\"\"> </a> <br> <sub>▲ 免费引擎（以Bing为例）</sub> </div>",
+  "features": [
+   "**零成本** —— 多个免费引擎，无需 key、无需注册",
+   "**多引擎可选**：DuckDuckGo（html/lite）、Bing、SearXNG（元搜索，支持自定义实例）、Exa、Perplexity、DeepSeek 官方",
+   "**网页设置页** —— 引擎切换 + API key 配置（UI 中 key 脱敏显示\"已配置\"）",
+   "**引擎测试工具** —— `free_search_test`，让 agent 一键测试所有引擎可用性",
+   "**自动回退** —— 免费引擎失败/限流时自动切换到下一个可用引擎",
+   "**系统提示词注入** —— agent 知道当前用哪个引擎、哪些需要 key"
+  ],
+  "install": "git clone https://github.com/DDDMUC/dsh-free-search.git\ndsh plugin --profile web add /path/to/dsh-free-search",
+  "usage": "dsh web",
+  "license": "MIT",
+  "_done": true
+ },
+ "dsh-plugin-writing-guard": {
+  "intro": "**去 AI 腔 · 守住证据 · 写向目标期刊** Writing Guard 是面向 DeepSeek Harness 的科研论文写作守卫： 减少机械化、模板化和防御性的 AI 写作， 保护 AI 润色前后的科研事实与 scientific commitments， 并根据目标期刊代表论文校准 manuscript 的写作分布。 **Local · Deterministic · Zero Network · Zero LLM** ---",
+  "features": [],
+  "install": "dsh plugin --profile web add dsh-plugin-writing-guard\ndsh web",
+  "usage": "写作规则 → Agent revision → automatic guard → targeted revision",
+  "license": "MIT",
+  "_done": true
+ },
+ "dsh-theme-plugin": {
+  "intro": "Chinese traditional colors as a **DeepSeek Harness theme pack**. 49 anchor colors × light/dark = **98 themes**, each writing the full token vocabulary (98 tokens: 89 `--dsw-*` plus 9 `--shiki-token-*` syntax slots) and clearing WCAG AA on all 3136 contrast assertions. Twelve of the anchors are marked as a curated shortlist. 📖 [中文文档](./README.zh-CN.md) <p align=\"center\"> <br> </p> <p align=\"center\"> <sub>竹青 · light（素绢）&nbsp; | &nbsp;朱红 · dark（熟宣）<br>群青 · light（雪青）&nbsp; | &nbsp;藤黄 · dark（赭纸）</sub",
+  "features": [
+   "**Verify** — the browser console logs `registered 98/98 themes (49 light / 49 dark)`, and `dsh --profile web --dump-config` shows a `theme-z",
+   "**Update** — run the same `add` command again.",
+   "**Uninstall** — `dsh plugin --profile web remove dsh-theme-plugin`"
+  ],
+  "install": "npx -y @deepseek-ai/dsh plugin --profile web add dsh-theme-plugin@latest\nnpx -y @deepseek-ai/dsh --profile web          # boot → open http://127.0.0.1:3080/",
+  "usage": "http://127.0.0.1:3080/#theme=zhuqing-light      # 竹青 light\nhttp://127.0.0.1:3080/#theme=qunqing-dark       # 群青 dark",
+  "license": "MIT — see [LICENSE](./LICENSE).",
+  "_done": true
+ },
+ "dsh-plugin-manager": {
+  "intro": "<br> **Settings → Plugins → Plugin Manager** · 165 plugins cataloged, one click to toggle, notes edited in place. <br> [Overview](#overview) · [Compatibility](#compatibility) · [Install / Uninstall](#install--uninstall) · [Quick Start](#quick-start) · [Configuration](#configuration) · [Permissions & Data](#permissions--data) · [Features](#features) · [Troubleshooting](#troubleshooting) · [Development](#development) [**中文**](docs/lang/README_ZH.md) · [**Español**](docs/lang/README_ES.md) · [**日本語",
+  "features": [],
+  "install": "# 1. Install\ndsh plugin --profile web add github:2768651338/dsh-plugin-manager#main\n# 2. Restart DeepSeek Harness, press Ctrl+F5 in the web page",
+  "usage": "{\n  \"@dsh-external/dsh-navbar\": { \"name\": \"对话导航条\", \"desc\": \"对话区右缘的消息节点导航\" }\n}",
+  "license": "& Security",
+  "_done": true
+ },
+ "dsh-prompt-stash": {
+  "intro": "[简体中文](README.md) | [English](README.en.md) DeepSeek Harness Web 的本地输入暂存插件。把尚未发送的纯文本压入当前会话的 LIFO 暂存栈，先处理临时问题，之后再安全恢复原输入。",
+  "features": [
+   "每个 DSH 会话独立保存，最新内容优先，最多保留 10 条。",
+   "暂存后立即在输入框上方显示折叠栏，可展开预览、恢复、删除或清空。",
+   "当前输入非空时不会直接覆盖；恢复前必须确认先暂存当前内容。",
+   "使用 DSH 官方 `inputActions.setDraft()` 清空和恢复，不操作 `textarea` 或内部 Store。",
+   "暂存内容只保存在当前浏览器的 `localStorage`；快捷键配置通过 DSH Host settings 保存，可跨刷新和浏览器生效。",
+   "支持中英文、深浅主题、键盘操作和 DSH 原生队列组合布局。"
+  ],
+  "install": "dsh plugin --profile web add dsh-prompt-stash",
+  "usage": "dsh plugin --profile web update dsh-prompt-stash",
+  "license": "",
+  "_done": true
+ },
+ "dsh-plugin-meta-memory": {
+  "intro": "Teaches the agent how to organize memories using a structured system: - **Units**: Work categories named `verb-modifier-noun.unit` - **Records**: Each memory has a brief (quick scan) and full (detailed) version - **Index**: Self-maintained global storyline - **Auto-injection**: Relevant briefs are injected into context automatically",
+  "features": [
+   "**Units**: Work categories named `verb-modifier-noun.unit`",
+   "**Records**: Each memory has a brief (quick scan) and full (detailed) version",
+   "**Index**: Self-maintained global storyline",
+   "**Auto-injection**: Relevant briefs are injected into context automatically"
+  ],
+  "install": "dsh plugin --profile your-profile add dsh-plugin-meta-memory",
+  "usage": ".meta-memory/\n├── index.md\n└── units/\n    ├── debug-auth-module.unit/\n    │   ├── 0.token-refresh-fail.brief.md\n    │   └── 0.token-refresh-fail.full.md\n    └── read-deeplearning-paper.unit/\n        ├── 0.transformer-attention.brief.md\n        └── 0.transformer-attention.full.md",
+  "license": "MIT -- YYTbit",
+  "_done": true
+ },
+ "dsh-expression": {
+  "intro": "已发布到 **npm**（`dsh-expression@0.1.26`），一行装进任意 DSH profile（如 `~/.dsh/profiles/web/`）： dsh plugin --profile web add dsh-expression",
+  "features": [
+   "**纯文本也能斗图**：界面显示表情图片，模型收到的是 `[表情: 描述]`，无需图片输入能力",
+   "**AI 自动学图**：用户说「入库」时，`learn_meme` 收录最近一张用户附件（不必填附件 id），自动识别分类/描述",
+   "**情绪主动发图**：先选情绪桶，系统随机抽若干张 caption，模型挑一张贴进回复",
+   "**像 QQ/微信 一样发图**：输入框 😊 悬浮面板点选表情直接发出"
+  ],
+  "install": "dsh plugin --profile web add dsh-expression\n# 等价于:\npnpm add dsh-expression",
+  "usage": "pnpm add github:yyh-001/dsh-expression   # 或\npnpm add file:/path/to/dsh-expression",
+  "license": "[MIT](./LICENSE)",
+  "_done": true
+ },
+ "dsh-plugin-swift-cycle": {
+  "intro": "这是 [Swift Cycle](https://github.com/Solismuchengxue/skill_swift_cycle) 的 DeepSeek Harness 适配器。它把锁定的 Swift Cycle v1.2.0 载荷注册为只能由用户显式调用的 Harness Skill。",
+  "features": [
+   "适配器版本：`0.1.1`",
+   "上游版本：`v1.2.0`",
+   "上游 commit：`af3c5ddafba516c304613ea69081118fc234add7`",
+   "上游整体 SHA-256：`e01de6fa081c12c7e481a219d3932e48a2e386f05202e7b8a6e51a0029fad686`"
+  ],
+  "install": "dsh plugin --profile web add dsh-plugin-swift-cycle",
+  "usage": "dsh plugin --profile web add dsh-plugin-swift-cycle@0.1.1",
+  "license": "",
+  "_done": true
  }
 }

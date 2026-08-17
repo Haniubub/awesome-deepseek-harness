@@ -1,0 +1,25 @@
+---
+title: "dsh-plugin-hub"
+description: "DSH 插件聚合站:全网 DeepSeek Harness 插件聚合检索,多源自动去重分类,每小时刷新 | https://dsh-plugin-hub.hupc.site"
+keywords: "dsh-plugin-hub, registry, awesome-list, coding, deepseek harness, dsh"
+---
+# dsh-plugin-hub
+
+> ⭐ 10 · ✅ active · awesome-list
+
+## One-liner
+
+DSH 插件聚合站:全网 DeepSeek Harness 插件聚合检索,多源自动去重分类,每小时刷新 | https://dsh-plugin-hub.hupc.site
+
+## About
+
+DSH 插件聚合站:全网 DeepSeek Harness 插件聚合检索,多源自动去重分类,每小时刷新 | https://dsh-plugin-hub.hupc.site
+
+## Author
+**[helloHupc](https://github.com/helloHupc)**
+
+## Links
+
+- [GitHub Repository](https://github.com/helloHupc/dsh-plugin-hub)
+- [Full README](https://github.com/helloHupc/dsh-plugin-hub#readme)
+- [Back to the Awesome Lists & Registries list](../awesome-lists.md)

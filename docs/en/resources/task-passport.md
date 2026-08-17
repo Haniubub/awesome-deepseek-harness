@@ -5,7 +5,7 @@ keywords: "Task Passport, multi-agent, agent, workflow, deepseek harness, dsh"
 ---
 # Task Passport
 
-> ⭐ 6 · ✅ active · agent
+> ⭐ 8 · ✅ active · agent
 
 ## One-liner
 

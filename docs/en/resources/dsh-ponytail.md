@@ -5,7 +5,7 @@ keywords: "dsh-ponytail, coding, skill, deepseek harness, dsh"
 ---
 # dsh-ponytail
 
-> ⭐ 0 · ✅ active · skill
+> ⭐ 1 · ✅ active · skill
 
 ## One-liner
 

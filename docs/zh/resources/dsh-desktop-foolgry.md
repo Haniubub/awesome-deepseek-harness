@@ -5,7 +5,7 @@ keywords: "dsh_desktop, desktop, client, coding, deepseek harness, dsh"
 ---
 # dsh_desktop
 
-> ⭐ 359 · ✅ 活跃 · 客户端
+> ⭐ 426 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

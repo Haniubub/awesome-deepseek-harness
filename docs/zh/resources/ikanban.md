@@ -5,7 +5,7 @@ keywords: "ikanban, browser, integration, coding, deepseek harness, dsh"
 ---
 # ikanban
 
-> ⭐ 11 · ✅ 活跃 · 集成
+> ⭐ 12 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

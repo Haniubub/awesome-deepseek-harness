@@ -5,7 +5,7 @@ keywords: "dsh-desktop (bruc3van), desktop, client, deepseek harness, dsh"
 ---
 # dsh-desktop (bruc3van)
 
-> ⭐ 45 · ✅ 活跃 · 客户端
+> ⭐ 54 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

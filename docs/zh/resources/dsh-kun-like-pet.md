@@ -5,7 +5,7 @@ keywords: "dsh-kun-like-pet, fun, plugin, coding, multi-agent, deepseek harness,
 ---
 # dsh-kun-like-pet
 
-> ⭐ 44 · ✅ 活跃 · 插件
+> ⭐ 52 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

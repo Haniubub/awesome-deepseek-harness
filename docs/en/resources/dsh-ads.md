@@ -5,7 +5,7 @@ keywords: "dsh-ads, fun, plugin, ui, deepseek harness, dsh"
 ---
 # dsh-ads
 
-> ⭐ 447 · ✅ active · plugin
+> ⭐ 479 · ✅ active · plugin
 
 ## One-liner
 

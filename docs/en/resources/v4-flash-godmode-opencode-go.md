@@ -5,7 +5,7 @@ keywords: "v4-flash-godmode-opencode-go, vision, plugin, coding, multi-agent, de
 ---
 # v4-flash-godmode-opencode-go
 
-> ⭐ 447 · ✅ active · plugin
+> ⭐ 509 · ✅ active · plugin
 
 ## One-liner
 

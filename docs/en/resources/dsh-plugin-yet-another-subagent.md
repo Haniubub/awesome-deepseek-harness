@@ -5,7 +5,7 @@ keywords: "dsh-plugin-yet-another-subagent, multi-agent, agent, ui, deepseek har
 ---
 # dsh-plugin-yet-another-subagent
 
-> ⭐ 7 · ✅ active · agent
+> ⭐ 11 · ✅ active · agent
 
 ## One-liner
 

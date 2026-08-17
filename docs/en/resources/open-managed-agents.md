@@ -5,7 +5,7 @@ keywords: "open-managed-agents, harness, related, workflow, deepseek harness, ds
 ---
 # open-managed-agents
 
-> ⭐ 235 · ✅ active · related
+> ⭐ 237 · ✅ active · related
 
 ## One-liner
 

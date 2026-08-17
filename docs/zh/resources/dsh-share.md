@@ -5,7 +5,7 @@ keywords: "dsh-share, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-share
 
-> ⭐ 20 · ✅ 活跃 · 插件
+> ⭐ 23 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

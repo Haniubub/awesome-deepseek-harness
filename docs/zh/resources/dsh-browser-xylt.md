@@ -5,7 +5,7 @@ keywords: "dsh-browser, browser, integration, coding, deepseek harness, dsh"
 ---
 # dsh-browser
 
-> ⭐ 5 · ✅ 活跃 · 集成
+> ⭐ 8 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

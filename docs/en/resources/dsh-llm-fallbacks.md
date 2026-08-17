@@ -5,7 +5,7 @@ keywords: "dsh-llm-fallbacks, multi-agent, agent, context, automation, deepseek 
 ---
 # dsh-llm-fallbacks
 
-> ⭐ 6 · ✅ active · agent
+> ⭐ 7 · ✅ active · agent
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-doublecheck, workflow, coding, deepseek harness, dsh"
 ---
 # dsh-doublecheck
 
-> ⭐ 2 · ✅ 活跃 · 工作流
+> ⭐ 4 · ✅ 活跃 · 工作流
 
 ## 一句话介绍
 

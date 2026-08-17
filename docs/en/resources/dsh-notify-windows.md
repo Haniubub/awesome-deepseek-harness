@@ -5,7 +5,7 @@ keywords: "dsh-notify-windows, notifications, plugin, deepseek harness, dsh"
 ---
 # dsh-notify-windows
 
-> ⭐ 4 · ✅ active · plugin
+> ⭐ 5 · ✅ active · plugin
 
 ## One-liner
 

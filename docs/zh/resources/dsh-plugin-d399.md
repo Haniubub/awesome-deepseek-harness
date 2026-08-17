@@ -5,7 +5,7 @@ keywords: "dsh-plugin-d399, fun, plugin, ui, deepseek harness, dsh"
 ---
 # dsh-plugin-d399
 
-> ⭐ 5 · ✅ 活跃 · 插件
+> ⭐ 8 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

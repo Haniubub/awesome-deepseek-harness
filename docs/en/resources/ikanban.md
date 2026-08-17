@@ -5,7 +5,7 @@ keywords: "ikanban, browser, integration, coding, deepseek harness, dsh"
 ---
 # ikanban
 
-> ⭐ 11 · ✅ active · integration
+> ⭐ 12 · ✅ active · integration
 
 ## One-liner
 

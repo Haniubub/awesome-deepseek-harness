@@ -5,7 +5,7 @@ keywords: "dsh-market, registry, awesome-list, coding, search, deepseek harness,
 ---
 # dsh-market
 
-> ⭐ 16 · ✅ 活跃 · 精选列表
+> ⭐ 18 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

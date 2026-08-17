@@ -5,7 +5,7 @@ keywords: "dsh-cue-plugin, memory, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-cue-plugin
 
-> ⭐ 5 · ✅ 活跃 · 插件
+> ⭐ 6 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

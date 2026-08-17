@@ -5,7 +5,7 @@ keywords: "dsh-browser, browser, plugin, automation, deepseek harness, dsh"
 ---
 # dsh-browser
 
-> ⭐ 193 · ✅ active · plugin
+> ⭐ 242 · ✅ active · plugin
 
 ## One-liner
 

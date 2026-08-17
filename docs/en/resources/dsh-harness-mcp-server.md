@@ -5,7 +5,7 @@ keywords: "dsh-harness-mcp-server, mcp, integration, workflow, deepseek harness,
 ---
 # dsh-harness-mcp-server
 
-> ⭐ 5 · ✅ active · integration
+> ⭐ 6 · ✅ active · integration
 
 ## One-liner
 

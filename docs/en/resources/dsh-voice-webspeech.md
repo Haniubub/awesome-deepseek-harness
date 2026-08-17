@@ -5,7 +5,7 @@ keywords: "dsh-voice-webspeech, input-editing, plugin, coding, deepseek harness,
 ---
 # dsh-voice-webspeech
 
-> ⭐ 0 · ✅ active · plugin
+> ⭐ 2 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-eval, research, workflow, observability, deepseek harness, dsh"
 ---
 # dsh-eval
 
-> ⭐ 0 · ✅ active · workflow
+> ⭐ 1 · ✅ active · workflow
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-view-modes, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-view-modes
 
-> ⭐ 1 · ✅ 活跃 · 插件
+> ⭐ 2 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

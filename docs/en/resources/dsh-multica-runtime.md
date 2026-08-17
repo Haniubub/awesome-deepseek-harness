@@ -5,7 +5,7 @@ keywords: "dsh-multica-runtime, desktop, client, deepseek harness, dsh"
 ---
 # dsh-multica-runtime
 
-> ⭐ 39 · ✅ active · client
+> ⭐ 45 · ✅ active · client
 
 ## One-liner
 

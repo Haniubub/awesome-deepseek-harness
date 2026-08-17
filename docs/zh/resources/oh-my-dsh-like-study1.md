@@ -5,7 +5,7 @@ keywords: "oh-my-dsh, registry, awesome-list, search, deepseek harness, dsh"
 ---
 # oh-my-dsh
 
-> ⭐ 48 · ✅ 活跃 · 精选列表
+> ⭐ 50 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

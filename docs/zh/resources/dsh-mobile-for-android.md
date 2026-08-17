@@ -5,7 +5,7 @@ keywords: "dsh-mobile-for-android, mobile, client, coding, deepseek harness, dsh
 ---
 # dsh-mobile-for-android
 
-> ⭐ 10 · ✅ 活跃 · 客户端
+> ⭐ 12 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "ego-browser, browser, plugin, automation, deepseek harness, dsh"
 ---
 # ego-browser
 
-> ⭐ 18 · ✅ active · plugin
+> ⭐ 22 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-file-uploads, input-editing, plugin, files, ui, deepseek harness,
 ---
 # dsh-file-uploads
 
-> ⭐ 0 · ✅ 活跃 · 插件
+> ⭐ 1 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

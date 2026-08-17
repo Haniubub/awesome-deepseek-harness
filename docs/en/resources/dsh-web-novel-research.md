@@ -5,7 +5,7 @@ keywords: "dsh-web-novel-research, research, skill, search, deepseek harness, ds
 ---
 # dsh-web-novel-research
 
-> ⭐ 1 · ✅ active · skill
+> ⭐ 2 · ✅ active · skill
 
 ## One-liner
 

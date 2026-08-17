@@ -5,7 +5,7 @@ keywords: "awesome-deepseek-harness (libukai), registry, awesome-list, search, l
 ---
 # awesome-deepseek-harness (libukai)
 
-> ⭐ 85 · ✅ active · awesome-list
+> ⭐ 109 · ✅ active · awesome-list
 
 ## One-liner
 

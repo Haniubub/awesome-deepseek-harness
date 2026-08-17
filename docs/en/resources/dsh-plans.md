@@ -5,7 +5,7 @@ keywords: "dsh-plans, workflow, multi-agent, deepseek harness, dsh"
 ---
 # dsh-plans
 
-> ⭐ 19 · ✅ active · workflow
+> ⭐ 23 · ✅ active · workflow
 
 ## One-liner
 

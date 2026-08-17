@@ -5,7 +5,7 @@ keywords: "dsh-lark, channel, integration, coding, deepseek harness, dsh"
 ---
 # dsh-lark
 
-> ⭐ 23 · ✅ active · integration
+> ⭐ 30 · ✅ active · integration
 
 ## One-liner
 

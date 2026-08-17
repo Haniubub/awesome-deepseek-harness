@@ -5,7 +5,7 @@ keywords: "dsh-file-uploads, input-editing, plugin, files, ui, deepseek harness,
 ---
 # dsh-file-uploads
 
-> ⭐ 0 · ✅ active · plugin
+> ⭐ 1 · ✅ active · plugin
 
 ## One-liner
 

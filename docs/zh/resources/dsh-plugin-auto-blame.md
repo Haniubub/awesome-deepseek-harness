@@ -5,7 +5,7 @@ keywords: "dsh-plugin-auto-blame, developer, plugin, coding, deepseek harness, d
 ---
 # dsh-plugin-auto-blame
 
-> ⭐ 6 · ✅ 活跃 · 插件
+> ⭐ 9 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

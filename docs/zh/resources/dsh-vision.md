@@ -5,7 +5,7 @@ keywords: "dsh-vision (william-jin-cmu), vision, plugin, multimodal, deepseek ha
 ---
 # dsh-vision (william-jin-cmu)
 
-> ⭐ 29 · ✅ 活跃 · 插件
+> ⭐ 33 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

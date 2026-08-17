@@ -5,7 +5,7 @@ keywords: "mattpocock-skills-dsh, coding, skill, deepseek harness, dsh"
 ---
 # mattpocock-skills-dsh
 
-> ⭐ 0 · ✅ 活跃 · 技能
+> ⭐ 1 · ✅ 活跃 · 技能
 
 ## 一句话介绍
 

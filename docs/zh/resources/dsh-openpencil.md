@@ -5,7 +5,7 @@ keywords: "dsh-openpencil, ide, integration, ui, multimodal, deepseek harness, d
 ---
 # dsh-openpencil
 
-> ⭐ 96 · ✅ 活跃 · 集成
+> ⭐ 105 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

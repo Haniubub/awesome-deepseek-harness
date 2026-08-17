@@ -5,7 +5,7 @@ keywords: "dsh-plugin-marketplace, registry, awesome-list, coding, git, multi-ag
 ---
 # dsh-plugin-marketplace
 
-> ⭐ 21 · ✅ active · awesome-list
+> ⭐ 28 · ✅ active · awesome-list
 
 ## One-liner
 

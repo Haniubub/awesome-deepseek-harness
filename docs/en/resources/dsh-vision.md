@@ -5,7 +5,7 @@ keywords: "dsh-vision (william-jin-cmu), vision, plugin, multimodal, deepseek ha
 ---
 # dsh-vision (william-jin-cmu)
 
-> ⭐ 29 · ✅ active · plugin
+> ⭐ 33 · ✅ active · plugin
 
 ## One-liner
 

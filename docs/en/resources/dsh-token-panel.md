@@ -5,7 +5,7 @@ keywords: "dsh-token-panel, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-token-panel
 
-> ⭐ 6 · ✅ active · plugin
+> ⭐ 7 · ✅ active · plugin
 
 ## One-liner
 

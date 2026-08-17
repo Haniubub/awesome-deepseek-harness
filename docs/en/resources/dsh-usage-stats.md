@@ -5,7 +5,7 @@ keywords: "dsh-usage-stats, developer, plugin, coding, ui, deepseek harness, dsh
 ---
 # dsh-usage-stats
 
-> ⭐ 46 · ✅ active · plugin
+> ⭐ 60 · ✅ active · plugin
 
 ## One-liner
 

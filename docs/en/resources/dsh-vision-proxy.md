@@ -5,7 +5,7 @@ keywords: "dsh-vision-proxy, developer, integration, coding, deepseek harness, d
 ---
 # dsh-vision-proxy
 
-> ⭐ 9 · ✅ active · integration
+> ⭐ 10 · ✅ active · integration
 
 ## One-liner
 

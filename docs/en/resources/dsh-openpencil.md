@@ -5,7 +5,7 @@ keywords: "dsh-openpencil, ide, integration, ui, multimodal, deepseek harness, d
 ---
 # dsh-openpencil
 
-> ⭐ 96 · ✅ active · integration
+> ⭐ 105 · ✅ active · integration
 
 ## One-liner
 

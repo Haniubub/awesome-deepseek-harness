@@ -5,7 +5,7 @@ keywords: "dsh-handbook, learning, tutorial, deepseek harness, dsh"
 ---
 # dsh-handbook
 
-> ⭐ 345 · ✅ 活跃 · 教程
+> ⭐ 442 · ✅ 活跃 · 教程
 
 ## 一句话介绍
 

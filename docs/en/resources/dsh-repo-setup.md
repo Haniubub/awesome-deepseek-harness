@@ -5,7 +5,7 @@ keywords: "dsh-repo-setup, developer, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-repo-setup
 
-> ⭐ 0 · ✅ active · plugin
+> ⭐ 1 · ✅ active · plugin
 
 ## One-liner
 

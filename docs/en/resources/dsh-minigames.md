@@ -5,7 +5,7 @@ keywords: "dsh-minigames, fun, plugin, coding, ui, deepseek harness, dsh"
 ---
 # dsh-minigames
 
-> ⭐ 19 · ✅ active · plugin
+> ⭐ 22 · ✅ active · plugin
 
 ## One-liner
 

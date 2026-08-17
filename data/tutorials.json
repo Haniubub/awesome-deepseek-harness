@@ -12,11 +12,11 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 846,
+    "stars": 946,
     "_source_description": "DeepSeek Harness橙皮书《从开机到拆开》：完整系统提示词、129行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML免费下载",
-    "_updated": "2026-08-15",
-    "_stars_prev": 706,
-    "growth": 140
+    "_updated": "2026-08-17",
+    "_stars_prev": 846,
+    "growth": 100
   },
   {
     "id": "dsh-handbook",
@@ -31,11 +31,30 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 345,
+    "stars": 442,
     "_source_description": "DeepSeek Harness (dsh) 从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF）",
-    "_updated": "2026-08-16",
-    "_stars_prev": 273,
-    "growth": 72
+    "_updated": "2026-08-17",
+    "_stars_prev": 345,
+    "growth": 97
+  },
+  {
+    "id": "deepseek-harness-tutorial",
+    "name": "deepseek-harness-tutorial",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/ht426/deepseek-harness-tutorial",
+    "description": "Detailed Chinese learning tutorial for DeepSeek Harness.",
+    "description_zh": "DeepSeek Harness 中文详细学习教程。",
+    "capabilities": [
+      "learning"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 149,
+    "_source_description": "deepseek harness中文详细学习教程",
+    "_updated": "2026-08-13",
+    "_stars_prev": 129,
+    "growth": 20
   },
   {
     "id": "dshfind",
@@ -51,11 +70,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 98,
+    "stars": 132,
     "_source_description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
-    "_updated": "2026-08-16",
-    "_stars_prev": 80,
-    "growth": 18
+    "_updated": "2026-08-17",
+    "_stars_prev": 98,
+    "growth": 34
   },
   {
     "id": "dsh-harness-tutorial",
@@ -71,30 +90,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 45,
+    "stars": 49,
     "_source_description": "DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent —— 一切皆插件的中文教程（VitePress 站点 + 8 个 Demo + mini-harness 教学项目）",
     "_updated": "2026-08-13",
-    "_stars_prev": 40,
-    "growth": 5
-  },
-  {
-    "id": "deepseek-harness-tutorial",
-    "name": "deepseek-harness-tutorial",
-    "type": "tutorial",
-    "category": "learning",
-    "repository": "https://github.com/ht426/deepseek-harness-tutorial",
-    "description": "Detailed Chinese learning tutorial for DeepSeek Harness.",
-    "description_zh": "DeepSeek Harness 中文详细学习教程。",
-    "capabilities": [
-      "learning"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 129,
-    "_source_description": "deepseek harness中文详细学习教程",
-    "_updated": "2026-08-13",
-    "_stars_prev": 43,
-    "growth": 86
+    "_stars_prev": 45,
+    "growth": 4
   },
   {
     "id": "dsh-explain",
@@ -112,7 +112,7 @@
     "verified": false,
     "stars": 11,
     "_source_description": "DSH 本地优先学习模式插件：跨会话全局学习线程、按来源讲解、ExplainContext、压缩与可诊断设置界面",
-    "_updated": "2026-08-14",
+    "_updated": "2026-08-17",
     "_stars_prev": 10,
     "growth": 1
   },
@@ -205,7 +205,7 @@
     "verified": false,
     "stars": 3,
     "_source_description": "Git-native AI learning OS with a GitLearnOS-exclusive DeepSeek Harness panel, targeted practice, local RAG, and learner-owned memory.",
-    "_updated": "2026-08-15"
+    "_updated": "2026-08-16"
   },
   {
     "id": "deepseek-protocol-doctor",
@@ -223,6 +223,6 @@
     "verified": false,
     "stars": 2,
     "_source_description": "Checks DeepSeek tool loops, reasoning_content, strict schemas, and captured SSE. Also works as a DSH plugin.",
-    "_updated": "2026-08-15"
+    "_updated": "2026-08-16"
   }
 ]

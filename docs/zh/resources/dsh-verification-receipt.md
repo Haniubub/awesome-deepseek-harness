@@ -5,7 +5,7 @@ keywords: "dsh-verification-receipt, developer, plugin, coding, deepseek harness
 ---
 # dsh-verification-receipt
 
-> ⭐ 4 · ✅ 活跃 · 插件
+> ⭐ 5 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

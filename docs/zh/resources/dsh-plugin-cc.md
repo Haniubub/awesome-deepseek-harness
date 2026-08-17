@@ -5,7 +5,7 @@ keywords: "dsh-plugin-cc, multi-agent, agent, coding, deepseek harness, dsh"
 ---
 # dsh-plugin-cc
 
-> ⭐ 26 · ✅ 活跃 · 智能体
+> ⭐ 3 · ✅ 活跃 · 智能体
 
 ## 一句话介绍
 

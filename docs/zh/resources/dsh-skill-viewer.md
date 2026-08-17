@@ -5,7 +5,7 @@ keywords: "dsh-skill-viewer, ui, plugin, workflow, deepseek harness, dsh"
 ---
 # dsh-skill-viewer
 
-> ⭐ 41 · ✅ 活跃 · 插件
+> ⭐ 59 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

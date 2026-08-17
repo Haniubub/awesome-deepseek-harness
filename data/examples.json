@@ -13,11 +13,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 61,
+    "stars": 67,
     "_source_description": "从零开始，看懂 DeepSeek Harness 的「万物皆可插件」— 零基础插件开发教程（含 22 个中文技能实例）| Zero-to-plugin tutorial for DeepSeek Harness",
     "_updated": "2026-08-14",
-    "_stars_prev": 48,
-    "growth": 13
+    "_stars_prev": 61,
+    "growth": 6
   },
   {
     "id": "dsh-plugin-template",
@@ -32,11 +32,30 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 25,
+    "stars": 4,
     "_source_description": "Template for deepseek-harness plugin development.",
     "_updated": "2026-08-14",
-    "_stars_prev": 16,
-    "growth": 9
+    "_stars_prev": 25,
+    "growth": 0
+  },
+  {
+    "id": "plugin-template-omdsh",
+    "name": "plugin-template (omdsh-dev)",
+    "type": "example",
+    "category": "learning",
+    "repository": "https://github.com/omdsh-dev/plugin-template",
+    "description": "Plugin template repository derived from the original turtle-ui official repo.",
+    "description_zh": "基于原 turtle-ui 官方仓库创建的插件模板。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 10,
+    "_source_description": "基于原turtle ui官方仓库创建的plugin模板仓库",
+    "_updated": "2026-08-17",
+    "_stars_prev": 8,
+    "growth": 2
   },
   {
     "id": "turtle-ui",
@@ -52,28 +71,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 6,
+    "stars": 7,
     "_source_description": "as is, no warranty",
-    "_updated": "2026-08-13"
-  },
-  {
-    "id": "plugin-template-omdsh",
-    "name": "plugin-template (omdsh-dev)",
-    "type": "example",
-    "category": "learning",
-    "repository": "https://github.com/omdsh-dev/plugin-template",
-    "description": "Plugin template repository derived from the original turtle-ui official repo.",
-    "description_zh": "基于原 turtle-ui 官方仓库创建的插件模板。",
-    "capabilities": [
-      "coding"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 8,
-    "_source_description": "基于原turtle ui官方仓库创建的plugin模板仓库",
-    "_updated": "2026-08-16",
-    "_stars_prev": 5,
-    "growth": 3
+    "_updated": "2026-08-13",
+    "_stars_prev": 6,
+    "growth": 1
   },
   {
     "id": "dsh-plugin-template-sunshine",
@@ -105,10 +107,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 3,
+    "stars": 4,
     "_source_description": "DSH 文档阅读模式",
     "_updated": "2026-08-14",
-    "_stars_prev": 2,
+    "_stars_prev": 3,
     "growth": 1
   },
   {

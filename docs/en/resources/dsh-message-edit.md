@@ -5,7 +5,7 @@ keywords: "dsh-message-edit, developer, plugin, ui, context, deepseek harness, d
 ---
 # dsh-message-edit
 
-> ⭐ 24 · ✅ active · plugin
+> ⭐ 29 · ✅ active · plugin
 
 ## One-liner
 
