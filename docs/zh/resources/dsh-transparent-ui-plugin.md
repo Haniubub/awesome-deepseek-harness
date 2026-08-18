@@ -5,7 +5,7 @@ keywords: "dsh-transparent-ui-plugin, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-transparent-ui-plugin
 
-> ⭐ 232 · ✅ 活跃 · 插件
+> ⭐ 281 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

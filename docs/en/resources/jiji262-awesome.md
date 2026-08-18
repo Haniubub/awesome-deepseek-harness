@@ -5,7 +5,7 @@ keywords: "awesome-deepseek-harness (jiji262), registry, awesome-list, search, d
 ---
 # awesome-deepseek-harness (jiji262)
 
-> ⭐ 12 · ✅ active · awesome-list
+> ⭐ 13 · ✅ active · awesome-list
 
 ## One-liner
 

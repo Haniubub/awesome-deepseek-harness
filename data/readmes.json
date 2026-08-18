@@ -5332,5 +5332,339 @@
   "usage": "codewhale auth set --provider deepseek   # or export ANTHROPIC_API_KEY, etc.\ncodewhale                                # open the TUI\ncodewhale exec \"fix the failing test\"    # headless\ncodewhale web                            # local browser client on 127.0.0.1",
   "license": "[MIT](LICENSE). An independent community project, not affili",
   "_done": true
+ },
+ "living-dream-dsh": {
+  "intro": "**Living Dream DSH — The Ultimate DeepSeek Harness Desktop Configuration** A battle-tested DSH configuration framework with 8+ MCP servers, custom plugins, free model access, mobile remote control, and more. ---",
+  "features": [],
+  "install": "# 1. Clone repository\ngit clone https://github.com/alllllllllli/Living-Dream-DSH.git\ncd Living-Dream-DSH\n\n# 2. Double-click install.bat (launches GUI wizard)\n#    Or run in PowerShell: .\\install-gui.ps1",
+  "usage": "# ✅ Correct way\ndsh plugin --profile web add <package>@<version>\n\n# ❌ Wrong way (will clear unlisted bundles)\ncd $env:USERPROFILE\\.dsh\\profiles\\web\npnpm add <package>",
+  "license": "",
+  "_done": true
+ },
+ "kixparadigm": {
+  "intro": "kix 范式原是 VS Code Copilot 定制包。研究 DeepSeek Harness（DSH）后发现两者**机制天然适配**：常驻认知 = preset persona、门禁 hooks = `tools/pre-execute` 插件、团队 Agent = subagent 分派、slash 命令 = DSH 原生命令、识图补足 = vision-bridge。完整映射见 [DSH-ADAPTATION.md](dsh/preset/DSH-ADAPTATION.md) 与 [DSH-FUSION-MATRIX.md](dsh/preset/DSH-FUSION-MATRIX.md)。 适配带来一个现实转变：范式从「一个人本机的 Copilot 定制」变成「一条命令可复现的公开资产」——这是本仓库开源的契机。",
+  "features": [],
+  "install": "npm i -g kixparadigm     # preset + vision-bridge 全自动安装，重启 dsh web 后在模式列表选 kixparadigm\nnpx kixparadigm install  # 不全局安装\nnpm i -g kixparadigm-en  # 英文版（独立包，翻译状态见 en/preset/TRANSLATION-STATUS.md）",
+  "usage": "# Windows\n.\\install.ps1\n# macOS / Linux\nchmod +x install.sh && ./install.sh",
+  "license": "[MIT](LICENSE) © 2026 kixparadigm contributors",
+  "_done": true
+ },
+ "star-deepseek-harness-desktop": {
+  "intro": "**All-in-One DevOps Desktop Command Center** 数据库客户端 · SSH/SFTP · Docker 面板 · AI 助手 · 原生桌面应用 </div> ---",
+  "features": [],
+  "install": "# 安装依赖\nnpm install\n\n# 启动 Tauri 开发模式(自动构建 Sidecar)\nnpm run tauri:dev\n\n# 仅构建前端\nnpm run build\n\n# TypeScript 类型检查\nnpx vue-tsc --noEmit\n\n# 单独构建 Go Sidecar\nnpm run sidecar:build         # dev 模式\nnpm run sidecar:build:release # release 模式",
+  "usage": "# Windows / macOS / Linux 当前平台打包\nnpm run tauri:build",
+  "license": "本项目基于 [MIT License](./LICENSE) 开源。",
+  "_done": true
+ },
+ "agentpocket": {
+  "intro": "一个非官方 Android 客户端，通过 Tailscale 在手机上使用电脑中的编码 Agent Web 服务（Kimi Code、DeepSeek Harness 等），并在后台接收任务状态通知。 <p align=\"center\"> </p> <p align=\"center\"> </p>",
+  "features": [
+   "在 Android 上使用 Kimi Code Web 与 DeepSeek Harness Web",
+   "管理多台服务器，后台监听任务状态，接收完成、待回答、审批和失败通知"
+  ],
+  "install": "",
+  "usage": "curl -fsSL https://code.kimi.com/kimi-code/install.sh | bash",
+  "license": "[MIT](LICENSE)",
+  "_done": true
+ },
+ "dsh-desktop-app": {
+  "intro": "[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的桌面客户端(Electron + TypeScript)。",
+  "features": [
+   "**内嵌 Web UI**:原生控制条 + 内嵌完整 harness Web UI(会话、工具、插件全功能)。",
+   "**AI 屏保(替换系统屏保)**:空闲 N 分钟自动全屏显示 agent 实时工作画面(思考过程、文本流、工具调用),鼠标移动即退出;内置**任务超时守卫**,杜绝失控循环烧 CPU;可注册为 Windows 系统屏保,空闲时间即生产力时间。",
+   "**手机 PWA 遥控**:扫码配对(自动填地址+令牌),手机上发任务、看流式进展、停止任务;**审批/提问卡片一键应答**——agent 卡住等你批准时不再\"失联\"。",
+   "**QQ / Telegram 机器人通道**:群聊/私聊发指令即干活;打通**主动推送**(QQ 交互后 48h 窗口),任务完成、失败、要审批都会主动找你;QQ 审批带「允许/拒绝」内联按钮,点一下即批;还支持**扫码登录**自动获取机器人凭据。",
+   "**默认对话模式**:机器人开启后,普通消息直接进入纯对话(不绑定工作区),无需任何指令前缀。",
+   "**各种模型选择**:快捷切换默认模型(DeepSeek 官方、OpenAI、Anthropic 及 37+ 目录 Provider),添加自定义 OpenAI 兼容网关(公司网关、Ollama 本地等),密钥安全写入 credentials 存储。"
+  ],
+  "install": "npm install\nnpm start        # 构建并启动桌面端",
+  "usage": "npm run build    # tsc 编译 main/preload/renderer 到 dist/\nnpm start        # 构建 + electron .\nnpm run smoke    # 冒烟测试:验证 RPC 客户端与模型目录(需 harness 运行中)\nnpm run pack     # 打包 Windows portable 单文件 exe(electron-builder)",
+  "license": "",
+  "_done": true
+ },
+ "beauticode": {
+  "intro": "beautiCode 是一个本地背景工具，**主要面向 DeepSeek Harness和Codex**。 它不包含、不安装、也不启动 DSH。请先自行安装 DeepSeek Harness 并运行 `dsh web`。插件装好后，DSH 侧栏「设置」上方会出现「背景」，不必再开托盘。Codex Desktop 仍走 beautiCode 托盘。可以把电脑里的： * 图片 * 动态壁纸 * MP4 视频 * 番剧 直接设成 DeepSeek Harness 网页背后的背景。 它不会把工作窗口变成一个播放器，而是让画面安静地待在对话和工作区后面。 代码、输入框和按钮仍然可以正常使用。",
+  "features": [
+   "图片",
+   "动态壁纸",
+   "MP4 视频",
+   "番剧"
+  ],
+  "install": "npx @deepseek-ai/dsh plugin --profile web add beauticode-dsh\nnpx @deepseek-ai/dsh web",
+  "usage": "npx beauticode-dsh --remove",
+  "license": "MIT",
+  "_done": true
+ },
+ "dsh-mobile-lehhair": {
+  "intro": "- **在手机上继续电脑端的工作**：同一份会话、工作区、消息和工具，实时同步。 - **用对话定制手机端**：直接在 DSH 对话里改手机页面的布局、交互和功能，几秒内刷新。 - **专属触屏布局**：会话抽屉、工具详情、设置和输入栏都按手机重新组织。 - **自动发现、无需重新配对**：切换 Wi-Fi、热点或 IP 后通常自动恢复。 - **三种配对方式**：扫码、配对链接、密钥。 配对设备被视为完全信任，可以操作电脑上的 DSH；建议只在可信的家庭、办公局域网或可信 VPN 中使用。",
+  "features": [
+   "**在手机上继续电脑端的工作**：同一份会话、工作区、消息和工具，实时同步。",
+   "**用对话定制手机端**：直接在 DSH 对话里改手机页面的布局、交互和功能，几秒内刷新。",
+   "**专属触屏布局**：会话抽屉、工具详情、设置和输入栏都按手机重新组织。",
+   "**自动发现、无需重新配对**：切换 Wi-Fi、热点或 IP 后通常自动恢复。"
+  ],
+  "install": "dsh plugin --profile web add dsh-mobile@alpha\ndsh plugin --profile web exec dsh-mobile setup\ndsh --profile web",
+  "usage": "corepack enable; pnpm install\npnpm dsh plugin --profile web add dsh-mobile@alpha\npnpm dsh plugin --profile web exec dsh-mobile setup\npnpm dsh --profile web",
+  "license": "",
+  "_done": true
+ },
+ "awesome-dsh-plugin-r4dup": {
+  "intro": "DeepSeek Harness is a runnable coding agent (Web UI + headless) built on [Cordis](https://github.com/cordiverse/cordis), where every part of the system — models, tools, sandboxes, session storage, UI, even the agent loop itself — is a swappable plugin. That architecture has produced a large, fast-moving plugin ecosystem: well over a thousand community plugins at last count. This list exists to make that ecosystem easy to scan: what a plugin does, in one line, sorted into the category you'd actua",
+  "features": [
+   "[988hj7tczd-oss/dsh-computer-use](https://github.com/988hj7tczd-oss/dsh-computer-use) — Cross-platform Computer Use: virtual-mouse operation",
+   "[Anionex/dsh-computer-use](https://github.com/Anionex/dsh-computer-use) — Accessibility-first macOS computer use with fresh observations, st",
+   "[AbnerAI/dsh-monitor](https://github.com/AbnerAI/dsh-monitor) — Persistent background watchers that wake the agent on new events — the harne",
+   "[akqwpeter-prog/dsh-agent-conductor](https://github.com/akqwpeter-prog/dsh-agent-conductor) — Dispatches tasks from DSH to 11 external agent",
+   "[AngelosZou/dsh-multi-folder](https://github.com/AngelosZou/dsh-multi-folder) — Secondary working directories with equal read/write/exec per",
+   "[anweat/dsh-browser](https://github.com/anweat/dsh-browser) — Self-contained Playwright + OpenCLI browser runtime exposing 9 interactive bro"
+  ],
+  "install": "dsh plugin --profile web add <plugin-name>",
+  "usage": "# run the Web UI (served at http://127.0.0.1:3080 by default)\nnpx @deepseek-ai/dsh web\n\n# or from a source checkout\ngit clone https://github.com/deepseek-ai/deepseek-harness.git\ncd deepseek-harness && pnpm install && pnpm run build && pnpm dsh web",
+  "license": "",
+  "_done": true
+ },
+ "dsh-closerai": {
+  "intro": "[简体中文](README.zh.md) | English CloserAI is an open-source desktop application that wraps a [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) process in a hardened Electron shell. It is not a reskin: it adds a desktop supervisor, three permission-isolated working modes (Chat / Work / Code), local-first session storage, provider management with OS-keychain secrets, and a plugin safety model — while delegating the agent runtime to DSH.",
+  "features": [],
+  "install": "pnpm install\npnpm check                 # format + lint + build + typecheck + test\npnpm --filter @closerai/desktop start   # launch the desktop app\npnpm --filter @closerai/desktop smoke   # headless end-to-end smoke test",
+  "usage": "apps/        Electron desktop application (main, preload, onboarding renderer, agent presets)\npackages/    Shared packages (mock provider, DSH supervisor)\ndocs/        Architecture, execution plan, status, and decision records",
+  "license": "[MIT](LICENSE). CloserAI is an independent project and is no",
+  "_done": true
+ },
+ "dsh-launcher-android": {
+  "intro": "单 APK 的 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（dsh）Android 启动器： 内置 Node.js aarch64 运行时，通过官方 npm 包 `@deepseek-ai/dsh` 安装/更新 dsh， 并在设备本机直接启动 `dsh web`（127.0.0.1:3080）， 并自带 WebView 界面——**不需要 Termux、不需要外部 Node**；联网仅用于 npm 首次安装与后续更新。 **包名**：`com.dsh.launcher`（AGP 9.0 / Kotlin / Gradle 8.x）。",
+  "features": [
+   "**内置 Node 运行时**：`assets/node/…` 打进 APK，首次启动解压到应用私有目录并",
+   "**内置 Termux 工具链**：内置 bash/coreutils/apt，并在首次使用/一键安装时自动",
+   "**一键启动**：`ConsoleActivity` 内置四步引导",
+   "**内置 WebView 界面**：主界面「打开 Web 界面」在应用内加载 `http://127.0.0.1:3080`",
+   "**设备端免编译适配**（`assets/stub-dsh.mjs`，每次启动自动重打，幂等）：",
+   "内置插件经官方 `dsh plugin --profile web add` 装配：`dsh-mobile-nav`、`dsh-super-injector`、"
+  ],
+  "install": "",
+  "usage": "# 0) （可选）在项目根放 release.keystore，或设置 DSH_KEYSTORE_FILE\n# 1) 构建（release 优先用 keystore 签名；缺省回退 debug 签名）\n./gradlew assembleRelease        # 或 assembleDebug",
+  "license": "",
+  "_done": true
+ },
+ "infinitedsh": {
+  "intro": "**DeepSeek Harness · 一人一书 · 万界文字冒险** 这不是聊天机器人。这是**十九个世界的入口**。 在 DeepSeek Harness 里开一个会话，选一张界图，点一下「启程」——第一段正文砸下来。没有欢迎语，没有「作为 AI 我建议你」，没有第四面墙。bash、改文件、子代理，全部收刀。文学 preset **诸天万界DSH** 只许模型吐小说正文。 你要的不是助手。你要的是世界自己在呼吸。 **当前 0.4.13** · 仓库 InfiniteDSH · 组合包 `dsh-infinite` ---",
+  "features": [],
+  "install": "dsh plugin --profile web add github:vdnight89/InfiniteDSH\ndsh web",
+  "usage": "/new 修仙\n/new 末世 周慎\n/new 都市 林晏 force\n/new 深海实验室 阿澜",
+  "license": "",
+  "_done": true
+ },
+ "dsh-dingtalk": {
+  "intro": "DeepSeek Harness 钉钉群机器人通知插件：让 agent 能**单向推送 Markdown / 纯文本消息到钉钉群**。纯插件实现，零核心改动，安装即可用。 纯 Node 实现，**全平台通用**（Windows / macOS / Linux 同一份代码），只依赖 `node:crypto` 与内置 `fetch`，无运行时依赖、无原生二进制。",
+  "features": [],
+  "install": "dsh plugin --profile web add dsh-dingtalk",
+  "usage": "- id: tool-dingtalk\n  config:\n    webhook: https://oapi.dingtalk.com/robot/send?access_token=你的token\n    secret: SEC你的加签密钥        # 可选，但强烈建议；也可用环境变量 DSH_DINGTALK_SECRET",
+  "license": "",
+  "_done": true
+ },
+ "dsh-slack": {
+  "intro": "- `slack_notify`：向指定频道（或线程）发送一条 Markdown 文本消息，返回消息 `ts`。 - `slack_channels`：列出机器人当前可见的频道（`conversations.list`，自动沿 `next_cursor` 翻页拉全）。 - `slack_inbox`：读取通过 Socket Mode 收到的消息（内存队列，最多保留 200 条；自动去重，`markRead=true` 原子消费）。 - `slack_reply`：以线程回复形式回复某条收件箱消息（`chat.postMessage` 带 `thread_ts`）。 - WebClient 按 `token + slackApiUrl` 缓存复用，配置变更时自动重建。 - 配置走 `cordis.patch.yml`，令牌支持环境变量回退（`DSH_SLACK_TOKEN` / `DSH_SLACK_APP_TOKEN`）。",
+  "features": [
+   "`slack_notify`：向指定频道（或线程）发送一条 Markdown 文本消息，返回消息 `ts`。",
+   "`slack_channels`：列出机器人当前可见的频道（`conversations.list`，自动沿 `next_cursor` 翻页拉全）。",
+   "`slack_inbox`：读取通过 Socket Mode 收到的消息（内存队列，最多保留 200 条；自动去重，`markRead=true` 原子消费）。",
+   "`slack_reply`：以线程回复形式回复某条收件箱消息（`chat.postMessage` 带 `thread_ts`）。",
+   "WebClient 按 `token + slackApiUrl` 缓存复用，配置变更时自动重建。",
+   "配置走 `cordis.patch.yml`，令牌支持环境变量回退（`DSH_SLACK_TOKEN` / `DSH_SLACK_APP_TOKEN`）。"
+  ],
+  "install": "dsh plugin --profile web add dsh-slack",
+  "usage": "# 在启动 dsh 的进程里设置\nexport DSH_SLACK_TOKEN=xoxb-你的机器人令牌\nexport DSH_SLACK_APP_TOKEN=xapp-你的App级令牌",
+  "license": "MIT",
+  "_done": true
+ },
+ "deepseek-harness-control-center": {
+  "intro": "**DeepSeek Harness monitoring, alerts, recharge, and session control center.** `Balance ¥5.89 · Session ¥0.72 · Official 18.8M | Third-party 800K · ↗ Recharge` [English](./README.md) · [简体中文](https://github.com/feibi-mochi/deepseek-harness-control-center/blob/main/docs/i18n/README.zh-CN.md) · [Install](#install) · [Compatibility](#browser-desktop-and-os-compatibility) · [Changelog](./CHANGELOG.md)",
+  "features": [
+   "**Official DeepSeek** — live balance (60s global refresh with fast boot retries), current-session cost locked to the price active for each u",
+   "**Third-party total** — current-session tokens (input / cache read / output). No balance guessing, no cost math, zero configuration.",
+   "**Click the chip** to open the detail panel: correctly formatted per-currency balances, cost and token splits, a freely editable low-balance",
+   "**Move, dock, and scale** — drag the chip freely, preview nearby snap targets, use compact horizontal or vertical layouts, adjust its scale ",
+   "**Floating window mode** — detach the detail panel into a draggable window with a remembered position, or minimize it directly to a freely m",
+   "**Completion reminders** — optionally notify when a conversation finishes, with persistent or timed modes, queueing and deduplication for si"
+  ],
+  "install": "",
+  "usage": "",
+  "license": "[MIT](LICENSE)",
+  "_done": true
+ },
+ "dsh-email": {
+  "intro": "DeepSeek Harness 邮件工具插件：让 agent 能**查收件箱、读邮件、搜邮件、代发邮件、收发附件**。纯插件实现，零核心改动，安装即可用。 Email tools for DeepSeek Harness: list, read, search and send mail through standard IMAP/SMTP — with one-line presets for QQ / 163 / 126 / Sina / Aliyun / Gmail / Outlook / iCloud. 纯 Node 实现，**全平台通用**（Windows / macOS / Linux 同一份代码），不依赖 shell、无原生二进制。",
+  "features": [
+   "服务器端搜索补齐 `cc`，搜索范围真正覆盖主题 / 发件人 / 收件人 / 抄送。",
+   "正文回退扫描的匹配范围也加入 `to` / `cc`；单封邮件解析失败不会中断整批扫描。",
+   "邮件列表结果强制按 UID 降序，保证「最新在前」。",
+   "`email_send` 的附件参数严格校验为路径字符串数组，并做 trim。"
+  ],
+  "install": "dsh plugin --profile web add dsh-email",
+  "usage": "- id: tool-email\n  config:\n    provider: qq          # qq | 163 | 126 | sina | aliyun | gmail | outlook | icloud\n    user: you@qq.com\n    password: 你的授权码   # 强烈建议改用环境变量 DSH_EMAIL_PASSWORD，见下",
+  "license": "",
+  "_done": true
+ },
+ "chatccc": {
+  "intro": "**用飞书或微信聊天控制 Claude Code / Cursor / Codex / CCC Agent / DeepSeek Harness。** ChatCCC 把本地 AI 编程工具接入即时通讯软件。你可以在手机上发消息，让 Claude Code、Cursor Agent、Codex、内置 CCC Agent 或 DeepSeek Harness 继续写代码、查问题、跑命令；不用一直守在电脑前。 飞书是推荐入口：直接私聊机器人即可持续使用同一个专属会话，需要并行任务时再用 `/new` 创建独立会话群；卡片能流式更新，体验完整。微信 iLink 更适合快速试用或临时使用：扫码即可接入，但只能走私聊文本模式。 <p align=\"center\"> &nbsp; &nbsp; </p> ---",
+  "features": [
+   "**手机上也能用 AI 编程工具**：在飞书或微信发消息，就像在终端给 Agent 下指令。",
+   "**飞书体验更完整**：私聊可持续对话，`/new` 创建的一群一会话支持多任务并行，CardKit 卡片可流式更新。",
+   "**微信接入更轻**：不用创建飞书应用，启动后扫码即可在微信私聊里使用。",
+   "**多 Agent 切换**：`/new` 使用默认 Agent，也可以用 `/new claude`、`/new cursor`、`/new codex`、`/new ccc`、`/new dsh` 指定工具。"
+  ],
+  "install": "npm install -g chatccc\nchatccc",
+  "usage": "git clone https://github.com/wzj998/ChatCCC.git\ncd ChatCCC\nnpm install\nnpm run dev",
+  "license": "",
+  "_done": true
+ },
+ "shopline-ai-toolkit-dsh": {
+  "intro": "The **Shopify AI Toolkit** gives AI coding agents Shopify-aware context through three layers: agent **skills**, a **Dev MCP server**, and per-tool **plugins**. This project brings the same architecture to SHOPLINE developers working inside **DeepSeek Harness (dsh)**:",
+  "features": [],
+  "install": "dsh plugin --profile web add shopline-ai-toolkit-dsh\n# add \"shopline-ai-toolkit-dsh\" to dsh.profile.bundles in ~/.dsh/profiles/web/package.json\ndsh web",
+  "usage": "dsh plugin --profile web add shopline-ai-toolkit-dsh\n# 在 ~/.dsh/profiles/web/package.json 的 dsh.profile.bundles 中加入 \"shopline-ai-toolkit-dsh\"\ndsh web",
+  "license": "MIT. Not affiliated with SHOPLINE; official docs and npm pac",
+  "_done": true
+ },
+ "webdsh": {
+  "intro": "Pure-static, browser-only build of DeepSeek Harness (dsh web) — no server, deployable to GitHub Pages [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) is an agent harness where everything is a plugin. `dsh web` runs a Node host and serves a browser client to it. This repository builds the same thing as **static files**: the harness host runs inside the page, the published web client connects to it over an in-page transport, and the agent's commands run in [WebContainer",
+  "features": [
+   "**The runtime is Node, not a distribution.** No compiler and no arbitrary",
+   "**The shell is `jsh`.** See [the section above](#the-shell-the-model-is-told-about)",
+   "**Code Mode does not work.** The `run_code` transport needs worker stdout and",
+   "**A second tab is a second host.** Two tabs on this origin each boot their own",
+   "**Storage has no quota handling.** Nothing requests persistence or reacts to",
+   "**Network reach is the browser's, and CORS is the whole rule.** A host answers"
+  ],
+  "install": "$ node -p \"[process.version, process.arch, process.platform].join(' ')\"\nv22.22.3 x64 linux\n$ npm install is-odd && node -e \"import('is-odd').then(m => console.log(m.default(3)))\"\nadded 2 packages in 2s\ntrue",
+  "usage": "npm ci\nnpm run build     # → dist/\nnode scripts/serve.mjs 4173",
+  "license": "Apache License 2.0 — see [LICENSE](LICENSE). The `@deepseek-",
+  "_done": true
+ },
+ "dsh-trading": {
+  "intro": "A trading **research** workbench built as plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`). No fork, no patched core — just a bundle you stack on the stock `web` or `headless` profile.",
+  "features": [
+   "**`market-data`** defines the seam and nothing else (its only peer is cordis). Every consumer talks to `ctx.marketData`; every data source h",
+   "**`provider-csv`** is the *bring-your-own-data* template: ~100 lines, local `<root>/<symbol>/<timeframe>.csv` files. Copy it to put ClickHou",
+   "**`tool-market`** registers read-only analysis tools on `ctx.tools`. `market_snapshot` returns a whole multi-timeframe indicator regime in o",
+   "**`bundle/trading`** wires the rows into a dsh profile via `cordis.patch.yml`. Users repoint or replace the `market-data-provider` row from "
+  ],
+  "install": "dsh plugin --profile trading add @dsh-trading/bundle",
+  "usage": "pnpm install && pnpm build\nnode examples/generate-sample-data.mjs\n\ndsh plugin --profile trading add ./bundle/trading \\\n    ./packages/market-data ./packages/provider-csv ./packages/tool-market \\\n    ./packages/risk-guard ./packages/client-chart",
+  "license": "MIT",
+  "_done": true
+ },
+ "dsh-ffmpeg": {
+  "intro": "DSH（DeepSeek Harness）视频处理工具插件：七个工具覆盖探测、剪辑、拼接、转码、字幕、提取与 GIF 制作，全部由 ffmpeg/ffprobe 完成。",
+  "features": [
+   "id: ffmpeg"
+  ],
+  "install": "dsh plugin --profile web add dsh-ffmpeg",
+  "usage": "- id: ffmpeg\n  name: 'dsh-ffmpeg'\n  config:\n    # ffmpegPath: C:\\tools\\ffmpeg\\bin\\ffmpeg.exe   # 非 PATH 时显式指定（也可用 DSH_FFMPEG_PATH）\n    # ffprobePath: C:\\tools\\ffmpeg\\bin\\ffprobe.exe # 也可用 DSH_FFPROBE_PATH\n    timeoutMs: 300000                                # 单次操作超时（默认 5 分钟，10 秒 - 2 小时）\n    # overwrite: true                                 # 允许覆盖同名输出（默认自动加 _1/_2 序号）",
+  "license": "MIT",
+  "_done": true
+ },
+ "dsh-rss": {
+  "intro": "DSH（DeepSeek Harness）的 RSS/Atom 订阅工具插件：管理订阅源，抓取并解析 RSS 0.9x / 1.0 / 2.0 与 Atom，支持 OPML 批量导入导出，给模型提供七个可直接调用的工具。",
+  "features": [
+   "id: rss"
+  ],
+  "install": "dsh plugin --profile web add dsh-rss",
+  "usage": "rss_add { url: https://example.com/feed.xml, name: 我的订阅 }\nrss_fetch { name: 我的订阅, limit: 10 }\nrss_check { url: https://example.com/feed.xml }\nrss_opml_export { path: subscriptions.opml }\nrss_opml_import { opml: \"<?xml version=\\\"1.0\\\"?>...\" }",
+  "license": "MIT",
+  "_done": true
+ },
+ "dsh-docker": {
+  "intro": "DSH（DeepSeek Harness）容器管理插件：走官方 subprocess 服务跑 docker CLI，argv 数组无 shell 注入，`docker_exec` 默认审批门，**零运行时依赖**。",
+  "features": [
+   "id: docker"
+  ],
+  "install": "dsh plugin --profile web add @stardustlc/dsh-docker",
+  "usage": "- id: docker\n  name: '@stardustlc/dsh-docker'\n  config:\n    # dockerPath: C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe\n    dockerPath: docker     # 可选；也可用环境变量 DSH_DOCKER_PATH\n    timeoutMs: 60000       # 单次操作超时（默认 60 秒，5 秒 - 10 分钟）\n    # execApproval: false  # 关闭 docker_exec 审批门（默认 true）",
+  "license": "MIT",
+  "_done": true
+ },
+ "mistymoon-dsh": {
+  "intro": "MistyMoon 是一套以角色扮演（Roleplay，简称 RP）和长期陪伴为核心的 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 外置插件。项目保留 MistyMoon 的人格、关系、长期记忆与陪伴体验，同时复用 DSH 的 Agent Runtime、会话、工具、权限和 Web 插件体系，不修改 DSH 源码，也不重复实现 Agent Loop。",
+  "features": [
+   "以稳定人格、持续关系和跨会话记忆维持角色连续性。",
+   "允许主人在本机编辑、审核和发布自己的私有人格，不把真实人格上传到公开仓库。",
+   "将角色行为与通用 Agent Runtime 分离；DSH 负责推理、会话、工具和权限，MistyMoon 负责 RP 语义与陪伴体验。",
+   "支持未来接入 QQ/NapCat、桌面形象、手机端和主动陪伴，但这些入口共享同一人格、记忆和身份治理规则。"
+  ],
+  "install": "cd <MISTYMOON_REPO>\npnpm install\npnpm build\n\ncd <DSH_REPO>\npnpm dsh plugin --profile web add <MISTYMOON_REPO>\npnpm dsh --profile web",
+  "usage": "pnpm dsh --profile web --port 3081",
+  "license": "",
+  "_done": true
+ },
+ "dsh-calendar": {
+  "intro": "DSH 社区插件：通过 CalDAV 读写日历事件。提供 5 个面向模型的工具（calendar_list / calendar_create / calendar_update / calendar_delete / calendar_search），支持 Google / iCloud / Nextcloud 及任意 CalDAV 服务器。本轮为 node 半身，不含设置页 UI，配置全部走 profile 的 cordis.patch.yml。",
+  "features": [
+   "`provider`：google | icloud | nextcloud | custom",
+   "`caldavUrl`：完整日历集合 URL（custom / icloud 必填；google / nextcloud 也可手填覆盖预设）",
+   "`username`：CalDAV 账号（Google / iCloud 为账号邮箱）",
+   "`password`：密码；Google / iCloud 请用应用专用密码。推荐用环境变量 `DSH_CALENDAR_PASSWORD`，避免明文入库。"
+  ],
+  "install": "dsh plugin --profile web add dsh-calendar",
+  "usage": "- id: calendar\n  config:\n    provider: google\n    username: you@gmail.com\n    calendarId: you@gmail.com\n    password: 你的应用专用密码\n    proxyUrl: http://127.0.0.1:7890   # 改成你代理客户端的本地端口",
+  "license": "",
+  "_done": true
+ },
+ "dsh-omi-voice": {
+  "intro": "1. 安装插件 + 构建并打开 Omi 引擎（见下方「获取豆包 API Key」与「安装」）。 2. 在 Omi 引擎设置页保存一次豆包 API Key。 3. 在 DSH 对话里点 AI 回复旁的 🔊，即可朗读。 flowchart LR A[点 🔊] --> B[插件取回复的最终回答文本] B --> C[POST 127.0.0.1:8765/v1/speak] C --> D[Omi 引擎清洗 + 分段] D --> E[豆包 TTS 流式合成] E --> F[本机扬声器播放]",
+  "features": [],
+  "install": "dsh plugin --profile web add \"github:PolinniZhong/dsh-omi-voice#v0.1.2&path:/\"",
+  "usage": "dsh plugin --profile web add /path/to/dsh-omi-voice",
+  "license": "MIT",
+  "_done": true
+ },
+ "visual-review": {
+  "intro": "为 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）Web 界面打造的**双面插件**：让聊天界面直接**显示图片**，并让模型**解读图片**。 - **图片显示**：用户粘贴 / 上传的图片（PNG / JPEG / WebP / GIF）会直接渲染在对话气泡里。 - **视觉解读**：`visual_review` 工具调用视觉多模态模型，返回图片的中文文字描述（文字、物体、人物、场景、图表等）。 - **双引擎**：云端优先（任意 OpenAI 兼容的多模态 `chat/completions` API，零本地依赖）；未配置时自动回退本机 Qwen3-VL-8B（数据不出本机）。 - **无需更换模型**：插件在发送路径上把「图片块」转换成「带附件 ID 的文本注解」，任何本身看不到图片的文本模型都能配合工作。 ---",
+  "features": [
+   "**图片显示**：用户粘贴 / 上传的图片（PNG / JPEG / WebP / GIF）会直接渲染在对话气泡里。",
+   "**视觉解读**：`visual_review` 工具调用视觉多模态模型，返回图片的中文文字描述（文字、物体、人物、场景、图表等）。",
+   "**双引擎**：云端优先（任意 OpenAI 兼容的多模态 `chat/completions` API，零本地依赖）；未配置时自动回退本机 Qwen3-VL-8B（数据不出本机）。",
+   "**无需更换模型**：插件在发送路径上把「图片块」转换成「带附件 ID 的文本注解」，任何本身看不到图片的文本模型都能配合工作。"
+  ],
+  "install": "dsh plugin --profile web add visual-review",
+  "usage": "dsh plugin --profile web add github:wang-bool/visual-review",
+  "license": "[MIT](LICENSE) © visual-review authors",
+  "_done": true
+ },
+ "dsh-codex-port": {
+  "intro": "把 **Codex 官方插件全家桶**一键搬进 DSH：扫描 `~/.codex` 里的解包插件与插件缓存，把它们的技能批量移植为 DSH 技能（frontmatter 自动转换、codex 专属文件剔除、名称清洗、幂等跳过）。",
+  "features": [
+   "id: codex-port"
+  ],
+  "install": "dsh plugin --profile web add dsh-codex-port",
+  "usage": "- id: codex-port\n  name: 'dsh-codex-port'\n  config:\n    # codexHome: C:\\Users\\you\\.codex       # Codex 家目录（默认 ~/.codex）\n    # targetDir: C:\\Users\\you\\.dsh\\skills  # 目标技能目录（默认 <DSH_HOME>/skills）\n    # overwrite: true                         # 覆盖同名技能（默认跳过）",
+  "license": "MIT",
+  "_done": true
+ },
+ "dsh-remotion": {
+  "intro": "DSH（DeepSeek Harness）视频创作技能插件：**安装即把 Remotion 官方移植技能注册进 DSH**（React 编程式视频：动画、音频、字幕、3D、图表、字体等，38 个规则文件）。",
+  "features": [
+   "**remotion**：Remotion 最佳实践 + `rules/` 38 个规则文件（动画/音频/字幕/3D/图表/字体/GIF/Lottie/地图/转场…）"
+  ],
+  "install": "dsh plugin --profile web add dsh-remotion",
+  "usage": "",
+  "license": "MIT（移植编排）；技能内容版权归 Remotion。",
+  "_done": true
+ },
+ "dsh-plugin-agent-workflow": {
+  "intro": "`dsh-plugin-agent-workflow` 是一个可独立安装的 DeepSeek Harness Web UI 插件。它在原有“对话”和“轨迹”之外增加“工作流”标签页，以用户对话轮次为入口，把 Agent 的模型请求、模型响应和工具调用呈现为清晰的执行链路。 插件不会替换或修改 DeepSeek Harness 内置的“轨迹”功能。",
+  "features": [
+   "**按轮次浏览**：左侧固定显示当前 Session 的用户对话轮次，包括提示词摘要、开始时间、模型调用数、工具调用数和完成状态。",
+   "**执行链路可视化**：每次模型调用依次展示请求、响应和工具调用卡片，一行内容超出可视区域时支持横向滚动。",
+   "**完整请求检查**：请求详情分别展示真实记录的 `system`、提供方无关的 `messages[]` 和 `tools`，JSON 节点可以逐级展开或收起。",
+   "**响应内容检查**：展示 reasoning、content、工具调用以及当次模型响应的原始记录。",
+   "**工具执行状态**：区分运行中、完成和失败状态，并展示调用参数、执行结果、耗时和错误摘要。",
+   "**Token 与缓存统计**：分别显示输入、未缓存输入、缓存读取、缓存写入和输出 Token，便于分析上下文复用情况。"
+  ],
+  "install": "pnpm install\npnpm run typecheck\npnpm test\npnpm pack",
+  "usage": "dsh@0.1.0-rc.7",
+  "license": "MIT",
+  "_done": true
  }
 }

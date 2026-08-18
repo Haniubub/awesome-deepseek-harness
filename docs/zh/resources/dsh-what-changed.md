@@ -5,7 +5,7 @@ keywords: "dsh-what-changed, developer, plugin, ui, deepseek harness, dsh"
 ---
 # dsh-what-changed
 
-> ⭐ 1 · ✅ 活跃 · 插件
+> ⭐ 2 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

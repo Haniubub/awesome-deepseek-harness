@@ -5,7 +5,7 @@ keywords: "context-vista, memory, plugin, context, observability, deepseek harne
 ---
 # context-vista
 
-> ⭐ 7 · ✅ active · plugin
+> ⭐ 8 · ✅ active · plugin
 
 ## One-liner
 

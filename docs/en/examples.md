@@ -1,6 +1,6 @@
 ---
 title: "Examples & Starters"
-description: "Top 7 and full list of 7 curated examples & starters for DeepSeek Harness (dsh)."
+description: "Top 9 and full list of 9 curated examples & starters for DeepSeek Harness (dsh)."
 keywords: "deepseek harness, dsh, examples starters, plugin, awesome"
 ---
 # Examples & Starters
@@ -9,34 +9,39 @@ keywords: "deepseek harness, dsh, examples starters, plugin, awesome"
 
 | # | Project | Growth | Stars | Description |
 |---|---|---|---|---|
-| 1 | [hello-dsh](resources/hello-dsh.md) | ⬆️ +6 | ⭐67 | Zero-to-plugin tutorial: understand 'everything is a plugin' with 22 Chinese skill examples. |
-| 2 | [plugin-template (omdsh-dev)](resources/plugin-template-omdsh.md) | ⬆️ +2 | ⭐10 | Plugin template repository derived from the original turtle-ui official repo. |
-| 3 | [turtle-ui](resources/turtle-ui.md) | ⬆️ +1 | ⭐7 | Official UI plugin reference implementation. |
-| 4 | [dsh-101](resources/dsh-101.md) | ⬆️ +1 | ⭐4 | DSH documentation reading mode. |
+| 1 | [hello-dsh](resources/hello-dsh.md) | ⬆️ +6 | ⭐73 | Zero-to-plugin tutorial: understand 'everything is a plugin' with 22 Chinese skill examples. |
+| 2 | [dsh-plugin-template (sunshine-lang)](resources/dsh-plugin-template-sunshine.md) | ⬆️ +2 | ⭐5 | Ready-to-publish plugin skeleton: bundle format, tool DSL, config and tests. |
+| 3 | [InfiniteDSH](resources/infinitedsh.md) | ⬆️ +2 | ⭐3 | 诸天万界DSH: one DSH session is one book — a cover-card picker opens 19 realms, a prose-only preset locks the model to fiction, keyword worldbook lore grounds each turn, and /export-story typesets the session into a Markdown novel. |
+| 4 | [plugin-template (omdsh-dev)](resources/plugin-template-omdsh.md) | ⬆️ +1 | ⭐11 | Plugin template repository derived from the original turtle-ui official repo. |
+| 5 | [turtle-ui](resources/turtle-ui.md) | ⬆️ +1 | ⭐7 | Official UI plugin reference implementation. |
 
-## 🔥 Top 7
+## 🔥 Top 9
 
 | # | Project | Stars | Description | Status |
 |---|---|---|---|---|
-| 1 | [hello-dsh](resources/hello-dsh.md) | ⭐67 | Zero-to-plugin tutorial: understand 'everything is a plugin' with 22 Chinese skill examples. | ✅ active |
-| 2 | [plugin-template (omdsh-dev)](resources/plugin-template-omdsh.md) | ⭐10 | Plugin template repository derived from the original turtle-ui official repo. | ✅ active |
+| 1 | [hello-dsh](resources/hello-dsh.md) | ⭐73 | Zero-to-plugin tutorial: understand 'everything is a plugin' with 22 Chinese skill examples. | ✅ active |
+| 2 | [plugin-template (omdsh-dev)](resources/plugin-template-omdsh.md) | ⭐11 | Plugin template repository derived from the original turtle-ui official repo. | ✅ active |
 | 3 | [turtle-ui](resources/turtle-ui.md) | ⭐7 | Official UI plugin reference implementation. | ✅ active |
-| 4 | [dsh-101](resources/dsh-101.md) | ⭐4 | DSH documentation reading mode. | ✅ active |
-| 5 | [dsh-plugin-template](resources/dsh-plugin-template.md) | ⭐4 | Template for DeepSeek Harness plugin development. | ✅ active |
-| 6 | [dsh-plugin-template (sunshine-lang)](resources/dsh-plugin-template-sunshine.md) | ⭐3 | Ready-to-publish plugin skeleton: bundle format, tool DSL, config and tests. | ✅ active |
-| 7 | [dsh-plugin-hello](resources/dsh-plugin-hello.md) | – | Hello-world style starter plugin for DSH. | ✅ active |
+| 4 | [dsh-plugin-template (sunshine-lang)](resources/dsh-plugin-template-sunshine.md) | ⭐5 | Ready-to-publish plugin skeleton: bundle format, tool DSL, config and tests. | ✅ active |
+| 5 | [dsh-101](resources/dsh-101.md) | ⭐4 | DSH documentation reading mode. | ✅ active |
+| 6 | [dsh-plugin-template](resources/dsh-plugin-template.md) | ⭐4 | Template for DeepSeek Harness plugin development. | ✅ active |
+| 7 | [InfiniteDSH](resources/infinitedsh.md) | ⭐3 | 诸天万界DSH: one DSH session is one book — a cover-card picker opens 19 realms, a prose-only preset locks the model to fiction, keyword worldbook lore grounds each turn, and /export-story typesets the session into a Markdown novel. | ✅ active |
+| 8 | [Living-Dream-DSH](resources/living-dream-dsh.md) | ⭐2 | Complete DSH desktop config framework: 8+ MCP servers, free model channels (CNB proxy, AMD Radeon Cloud), mobile remote via Tailscale, vision patches, one-click installer. | ✅ active |
+| 9 | [dsh-plugin-hello](resources/dsh-plugin-hello.md) | – | Hello-world style starter plugin for DSH. | ✅ active |
 
-## Complete list (7)
+## Complete list (9)
 
 
-**Learning (7)**
+**Learning (9)**
 
 | Project | Stars | Description | Status |
 |---|---|---|---|
-| [hello-dsh](resources/hello-dsh.md) | ⭐67 | Zero-to-plugin tutorial: understand 'everything is a plugin' with 22 Chinese skill examples. | ✅ active |
-| [plugin-template (omdsh-dev)](resources/plugin-template-omdsh.md) | ⭐10 | Plugin template repository derived from the original turtle-ui official repo. | ✅ active |
+| [hello-dsh](resources/hello-dsh.md) | ⭐73 | Zero-to-plugin tutorial: understand 'everything is a plugin' with 22 Chinese skill examples. | ✅ active |
+| [plugin-template (omdsh-dev)](resources/plugin-template-omdsh.md) | ⭐11 | Plugin template repository derived from the original turtle-ui official repo. | ✅ active |
 | [turtle-ui](resources/turtle-ui.md) | ⭐7 | Official UI plugin reference implementation. | ✅ active |
+| [dsh-plugin-template (sunshine-lang)](resources/dsh-plugin-template-sunshine.md) | ⭐5 | Ready-to-publish plugin skeleton: bundle format, tool DSL, config and tests. | ✅ active |
 | [dsh-101](resources/dsh-101.md) | ⭐4 | DSH documentation reading mode. | ✅ active |
 | [dsh-plugin-template](resources/dsh-plugin-template.md) | ⭐4 | Template for DeepSeek Harness plugin development. | ✅ active |
-| [dsh-plugin-template (sunshine-lang)](resources/dsh-plugin-template-sunshine.md) | ⭐3 | Ready-to-publish plugin skeleton: bundle format, tool DSL, config and tests. | ✅ active |
+| [InfiniteDSH](resources/infinitedsh.md) | ⭐3 | 诸天万界DSH: one DSH session is one book — a cover-card picker opens 19 realms, a prose-only preset locks the model to fiction, keyword worldbook lore grounds each turn, and /export-story typesets the session into a Markdown novel. | ✅ active |
+| [Living-Dream-DSH](resources/living-dream-dsh.md) | ⭐2 | Complete DSH desktop config framework: 8+ MCP servers, free model channels (CNB proxy, AMD Radeon Cloud), mobile remote via Tailscale, vision patches, one-click installer. | ✅ active |
 | [dsh-plugin-hello](resources/dsh-plugin-hello.md) | – | Hello-world style starter plugin for DSH. | ✅ active |

@@ -12,11 +12,11 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 947,
+    "stars": 1004,
     "_source_description": "DeepSeek Harness橙皮书《从开机到拆开》：完整系统提示词、129行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML免费下载",
     "_updated": "2026-08-17",
-    "_stars_prev": 946,
-    "growth": 1
+    "_stars_prev": 947,
+    "growth": 57
   },
   {
     "id": "dsh-handbook",
@@ -31,11 +31,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 443,
+    "stars": 485,
     "_source_description": "DeepSeek Harness (dsh) 从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF）",
-    "_updated": "2026-08-17",
-    "_stars_prev": 442,
-    "growth": 1
+    "_updated": "2026-08-18",
+    "_stars_prev": 443,
+    "growth": 42
   },
   {
     "id": "deepseek-harness-tutorial",
@@ -50,11 +50,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 150,
+    "stars": 173,
     "_source_description": "deepseek harness中文详细学习教程",
     "_updated": "2026-08-13",
-    "_stars_prev": 149,
-    "growth": 1
+    "_stars_prev": 150,
+    "growth": 23
   },
   {
     "id": "dshfind",
@@ -70,11 +70,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 132,
+    "stars": 156,
     "_source_description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
-    "_updated": "2026-08-17",
-    "_stars_prev": 98,
-    "growth": 34
+    "_updated": "2026-08-18",
+    "_stars_prev": 132,
+    "growth": 24
   },
   {
     "id": "dsh-harness-tutorial",
@@ -90,11 +90,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 49,
+    "stars": 51,
     "_source_description": "DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent —— 一切皆插件的中文教程（VitePress 站点 + 8 个 Demo + mini-harness 教学项目）",
     "_updated": "2026-08-13",
-    "_stars_prev": 45,
-    "growth": 4
+    "_stars_prev": 49,
+    "growth": 2
   },
   {
     "id": "dsh-explain",
@@ -223,6 +223,6 @@
     "verified": false,
     "stars": 2,
     "_source_description": "Checks DeepSeek tool loops, reasoning_content, strict schemas, and captured SSE. Also works as a DSH plugin.",
-    "_updated": "2026-08-16"
+    "_updated": "2026-08-18"
   }
 ]

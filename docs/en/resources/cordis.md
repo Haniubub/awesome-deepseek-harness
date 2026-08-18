@@ -5,7 +5,7 @@ keywords: "Cordis, harness, related, workflow, deepseek harness, dsh"
 ---
 # Cordis
 
-> ⭐ 5,415 · ✅ active · related
+> ⭐ 5,987 · ✅ active · related
 
 ## One-liner
 

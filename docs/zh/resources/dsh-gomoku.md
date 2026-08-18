@@ -5,7 +5,7 @@ keywords: "dsh-gomoku, fun, plugin, ui, deepseek harness, dsh"
 ---
 # dsh-gomoku
 
-> ⭐ 13 · ✅ 活跃 · 插件
+> ⭐ 14 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-web-plugin-manager, discovery, plugin, ui, workflow, deepseek har
 ---
 # dsh-web-plugin-manager
 
-> ⭐ 56 · ✅ 活跃 · 插件
+> ⭐ 58 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-desktop-electron, desktop, client, deepseek harness, dsh"
 ---
 # dsh-desktop-electron
 
-> ⭐ 4 · ✅ active · client
+> ⭐ 5 · ✅ active · client
 
 ## One-liner
 

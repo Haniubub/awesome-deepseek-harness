@@ -5,7 +5,7 @@ keywords: "dsh-plugin-marketplace, registry, awesome-list, coding, deepseek harn
 ---
 # dsh-plugin-marketplace
 
-> ⭐ 6 · ✅ 活跃 · 精选列表
+> ⭐ 11 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "deepseek-harness-docker, developer, integration, automation, deepseek
 ---
 # deepseek-harness-docker
 
-> ⭐ 19 · ✅ active · integration
+> ⭐ 22 · ✅ active · integration
 
 ## One-liner
 

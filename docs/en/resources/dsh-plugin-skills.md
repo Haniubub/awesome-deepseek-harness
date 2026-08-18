@@ -5,7 +5,7 @@ keywords: "dsh-plugin-skills, learning, skill, coding, workflow, deepseek harnes
 ---
 # dsh-plugin-skills
 
-> ⭐ 10 · ✅ active · skill
+> ⭐ 11 · ✅ active · skill
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-minigames, fun, plugin, coding, ui, deepseek harness, dsh"
 ---
 # dsh-minigames
 
-> ⭐ 22 · ✅ 活跃 · 插件
+> ⭐ 23 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

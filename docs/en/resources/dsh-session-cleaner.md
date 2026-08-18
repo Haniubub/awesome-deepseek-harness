@@ -5,7 +5,7 @@ keywords: "dsh-session-cleaner, discovery, plugin, coding, deepseek harness, dsh
 ---
 # dsh-session-cleaner
 
-> ⭐ 4 · ✅ active · plugin
+> ⭐ 5 · ✅ active · plugin
 
 ## One-liner
 

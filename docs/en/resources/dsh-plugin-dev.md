@@ -5,7 +5,7 @@ keywords: "dsh-plugin-dev, learning, skill, coding, deepseek harness, dsh"
 ---
 # dsh-plugin-dev
 
-> ⭐ 12 · ✅ active · skill
+> ⭐ 13 · ✅ active · skill
 
 ## One-liner
 

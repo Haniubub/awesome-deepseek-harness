@@ -5,7 +5,7 @@ keywords: "dsh-reasoning-effort, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-reasoning-effort
 
-> ⭐ 65 · ✅ 活跃 · 插件
+> ⭐ 74 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

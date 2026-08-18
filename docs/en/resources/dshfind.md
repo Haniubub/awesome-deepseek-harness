@@ -5,7 +5,7 @@ keywords: "dshfind, learning, tutorial, search, deepseek harness, dsh"
 ---
 # dshfind
 
-> ⭐ 132 · ✅ active · tutorial
+> ⭐ 156 · ✅ active · tutorial
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-ide, ide, integration, coding, deepseek harness, dsh"
 ---
 # dsh-ide
 
-> ⭐ 19 · ✅ 活跃 · 集成
+> ⭐ 21 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

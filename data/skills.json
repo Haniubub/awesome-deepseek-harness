@@ -13,10 +13,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 231,
-    "_updated": "2026-08-17",
-    "_stars_prev": 228,
-    "growth": 3
+    "stars": 233,
+    "_updated": "2026-08-18",
+    "_stars_prev": 231,
+    "growth": 2,
+    "_source_description": "嘉立创EDA专业版(EasyEDA Pro)自动化：给 AI harness 装上画板的「手」—— 一套 typed 原理图/PCB 动作，CLI / Agent Skill / stdio MCP 三形态融合接入。承接嘉立创「不以卖板赚钱，以培养中国工程师为己任」 | EasyEDA Pro automation: the hands of your AI harness — typed schematic/PCB actions via CLI, Agent Skill and stdio MCP."
   },
   {
     "id": "dsh-skill-viewer",
@@ -32,11 +33,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 59,
-    "_source_description": "DSH Web UI plugin: Skills settings section with hot enable/disable, delete and add（Web界面的skill管理工具）",
-    "_updated": "2026-08-16",
-    "_stars_prev": 41,
-    "growth": 18
+    "stars": 64,
+    "_source_description": "DSH Web UI plugin: skill and MCP management（Web界面的skill/MCP管理工具）",
+    "_updated": "2026-08-18",
+    "_stars_prev": 59,
+    "growth": 5
   },
   {
     "id": "dsh-reverse-skill",
@@ -52,11 +53,29 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 27,
+    "stars": 32,
     "_source_description": "Complete reverse-skill (85 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authorized pentesting and security research skill pack.",
     "_updated": "2026-08-17",
-    "_stars_prev": 19,
-    "growth": 8
+    "_stars_prev": 27,
+    "growth": 5
+  },
+  {
+    "id": "dsh-science",
+    "name": "dsh-science",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/biociao/dsh-science",
+    "description": "Claude Science-style research workbench: ReAct research-loop engine (research_* tools), versioned artifacts with provenance (artifact_* tools), and 10 science skills for genomics/pathogens/bioinformatics.",
+    "description_zh": "Claude Science-style research workbench: ReAct research-loop engine (research_* tools), versioned artifacts with provenance (artifact_* tools), and 10 science skills for genomics/pathogens/bioinformatics.",
+    "capabilities": [
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 17,
+    "_updated": "2026-08-18",
+    "_stars_prev": 15,
+    "growth": 2
   },
   {
     "id": "dsh-plugin-swift-cycle",
@@ -76,24 +95,6 @@
     "_updated": "2026-08-16"
   },
   {
-    "id": "dsh-science",
-    "name": "dsh-science",
-    "type": "skill",
-    "category": "learning",
-    "repository": "https://github.com/biociao/dsh-science",
-    "description": "Claude Science-style research workbench: ReAct research-loop engine (research_* tools), versioned artifacts with provenance (artifact_* tools), and 10 science skills for genomics/pathogens/bioinformatics.",
-    "description_zh": "Claude Science-style research workbench: ReAct research-loop engine (research_* tools), versioned artifacts with provenance (artifact_* tools), and 10 science skills for genomics/pathogens/bioinformatics.",
-    "capabilities": [
-      "search"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 15,
-    "_updated": "2026-08-17",
-    "_stars_prev": 12,
-    "growth": 3
-  },
-  {
     "id": "dsh-plugin-dev",
     "name": "dsh-plugin-dev",
     "type": "skill",
@@ -106,10 +107,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 12,
+    "stars": 13,
     "_source_description": "DSH 插件开发踩坑与做法档案（skill + 文档）：cordis 双副本、tsconfig 三件套、Windows junction、多帧 zstd 等实测记录",
-    "_updated": "2026-08-14",
-    "_stars_prev": 11,
+    "_updated": "2026-08-18",
+    "_stars_prev": 12,
     "growth": 1
   },
   {
@@ -126,11 +127,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 10,
+    "stars": 13,
     "_source_description": "Portable Agent Skill for developing and auditing DeepSeek Harness plugins, with an optional profile-installable DSH bundle adapter.",
     "_updated": "2026-08-17",
-    "_stars_prev": 9,
-    "growth": 1
+    "_stars_prev": 10,
+    "growth": 3
   },
   {
     "id": "dsh-plugin-skills",
@@ -146,10 +147,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 10,
+    "stars": 11,
     "_source_description": "Agent skills for building and testing DeepSeek Harness plugins — from scaffolding a new plugin package to choosing the right test tiers, entirely inside an agent session.",
     "_updated": "2026-08-11",
-    "_stars_prev": 9,
+    "_stars_prev": 10,
     "growth": 1
   },
   {
@@ -172,6 +173,23 @@
     "growth": 1
   },
   {
+    "id": "dsh-codex-port",
+    "name": "dsh-codex-port",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/STARDUSTLC666/dsh-codex-port",
+    "description": "DeepSeek Harness 技能移植插件：把 ~/.codex 的 Codex 官方插件（186+ 个、583+ 技能）一键移植为 DSH 技能（codex_list/port/status），frontmatter 自动转换、幂等跳过。· Batch-port the Codex plugin family into DSH skills.",
+    "description_zh": "DeepSeek Harness 技能移植插件：把 ~/.codex 的 Codex 官方插件（186+ 个、583+ 技能）一键移植为 DSH 技能（codex_list/port/status），frontmatter 自动转换、幂等跳过。· Batch-port the Codex plugin family into DSH skills.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7,
+    "_source_description": "DeepSeek Harness 技能移植插件：把 ~/.codex 的 Codex 官方插件（186+ 个、583+ 技能）一键移植为 DSH 技能（codex_list/port/status），frontmatter 自动转换、幂等跳过。· Batch-port the Codex plugin family into DSH skills.",
+    "_updated": "2026-08-18"
+  },
+  {
     "id": "dsh-book2skill",
     "name": "dsh-book2skill",
     "type": "plugin",
@@ -190,6 +208,23 @@
     "_updated": "2026-08-13",
     "_stars_prev": 3,
     "growth": 1
+  },
+  {
+    "id": "dsh-remotion",
+    "name": "dsh-remotion",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/STARDUSTLC666/dsh-remotion",
+    "description": "DSH 视频创作技能插件：注册 Remotion 官方移植技能（React 编程式视频，38 个规则文件），安装即用。· Remotion skill plugin for DeepSeek Harness.",
+    "description_zh": "DSH 视频创作技能插件：注册 Remotion 官方移植技能（React 编程式视频，38 个规则文件），安装即用。· Remotion skill plugin for DeepSeek Harness.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "_source_description": "DSH 视频创作技能插件：注册 Remotion 官方移植技能（React 编程式视频，38 个规则文件），安装即用。· Remotion skill plugin for DeepSeek Harness.",
+    "_updated": "2026-08-18"
   },
   {
     "id": "dsh-skillradar",
@@ -276,7 +311,7 @@
     "verified": false,
     "stars": 2,
     "_source_description": "Security-audit skill pack + plugin_vet supply-chain gate for DeepSeek Harness (dsh): 8 bilingual agent skills (secret scan, dependency audit, supply-chain review, prompt-injection review, audit orchestration, threat modeling, vuln intel, incident response) plus the plugin_vet automated pre-install scanner. Apache-2.0.",
-    "_updated": "2026-08-17"
+    "_updated": "2026-08-18"
   },
   {
     "id": "dsh-skillport",
@@ -362,8 +397,65 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 2,
+    "stars": 3,
     "_updated": "2026-08-14",
+    "_stars_prev": 2,
+    "growth": 1
+  },
+  {
+    "id": "mattpocock-skills-dsh",
+    "name": "mattpocock-skills-dsh",
+    "type": "skill",
+    "category": "coding",
+    "repository": "https://github.com/gongyijie85/mattpocock-skills-dsh",
+    "description": "Matt Pocock full promoted skill set (25 SKILL.md: grilling, writing-for-agents, wait-what, TDD, code review, wayfinder, ask-matt router) ported to DSH.",
+    "description_zh": "Matt Pocock 完整发布技能集（25 个 SKILL.md：grilling、writing-for-agents、wait-what、TDD、code-review、wayfinder、ask-matt 路由等）的 DSH 移植。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "_updated": "2026-08-16",
+    "stars": 1,
+    "_source_description": "Matt Pocock's skills for DeepSeek Harness (DSH): grilling, writing-for-agents, wait-what, TDD and more — 25 skills adapted from mattpocock/skills (MIT)",
+    "_stars_prev": 0,
+    "growth": 1
+  },
+  {
+    "id": "dsh-ponytail",
+    "name": "dsh-ponytail",
+    "type": "skill",
+    "category": "coding",
+    "repository": "https://github.com/gongyijie85/dsh-ponytail",
+    "description": "Ponytail lazy senior dev mode: 6 skills (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review) adapted from DietrichGebert/ponytail.",
+    "description_zh": "Ponytail 最懒资深工程师模式：6 个技能，改编自 DietrichGebert/ponytail。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "_updated": "2026-08-16",
+    "stars": 2,
+    "_source_description": "Ponytail, lazy senior dev mode, for DeepSeek Harness: 6 skills adapted from DietrichGebert/ponytail (MIT)",
+    "_stars_prev": 1,
+    "growth": 1
+  },
+  {
+    "id": "dsh-ecc",
+    "name": "dsh-ecc",
+    "type": "skill",
+    "category": "coding",
+    "repository": "https://github.com/gongyijie85/dsh-ecc",
+    "description": "273 ECC skills (95.8% of the 227k-star operator system) ported to DSH in four batches.",
+    "description_zh": "ECC（227k⭐ 操作员系统）273 个技能（95.8%）分四批移植到 DSH。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "_updated": "2026-08-16",
+    "stars": 2,
+    "_source_description": "ECC (227k-star operator system) skills for DeepSeek Harness — progressive port, v0.1.0 ships 20 curated skills; adapted from affaan-m/ECC (MIT)",
     "_stars_prev": 1,
     "growth": 1
   },
@@ -402,25 +494,6 @@
     "_updated": "2026-08-14"
   },
   {
-    "id": "mattpocock-skills-dsh",
-    "name": "mattpocock-skills-dsh",
-    "type": "skill",
-    "category": "coding",
-    "repository": "https://github.com/gongyijie85/mattpocock-skills-dsh",
-    "description": "Matt Pocock full promoted skill set (25 SKILL.md: grilling, writing-for-agents, wait-what, TDD, code review, wayfinder, ask-matt router) ported to DSH.",
-    "description_zh": "Matt Pocock 完整发布技能集（25 个 SKILL.md：grilling、writing-for-agents、wait-what、TDD、code-review、wayfinder、ask-matt 路由等）的 DSH 移植。",
-    "capabilities": [
-      "coding"
-    ],
-    "status": "active",
-    "verified": false,
-    "_updated": "2026-08-16",
-    "stars": 1,
-    "_source_description": "Matt Pocock's skills for DeepSeek Harness (DSH): grilling, writing-for-agents, wait-what, TDD and more — 25 skills adapted from mattpocock/skills (MIT)",
-    "_stars_prev": 0,
-    "growth": 1
-  },
-  {
     "id": "mattpocock-skills-dsh-zh",
     "name": "mattpocock-skills-dsh-zh",
     "type": "skill",
@@ -436,43 +509,5 @@
     "_updated": "2026-08-16",
     "stars": 0,
     "_source_description": "Matt Pocock 技能中文版 for DeepSeek Harness: 25 个技能正文全译中文 (Chinese translation of mattpocock/skills, MIT)"
-  },
-  {
-    "id": "dsh-ponytail",
-    "name": "dsh-ponytail",
-    "type": "skill",
-    "category": "coding",
-    "repository": "https://github.com/gongyijie85/dsh-ponytail",
-    "description": "Ponytail lazy senior dev mode: 6 skills (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review) adapted from DietrichGebert/ponytail.",
-    "description_zh": "Ponytail 最懒资深工程师模式：6 个技能，改编自 DietrichGebert/ponytail。",
-    "capabilities": [
-      "coding"
-    ],
-    "status": "active",
-    "verified": false,
-    "_updated": "2026-08-16",
-    "stars": 1,
-    "_source_description": "Ponytail, lazy senior dev mode, for DeepSeek Harness: 6 skills adapted from DietrichGebert/ponytail (MIT)",
-    "_stars_prev": 0,
-    "growth": 1
-  },
-  {
-    "id": "dsh-ecc",
-    "name": "dsh-ecc",
-    "type": "skill",
-    "category": "coding",
-    "repository": "https://github.com/gongyijie85/dsh-ecc",
-    "description": "273 ECC skills (95.8% of the 227k-star operator system) ported to DSH in four batches.",
-    "description_zh": "ECC（227k⭐ 操作员系统）273 个技能（95.8%）分四批移植到 DSH。",
-    "capabilities": [
-      "coding"
-    ],
-    "status": "active",
-    "verified": false,
-    "_updated": "2026-08-16",
-    "stars": 1,
-    "_source_description": "ECC (227k-star operator system) skills for DeepSeek Harness — progressive port, v0.1.0 ships 20 curated skills; adapted from affaan-m/ECC (MIT)",
-    "_stars_prev": 0,
-    "growth": 1
   }
 ]

@@ -5,7 +5,7 @@ keywords: "dsh-skill-viewer, ui, plugin, workflow, deepseek harness, dsh"
 ---
 # dsh-skill-viewer
 
-> ⭐ 59 · ✅ active · plugin
+> ⭐ 64 · ✅ active · plugin
 
 ## One-liner
 

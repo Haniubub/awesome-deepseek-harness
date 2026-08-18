@@ -5,7 +5,7 @@ keywords: "dockyard-dsh, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dockyard-dsh
 
-> ⭐ 51 · ✅ active · plugin
+> ⭐ 65 · ✅ active · plugin
 
 ## One-liner
 

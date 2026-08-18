@@ -5,7 +5,7 @@ keywords: "dsh-dream-skin, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-dream-skin
 
-> ⭐ 45 · ✅ 活跃 · 插件
+> ⭐ 56 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

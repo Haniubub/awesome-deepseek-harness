@@ -5,7 +5,7 @@ keywords: "dsh-desk-pet, desktop, client, coding, ui, deepseek harness, dsh"
 ---
 # dsh-desk-pet
 
-> ⭐ 3 · ✅ 活跃 · 客户端
+> ⭐ 4 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

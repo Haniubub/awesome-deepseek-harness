@@ -5,7 +5,7 @@ keywords: "dsh-sidechain, multi-agent, agent, context, deepseek harness, dsh"
 ---
 # dsh-sidechain
 
-> ⭐ 9 · ✅ active · agent
+> ⭐ 10 · ✅ active · agent
 
 ## One-liner
 

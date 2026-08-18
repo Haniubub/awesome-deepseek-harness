@@ -14,11 +14,11 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 80151,
+    "stars": 80240,
     "_source_description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
     "_updated": "2026-08-17",
-    "_stars_prev": 80084,
-    "growth": 67
+    "_stars_prev": 80151,
+    "growth": 89
   },
   {
     "id": "codewhale",
@@ -34,9 +34,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 40825,
+    "stars": 40828,
     "_source_description": "Open-source, community-driven agent harness",
-    "_updated": "2026-08-17"
+    "_updated": "2026-08-18",
+    "_stars_prev": 40825,
+    "growth": 3
   },
   {
     "id": "agentmemory",
@@ -52,9 +54,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 27103,
+    "stars": 27138,
     "_source_description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
-    "_updated": "2026-08-17"
+    "_updated": "2026-08-17",
+    "_stars_prev": 27103,
+    "growth": 35
   },
   {
     "id": "cordis",
@@ -70,11 +74,11 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 5415,
+    "stars": 5987,
     "_source_description": "Meta-Framework of Spatiotemporal Composability",
     "_updated": "2026-08-13",
-    "_stars_prev": 5408,
-    "growth": 7
+    "_stars_prev": 5415,
+    "growth": 572
   },
   {
     "id": "deeptide",
@@ -90,9 +94,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 1075,
+    "stars": 1080,
     "_source_description": "Built by DeepSeek, for DeepSeek — a Swift-native macOS coding agent",
-    "_updated": "2026-07-08"
+    "_updated": "2026-07-08",
+    "_stars_prev": 1075,
+    "growth": 5
   },
   {
     "id": "sandbase-harness",
@@ -109,11 +115,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 613,
+    "stars": 620,
     "_source_description": "Open-source CMA-compatible agent runtime for any model, with MCP tools, sandboxed sessions, audit, replay, and a local console. Includes a native DeepSeek Harness bundle over stdio MCP.",
     "_updated": "2026-08-17",
-    "_stars_prev": 598,
-    "growth": 15
+    "_stars_prev": 613,
+    "growth": 7
   },
   {
     "id": "mnemon",
@@ -129,10 +135,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 468,
+    "stars": 477,
     "_source_description": "LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Works with DeepSeek Harness, Claude Code, OpenClaw, and any agent runtime.",
     "_updated": "2026-08-16",
-    "_stars_prev": 459,
+    "_stars_prev": 468,
     "growth": 9
   },
   {
@@ -149,11 +155,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 317,
+    "stars": 318,
     "_source_description": "📖 Cross-agent research paper toolkit for Claude Code, Codex, OpenCode, and DeepSeek Harness—quick summaries, deep study materials, code demos, and a local web viewer.",
     "_updated": "2026-08-14",
-    "_stars_prev": 308,
-    "growth": 9
+    "_stars_prev": 317,
+    "growth": 1
   },
   {
     "id": "open-managed-agents",
@@ -171,7 +177,7 @@
     "verified": false,
     "stars": 237,
     "_source_description": "Open-source Claude Managed Agents API implementation and self-hosted Claude Tag-style agent runtime. Drop-in compatible; runs on Cloudflare Workers/Durable Objects or Node.js. Apache 2.0.",
-    "_updated": "2026-08-16",
+    "_updated": "2026-08-18",
     "_stars_prev": 235,
     "growth": 2
   },

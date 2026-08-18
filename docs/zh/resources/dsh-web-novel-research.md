@@ -5,7 +5,7 @@ keywords: "dsh-web-novel-research, research, skill, search, deepseek harness, ds
 ---
 # dsh-web-novel-research
 
-> ⭐ 2 · ✅ 活跃 · 技能
+> ⭐ 3 · ✅ 活跃 · 技能
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-memento, memory, plugin, security, deepseek harness, dsh"
 ---
 # dsh-memento
 
-> ⭐ 17 · ✅ active · plugin
+> ⭐ 57 · ✅ active · plugin
 
 ## One-liner
 

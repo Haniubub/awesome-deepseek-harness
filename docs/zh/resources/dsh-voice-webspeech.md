@@ -5,7 +5,7 @@ keywords: "dsh-voice-webspeech, input-editing, plugin, coding, deepseek harness,
 ---
 # dsh-voice-webspeech
 
-> ⭐ 2 · ✅ 活跃 · 插件
+> ⭐ 1 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

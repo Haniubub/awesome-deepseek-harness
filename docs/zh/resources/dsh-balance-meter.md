@@ -5,7 +5,7 @@ keywords: "dsh-balance-meter, developer, plugin, coding, ui, deepseek harness, d
 ---
 # dsh-balance-meter
 
-> ⭐ 16 · ✅ 活跃 · 插件
+> ⭐ 17 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "weshop-dsh-plugin, developer, plugin, coding, deepseek harness, dsh"
 ---
 # weshop-dsh-plugin
 
-> ⭐ 10 · ✅ active · plugin
+> ⭐ 12 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-commandcode-provider, vision, plugin, coding, deepseek harness, d
 ---
 # dsh-commandcode-provider
 
-> ⭐ 53 · ✅ 活跃 · 插件
+> ⭐ 58 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

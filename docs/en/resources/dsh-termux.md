@@ -5,7 +5,7 @@ keywords: "deepseek-harness-termux, mobile, client, terminal, deepseek harness, 
 ---
 # deepseek-harness-termux
 
-> ⭐ 30 · ✅ active · client
+> ⭐ 35 · ✅ active · client
 
 ## One-liner
 

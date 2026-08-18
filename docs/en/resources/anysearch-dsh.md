@@ -5,7 +5,7 @@ keywords: "anysearch-dsh, search, plugin, deepseek harness, dsh"
 ---
 # anysearch-dsh
 
-> ⭐ 81 · ✅ active · plugin
+> ⭐ 98 · ✅ active · plugin
 
 ## One-liner
 

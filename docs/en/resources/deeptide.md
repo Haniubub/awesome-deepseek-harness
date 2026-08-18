@@ -5,7 +5,7 @@ keywords: "deeptide, harness, related, coding, deepseek harness, dsh"
 ---
 # deeptide
 
-> ⭐ 1,075 · ✅ active · related
+> ⭐ 1,080 · ✅ active · related
 
 ## One-liner
 

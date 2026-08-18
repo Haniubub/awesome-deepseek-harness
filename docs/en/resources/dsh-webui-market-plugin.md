@@ -5,7 +5,7 @@ keywords: "dsh-webui-market-plugin, discovery, plugin, ui, workflow, deepseek ha
 ---
 # dsh-webui-market-plugin
 
-> ⭐ 76 · ✅ active · plugin
+> ⭐ 85 · ✅ active · plugin
 
 ## One-liner
 

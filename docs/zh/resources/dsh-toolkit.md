@@ -5,7 +5,7 @@ keywords: "dsh-toolkit, developer, plugin, files, coding, deepseek harness, dsh"
 ---
 # dsh-toolkit
 
-> ⭐ 21 · ✅ 活跃 · 插件
+> ⭐ 22 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

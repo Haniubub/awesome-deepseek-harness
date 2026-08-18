@@ -5,7 +5,7 @@ keywords: "deepseek-harness-acp, acp, integration, workflow, coding, deepseek ha
 ---
 # deepseek-harness-acp
 
-> ⭐ 8 · ✅ active · integration
+> ⭐ 10 · ✅ active · integration
 
 ## One-liner
 

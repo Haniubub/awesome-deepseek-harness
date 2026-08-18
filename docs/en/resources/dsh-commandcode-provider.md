@@ -5,7 +5,7 @@ keywords: "dsh-commandcode-provider, vision, plugin, coding, deepseek harness, d
 ---
 # dsh-commandcode-provider
 
-> ⭐ 53 · ✅ active · plugin
+> ⭐ 58 · ✅ active · plugin
 
 ## One-liner
 

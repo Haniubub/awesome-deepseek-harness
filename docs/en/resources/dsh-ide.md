@@ -5,7 +5,7 @@ keywords: "dsh-ide, ide, integration, coding, deepseek harness, dsh"
 ---
 # dsh-ide
 
-> ⭐ 19 · ✅ active · integration
+> ⭐ 21 · ✅ active · integration
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-what-changed, developer, plugin, ui, deepseek harness, dsh"
 ---
 # dsh-what-changed
 
-> ⭐ 1 · ✅ active · plugin
+> ⭐ 2 · ✅ active · plugin
 
 ## One-liner
 

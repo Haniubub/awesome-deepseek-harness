@@ -13,30 +13,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 67,
+    "stars": 73,
     "_source_description": "从零开始，看懂 DeepSeek Harness 的「万物皆可插件」— 零基础插件开发教程（含 22 个中文技能实例）| Zero-to-plugin tutorial for DeepSeek Harness",
     "_updated": "2026-08-14",
-    "_stars_prev": 61,
+    "_stars_prev": 67,
     "growth": 6
-  },
-  {
-    "id": "dsh-plugin-template",
-    "name": "dsh-plugin-template",
-    "type": "example",
-    "category": "learning",
-    "repository": "https://github.com/bugmaker2/dsh-plugin-template",
-    "description": "Template for DeepSeek Harness plugin development.",
-    "description_zh": "DeepSeek Harness 插件开发模板。",
-    "capabilities": [
-      "coding"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 4,
-    "_source_description": "Template for deepseek-harness plugin development.",
-    "_updated": "2026-08-14",
-    "_stars_prev": 25,
-    "growth": 0
   },
   {
     "id": "plugin-template-omdsh",
@@ -51,11 +32,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 10,
+    "stars": 11,
     "_source_description": "基于原turtle ui官方仓库创建的plugin模板仓库",
     "_updated": "2026-08-17",
-    "_stars_prev": 8,
-    "growth": 2
+    "_stars_prev": 10,
+    "growth": 1
   },
   {
     "id": "turtle-ui",
@@ -78,21 +59,23 @@
     "growth": 1
   },
   {
-    "id": "dsh-plugin-template-sunshine",
-    "name": "dsh-plugin-template (sunshine-lang)",
+    "id": "dsh-plugin-template",
+    "name": "dsh-plugin-template",
     "type": "example",
     "category": "learning",
-    "repository": "https://github.com/sunshine-lang/dsh-plugin-template",
-    "description": "Ready-to-publish plugin skeleton: bundle format, tool DSL, config and tests.",
-    "description_zh": "可直接发布的插件骨架：bundle 格式、工具 DSL、配置与测试。",
+    "repository": "https://github.com/bugmaker2/dsh-plugin-template",
+    "description": "Template for DeepSeek Harness plugin development.",
+    "description_zh": "DeepSeek Harness 插件开发模板。",
     "capabilities": [
       "coding"
     ],
     "status": "active",
     "verified": false,
-    "stars": 3,
-    "_source_description": "Ready-to-publish DeepSeek Harness plugin skeleton: bundle format, tool DSL, config, tests, and a scaffold script",
-    "_updated": "2026-08-14"
+    "stars": 4,
+    "_source_description": "Template for deepseek-harness plugin development.",
+    "_updated": "2026-08-14",
+    "_stars_prev": 25,
+    "growth": 0
   },
   {
     "id": "dsh-101",
@@ -112,6 +95,63 @@
     "_updated": "2026-08-14",
     "_stars_prev": 3,
     "growth": 1
+  },
+  {
+    "id": "dsh-plugin-template-sunshine",
+    "name": "dsh-plugin-template (sunshine-lang)",
+    "type": "example",
+    "category": "learning",
+    "repository": "https://github.com/sunshine-lang/dsh-plugin-template",
+    "description": "Ready-to-publish plugin skeleton: bundle format, tool DSL, config and tests.",
+    "description_zh": "可直接发布的插件骨架：bundle 格式、工具 DSL、配置与测试。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5,
+    "_source_description": "Ready-to-publish DeepSeek Harness plugin skeleton: bundle format, tool DSL, config, tests, and a scaffold script",
+    "_updated": "2026-08-14",
+    "_stars_prev": 3,
+    "growth": 2
+  },
+  {
+    "id": "living-dream-dsh",
+    "name": "Living-Dream-DSH",
+    "type": "example",
+    "category": "learning",
+    "repository": "https://github.com/alllllllllli/Living-Dream-DSH",
+    "description": "Complete DSH desktop config framework: 8+ MCP servers, free model channels (CNB proxy, AMD Radeon Cloud), mobile remote via Tailscale, vision patches, one-click installer.",
+    "description_zh": "DSH 桌面配置框架：8+ MCP 服务器、免费模型渠道（CNB 代理、AMD Radeon Cloud）、Tailscale 手机远程、视觉补丁、一键安装。",
+    "capabilities": [
+      "desktop",
+      "mcp",
+      "automation"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2,
+    "_source_description": "Living Dream DSH - DeepSeek Harness desktop config framework with 8+ MCP servers, free model access, mobile remote, one-click install",
+    "_updated": "2026-08-18"
+  },
+  {
+    "id": "infinitedsh",
+    "name": "InfiniteDSH",
+    "type": "example",
+    "category": "learning",
+    "repository": "https://github.com/vdnight89/InfiniteDSH",
+    "description": "诸天万界DSH: one DSH session is one book — a cover-card picker opens 19 realms, a prose-only preset locks the model to fiction, keyword worldbook lore grounds each turn, and /export-story typesets the session into a Markdown novel.",
+    "description_zh": "诸天万界DSH：一个会话就是一本书。封面开书十九界，文学预设只写正文，规则书按关键词注入，/export-story 誊成 Markdown 小说。",
+    "capabilities": [
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3,
+    "_stars_prev": 1,
+    "growth": 2,
+    "_source_description": "一会话，一扇门，一界命数。诸天万界DSH：DeepSeek Harness 上的文字修罗场。十九扇门点封面启程，不助手不提纲只写正文；誊出来的，是你活过的天书。",
+    "_updated": "2026-08-18"
   },
   {
     "id": "dsh-plugin-hello",

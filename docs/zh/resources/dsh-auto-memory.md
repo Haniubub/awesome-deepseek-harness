@@ -5,7 +5,7 @@ keywords: "dsh-auto-memory, memory, plugin, coding, ui, deepseek harness, dsh"
 ---
 # dsh-auto-memory
 
-> ⭐ 12 · ✅ 活跃 · 插件
+> ⭐ 15 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

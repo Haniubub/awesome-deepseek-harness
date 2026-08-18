@@ -5,7 +5,7 @@ keywords: "dsh-git-graph, ide, integration, coding, git, ui, deepseek harness, d
 ---
 # dsh-git-graph
 
-> ⭐ 12 · ✅ 活跃 · 集成
+> ⭐ 13 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

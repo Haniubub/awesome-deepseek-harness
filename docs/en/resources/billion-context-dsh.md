@@ -5,7 +5,7 @@ keywords: "billion-context-dsh, memory, plugin, context, deepseek harness, dsh"
 ---
 # billion-context-dsh
 
-> ⭐ 20 · ✅ active · plugin
+> ⭐ 25 · ✅ active · plugin
 
 ## One-liner
 

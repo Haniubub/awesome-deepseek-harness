@@ -5,7 +5,7 @@ keywords: "dsh-desktop-electron, desktop, client, deepseek harness, dsh"
 ---
 # dsh-desktop-electron
 
-> ⭐ 4 · ✅ 活跃 · 客户端
+> ⭐ 5 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

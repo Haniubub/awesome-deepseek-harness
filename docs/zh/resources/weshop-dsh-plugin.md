@@ -5,7 +5,7 @@ keywords: "weshop-dsh-plugin, developer, plugin, coding, deepseek harness, dsh"
 ---
 # weshop-dsh-plugin
 
-> ⭐ 10 · ✅ 活跃 · 插件
+> ⭐ 12 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

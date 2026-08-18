@@ -5,7 +5,7 @@ keywords: "dsh-at-file, developer, plugin, files, coding, ui, deepseek harness, 
 ---
 # dsh-at-file
 
-> ⭐ 320 · ✅ 活跃 · 插件
+> ⭐ 366 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "deepseek-harness-termux, mobile, client, terminal, deepseek harness, 
 ---
 # deepseek-harness-termux
 
-> ⭐ 30 · ✅ 活跃 · 客户端
+> ⭐ 35 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

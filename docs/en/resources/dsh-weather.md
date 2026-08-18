@@ -5,7 +5,7 @@ keywords: "dsh-weather, developer, plugin, search, deepseek harness, dsh"
 ---
 # dsh-weather
 
-> ⭐ 4 · ✅ active · plugin
+> ⭐ 6 · ✅ active · plugin
 
 ## One-liner
 

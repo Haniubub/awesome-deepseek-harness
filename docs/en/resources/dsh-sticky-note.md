@@ -5,7 +5,7 @@ keywords: "dsh-sticky-note, input-editing, plugin, coding, deepseek harness, dsh
 ---
 # dsh-sticky-note
 
-> ⭐ 9 · ✅ active · plugin
+> ⭐ 10 · ✅ active · plugin
 
 ## One-liner
 

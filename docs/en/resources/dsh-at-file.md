@@ -5,7 +5,7 @@ keywords: "dsh-at-file, developer, plugin, files, coding, ui, deepseek harness, 
 ---
 # dsh-at-file
 
-> ⭐ 320 · ✅ active · plugin
+> ⭐ 366 · ✅ active · plugin
 
 ## One-liner
 

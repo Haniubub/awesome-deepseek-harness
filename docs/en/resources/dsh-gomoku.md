@@ -5,7 +5,7 @@ keywords: "dsh-gomoku, fun, plugin, ui, deepseek harness, dsh"
 ---
 # dsh-gomoku
 
-> ⭐ 13 · ✅ active · plugin
+> ⭐ 14 · ✅ active · plugin
 
 ## One-liner
 

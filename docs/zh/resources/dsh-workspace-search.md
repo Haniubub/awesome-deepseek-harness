@@ -5,7 +5,7 @@ keywords: "dsh-workspace-search, ui, plugin, search, files, deepseek harness, ds
 ---
 # dsh-workspace-search
 
-> ⭐ 5 · ✅ 活跃 · 插件
+> ⭐ 4 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

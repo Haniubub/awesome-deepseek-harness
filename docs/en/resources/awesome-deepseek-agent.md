@@ -5,7 +5,7 @@ keywords: "awesome-deepseek-agent (official), registry, awesome-list, research, 
 ---
 # awesome-deepseek-agent (official)
 
-> ⭐ 5,906 · ✅ active · awesome-list
+> ⭐ 5,927 · ✅ active · awesome-list
 
 ## One-liner
 

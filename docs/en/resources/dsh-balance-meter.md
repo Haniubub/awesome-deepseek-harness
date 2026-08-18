@@ -5,7 +5,7 @@ keywords: "dsh-balance-meter, developer, plugin, coding, ui, deepseek harness, d
 ---
 # dsh-balance-meter
 
-> ⭐ 16 · ✅ active · plugin
+> ⭐ 17 · ✅ active · plugin
 
 ## One-liner
 

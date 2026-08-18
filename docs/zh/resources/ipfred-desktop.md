@@ -5,7 +5,7 @@ keywords: "deepseek-harness-app (ipfred), desktop, client, deepseek harness, dsh
 ---
 # deepseek-harness-app (ipfred)
 
-> ⭐ 26 · ✅ 活跃 · 客户端
+> ⭐ 27 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

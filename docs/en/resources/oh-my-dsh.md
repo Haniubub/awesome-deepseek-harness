@@ -5,7 +5,7 @@ keywords: "oh-my-dsh, vision, plugin, coding, deepseek harness, dsh"
 ---
 # oh-my-dsh
 
-> ⭐ 9 · ✅ active · plugin
+> ⭐ 10 · ✅ active · plugin
 
 ## One-liner
 

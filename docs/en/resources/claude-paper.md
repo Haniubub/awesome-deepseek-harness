@@ -5,7 +5,7 @@ keywords: "claude-paper, harness, related, research, search, deepseek harness, d
 ---
 # claude-paper
 
-> ⭐ 317 · ✅ active · related
+> ⭐ 318 · ✅ active · related
 
 ## One-liner
 

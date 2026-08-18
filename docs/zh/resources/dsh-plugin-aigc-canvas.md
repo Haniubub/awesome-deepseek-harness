@@ -5,7 +5,7 @@ keywords: "dsh-plugin-aigc-canvas, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-plugin-aigc-canvas
 
-> ⭐ 10 · ✅ 活跃 · 插件
+> ⭐ 12 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

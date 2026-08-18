@@ -5,7 +5,7 @@ keywords: "dsh-dream-skin, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-dream-skin
 
-> ⭐ 45 · ✅ active · plugin
+> ⭐ 56 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "deepseek-harness-desktop, desktop, client, coding, ui, deepseek harne
 ---
 # deepseek-harness-desktop
 
-> ⭐ 6 · ✅ 活跃 · 客户端
+> ⭐ 7 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

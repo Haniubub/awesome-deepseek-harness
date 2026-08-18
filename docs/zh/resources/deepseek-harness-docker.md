@@ -5,7 +5,7 @@ keywords: "deepseek-harness-docker, developer, integration, automation, deepseek
 ---
 # deepseek-harness-docker
 
-> ⭐ 19 · ✅ 活跃 · 集成
+> ⭐ 22 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

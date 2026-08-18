@@ -5,7 +5,7 @@ keywords: "dsh-plugin-development, learning, skill, coding, multi-agent, deepsee
 ---
 # dsh-plugin-development
 
-> ⭐ 10 · ✅ active · skill
+> ⭐ 13 · ✅ active · skill
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-anchored-standard, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-anchored-standard
 
-> ⭐ 3,389 · ✅ active · plugin
+> ⭐ 3,525 · ✅ active · plugin
 
 ## One-liner
 

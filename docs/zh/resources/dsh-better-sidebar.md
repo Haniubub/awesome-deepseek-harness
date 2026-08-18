@@ -5,7 +5,7 @@ keywords: "DSH Better Sidebar, ui, plugin, files, terminal, git, deepseek harnes
 ---
 # DSH Better Sidebar
 
-> ⭐ 1,907 · ✅ 活跃 · 插件
+> ⭐ 2,124 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

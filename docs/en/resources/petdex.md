@@ -5,7 +5,7 @@ keywords: "petdex, fun, plugin, coding, deepseek harness, dsh"
 ---
 # petdex
 
-> ⭐ 3,872 · ✅ active · plugin
+> ⭐ 3,889 · ✅ active · plugin
 
 ## One-liner
 

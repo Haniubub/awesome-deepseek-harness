@@ -5,7 +5,7 @@ keywords: "dsh-free-search, search, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-free-search
 
-> ⭐ 9 · ✅ 活跃 · 插件
+> ⭐ 16 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

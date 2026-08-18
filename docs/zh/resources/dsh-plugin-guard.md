@@ -5,7 +5,7 @@ keywords: "dsh-plugin-guard, vision, plugin, coding, multi-agent, deepseek harne
 ---
 # dsh-plugin-guard
 
-> ⭐ 13 · ✅ 活跃 · 插件
+> ⭐ 20 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

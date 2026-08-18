@@ -5,7 +5,7 @@ keywords: "dsh-pdf, developer, plugin, files, deepseek harness, dsh"
 ---
 # dsh-pdf
 
-> ⭐ 4 · ✅ 活跃 · 插件
+> ⭐ 6 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

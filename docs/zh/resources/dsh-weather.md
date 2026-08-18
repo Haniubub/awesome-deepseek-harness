@@ -5,7 +5,7 @@ keywords: "dsh-weather, developer, plugin, search, deepseek harness, dsh"
 ---
 # dsh-weather
 
-> ⭐ 4 · ✅ 活跃 · 插件
+> ⭐ 6 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

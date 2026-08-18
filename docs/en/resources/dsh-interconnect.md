@@ -5,7 +5,7 @@ keywords: "dsh-interconnect, multi-agent, agent, deepseek harness, dsh"
 ---
 # dsh-interconnect
 
-> ⭐ 30 · ✅ active · agent
+> ⭐ 33 · ✅ active · agent
 
 ## One-liner
 

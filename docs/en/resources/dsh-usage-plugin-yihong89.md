@@ -5,7 +5,7 @@ keywords: "dsh-usage-plugin, desktop, client, coding, deepseek harness, dsh"
 ---
 # dsh-usage-plugin
 
-> ⭐ 23 · ✅ active · client
+> ⭐ 27 · ✅ active · client
 
 ## One-liner
 

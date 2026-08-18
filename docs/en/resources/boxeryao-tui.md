@@ -5,7 +5,7 @@ keywords: "deepseek-harness-tui (boxeryao), terminal, client, deepseek harness, 
 ---
 # deepseek-harness-tui (boxeryao)
 
-> ⭐ 9 · ✅ active · client
+> ⭐ 10 · ✅ active · client
 
 ## One-liner
 

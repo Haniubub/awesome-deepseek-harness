@@ -5,7 +5,7 @@ keywords: "dsh-task-dag, workflow, observability, multi-agent, deepseek harness,
 ---
 # dsh-task-dag
 
-> ⭐ 2 · ✅ active · workflow
+> ⭐ 5 · ✅ active · workflow
 
 ## One-liner
 

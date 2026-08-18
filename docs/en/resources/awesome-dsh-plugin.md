@@ -5,7 +5,7 @@ keywords: "awesome-dsh-plugin, registry, awesome-list, coding, deepseek harness,
 ---
 # awesome-dsh-plugin
 
-> ⭐ 75 · ✅ active · awesome-list
+> ⭐ 86 · ✅ active · awesome-list
 
 ## One-liner
 

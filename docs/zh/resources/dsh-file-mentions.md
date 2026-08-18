@@ -5,7 +5,7 @@ keywords: "dsh-file-mentions, developer, plugin, files, ui, deepseek harness, ds
 ---
 # dsh-file-mentions
 
-> ⭐ 6 · ✅ 活跃 · 插件
+> ⭐ 11 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

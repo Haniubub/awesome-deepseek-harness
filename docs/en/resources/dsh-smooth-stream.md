@@ -5,7 +5,7 @@ keywords: "dsh-smooth-stream, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-smooth-stream
 
-> ⭐ 20 · ✅ active · plugin
+> ⭐ 28 · ✅ active · plugin
 
 ## One-liner
 

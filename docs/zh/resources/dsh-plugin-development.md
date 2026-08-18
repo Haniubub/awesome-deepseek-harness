@@ -5,7 +5,7 @@ keywords: "dsh-plugin-development, learning, skill, coding, multi-agent, deepsee
 ---
 # dsh-plugin-development
 
-> ⭐ 10 · ✅ 活跃 · 技能
+> ⭐ 13 · ✅ 活跃 · 技能
 
 ## 一句话介绍
 

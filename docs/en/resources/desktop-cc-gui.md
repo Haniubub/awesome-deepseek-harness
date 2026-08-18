@@ -5,7 +5,7 @@ keywords: "desktop-cc-gui, desktop, client, coding, ui, deepseek harness, dsh"
 ---
 # desktop-cc-gui
 
-> ⭐ 4,027 · ✅ active · client
+> ⭐ 4,036 · ✅ active · client
 
 ## One-liner
 

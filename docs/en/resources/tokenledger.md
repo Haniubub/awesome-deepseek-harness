@@ -5,7 +5,7 @@ keywords: "tokenledger, vision, plugin, coding, deepseek harness, dsh"
 ---
 # tokenledger
 
-> ⭐ 23 · ✅ active · plugin
+> ⭐ 97 · ✅ active · plugin
 
 ## One-liner
 

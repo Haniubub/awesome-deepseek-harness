@@ -5,7 +5,7 @@ keywords: "dsh-work, desktop, client, coding, mcp, multi-agent, search, deepseek
 ---
 # dsh-work
 
-> ⭐ 310 · ✅ active · client
+> ⭐ 394 · ✅ active · client
 
 ## One-liner
 

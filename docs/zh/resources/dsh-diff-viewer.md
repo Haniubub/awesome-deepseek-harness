@@ -5,7 +5,7 @@ keywords: "dsh-diff-viewer, ui, plugin, git, deepseek harness, dsh"
 ---
 # dsh-diff-viewer
 
-> ⭐ 17 · ✅ 活跃 · 插件
+> ⭐ 18 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

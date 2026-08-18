@@ -5,7 +5,7 @@ keywords: "dsh-data-agent, research, agent, coding, deepseek harness, dsh"
 ---
 # dsh-data-agent
 
-> ⭐ 40 · ✅ active · agent
+> ⭐ 52 · ✅ active · agent
 
 ## One-liner
 

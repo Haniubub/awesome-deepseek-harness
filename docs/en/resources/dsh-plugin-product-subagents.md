@@ -5,7 +5,7 @@ keywords: "dsh-plugin-product-subagents, multi-agent, agent, deepseek harness, d
 ---
 # dsh-plugin-product-subagents
 
-> ⭐ 16 · ✅ active · agent
+> ⭐ 18 · ✅ active · agent
 
 ## One-liner
 

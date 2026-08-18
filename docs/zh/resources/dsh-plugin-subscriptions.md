@@ -5,7 +5,7 @@ keywords: "dsh-plugin-subscriptions, search, plugin, coding, ui, deepseek harnes
 ---
 # dsh-plugin-subscriptions
 
-> ⭐ 10 · ✅ 活跃 · 插件
+> ⭐ 80 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

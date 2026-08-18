@@ -5,7 +5,7 @@ keywords: "ai-novel-writer, desktop, client, coding, deepseek harness, dsh"
 ---
 # ai-novel-writer
 
-> ⭐ 374 · ✅ 活跃 · 客户端
+> ⭐ 385 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

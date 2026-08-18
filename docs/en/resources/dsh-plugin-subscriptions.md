@@ -5,7 +5,7 @@ keywords: "dsh-plugin-subscriptions, search, plugin, coding, ui, deepseek harnes
 ---
 # dsh-plugin-subscriptions
 
-> ⭐ 10 · ✅ active · plugin
+> ⭐ 80 · ✅ active · plugin
 
 ## One-liner
 

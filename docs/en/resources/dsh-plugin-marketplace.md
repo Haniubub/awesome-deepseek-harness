@@ -5,7 +5,7 @@ keywords: "dsh-plugin-marketplace, registry, awesome-list, coding, deepseek harn
 ---
 # dsh-plugin-marketplace
 
-> ⭐ 6 · ✅ active · awesome-list
+> ⭐ 11 · ✅ active · awesome-list
 
 ## One-liner
 

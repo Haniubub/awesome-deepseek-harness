@@ -53,16 +53,16 @@ DeepSeek Harness (`dsh`) is DeepSeek AI's open-source agent harness built around
 
 | # | Project | Growth | Stars | Description |
 |---|---|---|---|---|
-| 1 | [dsh-market](resources/dsh-market.md) | ⬆️ +299 | ⭐797 | Visual plugin market inside DeepSeek Harness: browse, search and one-click install. |
-| 2 | [deepseek-harness-desktop-app](resources/deepseek-harness-desktop-app.md) | ⬆️ +99 | ⭐310 | DeepSeek Harness Desktop App: a local AI desktop workspace for DSH Sessions, projects, files, web research, plugins, and Office artifacts. |
-| 3 | [dsh-work](resources/dsh-work.md) | ⬆️ +99 | ⭐310 | Local-first AI workbench for DSH Plugins, combining Agent sessions, project files, data analysis, web research, MCP, and Office artifacts in an Electron desktop app. |
-| 4 | [dsh-agent-teams](resources/dsh-agent-teams.md) | ⬆️ +83 | ⭐479 | Multi-agent team-oriented extensions for DSH. |
-| 5 | [dsh-context](resources/dsh-context.md) | ⬆️ +75 | ⭐179 | A DeepSeek Harness plugin for  Context insight dashboard — showing what the model's context window is made of and how it evolves. |
-| 6 | [deepseek-harness-desktop (ningbainb)](resources/ningbainb-desktop.md) | ⬆️ +69 | ⭐77 | Lossless Windows desktop app with the complete DSH Web UI, plugins, skins and skill dock. |
-| 7 | [DeerFlow](resources/deer-flow.md) | ⬆️ +67 | ⭐80,151 | Open-source long-horizon SuperAgent harness by ByteDance: skills, memory, sandboxes, subagents, tools and a message gateway. |
-| 8 | [dsh_desktop](resources/dsh-desktop-foolgry.md) | ⬆️ +67 | ⭐426 | DeepSeek Harness (dsh) Windows desktop client - bundled Node.js + dsh CLI, one-click launch |
-| 9 | [v4-flash-godmode-opencode-go](resources/v4-flash-godmode-opencode-go.md) | ⬆️ +62 | ⭐509 | V4 Flash 神模式 (opencode-go)：让 opencode-go 的 DeepSeek V4 Flash 从鬼模式切换到神模式的 dsh agent preset |
-| 10 | [dsh-genui](resources/dsh-genui.md) | ⬆️ +45 | ⭐176 | Generative UI inside conversations: layouts, charts, forms, quizzes, Mermaid and interactive events rendered inline. |
+| 1 | [deepseek-harness-desktop (Anywhere Labs)](resources/anywhere-labs-desktop.md) | ⬆️ +1,912 | ⭐13,205 | Modern desktop experience built for the DeepSeek Harness ecosystem (plugin). |
+| 2 | [awesome-dsh-plugin](resources/awesome-dsh-plugin-org.md) | ⬆️ +1,060 | ⭐8,440 | Large curated list of installable DSH plugins (bilingual). |
+| 3 | [open-design](resources/open-design.md) | ⬆️ +578 | ⭐88,720 | 🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode / Hermes & 20+ CLIs via BYOK. |
+| 4 | [Cordis](resources/cordis.md) | ⬆️ +572 | ⭐5,987 | Meta-Framework of Spatiotemporal Composability — the plugin runtime DeepSeek Harness is built on. |
+| 5 | [dsh-web-ui](resources/dsh-web-ui.md) | ⬆️ +461 | ⭐4,484 | Large plugin and skin collection for DSH Web: task board, git graph, side panels, remote/mobile UI, pets, token stats and themes. |
+| 6 | [modlens](resources/modlens.md) | ⬆️ +309 | ⭐3,035 | The first vision plugin for DeepSeek Harness and the vision bridge for every text-only coding agent: paste an image and it works. |
+| 7 | [DSH Better Sidebar](resources/dsh-better-sidebar.md) | ⬆️ +217 | ⭐2,124 | Workbench-style sidebar: file viewer/editor, terminal, Git, subagents and plugin-extensible tabs. |
+| 8 | [dsh-market](resources/dsh-market.md) | ⬆️ +183 | ⭐980 | Visual plugin market inside DeepSeek Harness: browse, search and one-click install. |
+| 9 | [dsh-desktop (DataElement)](resources/dataelement-dsh-desktop.md) | ⬆️ +170 | ⭐905 | Desktop app for DeepSeek Harness. |
+| 10 | [dsh-TUI](resources/dsh-tui.md) | ⬆️ +156 | ⭐1,940 | Claude Code-style full-screen terminal plugin: pixel-whale top bar, live status line, streaming thoughts, double-Esc rollback, context progress bar and TPS meter. |
 
 ## 🔥 Global Top 20
 
@@ -70,26 +70,26 @@ DeepSeek Harness (`dsh`) is DeepSeek AI's open-source agent harness built around
 
 | # | Project | Stars | Description | Status |
 |---|---|---|---|---|
-| 1 | [open-design](resources/open-design.md) | ⭐88,142 | 🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode / Hermes & 20+ CLIs via BYOK. | ✅ active |
-| 2 | [DeerFlow](resources/deer-flow.md) | ⭐80,151 | Open-source long-horizon SuperAgent harness by ByteDance: skills, memory, sandboxes, subagents, tools and a message gateway. | ✅ active |
-| 3 | [CodeWhale](resources/codewhale.md) | ⭐40,825 | Open-source, community-driven agent harness. | ✅ active |
-| 4 | [agentmemory](resources/agentmemory.md) | ⭐27,103 | Persistent memory for AI coding agents based on real-world benchmarks (upstream of DSH agentmemory ports). | ✅ active |
-| 5 | [voyager](resources/voyager.md) | ⭐19,580 | Enhancement suite for Gemini, AI Studio, Claude & ChatGPT — plus a prompt manager for any web UI, DeepSeek Harness included. / 面向 Gemini、AI Studio、Claude 与 ChatGPT 的增强套件；提示词管理器可用于任意 Web UI，含 DeepSeek Harness。 | ✅ active |
-| 6 | [deepseek-harness-desktop (Anywhere Labs)](resources/anywhere-labs-desktop.md) | ⭐11,293 | Modern desktop experience built for the DeepSeek Harness ecosystem (plugin). | ✅ active |
-| 7 | [awesome-dsh-plugin](resources/awesome-dsh-plugin-org.md) | ⭐7,380 | Large curated list of installable DSH plugins (bilingual). | ✅ active |
-| 8 | [awesome-deepseek-agent (official)](resources/awesome-deepseek-agent.md) | ⭐5,906 | Official curated guides for integrating DeepSeek models into agent/coding-assistant tools (AstrBot, Cherry Studio, Claude Code, Codex, DeepSeek-TUI, Reasonix and more). | ✅ active |
-| 9 | [Cordis](resources/cordis.md) | ⭐5,415 | Meta-Framework of Spatiotemporal Composability — the plugin runtime DeepSeek Harness is built on. | ✅ active |
-| 10 | [desktop-cc-gui](resources/desktop-cc-gui.md) | ⭐4,027 | Multi-engine AI coding desktop client (Tauri). Claude Code, Codex, Gemini, OpenCode, DeepSeek Harness and more in one GUI. | ✅ active |
-| 11 | [dsh-web-ui](resources/dsh-web-ui.md) | ⭐4,023 | Large plugin and skin collection for DSH Web: task board, git graph, side panels, remote/mobile UI, pets, token stats and themes. | ✅ active |
-| 12 | [petdex](resources/petdex.md) | ⭐3,872 | A public gallery of animated pets for Codex, Claude Code, DeepSeek Harness, Hermes, OpenCode, Gemini CLI, and more. | ✅ active |
-| 13 | [dsh-anchored-standard](resources/dsh-anchored-standard.md) | ⭐3,389 | Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99) | ✅ active |
-| 14 | [echobird](resources/echobird.md) | ⭐3,062 | One-click install + model switch:Claude Code,Codex CLI (OpenAI), Grok Build (xAI), DeepSeek Harness, Kimi Code (Moonshot) ,Qwen Code,Aider,OpenCode,MiMo Code (Xiaomi),ZCode (Z.AI),OpenClaw,Pi,OpenScience,Vibe-Trading,Claude Desktop (3P profile),ChatGPT desktop,OpenCode Desktop, | ✅ active |
-| 15 | [openbiliclaw](resources/openbiliclaw.md) | ⭐2,827 | 本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin） | ✅ active |
-| 16 | [modlens](resources/modlens.md) | ⭐2,726 | The first vision plugin for DeepSeek Harness and the vision bridge for every text-only coding agent: paste an image and it works. | ✅ active |
-| 17 | [DSH Better Sidebar](resources/dsh-better-sidebar.md) | ⭐1,907 | Workbench-style sidebar: file viewer/editor, terminal, Git, subagents and plugin-extensible tabs. | ✅ active |
-| 18 | [dsh-TUI](resources/dsh-tui.md) | ⭐1,784 | Claude Code-style full-screen terminal plugin: pixel-whale top bar, live status line, streaming thoughts, double-Esc rollback, context progress bar and TPS meter. | ✅ active |
-| 19 | [TokenTracker](resources/tokentracker.md) | ⭐1,346 | Local-first AI token usage & cost tracker for 31 coding tools including Claude Code, Codex, Cursor, Gemini & DeepSeek Harness. | ✅ active |
-| 20 | [dsh-deep-whale](resources/dsh-deep-whale.md) | ⭐1,225 | Whale-girl skin series for DSH Web (CC BY-NC-SA 4.0). | ✅ active |
+| 1 | [open-design](resources/open-design.md) | ⭐88,720 | 🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode / Hermes & 20+ CLIs via BYOK. | ✅ active |
+| 2 | [DeerFlow](resources/deer-flow.md) | ⭐80,240 | Open-source long-horizon SuperAgent harness by ByteDance: skills, memory, sandboxes, subagents, tools and a message gateway. | ✅ active |
+| 3 | [CodeWhale](resources/codewhale.md) | ⭐40,828 | Open-source, community-driven agent harness. | ✅ active |
+| 4 | [agentmemory](resources/agentmemory.md) | ⭐27,138 | Persistent memory for AI coding agents based on real-world benchmarks (upstream of DSH agentmemory ports). | ✅ active |
+| 5 | [voyager](resources/voyager.md) | ⭐19,631 | Enhancement suite for Gemini, AI Studio, Claude & ChatGPT — plus a prompt manager for any web UI, DeepSeek Harness included. / 面向 Gemini、AI Studio、Claude 与 ChatGPT 的增强套件；提示词管理器可用于任意 Web UI，含 DeepSeek Harness。 | ✅ active |
+| 6 | [deepseek-harness-desktop (Anywhere Labs)](resources/anywhere-labs-desktop.md) | ⭐13,205 | Modern desktop experience built for the DeepSeek Harness ecosystem (plugin). | ✅ active |
+| 7 | [awesome-dsh-plugin](resources/awesome-dsh-plugin-org.md) | ⭐8,440 | Large curated list of installable DSH plugins (bilingual). | ✅ active |
+| 8 | [Cordis](resources/cordis.md) | ⭐5,987 | Meta-Framework of Spatiotemporal Composability — the plugin runtime DeepSeek Harness is built on. | ✅ active |
+| 9 | [awesome-deepseek-agent (official)](resources/awesome-deepseek-agent.md) | ⭐5,927 | Official curated guides for integrating DeepSeek models into agent/coding-assistant tools (AstrBot, Cherry Studio, Claude Code, Codex, DeepSeek-TUI, Reasonix and more). | ✅ active |
+| 10 | [dsh-web-ui](resources/dsh-web-ui.md) | ⭐4,484 | Large plugin and skin collection for DSH Web: task board, git graph, side panels, remote/mobile UI, pets, token stats and themes. | ✅ active |
+| 11 | [desktop-cc-gui](resources/desktop-cc-gui.md) | ⭐4,036 | Multi-engine AI coding desktop client (Tauri). Claude Code, Codex, Gemini, OpenCode, DeepSeek Harness and more in one GUI. | ✅ active |
+| 12 | [petdex](resources/petdex.md) | ⭐3,889 | A public gallery of animated pets for Codex, Claude Code, DeepSeek Harness, Hermes, OpenCode, Gemini CLI, and more. | ✅ active |
+| 13 | [dsh-anchored-standard](resources/dsh-anchored-standard.md) | ⭐3,525 | Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99) | ✅ active |
+| 14 | [echobird](resources/echobird.md) | ⭐3,074 | One-click install + model switch:Claude Code,Codex CLI (OpenAI), Grok Build (xAI), DeepSeek Harness, Kimi Code (Moonshot) ,Qwen Code,Aider,OpenCode,MiMo Code (Xiaomi),ZCode (Z.AI),OpenClaw,Pi,OpenScience,Vibe-Trading,Claude Desktop (3P profile),ChatGPT desktop,OpenCode Desktop, | ✅ active |
+| 15 | [modlens](resources/modlens.md) | ⭐3,035 | The first vision plugin for DeepSeek Harness and the vision bridge for every text-only coding agent: paste an image and it works. | ✅ active |
+| 16 | [openbiliclaw](resources/openbiliclaw.md) | ⭐2,886 | 本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin） | ✅ active |
+| 17 | [DSH Better Sidebar](resources/dsh-better-sidebar.md) | ⭐2,124 | Workbench-style sidebar: file viewer/editor, terminal, Git, subagents and plugin-extensible tabs. | ✅ active |
+| 18 | [dsh-TUI](resources/dsh-tui.md) | ⭐1,940 | Claude Code-style full-screen terminal plugin: pixel-whale top bar, live status line, streaming thoughts, double-Esc rollback, context progress bar and TPS meter. | ✅ active |
+| 19 | [TokenTracker](resources/tokentracker.md) | ⭐1,359 | Local-first AI token usage & cost tracker for 31 coding tools including Claude Code, Codex, Cursor, Gemini & DeepSeek Harness. | ✅ active |
+| 20 | [dsh-deep-whale](resources/dsh-deep-whale.md) | ⭐1,335 | Whale-girl skin series for DSH Web (CC BY-NC-SA 4.0). | ✅ active |
 
 ---
 
