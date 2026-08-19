@@ -5,7 +5,7 @@ keywords: "dsh-plugin-template (sunshine-lang), learning, example, coding, deeps
 ---
 # dsh-plugin-template (sunshine-lang)
 
-> ⭐ 5 · ✅ 活跃 · 示例
+> ⭐ 6 · ✅ 活跃 · 示例
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dockyard-dsh, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dockyard-dsh
 
-> ⭐ 65 · ✅ 活跃 · 插件
+> ⭐ 72 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

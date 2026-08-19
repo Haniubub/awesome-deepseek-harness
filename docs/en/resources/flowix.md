@@ -5,7 +5,7 @@ keywords: "flowix, memory, plugin, coding, multi-agent, deepseek harness, dsh"
 ---
 # flowix
 
-> ⭐ 318 · ✅ active · plugin
+> ⭐ 325 · ✅ active · plugin
 
 ## One-liner
 

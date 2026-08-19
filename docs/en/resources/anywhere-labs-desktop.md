@@ -5,7 +5,7 @@ keywords: "deepseek-harness-desktop (Anywhere Labs), desktop, client, ui, deepse
 ---
 # deepseek-harness-desktop (Anywhere Labs)
 
-> ⭐ 13,205 · ✅ active · client
+> ⭐ 14,795 · ✅ active · client
 
 ## One-liner
 

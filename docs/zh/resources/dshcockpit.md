@@ -5,7 +5,7 @@ keywords: "dshcockpit, desktop, client, coding, ui, deepseek harness, dsh"
 ---
 # dshcockpit
 
-> ⭐ 10 · ✅ 活跃 · 客户端
+> ⭐ 14 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

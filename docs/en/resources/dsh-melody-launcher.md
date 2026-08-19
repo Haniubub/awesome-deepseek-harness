@@ -5,7 +5,7 @@ keywords: "dsh-melody-launcher, desktop, client, coding, deepseek harness, dsh"
 ---
 # dsh-melody-launcher
 
-> ⭐ 12 · ✅ active · client
+> ⭐ 15 · ✅ active · client
 
 ## One-liner
 

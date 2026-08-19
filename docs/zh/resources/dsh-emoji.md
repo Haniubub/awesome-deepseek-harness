@@ -5,7 +5,7 @@ keywords: "dsh-emoji, fun, plugin, ui, deepseek harness, dsh"
 ---
 # dsh-emoji
 
-> ⭐ 24 · ✅ 活跃 · 插件
+> ⭐ 30 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

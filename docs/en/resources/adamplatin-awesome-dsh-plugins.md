@@ -5,7 +5,7 @@ keywords: "awesome-dsh-plugins (Radar), registry, awesome-list, search, observab
 ---
 # awesome-dsh-plugins (Radar)
 
-> ⭐ 1,193 · ✅ active · awesome-list
+> ⭐ 1,245 · ✅ active · awesome-list
 
 ## One-liner
 

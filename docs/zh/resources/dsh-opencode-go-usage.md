@@ -5,7 +5,7 @@ keywords: "dsh-opencode-go-usage, developer, plugin, coding, deepseek harness, d
 ---
 # dsh-opencode-go-usage
 
-> ⭐ 10 · ✅ 活跃 · 插件
+> ⭐ 12 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

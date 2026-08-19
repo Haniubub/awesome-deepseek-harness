@@ -5,7 +5,7 @@ keywords: "dsh-lark, channel, integration, coding, deepseek harness, dsh"
 ---
 # dsh-lark
 
-> ⭐ 32 · ✅ 活跃 · 集成
+> ⭐ 37 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

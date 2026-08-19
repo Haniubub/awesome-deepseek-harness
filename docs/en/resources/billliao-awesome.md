@@ -5,7 +5,7 @@ keywords: "awesome-dsh-plugin (billLiao), registry, awesome-list, search, deepse
 ---
 # awesome-dsh-plugin (billLiao)
 
-> ⭐ 11 · ✅ active · awesome-list
+> ⭐ 12 · ✅ active · awesome-list
 
 ## One-liner
 

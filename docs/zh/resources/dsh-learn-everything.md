@@ -5,7 +5,7 @@ keywords: "dsh-learn-everything, learning, tutorial, ui, deepseek harness, dsh"
 ---
 # dsh-learn-everything
 
-> ⭐ 4 · ✅ 活跃 · 教程
+> ⭐ 5 · ✅ 活跃 · 教程
 
 ## 一句话介绍
 

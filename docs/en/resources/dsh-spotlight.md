@@ -5,7 +5,7 @@ keywords: "dsh-spotlight, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-spotlight
 
-> ⭐ 9 · ✅ active · plugin
+> ⭐ 10 · ✅ active · plugin
 
 ## One-liner
 

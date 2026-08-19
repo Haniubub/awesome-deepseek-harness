@@ -5,7 +5,7 @@ keywords: "dsh-stock-market, fun, plugin, search, ui, deepseek harness, dsh"
 ---
 # dsh-stock-market
 
-> ⭐ 15 · ✅ 活跃 · 插件
+> ⭐ 16 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "deepseek-harness-snowsalt, ui, plugin, deepseek harness, dsh"
 ---
 # deepseek-harness-snowsalt
 
-> ⭐ 28 · ✅ active · plugin
+> ⭐ 27 · ✅ active · plugin
 
 ## One-liner
 

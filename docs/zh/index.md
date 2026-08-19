@@ -53,16 +53,16 @@ DeepSeek Harness（`dsh`）是 DeepSeek AI 开源的智能体 Harness，围绕�
 
 | # | 项目 | 增长 | 星数 | 说明 |
 |---|---|---|---|---|
-| 1 | [deepseek-harness-desktop (Anywhere Labs)](resources/anywhere-labs-desktop.md) | ⬆️ +1,912 | ⭐13,205 | 为 DeepSeek Harness 生态打造的现代化桌面端体验（插件）。 |
-| 2 | [awesome-dsh-plugin](resources/awesome-dsh-plugin-org.md) | ⬆️ +1,060 | ⭐8,440 | 大型 DSH 插件精选目录（双语）。 |
-| 3 | [open-design](resources/open-design.md) | ⬆️ +578 | ⭐88,720 | 🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode / Hermes & 20+ CLIs via BYOK. |
-| 4 | [Cordis](resources/cordis.md) | ⬆️ +572 | ⭐5,987 | 时空可组合性元框架——DeepSeek Harness 底层的插件运行时。 |
-| 5 | [dsh-web-ui](resources/dsh-web-ui.md) | ⬆️ +461 | ⭐4,484 | DSH Web 大型插件与皮肤集合：任务看板、Git 图、侧栏、远程/移动 UI、宠物、Token 统计与主题。 |
-| 6 | [modlens](resources/modlens.md) | ⬆️ +309 | ⭐3,035 | DSH 首个视觉插件，也是所有纯文本编码 Agent 的视觉桥梁：粘贴图片即可用。 |
-| 7 | [DSH Better Sidebar](resources/dsh-better-sidebar.md) | ⬆️ +217 | ⭐2,124 | 工作台式侧边栏：文件渲染/编辑、终端、Git、子代理，支持三方扩展 Tab。 |
-| 8 | [dsh-market](resources/dsh-market.md) | ⬆️ +183 | ⭐980 | DSH 内置可视化插件市场：浏览、搜索、一键安装。 |
-| 9 | [dsh-desktop (DataElement)](resources/dataelement-dsh-desktop.md) | ⬆️ +170 | ⭐905 | DeepSeek Harness 桌面应用。 |
-| 10 | [dsh-TUI](resources/dsh-tui.md) | ⬆️ +156 | ⭐1,940 | Claude Code 风格全屏交互终端插件：像素鲸鱼顶栏、实时状态行、思考流式展开、双击 Esc 回滚、上下文进度条 + TPS 仪表。 |
+| 1 | [deepseek-harness-desktop (Anywhere Labs)](resources/anywhere-labs-desktop.md) | ⬆️ +1,590 | ⭐14,795 | 为 DeepSeek Harness 生态打造的现代化桌面端体验（插件）。 |
+| 2 | [awesome-dsh-plugin](resources/awesome-dsh-plugin-org.md) | ⬆️ +1,421 | ⭐9,861 | 大型 DSH 插件精选目录（双语）。 |
+| 3 | [open-design](resources/open-design.md) | ⬆️ +482 | ⭐89,202 | 🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode / Hermes & 20+ CLIs via BYOK. |
+| 4 | [Cordis](resources/cordis.md) | ⬆️ +341 | ⭐6,328 | 时空可组合性元框架——DeepSeek Harness 底层的插件运行时。 |
+| 5 | [dsh-web-ui](resources/dsh-web-ui.md) | ⬆️ +333 | ⭐4,817 | DSH Web 大型插件与皮肤集合：任务看板、Git 图、侧栏、远程/移动 UI、宠物、Token 统计与主题。 |
+| 6 | [dsh-market](resources/dsh-market.md) | ⬆️ +214 | ⭐1,194 | DSH 内置可视化插件市场：浏览、搜索、一键安装。 |
+| 7 | [modlens](resources/modlens.md) | ⬆️ +204 | ⭐3,239 | DSH 首个视觉插件，也是所有纯文本编码 Agent 的视觉桥梁：粘贴图片即可用。 |
+| 8 | [Open Sea Skin](resources/open-sea-skin.md) | ⬆️ +180 | ⭐181 | 实时 WebGPU 海洋皮肤，可调节波浪、日光、玻璃不透明度和自动昼夜循环。 |
+| 9 | [DSH Better Sidebar](resources/dsh-better-sidebar.md) | ⬆️ +173 | ⭐2,297 | 工作台式侧边栏：文件渲染/编辑、终端、Git、子代理，支持三方扩展 Tab。 |
+| 10 | [dsh-context](resources/dsh-context.md) | ⬆️ +145 | ⭐452 | A DeepSeek Harness plugin for  Context insight dashboard — showing what the model's context window is made of and how it evolves. |
 
 ## 🔥 全网 Top 20
 
@@ -70,26 +70,26 @@ DeepSeek Harness（`dsh`）是 DeepSeek AI 开源的智能体 Harness，围绕�
 
 | # | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|---|
-| 1 | [open-design](resources/open-design.md) | ⭐88,720 | 🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode / Hermes & 20+ CLIs via BYOK. | ✅ 活跃 |
-| 2 | [DeerFlow](resources/deer-flow.md) | ⭐80,240 | 字节跳动开源的长时间跨度 SuperAgent harness：技能、记忆、沙箱、子代理、工具与消息网关。 | ✅ 活跃 |
-| 3 | [CodeWhale](resources/codewhale.md) | ⭐40,828 | 开源、社区驱动的 Agent Harness。 | ✅ 活跃 |
-| 4 | [agentmemory](resources/agentmemory.md) | ⭐27,138 | 基于真实基准的 AI 编码 Agent 持久记忆（DSH agentmemory 移植的上游项目）。 | ✅ 活跃 |
-| 5 | [voyager](resources/voyager.md) | ⭐19,631 | Enhancement suite for Gemini, AI Studio, Claude & ChatGPT — plus a prompt manager for any web UI, DeepSeek Harness included. / 面向 Gemini、AI Studio、Claude 与 ChatGPT 的增强套件；提示词管理器可用于任意 Web UI，含 DeepSeek Harness。 | ✅ 活跃 |
-| 6 | [deepseek-harness-desktop (Anywhere Labs)](resources/anywhere-labs-desktop.md) | ⭐13,205 | 为 DeepSeek Harness 生态打造的现代化桌面端体验（插件）。 | ✅ 活跃 |
-| 7 | [awesome-dsh-plugin](resources/awesome-dsh-plugin-org.md) | ⭐8,440 | 大型 DSH 插件精选目录（双语）。 | ✅ 活跃 |
-| 8 | [Cordis](resources/cordis.md) | ⭐5,987 | 时空可组合性元框架——DeepSeek Harness 底层的插件运行时。 | ✅ 活跃 |
-| 9 | [awesome-deepseek-agent (official)](resources/awesome-deepseek-agent.md) | ⭐5,927 | 官方精选：将 DeepSeek 模型集成到主流 Agent/编码助手工具的指南（AstrBot、Cherry Studio、Claude Code、Codex、DeepSeek-TUI、Reasonix 等）。 | ✅ 活跃 |
-| 10 | [dsh-web-ui](resources/dsh-web-ui.md) | ⭐4,484 | DSH Web 大型插件与皮肤集合：任务看板、Git 图、侧栏、远程/移动 UI、宠物、Token 统计与主题。 | ✅ 活跃 |
-| 11 | [desktop-cc-gui](resources/desktop-cc-gui.md) | ⭐4,036 | Multi-engine AI coding desktop client (Tauri). Claude Code, Codex, Gemini, OpenCode, DeepSeek Harness and more in one GUI. | ✅ 活跃 |
-| 12 | [petdex](resources/petdex.md) | ⭐3,889 | A public gallery of animated pets for Codex, Claude Code, DeepSeek Harness, Hermes, OpenCode, Gemini CLI, and more. | ✅ 活跃 |
-| 13 | [dsh-anchored-standard](resources/dsh-anchored-standard.md) | ⭐3,525 | Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99) | ✅ 活跃 |
-| 14 | [echobird](resources/echobird.md) | ⭐3,074 | One-click install + model switch:Claude Code,Codex CLI (OpenAI), Grok Build (xAI), DeepSeek Harness, Kimi Code (Moonshot) ,Qwen Code,Aider,OpenCode,MiMo Code (Xiaomi),ZCode (Z.AI),OpenClaw,Pi,OpenScience,Vibe-Trading,Claude Desktop (3P profile),ChatGPT desktop,OpenCode Desktop, | ✅ 活跃 |
-| 15 | [modlens](resources/modlens.md) | ⭐3,035 | DSH 首个视觉插件，也是所有纯文本编码 Agent 的视觉桥梁：粘贴图片即可用。 | ✅ 活跃 |
-| 16 | [openbiliclaw](resources/openbiliclaw.md) | ⭐2,886 | 本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin） | ✅ 活跃 |
-| 17 | [DSH Better Sidebar](resources/dsh-better-sidebar.md) | ⭐2,124 | 工作台式侧边栏：文件渲染/编辑、终端、Git、子代理，支持三方扩展 Tab。 | ✅ 活跃 |
-| 18 | [dsh-TUI](resources/dsh-tui.md) | ⭐1,940 | Claude Code 风格全屏交互终端插件：像素鲸鱼顶栏、实时状态行、思考流式展开、双击 Esc 回滚、上下文进度条 + TPS 仪表。 | ✅ 活跃 |
-| 19 | [TokenTracker](resources/tokentracker.md) | ⭐1,359 | 本地优先的 AI Token 用量与费用追踪器，支持 31 款编码工具（含 Claude Code、Codex、Cursor、Gemini 与 DeepSeek Harness）。 | ✅ 活跃 |
-| 20 | [dsh-deep-whale](resources/dsh-deep-whale.md) | ⭐1,335 | DSH Web 鲸鱼娘皮肤系列（CC BY-NC-SA 4.0）。 | ✅ 活跃 |
+| 1 | [open-design](resources/open-design.md) | ⭐89,202 | 🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode / Hermes & 20+ CLIs via BYOK. | ✅ 活跃 |
+| 2 | [DeerFlow](resources/deer-flow.md) | ⭐80,307 | 字节跳动开源的长时间跨度 SuperAgent harness：技能、记忆、沙箱、子代理、工具与消息网关。 | ✅ 活跃 |
+| 3 | [CodeWhale](resources/codewhale.md) | ⭐40,826 | 开源、社区驱动的 Agent Harness。 | ✅ 活跃 |
+| 4 | [agentmemory](resources/agentmemory.md) | ⭐27,179 | 基于真实基准的 AI 编码 Agent 持久记忆（DSH agentmemory 移植的上游项目）。 | ✅ 活跃 |
+| 5 | [voyager](resources/voyager.md) | ⭐19,679 | Enhancement suite for Gemini, AI Studio, Claude & ChatGPT — plus a prompt manager for any web UI, DeepSeek Harness included. / 面向 Gemini、AI Studio、Claude 与 ChatGPT 的增强套件；提示词管理器可用于任意 Web UI，含 DeepSeek Harness。 | ✅ 活跃 |
+| 6 | [deepseek-harness-desktop (Anywhere Labs)](resources/anywhere-labs-desktop.md) | ⭐14,795 | 为 DeepSeek Harness 生态打造的现代化桌面端体验（插件）。 | ✅ 活跃 |
+| 7 | [memos](resources/memos.md) | ⭐10,798 | Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support. | ✅ 活跃 |
+| 8 | [awesome-dsh-plugin](resources/awesome-dsh-plugin-org.md) | ⭐9,861 | 大型 DSH 插件精选目录（双语）。 | ✅ 活跃 |
+| 9 | [Cordis](resources/cordis.md) | ⭐6,328 | 时空可组合性元框架——DeepSeek Harness 底层的插件运行时。 | ✅ 活跃 |
+| 10 | [awesome-deepseek-agent (official)](resources/awesome-deepseek-agent.md) | ⭐5,949 | 官方精选：将 DeepSeek 模型集成到主流 Agent/编码助手工具的指南（AstrBot、Cherry Studio、Claude Code、Codex、DeepSeek-TUI、Reasonix 等）。 | ✅ 活跃 |
+| 11 | [dsh-web-ui](resources/dsh-web-ui.md) | ⭐4,817 | DSH Web 大型插件与皮肤集合：任务看板、Git 图、侧栏、远程/移动 UI、宠物、Token 统计与主题。 | ✅ 活跃 |
+| 12 | [desktop-cc-gui](resources/desktop-cc-gui.md) | ⭐4,042 | Multi-engine AI coding desktop client (Tauri). Claude Code, Codex, Gemini, OpenCode, DeepSeek Harness and more in one GUI. | ✅ 活跃 |
+| 13 | [petdex](resources/petdex.md) | ⭐3,916 | A public gallery of animated pets for Codex, Claude Code, DeepSeek Harness, Hermes, OpenCode, Gemini CLI, and more. | ✅ 活跃 |
+| 14 | [dsh-anchored-standard](resources/dsh-anchored-standard.md) | ⭐3,622 | Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99) | ✅ 活跃 |
+| 15 | [modlens](resources/modlens.md) | ⭐3,239 | DSH 首个视觉插件，也是所有纯文本编码 Agent 的视觉桥梁：粘贴图片即可用。 | ✅ 活跃 |
+| 16 | [echobird](resources/echobird.md) | ⭐3,084 | One-click install + model switch:Claude Code,Codex CLI (OpenAI), Grok Build (xAI), DeepSeek Harness, Kimi Code (Moonshot) ,Qwen Code,Aider,OpenCode,MiMo Code (Xiaomi),ZCode (Z.AI),OpenClaw,Pi,OpenScience,Vibe-Trading,Claude Desktop (3P profile),ChatGPT desktop,OpenCode Desktop, | ✅ 活跃 |
+| 17 | [openbiliclaw](resources/openbiliclaw.md) | ⭐2,927 | 本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin） | ✅ 活跃 |
+| 18 | [DSH Better Sidebar](resources/dsh-better-sidebar.md) | ⭐2,297 | 工作台式侧边栏：文件渲染/编辑、终端、Git、子代理，支持三方扩展 Tab。 | ✅ 活跃 |
+| 19 | [dsh-TUI](resources/dsh-tui.md) | ⭐2,055 | Claude Code 风格全屏交互终端插件：像素鲸鱼顶栏、实时状态行、思考流式展开、双击 Esc 回滚、上下文进度条 + TPS 仪表。 | ✅ 活跃 |
+| 20 | [dsh-deep-whale](resources/dsh-deep-whale.md) | ⭐1,443 | DSH Web 鲸鱼娘皮肤系列（CC BY-NC-SA 4.0）。 | ✅ 活跃 |
 
 ---
 

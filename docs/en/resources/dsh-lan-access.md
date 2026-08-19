@@ -5,7 +5,7 @@ keywords: "dsh-lan-access, developer, integration, automation, deepseek harness,
 ---
 # dsh-lan-access
 
-> ⭐ 7 · ✅ active · integration
+> ⭐ 9 · ✅ active · integration
 
 ## One-liner
 

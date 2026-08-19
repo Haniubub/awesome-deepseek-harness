@@ -5,7 +5,7 @@ keywords: "oh-dsh, desktop, client, terminal, ui, deepseek harness, dsh"
 ---
 # oh-dsh
 
-> ⭐ 248 · ✅ 活跃 · 客户端
+> ⭐ 256 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

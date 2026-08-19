@@ -5,7 +5,7 @@ keywords: "dsh-passwords, discovery, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-passwords
 
-> ⭐ 11 · ✅ 活跃 · 插件
+> ⭐ 14 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

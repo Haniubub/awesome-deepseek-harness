@@ -5,7 +5,7 @@ keywords: "Deepseek-Harness-Desktop (ChisaAlter), desktop, client, ui, deepseek 
 ---
 # Deepseek-Harness-Desktop (ChisaAlter)
 
-> ⭐ 118 · ✅ 活跃 · 客户端
+> ⭐ 122 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

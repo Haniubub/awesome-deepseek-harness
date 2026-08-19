@@ -5,7 +5,7 @@ keywords: "ai-novel-writer, desktop, client, coding, deepseek harness, dsh"
 ---
 # ai-novel-writer
 
-> ⭐ 385 · ✅ active · client
+> ⭐ 404 · ✅ active · client
 
 ## One-liner
 

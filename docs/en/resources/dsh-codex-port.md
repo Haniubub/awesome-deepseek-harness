@@ -5,7 +5,7 @@ keywords: "dsh-codex-port, learning, skill, coding, deepseek harness, dsh"
 ---
 # dsh-codex-port
 
-> ⭐ 7 · ✅ active · skill
+> ⭐ 8 · ✅ active · skill
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "anime-find, search, plugin, coding, deepseek harness, dsh"
 ---
 # anime-find
 
-> ⭐ 145 · ✅ 活跃 · 插件
+> ⭐ 152 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

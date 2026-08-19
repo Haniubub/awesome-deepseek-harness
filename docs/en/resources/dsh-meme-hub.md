@@ -5,7 +5,7 @@ keywords: "dsh-meme-hub, registry, awesome-list, search, ui, deepseek harness, d
 ---
 # dsh-meme-hub
 
-> ⭐ 31 · ✅ active · awesome-list
+> ⭐ 30 · ✅ active · awesome-list
 
 ## One-liner
 

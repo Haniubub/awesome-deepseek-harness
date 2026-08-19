@@ -5,7 +5,7 @@ keywords: "dsh-plugin-pet-rs, ui, plugin, desktop, deepseek harness, dsh"
 ---
 # dsh-plugin-pet-rs
 
-> ⭐ 20 · ✅ active · plugin
+> ⭐ 21 · ✅ active · plugin
 
 ## One-liner
 

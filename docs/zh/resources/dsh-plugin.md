@@ -5,7 +5,7 @@ keywords: "dsh-plugin, vision, plugin, coding, multi-agent, deepseek harness, ds
 ---
 # dsh-plugin
 
-> ⭐ 13 · ✅ 活跃 · 插件
+> ⭐ 14 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

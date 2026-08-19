@@ -5,7 +5,7 @@ keywords: "desktop-cc-gui, desktop, client, coding, ui, deepseek harness, dsh"
 ---
 # desktop-cc-gui
 
-> ⭐ 4,036 · ✅ 活跃 · 客户端
+> ⭐ 4,042 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

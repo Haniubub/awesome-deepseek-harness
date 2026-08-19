@@ -5,7 +5,7 @@ keywords: "dsh-navbar, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-navbar
 
-> ⭐ 39 · ✅ active · plugin
+> ⭐ 44 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "chatccc, channel, integration, coding, multi-agent, deepseek harness,
 ---
 # chatccc
 
-> ⭐ 20 · ✅ active · integration
+> ⭐ 22 · ✅ active · integration
 
 ## One-liner
 

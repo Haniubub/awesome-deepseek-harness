@@ -5,7 +5,7 @@ keywords: "echobird, desktop, client, coding, ui, deepseek harness, dsh"
 ---
 # echobird
 
-> ⭐ 3,074 · ✅ 活跃 · 客户端
+> ⭐ 3,084 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

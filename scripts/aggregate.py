@@ -31,10 +31,10 @@ DATA_DIR = ROOT / "data"
 # Source files (produced by the research phase)
 # --------------------------------------------------------------------------
 SOURCES = [
-    "/tmp/dsh_r4/topic_plugin.json",
+    "/tmp/dsh_r5/topic_plugin.json",
     "/tmp/dsh_r3/topic_dsh.json",
-    "/tmp/dsh_r4/name_desc.json",
-    "/tmp/dsh_r4/name_dsh_plugin.json",
+    "/tmp/dsh_r5/name_desc.json",
+    "/tmp/dsh_r5/name_dsh_plugin.json",
     "/tmp/dsh_search/q2_dsh-skill.json",
     "/tmp/dsh_search/q2_dsh-mcp.json",
     "/tmp/dsh_search/q2_dsh-agent.json",

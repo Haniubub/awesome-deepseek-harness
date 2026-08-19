@@ -5,7 +5,7 @@ keywords: "dsh-usage-stats, developer, plugin, coding, ui, deepseek harness, dsh
 ---
 # dsh-usage-stats
 
-> ⭐ 71 · ✅ 活跃 · 插件
+> ⭐ 84 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -12,11 +12,11 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 1004,
+    "stars": 1064,
     "_source_description": "DeepSeek Harness橙皮书《从开机到拆开》：完整系统提示词、129行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML免费下载",
     "_updated": "2026-08-17",
-    "_stars_prev": 947,
-    "growth": 57
+    "_stars_prev": 1004,
+    "growth": 60
   },
   {
     "id": "dsh-handbook",
@@ -31,11 +31,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 485,
+    "stars": 526,
     "_source_description": "DeepSeek Harness (dsh) 从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF）",
     "_updated": "2026-08-18",
-    "_stars_prev": 443,
-    "growth": 42
+    "_stars_prev": 485,
+    "growth": 41
   },
   {
     "id": "deepseek-harness-tutorial",
@@ -50,11 +50,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 173,
+    "stars": 178,
     "_source_description": "deepseek harness中文详细学习教程",
     "_updated": "2026-08-13",
-    "_stars_prev": 150,
-    "growth": 23
+    "_stars_prev": 173,
+    "growth": 5
   },
   {
     "id": "dshfind",
@@ -70,10 +70,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 156,
+    "stars": 180,
     "_source_description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
-    "_updated": "2026-08-18",
-    "_stars_prev": 132,
+    "_updated": "2026-08-19",
+    "_stars_prev": 156,
     "growth": 24
   },
   {
@@ -90,11 +90,29 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 51,
+    "stars": 52,
     "_source_description": "DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent —— 一切皆插件的中文教程（VitePress 站点 + 8 个 Demo + mini-harness 教学项目）",
     "_updated": "2026-08-13",
-    "_stars_prev": 49,
-    "growth": 2
+    "_stars_prev": 51,
+    "growth": 1
+  },
+  {
+    "id": "deepseek-harness-handbook",
+    "name": "deepseek-harness-handbook",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/sandbaseai/deepseek-harness-handbook",
+    "description": "Independent, source-backed handbook for DeepSeek AI's official DeepSeek Harness (dsh): agents, plugins, security, troubleshooting, and runbooks.",
+    "description_zh": "Independent, source-backed handbook for DeepSeek AI's official DeepSeek Harness (dsh): agents, plugins, security, troubleshooting, and runbooks.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 26,
+    "_source_description": "Independent, source-backed handbook for DeepSeek AI's official DeepSeek Harness (dsh): agents, plugins, security, troubleshooting, and runbooks.",
+    "_updated": "2026-08-19"
   },
   {
     "id": "dsh-explain",
@@ -182,9 +200,9 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 4,
+    "stars": 5,
     "_updated": "2026-08-13",
-    "_stars_prev": 3,
+    "_stars_prev": 4,
     "growth": 1
   },
   {
@@ -205,7 +223,7 @@
     "verified": false,
     "stars": 3,
     "_source_description": "Git-native AI learning OS with a GitLearnOS-exclusive DeepSeek Harness panel, targeted practice, local RAG, and learner-owned memory.",
-    "_updated": "2026-08-16"
+    "_updated": "2026-08-19"
   },
   {
     "id": "deepseek-protocol-doctor",

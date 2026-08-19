@@ -5,7 +5,7 @@ keywords: "deepseek-harness-snowsalt, ui, plugin, deepseek harness, dsh"
 ---
 # deepseek-harness-snowsalt
 
-> ⭐ 28 · ✅ 活跃 · 插件
+> ⭐ 27 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

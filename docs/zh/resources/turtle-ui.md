@@ -5,7 +5,7 @@ keywords: "turtle-ui, learning, example, ui, coding, deepseek harness, dsh"
 ---
 # turtle-ui
 
-> ⭐ 7 · ✅ 活跃 · 示例
+> ⭐ 8 · ✅ 活跃 · 示例
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-codex-port, learning, skill, coding, deepseek harness, dsh"
 ---
 # dsh-codex-port
 
-> ⭐ 7 · ✅ 活跃 · 技能
+> ⭐ 8 · ✅ 活跃 · 技能
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-transparent-ui-plugin, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-transparent-ui-plugin
 
-> ⭐ 281 · ✅ active · plugin
+> ⭐ 318 · ✅ active · plugin
 
 ## One-liner
 

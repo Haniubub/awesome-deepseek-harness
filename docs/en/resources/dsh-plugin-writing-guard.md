@@ -5,7 +5,7 @@ keywords: "dsh-plugin-writing-guard, vision, plugin, coding, deepseek harness, d
 ---
 # dsh-plugin-writing-guard
 
-> ⭐ 12 · ✅ active · plugin
+> ⭐ 13 · ✅ active · plugin
 
 ## One-liner
 

@@ -5666,5 +5666,227 @@
   "usage": "dsh@0.1.0-rc.7",
   "license": "MIT",
   "_done": true
+ },
+ "dsh-landscape": {
+  "intro": "[简体中文](README.zh-CN.md) · [Website](https://cyanseek.github.io/dsh-landscape/) · [Roadmap](ROADMAP.md) · [Contributing](CONTRIBUTING.md) DSH Landscape is a read-only capability preflight: describe one change in natural language and get an evidence-backed decision before you install, replace, upgrade, compose, or build. Try needs like: - “Should I install browser automation, or is it already covered?” - “Compare the GitHub integrations that could fit this DSH setup.” - “Can I replace my current s",
+  "features": [
+   "“Should I install browser automation, or is it already covered?”",
+   "“Compare the GitHub integrations that could fit this DSH setup.”",
+   "“Can I replace my current search plugin without losing capabilities?”",
+   "“Before we build a Linear integration, show what not to duplicate.”"
+  ],
+  "install": "dsh plugin --profile web add github:cyanseek/dsh-landscape#2d3570aadbbd291dbfc58e2484e287bd14fa92e0",
+  "usage": "npx -y skills use cyanseek/dsh-landscape --skill dsh-landscape --agent codex",
+  "license": "[MIT](LICENSE) © 2026 cyanseek",
+  "_done": true
+ },
+ "dsh-wechat-bridge": {
+  "intro": "基于 [Wechat-ggGitHub/wechat-claude-code](https://github.com/Wechat-ggGitHub/wechat-claude-code) 开发的 **DeepSeek Harness (DSH) 微信桥接插件**。 **三端通用**：Windows / macOS / Linux 均使用纯 Node.js 进程管理，不依赖 launchd / systemd / Windows Service；同时提供 DSH 模型工具（CLI/Headless 可用）和 Web 管理面板（Web/桌面可用）。",
+  "features": [
+   "微信扫码绑定个人微信后，在微信里直接与 **DSH 本机 Agent** 对话。",
+   "复用 wechat-claude-code 的 iLink Bot 微信协议层：文字、图片、语音转文字、文件收发。",
+   "守护进程由 DSH 插件管理：启动 / 停止 / 重启 / 状态 / 日志，全部走模型工具或 Web 面板。",
+   "每个微信账号对应一个 DSH 会话，DSH Host 重启后会自动 `resume` 原持久化会话，对话上下文不断档；`/clear`、`/new`、`/stop`、`/cwd`、`/model`、`/prompt` 等斜杠命令可用。",
+   "流式回复：DSH Agent 的 `assistant/chunk` 通过本地 SSE 推送到微信（批量发送，不刷屏）。",
+   "超时安抚：DSH 超过 5 分钟无输出时自动发一条“还在处理”的消息。"
+  ],
+  "install": "npm install @lanbaolu/dsh-wechat-bridge\ndsh plugin --profile web add @lanbaolu/dsh-wechat-bridge\ndsh web",
+  "usage": "git clone https://github.com/lanbaolu/dsh-wechat-bridge.git\ndsh plugin --profile web add /path/to/dsh-wechat-bridge\ndsh web",
+  "license": "[MIT](LICENSE)",
+  "_done": true
+ },
+ "dsh-agy": {
+  "intro": "Google Antigravity (agy) access for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): OAuth authentication, a multi-account pool with automatic 429 rotation, device fingerprinting, and both CLI and web management.",
+  "features": [
+   "**OAuth login**: one-click sign-in via browser OAuth callback, with headless",
+   "**Two management surfaces**: web and CLI, either one works, core features are",
+   "**Multi-account pool**: encrypted account store, usage-aware account",
+   "**Quota dashboard**: only active when DSH Web is running; append `/agy` to",
+   "**CLI**: `dsh-agy login|status|import|verify|logout` works standalone, with or"
+  ],
+  "install": "# 1. Install plugin into DSH web profile (via dsh CLI, or pnpx/npx if dsh is not in PATH)\ndsh plugin --profile web add dsh-agy\n# or: npx @deepseek-ai/dsh plugin --profile web add dsh-agy\n\n# 2. Launch DSH Web\ndsh web\n\n# 3. Open dashboard at http://127.0.0.1:3080/agy\n# Click \"Login with Google\", complete OAuth authorization, and start using the agy provider",
+  "usage": "git clone https://github.com/chaos-03x/dsh-agy.git\ncd dsh-agy && pnpm install && pnpm run build\ndsh plugin --profile web link .",
+  "license": "",
+  "_done": true
+ },
+ "dsh-nested-followups": {
+  "intro": "A plugin for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) that adds a conversation tree to the web interface. Ask a follow-up question about any earlier answer, and it opens as an isolated branch instead of being appended to the end of your main conversation.",
+  "features": [
+   "**A tree view of the current conversation.** Every user and assistant message",
+   "**Follow-up questions at any depth.** A branch answer can be branched from",
+   "**Genuine context isolation.** Each branch is a real, separate session created",
+   "**Read-only branches.** A branch can read the workspace but cannot modify it,",
+   "**Progressive collapse for large trees.** Each anchor folds to a dot, opens",
+   "**No interference with the standard interface.** The regular chat view, the"
+  ],
+  "install": "dsh plugin --profile web add dsh-nested-followups",
+  "usage": "git clone https://github.com/sluminositys/dsh-nested-followups.git\ncd dsh-nested-followups\npnpm install\npnpm run check\ndsh plugin --profile web add .",
+  "license": "[MIT](LICENSE)",
+  "_done": true
+ },
+ "kimi-tide": {
+  "intro": "把 **Kimi Code（Moonshot）** 订阅接入 **DeepSeek Harness（DSH）** 的原生 LLM provider 方案。 ---",
+  "features": [
+   "**原生 DSH 插件**：`dsh-kimi-tide` 作为标准 `dsh-plugin` 注册 provider 路由，无需外部脚本或计划任务。",
+   "**OAuth 进程内刷新**：与 `kimi login` 共享登录态，默认每 10 分钟自动刷新 access token。",
+   "**跨平台**：零 Windows 计划任务依赖，Linux / macOS / Windows 均可运行。",
+   "**双通道互补**：provider 路径用于 DSH 模型选择器；`dsh-kimi-bridge` 路径用于显式调用 `kimi` CLI 工具。",
+   "**发布就绪**：v0.1.3 已发布为 GitHub Release，附 `dsh-kimi-tide-0.1.3.tgz` 安装包。",
+   "**月汐 dock 面板（0.2.x，main 已落地）**：`conversation.composer.dock` 面板，周配额与 5h 窗口用量显示 / 本地 token 统计 / 路由决策 chip（0.4.0 起退化为只读仪表，保留刷新按钮）；路由设置迁至官方设置面板「"
+  ],
+  "install": "dsh plugin --profile web add ./dsh-kimi-tide-0.1.3.tgz",
+  "usage": "cd packages/dsh-kimi-tide\nnpm install && npm run build && npm pack\ndsh plugin --profile web add ./dsh-kimi-tide-0.1.3.tgz",
+  "license": "",
+  "_done": true
+ },
+ "dsh-status-bar": {
+  "intro": "**The problem:** the native DSH bottom status bar is one long, fixed line — the more it shows, the more it overflows, and on narrow windows parts of it get **truncated**. You cannot see the current model, how full the context window is, how fast tokens are streaming, or what a session has cost — and there is no way to arrange that information the way you work. **Who it is for:** power users and teams running DSH daily — anyone who wants live session telemetry without leaving the composer, and wi",
+  "features": [
+   "**Near-native experience, fully yours** — 17 toggleable, reorderable segments: status dot, model, title, workspace, agent preset, turns & st",
+   "**Live throughput (TPS)** — a host-side projection folds every `assistant/chunk` event, so the speed updates chunk by chunk while streaming;",
+   "**Cost estimation with a user-maintained model price book** — per-model rates, per-model peak/off-peak schedules, **each message/step priced",
+   "**Zero-config default** — 13 segments ship enabled; everything else is a checkbox away"
+  ],
+  "install": "dsh plugin --profile web remove dsh-status-bar",
+  "usage": "# In Settings → Plugins → Status Bar → Model price book:\n   # model \"deepseek-chat\" → input 2 / cache read 0.5 / cache write 2 / output 8 (CNY per 1M tokens)\n   # optional: enable peak/off-peak with DeepSeek's official windows 09:00–12:00, 14:00–18:00",
+  "license": "& security",
+  "_done": true
+ },
+ "dsh-trace-compare": {
+  "intro": "[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的执行轨迹可视化插件：把智能体真实的探索过程画出来——它坚持推进的主干、失败或扑空的支路、以及折返点，全部落在同一根时间轴上。 两个入口，一套视觉语言： - **Trace 对比**（侧边栏入口）：上传 1 个 session log 看单次运行的迷宫，或上传 2 个做同轴对比（比如同一任务 flash 与 pro 的跑法差异）——按轮次自动对齐两边的回答节点，可手动钉锚点，并按轮次盘点两边的支路差额。 - **实时迷宫**（会话内页签）：同一张迷宫图随当前会话执行实时生长；某一步的工具结果一旦落定，支路立刻显现。",
+  "features": [
+   "**Trace 对比**（侧边栏入口）：上传 1 个 session log 看单次运行的迷宫，或上传 2 个做同轴对比（比如同一任务 flash 与 pro 的跑法差异）——按轮次自动对齐两边的回答节点，可手动钉锚点，并按轮次盘点两边的支路差额。",
+   "**实时迷宫**（会话内页签）：同一张迷宫图随当前会话执行实时生长；某一步的工具结果一旦落定，支路立刻显现。"
+  ],
+  "install": "npm install --global @deepseek-ai/dsh@0.1.0-rc.6\ndsh plugin --profile web add https://github.com/lamost423/dsh-trace-compare/releases/download/v0.3.1/dsh-trace-compare-0.3.1.tgz\ndsh web",
+  "usage": "git clone https://github.com/lamost423/dsh-trace-compare.git\ncd dsh-trace-compare\ncorepack enable\npnpm install\npnpm build\ndsh plugin --profile web add .\ndsh web",
+  "license": "",
+  "_done": true
+ },
+ "dsh-codex-connect": {
+  "intro": "Connect your ChatGPT subscription to DeepSeek Harness with OAuth, user-controlled defaults, Harness-native approvals, diagnostics, and reliable session recovery. <p align=\"center\"> </p> `dsh-codex-connect` adds the `openai-codex` model catalog and a separate ChatGPT OAuth login. Models run through Harness's normal LLM service, so streaming, tool calls, reasoning replay, compaction, filesystem controls, permission gates, and approval prompts remain Harness-owned. It does not turn a ChatGPT subscr",
+  "features": [
+   "id: llm-openai-codex"
+  ],
+  "install": "dsh plugin --profile web add dsh-codex-connect@alpha",
+  "usage": "dsh web",
+  "license": "Apache-2.0",
+  "_done": true
+ },
+ "dshcode": {
+  "intro": "[English](README.zh.md) | 中文 DSHCode 是一款面向 macOS 和 Windows 的免费开源桌面 AI Agent 应用。它将 DeepSeek 官方开源项目 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的 Web UI 与插件运行时打包成一个可直接安装的 Electron 应用——无需 Node.js、无需终端、无需命令行。 <p align=\"center\"><a href=\"https://github.com/whitelonng/dshcode/releases\"></a> <a href=\"LICENSE\"></a> <a href=\"https://github.com/whitelonng/dshcode/releases\"></a> <a href=\"https://github.com/whitelonng/dshcode/releases\"></a> <a href=\"https://github.com/deepseek-ai/deep",
+  "features": [
+   "**macOS**：在访达中右键点击应用并选择**打开**，然后在弹窗中确认。或者在终端执行一次 `xattr -cr /Applications/DSHCode.app`。",
+   "**Windows**：在 SmartScreen 弹窗中点击**更多信息**，然后选择**仍要运行**。"
+  ],
+  "install": "git clone https://github.com/whitelonng/dshcode.git\ncd dshcode\npnpm install\npnpm run build\npnpm dsh web",
+  "usage": "git clone https://github.com/whitelonng/dshcode.git\ncd dshcode\npnpm install\npnpm run desktop:dist",
+  "license": "",
+  "_done": true
+ },
+ "dsh-diagram": {
+  "intro": "Turn any article already available in a DeepSeek Harness session into an editable Excalidraw canvas. The Agent creates the structure; you refine the text, nodes, and connections directly in DSH.",
+  "features": [
+   "**Editable, not disposable.** Continue working in a full Excalidraw canvas instead of accepting a static generated image.",
+   "**Built into the conversation.** A live preview card lands in the chat flow right after creation, and the **Canvas** tab opens the full edit",
+   "**Safe autosave.** Revision-based compare-and-set prevents a stale editor from silently overwriting newer work.",
+   "**Ready to share.** Export `.excalidraw`, SVG, or PNG."
+  ],
+  "install": "pnpm dsh plugin --profile web add dsh-diagram@latest\npnpm dsh --profile web --dump-config\npnpm dsh web",
+  "usage": "dsh plugin --profile web add dsh-diagram@latest\ndsh --profile web --dump-config\ndsh web",
+  "license": "The plugin's own code is licensed under [MIT](./LICENSE). Li",
+  "_done": true
+ },
+ "dsh-skill-hub": {
+  "intro": "[中文版](README.zh.md) | [English](README.md) <p align=\"center\"> <a href=\"https://www.npmjs.com/package/dsh-skill-hub\"></a> <a href=\"https://github.com/cheshireez/dsh-skill-hub/actions\"></a> </p> <p align=\"center\"> </p> **In-GUI skill hub for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh).** Browse the full local skill catalog from the official `ctx.skills` registry, toggle skills on/off, inspect their bodies, understand why a skill is missing, install from the built-in m",
+  "features": [
+   "[Why another skill manager?](#why-another-skill-manager)",
+   "[Features](#features)",
+   "[Quick start](#quick-start)",
+   "[How it works](#how-it-works)"
+  ],
+  "install": "dsh plugin --profile web add dsh-skill-hub",
+  "usage": "---\nname: my-skill\ndescription: One line describing when the agent should use this skill.\n---\n# my-skill\n\nWhat the skill does, when to use it, and what output is expected.",
+  "license": "MIT — see [LICENSE](LICENSE).",
+  "_done": true
+ },
+ "dsh-awiki": {
+  "intro": "AWiki identity and messaging for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness). The package installs one Host service, its production Rust SDK provider, the model tools, and a Web client with a draggable AWiki Me launcher. [中文说明](./README.zh.md) Registration failures preserve the form and local pending identity material. Closed registration, unavailable verification state, and commit conflicts each give a safe next action without exposing remote response details. The Rust S",
+  "features": [
+   "Register one deployment-level AWiki identity from the Web UI.",
+   "Open the top-left AWiki account menu to sign out locally without deleting the encrypted identity or message database; **Resume** restores th",
+   "Reuse that identity across the root Agent and its subagents.",
+   "Direct-message and existing-group conversation lists, unread counts, latest-message previews, and persisted display names. Core SQLite remai",
+   "Create a private-discovery, open-join, transport-protected group from the Web UI with a name and 1–50 initial Handle or DID members. The gro",
+   "Text messages plus one attachment per message, with Enter-to-send, Shift+Enter line breaks, optimistic sending bubbles reconciled by an exac"
+  ],
+  "install": "dsh plugin --profile web add @awiki/dsh-plugin@latest",
+  "usage": "const response = await ctx.awiki.externalHttpAuth.dispatch(\n  new Request('https://api.example.com/orders', {\n    method: 'POST',\n    headers: { 'content-type': 'application/json' },\n    body: JSON.stringify({ productId: '123' }),\n  }),\n  request => fetch(request),\n)",
+  "license": "The plugin is MIT licensed. Its Rust IM Core runtime depende",
+  "_done": true
+ },
+ "dsh-plugins-dup": {
+  "intro": "[English](README.en.md) | 简体中文 社区维护的 DeepSeek Harness 插件导航与介绍目录。",
+  "features": [],
+  "install": "",
+  "usage": "npm run list\nnode bin/dsh-plugins.mjs search vision\nnode bin/dsh-plugins.mjs info Anionex/dsh-vision-toolkit",
+  "license": "",
+  "_done": true
+ },
+ "memos": {
+  "intro": "**MemOS** is a Memory Operating System for LLMs and AI agents that unifies **store / retrieve / manage** for long-term memory, enabling **context-aware and personalized** interactions with **KB**, **multi-modal**, **tool memory**, and **enterprise-grade** optimizations built in.",
+  "features": [
+   "**Unified Memory API**: A single API to add, retrieve, edit, and delete memory—structured as a graph, inspectable and editable by design, no",
+   "**Multi-Modal Memory**: Natively supports text, images, tool traces, and personas, retrieved and reasoned together in one memory system.",
+   "**Multi-Cube Knowledge Base Management**: Manage multiple knowledge bases as composable memory cubes, enabling isolation, controlled sharing",
+   "**Asynchronous Ingestion via MemScheduler**: Run memory operations asynchronously with millisecond-level latency for production stability un",
+   "**Memory Feedback & Correction**: Refine memory with natural-language feedback—correcting, supplementing, or replacing existing memories ove"
+  ],
+  "install": "git clone https://github.com/MemTensor/MemOS.git\ncd MemOS\ncp docker/.env.example .env          # fill in your API keys in .env\ncd docker\ndocker compose up                    # starts MemOS API + Neo4j + Qdrant",
+  "usage": "git clone https://github.com/MemTensor/MemOS.git\ncd MemOS\ncp docker/.env.example .env          # fill in your API keys in .env\n# Ensure Neo4j and Qdrant are running, then:\ncd src\nuvicorn memos.api.server_api:app --host 0.0.0.0 --port 8000 --workers 1",
+  "license": "",
+  "_done": true
+ },
+ "dsh-client-auto-retry": {
+  "intro": "English version: [README-EN.md](./README-EN.md) <p align=\"center\"> </p> ---",
+  "features": [],
+  "install": "pnpm add @frog755/dsh-client-auto-retry",
+  "usage": "{\n  \"dependencies\": {\n    \"@frog755/dsh-client-auto-retry\": \"^0.3.0\"\n  },\n  \"dsh\": {\n    \"profile\": {\n      \"bundles\": [\n        \"@deepseek-ai/dsh-base\",\n        \"@deepseek-ai/dsh-web-app\",\n        // ... 其他 bundle ...\n        \"@frog755/dsh-client-auto-retry\"\n      ]\n    }\n  }\n}",
+  "license": "MIT",
+  "_done": true
+ },
+ "tongflow": {
+  "intro": "With TongFlow, you can expand your imagination and stretch your ideas with generative AI, just have a try now!",
+  "features": [
+   "**macOS (Universal — Apple Silicon & Intel):** [TongFlow-mac-universal.dmg](https://github.com/tong-io/tongflow/releases/latest/download/Ton",
+   "**Windows:** [TongFlow-win-x64.msi](https://github.com/tong-io/tongflow/releases/latest/download/TongFlow-win-x64.msi)"
+  ],
+  "install": "pnpm install\npnpm plugins:install   # clone official plugins into plugins/\npnpm start:prod        # builds once, then serves at http://localhost:3000",
+  "usage": "docker run -d -p 3000:3000 \\\n  -v tongflow-data:/data -v tongflow-plugins:/plugins \\\n  ghcr.io/tong-io/tongflow:latest",
+  "license": "TongFlow is **dual-licensed**:",
+  "_done": true
+ },
+ "deepseek-harness-handbook": {
+  "intro": "[English](README.md) · [简体中文](docs/zh-CN/README.md) · [日本語](docs/ja/README.md) · [한국어](docs/ko/README.md) · [Español](docs/es/README.md) If this handbook saves you time, **star the repository** and watch releases. That signal helps more Agent builders find source-backed DeepSeek Harness guidance. **[Fix Windows picker crashes and truncation](https://sandbaseai.github.io/deepseek-harness-handbook/windows-folder-picker-crash.html)** · **[Fix API fetch failures](https://sandbaseai.github.io/deepsee",
+  "features": [
+   "**Agent-first:** concepts are organized around building, running, and debugging Agents.",
+   "**Source-backed:** version-sensitive claims link to official documentation or source.",
+   "**Operational:** every tutorial includes success evidence, failure branches, and safety boundaries.",
+   "**Visual:** architecture pages prioritize diagrams over walls of text.",
+   "**Living:** updates, breaking changes, and troubleshooting pages follow upstream development.",
+   "**Multilingual by design:** English is canonical; translations declare their source revision and review status. Current depth is [reported e"
+  ],
+  "install": "",
+  "usage": "flowchart LR\n  U[User goal] --> A[Agent contract]\n  A --> C[Profile + Bundles + Patches]\n  C --> G[Cordis plugin graph]\n  G --> L[Agent Loop]\n  L --> M[Model provider]\n  L --> T[Tools + policy + approval + sandbox]\n  L --> S[Durable Session events]\n  S --> L\n  S --> H[Web, headless, SDK, clients]",
+  "license": "Apache-2.0. See [LICENSE](LICENSE).",
+  "_done": true
+ },
+ "dsh-continual-harness": {
+  "intro": "A **continual self-refinement plugin** for DeepSeek Harness: one plugin gives the agent a closed loop of *persistent memory + periodic review-and-refine + cross-session shared knowledge + automatic rollback on failure* (plan → validate → apply → rollback), implemented through dsh's plugin mechanisms (session events, agent-scoped events, pre-step waterfall, tools service). The design is inspired by the open-source [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) from Prime Intellec",
+  "features": [],
+  "install": "dsh plugin --profile <name> add dsh-continual-harness",
+  "usage": "- insert:\n    - id: continual-harness\n      name: dsh-continual-harness\n      config:\n        defaultGlobal: true",
+  "license": "",
+  "_done": true
  }
 }

@@ -5,7 +5,7 @@ keywords: "dsh-desktop (bruc3van), desktop, client, deepseek harness, dsh"
 ---
 # dsh-desktop (bruc3van)
 
-> ⭐ 59 · ✅ active · client
+> ⭐ 64 · ✅ active · client
 
 ## One-liner
 

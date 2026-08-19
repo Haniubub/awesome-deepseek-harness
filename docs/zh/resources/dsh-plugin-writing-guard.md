@@ -5,7 +5,7 @@ keywords: "dsh-plugin-writing-guard, vision, plugin, coding, deepseek harness, d
 ---
 # dsh-plugin-writing-guard
 
-> ⭐ 12 · ✅ 活跃 · 插件
+> ⭐ 13 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

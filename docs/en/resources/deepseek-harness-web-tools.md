@@ -5,7 +5,7 @@ keywords: "DeepSeek-Harness-Web-Tools, search, plugin, deepseek harness, dsh"
 ---
 # DeepSeek-Harness-Web-Tools
 
-> ⭐ 14 · ✅ active · plugin
+> ⭐ 15 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-remote, developer, plugin, automation, files, deepseek harness, d
 ---
 # dsh-remote
 
-> ⭐ 23 · ✅ 活跃 · 插件
+> ⭐ 25 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

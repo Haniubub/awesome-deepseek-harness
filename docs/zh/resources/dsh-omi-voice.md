@@ -5,7 +5,7 @@ keywords: "dsh-omi-voice, ui, plugin, multimodal, deepseek harness, dsh"
 ---
 # dsh-omi-voice
 
-> ⭐ 2 · ✅ 活跃 · 插件
+> ⭐ 10 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

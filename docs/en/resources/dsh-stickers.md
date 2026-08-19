@@ -5,7 +5,7 @@ keywords: "dsh-stickers, fun, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-stickers
 
-> ⭐ 20 · ✅ active · plugin
+> ⭐ 21 · ✅ active · plugin
 
 ## One-liner
 

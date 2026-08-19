@@ -5,7 +5,7 @@ keywords: "dsh-notification, notifications, plugin, deepseek harness, dsh"
 ---
 # dsh-notification
 
-> ⭐ 60 · ✅ active · plugin
+> ⭐ 65 · ✅ active · plugin
 
 ## One-liner
 

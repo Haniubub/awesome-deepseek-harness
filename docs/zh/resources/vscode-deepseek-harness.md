@@ -5,7 +5,7 @@ keywords: "vscode-deepseek-harness, ide, integration, coding, deepseek harness, 
 ---
 # vscode-deepseek-harness
 
-> ⭐ 2 · ✅ 活跃 · 集成
+> ⭐ 3 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-ui-appearance, ui, plugin, coding, multimodal, deepseek harness, 
 ---
 # dsh-ui-appearance
 
-> ⭐ 7 · ✅ 活跃 · 插件
+> ⭐ 8 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "beauticode, desktop, client, coding, deepseek harness, dsh"
 ---
 # beauticode
 
-> ⭐ 7 · ✅ active · client
+> ⭐ 33 · ✅ active · client
 
 ## One-liner
 

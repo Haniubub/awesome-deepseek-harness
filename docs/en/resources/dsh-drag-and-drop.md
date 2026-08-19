@@ -5,7 +5,7 @@ keywords: "dsh-drag-and-drop, input-editing, plugin, files, ui, deepseek harness
 ---
 # dsh-drag-and-drop
 
-> ⭐ 16 · ✅ active · plugin
+> ⭐ 17 · ✅ active · plugin
 
 ## One-liner
 

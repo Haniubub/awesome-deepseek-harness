@@ -5,7 +5,7 @@ keywords: "dsh-usage-chart, search, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-usage-chart
 
-> ⭐ 6 · ✅ active · plugin
+> ⭐ 7 · ✅ active · plugin
 
 ## One-liner
 

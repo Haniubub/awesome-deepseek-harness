@@ -5,7 +5,7 @@ keywords: "dsh-plugin, vision, plugin, coding, multi-agent, deepseek harness, ds
 ---
 # dsh-plugin
 
-> ⭐ 13 · ✅ active · plugin
+> ⭐ 14 · ✅ active · plugin
 
 ## One-liner
 

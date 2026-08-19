@@ -5,7 +5,7 @@ keywords: "dsh-open-in-vscode, developer, plugin, ide, coding, files, deepseek h
 ---
 # dsh-open-in-vscode
 
-> ⭐ 49 · ✅ 活跃 · 插件
+> ⭐ 52 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

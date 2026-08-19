@@ -5,7 +5,7 @@ keywords: "dsh-super-injector, developer, integration, context, deepseek harness
 ---
 # dsh-super-injector
 
-> ⭐ 109 · ✅ 活跃 · 集成
+> ⭐ 123 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

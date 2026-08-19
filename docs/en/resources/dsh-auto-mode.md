@@ -5,7 +5,7 @@ keywords: "dsh-auto-mode, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-auto-mode
 
-> ⭐ 93 · ✅ active · plugin
+> ⭐ 108 · ✅ active · plugin
 
 ## One-liner
 

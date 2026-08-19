@@ -1,0 +1,25 @@
+---
+title: "dsh-codex-connect"
+description: "ChatGPT OAuth and Codex models for DeepSeek Harness."
+keywords: "dsh-codex-connect, vision, plugin, coding, deepseek harness, dsh"
+---
+# dsh-codex-connect
+
+> ⭐ 29 · ✅ active · plugin
+
+## One-liner
+
+ChatGPT OAuth and Codex models for DeepSeek Harness.
+
+## About
+
+Connect your ChatGPT subscription to DeepSeek Harness with OAuth, user-controlled defaults, Harness-native approvals, diagnostics, and reliable session recovery. <p align="center"> </p> `dsh-codex-connect` adds the `openai-codex` model catalog and a separate ChatGPT OAuth login. Models run through Harness's normal LLM service, so streaming, tool calls, reasoning replay, compaction, filesystem controls, permission gates, and approval prompts remain Harness-owned. It does not turn a ChatGPT subscr
+
+## Author
+**[franksong2702](https://github.com/franksong2702)**
+
+## Links
+
+- [GitHub Repository](https://github.com/franksong2702/dsh-codex-connect)
+- [Full README](https://github.com/franksong2702/dsh-codex-connect#readme)
+- [Back to the Plugins list](../plugins.md)

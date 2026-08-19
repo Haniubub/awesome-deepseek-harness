@@ -5,7 +5,7 @@ keywords: "mattpocock-skills-dsh, coding, skill, deepseek harness, dsh"
 ---
 # mattpocock-skills-dsh
 
-> ⭐ 1 · ✅ active · skill
+> ⭐ 2 · ✅ active · skill
 
 ## One-liner
 

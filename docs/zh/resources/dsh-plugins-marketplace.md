@@ -5,7 +5,7 @@ keywords: "DSH-Plugins-Marketplace, discovery, plugin, ui, workflow, deepseek ha
 ---
 # DSH-Plugins-Marketplace
 
-> ⭐ 123 · ✅ 活跃 · 插件
+> ⭐ 124 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh_desktop, desktop, client, coding, deepseek harness, dsh"
 ---
 # dsh_desktop
 
-> ⭐ 459 · ✅ active · client
+> ⭐ 485 · ✅ active · client
 
 ## One-liner
 

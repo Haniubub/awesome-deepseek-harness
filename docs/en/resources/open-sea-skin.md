@@ -5,7 +5,7 @@ keywords: "Open Sea Skin, ui, plugin, deepseek harness, dsh"
 ---
 # Open Sea Skin
 
-> ⭐ 1 · ✅ active · plugin
+> ⭐ 181 · ✅ active · plugin
 
 ## One-liner
 

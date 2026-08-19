@@ -5,7 +5,7 @@ keywords: "DeepSeek-Harness-Desktop (sleep2agi), desktop, client, deepseek harne
 ---
 # DeepSeek-Harness-Desktop (sleep2agi)
 
-> ⭐ 16 · ✅ 活跃 · 客户端
+> ⭐ 17 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

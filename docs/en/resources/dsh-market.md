@@ -5,7 +5,7 @@ keywords: "dsh-market, discovery, plugin, ui, workflow, deepseek harness, dsh"
 ---
 # dsh-market
 
-> ⭐ 980 · ✅ active · plugin
+> ⭐ 1,194 · ✅ active · plugin
 
 ## One-liner
 

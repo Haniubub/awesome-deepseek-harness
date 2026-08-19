@@ -5,7 +5,7 @@ keywords: "dsh-stock-market, fun, plugin, search, ui, deepseek harness, dsh"
 ---
 # dsh-stock-market
 
-> ⭐ 15 · ✅ active · plugin
+> ⭐ 16 · ✅ active · plugin
 
 ## One-liner
 

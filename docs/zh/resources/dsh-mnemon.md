@@ -5,7 +5,7 @@ keywords: "dsh-mnemon, memory, plugin, context, deepseek harness, dsh"
 ---
 # dsh-mnemon
 
-> ⭐ 96 · ✅ 活跃 · 插件
+> ⭐ 122 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

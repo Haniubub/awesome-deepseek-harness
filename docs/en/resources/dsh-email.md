@@ -5,7 +5,7 @@ keywords: "dsh-email, search, plugin, coding, multi-agent, deepseek harness, dsh
 ---
 # dsh-email
 
-> ⭐ 5 · ✅ active · plugin
+> ⭐ 6 · ✅ active · plugin
 
 ## One-liner
 

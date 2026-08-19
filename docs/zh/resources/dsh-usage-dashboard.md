@@ -5,7 +5,7 @@ keywords: "dsh-usage-dashboard, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-usage-dashboard
 
-> ⭐ 6 · ✅ 活跃 · 插件
+> ⭐ 7 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

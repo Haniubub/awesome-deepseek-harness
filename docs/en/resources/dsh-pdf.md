@@ -5,7 +5,7 @@ keywords: "dsh-pdf, developer, plugin, files, deepseek harness, dsh"
 ---
 # dsh-pdf
 
-> ⭐ 6 · ✅ active · plugin
+> ⭐ 7 · ✅ active · plugin
 
 ## One-liner
 

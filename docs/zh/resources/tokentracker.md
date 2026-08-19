@@ -5,7 +5,7 @@ keywords: "TokenTracker, developer, plugin, observability, deepseek harness, dsh
 ---
 # TokenTracker
 
-> ⭐ 1,359 · ✅ 活跃 · 插件
+> ⭐ 1,367 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

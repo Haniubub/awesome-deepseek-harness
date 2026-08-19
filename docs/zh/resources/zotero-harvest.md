@@ -5,7 +5,7 @@ keywords: "zotero-harvest, search, plugin, coding, deepseek harness, dsh"
 ---
 # zotero-harvest
 
-> ⭐ 6 · ✅ 活跃 · 插件
+> ⭐ 5 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

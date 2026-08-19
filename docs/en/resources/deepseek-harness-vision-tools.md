@@ -5,7 +5,7 @@ keywords: "DeepSeek-Harness-Vision-Tools, vision, plugin, multimodal, deepseek h
 ---
 # DeepSeek-Harness-Vision-Tools
 
-> ⭐ 10 · ✅ active · plugin
+> ⭐ 11 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-trading, research, plugin, security, ui, deepseek harness, dsh"
 ---
 # dsh-trading
 
-> ⭐ 5 · ✅ 活跃 · 插件
+> ⭐ 8 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

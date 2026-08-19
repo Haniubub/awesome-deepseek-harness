@@ -5,7 +5,7 @@ keywords: "vscode-deepseek-harness, ide, integration, coding, deepseek harness, 
 ---
 # vscode-deepseek-harness
 
-> ⭐ 2 · ✅ active · integration
+> ⭐ 3 · ✅ active · integration
 
 ## One-liner
 

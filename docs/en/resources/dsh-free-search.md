@@ -5,7 +5,7 @@ keywords: "dsh-free-search, search, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-free-search
 
-> ⭐ 16 · ✅ active · plugin
+> ⭐ 24 · ✅ active · plugin
 
 ## One-liner
 

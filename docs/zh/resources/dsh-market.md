@@ -5,7 +5,7 @@ keywords: "dsh-market, discovery, plugin, ui, workflow, deepseek harness, dsh"
 ---
 # dsh-market
 
-> ⭐ 980 · ✅ 活跃 · 插件
+> ⭐ 1,194 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

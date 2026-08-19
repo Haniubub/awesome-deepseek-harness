@@ -5,7 +5,7 @@ keywords: "dsh-plugin-anydoc, developer, plugin, files, deepseek harness, dsh"
 ---
 # dsh-plugin-anydoc
 
-> ⭐ 5 · ✅ active · plugin
+> ⭐ 6 · ✅ active · plugin
 
 ## One-liner
 

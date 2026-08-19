@@ -5,7 +5,7 @@ keywords: "awesome-dsh-plugins (white0dew), registry, awesome-list, search, deep
 ---
 # awesome-dsh-plugins (white0dew)
 
-> ⭐ 10 · ✅ active · awesome-list
+> ⭐ 12 · ✅ active · awesome-list
 
 ## One-liner
 

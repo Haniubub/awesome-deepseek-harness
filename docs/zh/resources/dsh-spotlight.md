@@ -5,7 +5,7 @@ keywords: "dsh-spotlight, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-spotlight
 
-> ⭐ 9 · ✅ 活跃 · 插件
+> ⭐ 10 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

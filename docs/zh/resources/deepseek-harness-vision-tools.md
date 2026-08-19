@@ -5,7 +5,7 @@ keywords: "DeepSeek-Harness-Vision-Tools, vision, plugin, multimodal, deepseek h
 ---
 # DeepSeek-Harness-Vision-Tools
 
-> ⭐ 10 · ✅ 活跃 · 插件
+> ⭐ 11 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

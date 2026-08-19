@@ -5,7 +5,7 @@ keywords: "dsh-opencode-go-usage, developer, plugin, coding, deepseek harness, d
 ---
 # dsh-opencode-go-usage
 
-> ⭐ 10 · ✅ active · plugin
+> ⭐ 12 · ✅ active · plugin
 
 ## One-liner
 

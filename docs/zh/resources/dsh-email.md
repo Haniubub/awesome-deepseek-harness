@@ -5,7 +5,7 @@ keywords: "dsh-email, search, plugin, coding, multi-agent, deepseek harness, dsh
 ---
 # dsh-email
 
-> ⭐ 5 · ✅ 活跃 · 插件
+> ⭐ 6 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

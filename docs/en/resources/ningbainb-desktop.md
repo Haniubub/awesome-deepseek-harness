@@ -5,7 +5,7 @@ keywords: "deepseek-harness-desktop (ningbainb), desktop, client, deepseek harne
 ---
 # deepseek-harness-desktop (ningbainb)
 
-> ⭐ 113 · ✅ active · client
+> ⭐ 148 · ✅ active · client
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-open-in-vscode, developer, plugin, ide, coding, files, deepseek h
 ---
 # dsh-open-in-vscode
 
-> ⭐ 49 · ✅ active · plugin
+> ⭐ 52 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-qqbot, channel, integration, coding, deepseek harness, dsh"
 ---
 # dsh-qqbot
 
-> ⭐ 62 · ✅ active · integration
+> ⭐ 66 · ✅ active · integration
 
 ## One-liner
 

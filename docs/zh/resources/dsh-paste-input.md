@@ -5,7 +5,7 @@ keywords: "dsh-paste-input, input-editing, plugin, files, ui, deepseek harness, 
 ---
 # dsh-paste-input
 
-> ⭐ 8 · ✅ 活跃 · 插件
+> ⭐ 9 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

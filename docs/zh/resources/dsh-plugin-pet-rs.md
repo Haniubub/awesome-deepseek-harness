@@ -5,7 +5,7 @@ keywords: "dsh-plugin-pet-rs, ui, plugin, desktop, deepseek harness, dsh"
 ---
 # dsh-plugin-pet-rs
 
-> ⭐ 20 · ✅ 活跃 · 插件
+> ⭐ 21 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 
