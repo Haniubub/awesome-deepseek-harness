@@ -5,7 +5,7 @@ keywords: "telegram, channel, integration, coding, deepseek harness, dsh"
 ---
 # telegram
 
-> ⭐ 6 · ✅ active · integration
+> ⭐ 7 · ✅ active · integration
 
 ## One-liner
 

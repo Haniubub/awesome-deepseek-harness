@@ -5,7 +5,7 @@ keywords: "awesome-deepseek-harness-desktop (ADHD), desktop, client, deepseek ha
 ---
 # awesome-deepseek-harness-desktop (ADHD)
 
-> ⭐ 11 · ✅ 活跃 · 客户端
+> ⭐ 10 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

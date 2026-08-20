@@ -5,7 +5,7 @@ keywords: "dsh-find-plugins, discovery, plugin, search, deepseek harness, dsh"
 ---
 # dsh-find-plugins
 
-> ⭐ 153 · ✅ active · plugin
+> ⭐ 159 · ✅ active · plugin
 
 ## One-liner
 

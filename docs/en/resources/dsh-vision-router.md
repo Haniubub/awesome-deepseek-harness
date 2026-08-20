@@ -5,7 +5,7 @@ keywords: "dsh-vision-router, vision, plugin, multimodal, deepseek harness, dsh"
 ---
 # dsh-vision-router
 
-> ⭐ 820 · ✅ active · plugin
+> ⭐ 886 · ✅ active · plugin
 
 ## One-liner
 

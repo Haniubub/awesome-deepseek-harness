@@ -5,7 +5,7 @@ keywords: "dsh-subscription-auth, developer, integration, coding, deepseek harne
 ---
 # dsh-subscription-auth
 
-> ⭐ 4 · ✅ active · integration
+> ⭐ 5 · ✅ active · integration
 
 ## One-liner
 

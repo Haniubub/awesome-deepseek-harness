@@ -5,7 +5,7 @@ keywords: "dsh-restart, discovery, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-restart
 
-> ⭐ 4 · ✅ active · plugin
+> ⭐ 5 · ✅ active · plugin
 
 ## One-liner
 

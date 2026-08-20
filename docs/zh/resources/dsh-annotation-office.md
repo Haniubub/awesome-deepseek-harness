@@ -5,7 +5,7 @@ keywords: "dsh-plugin-better-sidebar-plugin-office, developer, plugin, files, ui
 ---
 # dsh-plugin-better-sidebar-plugin-office
 
-> ⭐ 22 · ✅ 活跃 · 插件
+> ⭐ 23 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

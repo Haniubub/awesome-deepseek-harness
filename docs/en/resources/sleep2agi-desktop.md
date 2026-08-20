@@ -5,7 +5,7 @@ keywords: "DeepSeek-Harness-Desktop (sleep2agi), desktop, client, deepseek harne
 ---
 # DeepSeek-Harness-Desktop (sleep2agi)
 
-> ⭐ 17 · ✅ active · client
+> ⭐ 19 · ✅ active · client
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "deepseek-harness-desktop (xiincs), desktop, client, deepseek harness,
 ---
 # deepseek-harness-desktop (xiincs)
 
-> ⭐ 47 · ✅ 活跃 · 客户端
+> ⭐ 48 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

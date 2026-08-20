@@ -14,9 +14,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 869,
+    "stars": 886,
     "_source_description": "TongFlow — multimodal workflow studio and engine (canvas + Python plugin engine) and dsh-tongflow, the DeepSeek Harness studio plugin",
-    "_updated": "2026-08-19"
+    "_updated": "2026-08-19",
+    "_stars_prev": 869,
+    "growth": 17
   },
   {
     "id": "dsh-workflow-dup",
@@ -33,11 +35,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 88,
+    "stars": 89,
     "_source_description": "把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层",
     "_updated": "2026-08-13",
-    "_stars_prev": 80,
-    "growth": 8
+    "_stars_prev": 88,
+    "growth": 1
   },
   {
     "id": "dsh-workflow",
@@ -53,11 +55,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 88,
+    "stars": 89,
     "_source_description": "把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层",
     "_updated": "2026-08-13",
-    "_stars_prev": 80,
-    "growth": 8
+    "_stars_prev": 88,
+    "growth": 1
   },
   {
     "id": "dsh-automation",
@@ -73,11 +75,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 65,
+    "stars": 68,
     "_source_description": "DSH 自动化插件：让 Coding 任务按计划在全新 Agent Session 中运行，并由用户或 Agent 创建和管理定时任务。 / Run coding tasks in fresh Agent sessions and manage schedules from DSH Web or an Agent.",
     "_updated": "2026-08-17",
-    "_stars_prev": 53,
-    "growth": 12
+    "_stars_prev": 65,
+    "growth": 3
   },
   {
     "id": "mstar-harness",
@@ -93,11 +95,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 51,
+    "stars": 52,
     "_source_description": "An omni-plugin for harness engineering workflows with multi-agents, programmatic gates and skills.",
-    "_updated": "2026-08-19",
-    "_stars_prev": 49,
-    "growth": 2
+    "_updated": "2026-08-20",
+    "_stars_prev": 51,
+    "growth": 1
   },
   {
     "id": "dsh-plugin-agent-workflow",
@@ -114,11 +116,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 59,
+    "stars": 74,
     "_source_description": "DeepSeek Harness Agent Workflow",
     "_updated": "2026-08-18",
-    "_stars_prev": 29,
-    "growth": 30
+    "_stars_prev": 59,
+    "growth": 15
   },
   {
     "id": "dsh-plans",
@@ -134,10 +136,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 31,
+    "stars": 36,
     "_source_description": "Human-in-the-loop planning preset for DeepSeek Harness (DSH), adapted from prime-plans: researched Markdown plans in ./dsh-plans, reviewer/criticizer subagent refinement, per-workspace language & model settings, goal-driven execution with ponytail + MVP tests.",
     "_updated": "2026-08-17",
-    "_stars_prev": 26,
+    "_stars_prev": 31,
     "growth": 5
   },
   {
@@ -154,11 +156,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 30,
+    "stars": 32,
     "_source_description": "DSH Web UI plugin: auto-sends 「继续」 to resume requests interrupted by non-human causes — error classification, adaptive backoff, pause, idempotency guard, loop guard, templated resume texts, stats, all configurable from the settings card",
-    "_updated": "2026-08-19",
-    "_stars_prev": 24,
-    "growth": 6
+    "_updated": "2026-08-20",
+    "_stars_prev": 30,
+    "growth": 2
   },
   {
     "id": "dsh-deep-research",
@@ -215,10 +217,10 @@
     ],
     "status": "experimental",
     "verified": false,
-    "stars": 8,
-    "_updated": "2026-08-15",
-    "_stars_prev": 6,
-    "growth": 2
+    "stars": 9,
+    "_updated": "2026-08-19",
+    "_stars_prev": 8,
+    "growth": 1
   },
   {
     "id": "engineer-software",
@@ -333,11 +335,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 5,
+    "stars": 6,
     "_source_description": "Persistent live DAG visualization for DeepSeek Harness subagents and workflows",
     "_updated": "2026-08-15",
-    "_stars_prev": 2,
-    "growth": 3
+    "_stars_prev": 5,
+    "growth": 1
   },
   {
     "id": "dsh-prime-agent",
@@ -354,7 +356,7 @@
     "verified": false,
     "stars": 4,
     "_source_description": "Prime Agent-inspired persistent RLM control plane for DeepSeek Harness Code Mode",
-    "_updated": "2026-08-18",
+    "_updated": "2026-08-20",
     "_stars_prev": 3,
     "growth": 1
   },
@@ -395,7 +397,7 @@
     "verified": false,
     "stars": 4,
     "_source_description": "DeepSeek Harness plugin for continual self-evolution: persistent memory, periodic review-and-refine, cross-session shared knowledge, and automatic rollback — a plan→validate→apply→rollback loop driven by a model-callable harness_refine tool.",
-    "_updated": "2026-08-19"
+    "_updated": "2026-08-20"
   },
   {
     "id": "dsh-agent-orchestration",

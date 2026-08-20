@@ -5,7 +5,7 @@ keywords: "dsh-deepcel, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-deepcel
 
-> ⭐ 11 · ✅ 活跃 · 插件
+> ⭐ 12 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

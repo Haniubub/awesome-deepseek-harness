@@ -5,7 +5,7 @@ keywords: "dsh-web-ui-notify, notifications, plugin, deepseek harness, dsh"
 ---
 # dsh-web-ui-notify
 
-> ⭐ 18 · ✅ 活跃 · 插件
+> ⭐ 19 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

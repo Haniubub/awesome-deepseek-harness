@@ -5,7 +5,7 @@ keywords: "dsh-context-doctor, memory, plugin, context, observability, deepseek 
 ---
 # dsh-context-doctor
 
-> ⭐ 15 · ✅ 活跃 · 插件
+> ⭐ 16 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

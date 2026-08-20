@@ -5,7 +5,7 @@ keywords: "dsh-security-audit, developer, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-security-audit
 
-> ⭐ 12 · ✅ active · plugin
+> ⭐ 13 · ✅ active · plugin
 
 ## One-liner
 

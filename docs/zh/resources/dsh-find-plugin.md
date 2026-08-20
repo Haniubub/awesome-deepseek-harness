@@ -5,7 +5,7 @@ keywords: "dsh-find-plugin, discovery, plugin, search, workflow, deepseek harnes
 ---
 # dsh-find-plugin
 
-> ⭐ 61 · ✅ 活跃 · 插件
+> ⭐ 68 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

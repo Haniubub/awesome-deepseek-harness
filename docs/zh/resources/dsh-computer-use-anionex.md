@@ -5,7 +5,7 @@ keywords: "dsh-computer-use, browser, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-computer-use
 
-> ⭐ 22 · ✅ 活跃 · 插件
+> ⭐ 26 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

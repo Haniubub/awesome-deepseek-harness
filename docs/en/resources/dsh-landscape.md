@@ -5,7 +5,7 @@ keywords: "dsh-landscape, ui, plugin, coding, multi-agent, deepseek harness, dsh
 ---
 # dsh-landscape
 
-> ⭐ 7 · ✅ active · plugin
+> ⭐ 8 · ✅ active · plugin
 
 ## One-liner
 

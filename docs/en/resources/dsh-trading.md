@@ -5,7 +5,7 @@ keywords: "dsh-trading, research, plugin, security, ui, deepseek harness, dsh"
 ---
 # dsh-trading
 
-> ⭐ 8 · ✅ active · plugin
+> ⭐ 10 · ✅ active · plugin
 
 ## One-liner
 

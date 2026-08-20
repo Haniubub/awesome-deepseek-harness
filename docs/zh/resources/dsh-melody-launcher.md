@@ -5,7 +5,7 @@ keywords: "dsh-melody-launcher, desktop, client, coding, deepseek harness, dsh"
 ---
 # dsh-melody-launcher
 
-> ⭐ 15 · ✅ 活跃 · 客户端
+> ⭐ 16 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

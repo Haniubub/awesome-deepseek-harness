@@ -5,7 +5,7 @@ keywords: "dsh-automation, automation, workflow, deepseek harness, dsh"
 ---
 # dsh-automation
 
-> ⭐ 65 · ✅ 活跃 · 工作流
+> ⭐ 68 · ✅ 活跃 · 工作流
 
 ## 一句话介绍
 

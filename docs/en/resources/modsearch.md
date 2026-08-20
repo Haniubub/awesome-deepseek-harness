@@ -5,7 +5,7 @@ keywords: "modsearch, search, plugin, deepseek harness, dsh"
 ---
 # modsearch
 
-> ⭐ 168 · ✅ active · plugin
+> ⭐ 187 · ✅ active · plugin
 
 ## One-liner
 

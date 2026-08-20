@@ -5,7 +5,7 @@ keywords: "dsh-turn-rewind, developer, plugin, files, context, deepseek harness,
 ---
 # dsh-turn-rewind
 
-> ⭐ 87 · ✅ 活跃 · 插件
+> ⭐ 91 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

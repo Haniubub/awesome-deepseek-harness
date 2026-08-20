@@ -5,7 +5,7 @@ keywords: "dsh-claude-ux, search, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-claude-ux
 
-> ⭐ 58 · ✅ 活跃 · 插件
+> ⭐ 59 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

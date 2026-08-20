@@ -5,7 +5,7 @@ keywords: "whale-girl, ui, plugin, deepseek harness, dsh"
 ---
 # whale-girl
 
-> ⭐ 246 · ✅ 活跃 · 插件
+> ⭐ 252 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

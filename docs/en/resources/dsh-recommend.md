@@ -5,7 +5,7 @@ keywords: "dsh-recommend, discovery, plugin, search, ui, deepseek harness, dsh"
 ---
 # dsh-recommend
 
-> ⭐ 18 · ✅ active · plugin
+> ⭐ 17 · ✅ active · plugin
 
 ## One-liner
 

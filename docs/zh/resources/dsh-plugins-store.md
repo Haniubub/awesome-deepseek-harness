@@ -5,7 +5,7 @@ keywords: "dsh-plugins-store, discovery, plugin, search, ui, deepseek harness, d
 ---
 # dsh-plugins-store
 
-> ⭐ 58 · ✅ 活跃 · 插件
+> ⭐ 61 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

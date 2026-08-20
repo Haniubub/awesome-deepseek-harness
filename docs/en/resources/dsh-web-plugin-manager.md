@@ -5,7 +5,7 @@ keywords: "dsh-web-plugin-manager, discovery, plugin, ui, workflow, deepseek har
 ---
 # dsh-web-plugin-manager
 
-> ⭐ 59 · ✅ active · plugin
+> ⭐ 61 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "star-deepseek-harness-desktop, desktop, client, coding, deepseek harn
 ---
 # star-deepseek-harness-desktop
 
-> ⭐ 5 · ✅ 活跃 · 客户端
+> ⭐ 6 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-auto-memory, memory, plugin, coding, ui, deepseek harness, dsh"
 ---
 # dsh-auto-memory
 
-> ⭐ 17 · ✅ active · plugin
+> ⭐ 21 · ✅ active · plugin
 
 ## One-liner
 

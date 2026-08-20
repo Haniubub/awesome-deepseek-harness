@@ -5,7 +5,7 @@ keywords: "dsh-agy, search, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-agy
 
-> ⭐ 18 · ✅ active · plugin
+> ⭐ 19 · ✅ active · plugin
 
 ## One-liner
 

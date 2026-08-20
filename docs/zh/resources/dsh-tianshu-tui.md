@@ -5,7 +5,7 @@ keywords: "dsh-tianshu-tui, terminal, client, workflow, deepseek harness, dsh"
 ---
 # dsh-tianshu-tui
 
-> ⭐ 220 · ✅ 活跃 · 客户端
+> ⭐ 224 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

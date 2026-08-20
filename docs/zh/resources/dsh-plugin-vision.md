@@ -5,7 +5,7 @@ keywords: "dsh-plugin-vision, developer, integration, coding, deepseek harness, 
 ---
 # dsh-plugin-vision
 
-> ⭐ 2 · ✅ 活跃 · 集成
+> ⭐ 3 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

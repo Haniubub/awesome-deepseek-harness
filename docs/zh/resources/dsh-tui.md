@@ -5,7 +5,7 @@ keywords: "dsh-TUI, terminal, client, ui, deepseek harness, dsh"
 ---
 # dsh-TUI
 
-> ⭐ 2,055 · ✅ 活跃 · 客户端
+> ⭐ 2,164 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

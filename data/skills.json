@@ -14,11 +14,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 10798,
-    "_stars_prev": 10797,
-    "growth": 1,
+    "stars": 10839,
+    "_stars_prev": 10798,
+    "growth": 41,
     "_source_description": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support.",
-    "_updated": "2026-08-19"
+    "_updated": "2026-08-20"
   },
   {
     "id": "easyeda-agent",
@@ -34,10 +34,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 238,
-    "_updated": "2026-08-18",
-    "_stars_prev": 233,
-    "growth": 5,
+    "stars": 258,
+    "_updated": "2026-08-20",
+    "_stars_prev": 238,
+    "growth": 20,
     "_source_description": "嘉立创EDA专业版(EasyEDA Pro)自动化：给 AI harness 装上画板的「手」—— 一套 typed 原理图/PCB 动作，CLI / Agent Skill / stdio MCP 三形态融合接入。承接嘉立创「不以卖板赚钱，以培养中国工程师为己任」 | EasyEDA Pro automation: the hands of your AI harness — typed schematic/PCB actions via CLI, Agent Skill and stdio MCP."
   },
   {
@@ -54,10 +54,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 75,
+    "stars": 86,
     "_source_description": "DSH Web UI plugin: skill and MCP management（Web界面的skill/MCP管理工具）",
     "_updated": "2026-08-18",
-    "_stars_prev": 64,
+    "_stars_prev": 75,
     "growth": 11
   },
   {
@@ -74,11 +74,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 41,
+    "stars": 51,
     "_source_description": "Complete reverse-skill (85 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authorized pentesting and security research skill pack.",
     "_updated": "2026-08-17",
-    "_stars_prev": 32,
-    "growth": 9
+    "_stars_prev": 41,
+    "growth": 10
   },
   {
     "id": "dsh-science",
@@ -93,10 +93,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 21,
+    "stars": 22,
     "_updated": "2026-08-18",
-    "_stars_prev": 17,
-    "growth": 4
+    "_stars_prev": 21,
+    "growth": 1
   },
   {
     "id": "dsh-plugin-swift-cycle",
@@ -111,11 +111,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 15,
+    "stars": 14,
     "_source_description": "Swift Cycle governance skill adapter for DeepSeek Harness; user-invoked, version-pinned, and offline-verifiable.",
-    "_updated": "2026-08-16",
-    "_stars_prev": 14,
-    "growth": 1
+    "_updated": "2026-08-20",
+    "_stars_prev": 15,
+    "growth": 0
   },
   {
     "id": "dsh-plugin-dev",
@@ -132,7 +132,7 @@
     "verified": false,
     "stars": 13,
     "_source_description": "DSH 插件开发踩坑与做法档案（skill + 文档）：cordis 双副本、tsconfig 三件套、Windows junction、多帧 zstd 等实测记录",
-    "_updated": "2026-08-18",
+    "_updated": "2026-08-20",
     "_stars_prev": 12,
     "growth": 1
   },
@@ -150,11 +150,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 13,
+    "stars": 14,
     "_source_description": "Portable Agent Skill for developing and auditing DeepSeek Harness plugins, with an optional profile-installable DSH bundle adapter.",
     "_updated": "2026-08-17",
-    "_stars_prev": 10,
-    "growth": 3
+    "_stars_prev": 13,
+    "growth": 1
   },
   {
     "id": "dsh-plugin-skills",
@@ -230,7 +230,7 @@
     "verified": false,
     "stars": 4,
     "_source_description": "DSH book-to-skill plugin: a 5-stage long task (fetch → parse → understand → generate → install) with 3 human gates, host tools for the agent and a browser timeline panel",
-    "_updated": "2026-08-13",
+    "_updated": "2026-08-19",
     "_stars_prev": 3,
     "growth": 1
   },
@@ -355,7 +355,7 @@
     "verified": false,
     "stars": 2,
     "_source_description": "Security-audit skill pack + plugin_vet supply-chain gate for DeepSeek Harness (dsh): 8 bilingual agent skills (secret scan, dependency audit, supply-chain review, prompt-injection review, audit orchestration, threat modeling, vuln intel, incident response) plus the plugin_vet automated pre-install scanner. Apache-2.0.",
-    "_updated": "2026-08-19"
+    "_updated": "2026-08-20"
   },
   {
     "id": "dsh-skillport",

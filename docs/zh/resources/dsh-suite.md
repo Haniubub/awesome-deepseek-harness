@@ -5,7 +5,7 @@ keywords: "dsh-suite, registry, awesome-list, search, workflow, deepseek harness
 ---
 # dsh-suite
 
-> ⭐ 42 · ✅ 活跃 · 精选列表
+> ⭐ 43 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-status-rotator, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-status-rotator
 
-> ⭐ 39 · ✅ 活跃 · 插件
+> ⭐ 42 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

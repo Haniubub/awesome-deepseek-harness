@@ -5,7 +5,7 @@ keywords: "dsh-codex-connect, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-codex-connect
 
-> ⭐ 29 · ✅ active · plugin
+> ⭐ 34 · ✅ active · plugin
 
 ## One-liner
 

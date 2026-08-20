@@ -5,7 +5,7 @@ keywords: "dsh-launcher-android, mobile, client, coding, deepseek harness, dsh"
 ---
 # dsh-launcher-android
 
-> ⭐ 3 · ✅ active · client
+> ⭐ 4 · ✅ active · client
 
 ## One-liner
 

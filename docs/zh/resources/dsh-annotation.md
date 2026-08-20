@@ -5,7 +5,7 @@ keywords: "dsh-annotation, input-editing, plugin, ui, deepseek harness, dsh"
 ---
 # dsh-annotation
 
-> ⭐ 78 · ✅ 活跃 · 插件
+> ⭐ 81 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

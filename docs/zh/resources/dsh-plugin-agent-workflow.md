@@ -5,7 +5,7 @@ keywords: "dsh-plugin-agent-workflow, workflow, coding, multi-agent, deepseek ha
 ---
 # dsh-plugin-agent-workflow
 
-> ⭐ 59 · ✅ 活跃 · 工作流
+> ⭐ 74 · ✅ 活跃 · 工作流
 
 ## 一句话介绍
 

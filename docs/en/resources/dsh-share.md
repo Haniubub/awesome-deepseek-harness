@@ -5,7 +5,7 @@ keywords: "dsh-share, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-share
 
-> ⭐ 28 · ✅ active · plugin
+> ⭐ 29 · ✅ active · plugin
 
 ## One-liner
 

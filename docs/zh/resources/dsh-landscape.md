@@ -5,7 +5,7 @@ keywords: "dsh-landscape, ui, plugin, coding, multi-agent, deepseek harness, dsh
 ---
 # dsh-landscape
 
-> ⭐ 7 · ✅ 活跃 · 插件
+> ⭐ 8 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

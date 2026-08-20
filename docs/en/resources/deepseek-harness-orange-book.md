@@ -5,7 +5,7 @@ keywords: "DeepSeek Harness Orange Book, learning, tutorial, deepseek harness, d
 ---
 # DeepSeek Harness Orange Book
 
-> ⭐ 1,064 · ✅ active · tutorial
+> ⭐ 1,094 · ✅ active · tutorial
 
 ## One-liner
 

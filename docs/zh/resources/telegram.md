@@ -5,7 +5,7 @@ keywords: "telegram, channel, integration, coding, deepseek harness, dsh"
 ---
 # telegram
 
-> ⭐ 6 · ✅ 活跃 · 集成
+> ⭐ 7 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

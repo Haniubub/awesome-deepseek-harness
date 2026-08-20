@@ -5,7 +5,7 @@ keywords: "dsh-computer-use, browser, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-computer-use
 
-> ⭐ 22 · ✅ active · plugin
+> ⭐ 26 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-memory-evolve, memory, plugin, context, automation, deepseek harn
 ---
 # dsh-memory-evolve
 
-> ⭐ 190 · ✅ 活跃 · 插件
+> ⭐ 205 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

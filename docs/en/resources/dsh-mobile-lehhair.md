@@ -5,7 +5,7 @@ keywords: "dsh-mobile, mobile, client, coding, deepseek harness, dsh"
 ---
 # dsh-mobile
 
-> ⭐ 36 · ✅ active · client
+> ⭐ 51 · ✅ active · client
 
 ## One-liner
 

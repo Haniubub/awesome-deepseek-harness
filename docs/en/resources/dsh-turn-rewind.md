@@ -5,7 +5,7 @@ keywords: "dsh-turn-rewind, developer, plugin, files, context, deepseek harness,
 ---
 # dsh-turn-rewind
 
-> ⭐ 87 · ✅ active · plugin
+> ⭐ 91 · ✅ active · plugin
 
 ## One-liner
 

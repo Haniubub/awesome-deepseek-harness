@@ -5,7 +5,7 @@ keywords: "dsh-plugin-guard, vision, plugin, coding, multi-agent, deepseek harne
 ---
 # dsh-plugin-guard
 
-> ⭐ 27 · ✅ active · plugin
+> ⭐ 28 · ✅ active · plugin
 
 ## One-liner
 

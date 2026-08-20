@@ -5,7 +5,7 @@ keywords: "DeepSeekHarnessDesktop (wess09), desktop, client, deepseek harness, d
 ---
 # DeepSeekHarnessDesktop (wess09)
 
-> ⭐ 64 · ✅ active · client
+> ⭐ 67 · ✅ active · client
 
 ## One-liner
 

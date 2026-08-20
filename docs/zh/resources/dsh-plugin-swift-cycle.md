@@ -5,7 +5,7 @@ keywords: "dsh_plugin_swift_cycle, learning, skill, coding, deepseek harness, ds
 ---
 # dsh_plugin_swift_cycle
 
-> ⭐ 15 · ✅ 活跃 · 技能
+> ⭐ 14 · ✅ 活跃 · 技能
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-undo-plugin, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-undo-plugin
 
-> ⭐ 93 · ✅ 活跃 · 插件
+> ⭐ 102 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

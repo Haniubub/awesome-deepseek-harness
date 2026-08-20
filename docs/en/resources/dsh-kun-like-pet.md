@@ -5,7 +5,7 @@ keywords: "dsh-kun-like-pet, fun, plugin, coding, multi-agent, deepseek harness,
 ---
 # dsh-kun-like-pet
 
-> ⭐ 70 · ✅ active · plugin
+> ⭐ 73 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-spend, ui, plugin, observability, deepseek harness, dsh"
 ---
 # dsh-spend
 
-> ⭐ 6 · ✅ active · plugin
+> ⭐ 7 · ✅ active · plugin
 
 ## One-liner
 

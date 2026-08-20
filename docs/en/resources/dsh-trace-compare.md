@@ -5,7 +5,7 @@ keywords: "dsh-trace-compare, vision, plugin, coding, multi-agent, deepseek harn
 ---
 # dsh-trace-compare
 
-> ⭐ 9 · ✅ active · plugin
+> ⭐ 34 · ✅ active · plugin
 
 ## One-liner
 

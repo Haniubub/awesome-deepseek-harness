@@ -5,7 +5,7 @@ keywords: "dsh-expression, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-expression
 
-> ⭐ 6 · ✅ 活跃 · 插件
+> ⭐ 30 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

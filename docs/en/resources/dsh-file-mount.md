@@ -5,7 +5,7 @@ keywords: "dsh-file-mount, memory, plugin, context, files, deepseek harness, dsh
 ---
 # dsh-file-mount
 
-> ⭐ 8 · ✅ active · plugin
+> ⭐ 10 · ✅ active · plugin
 
 ## One-liner
 

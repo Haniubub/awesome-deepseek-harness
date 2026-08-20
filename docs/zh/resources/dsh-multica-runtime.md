@@ -5,7 +5,7 @@ keywords: "dsh-multica-runtime, desktop, client, deepseek harness, dsh"
 ---
 # dsh-multica-runtime
 
-> ⭐ 52 · ✅ 活跃 · 客户端
+> ⭐ 53 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

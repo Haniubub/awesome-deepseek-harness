@@ -5,7 +5,7 @@ keywords: "dsh-plugin-better-sidebar-plugin-office, developer, plugin, files, ui
 ---
 # dsh-plugin-better-sidebar-plugin-office
 
-> ⭐ 22 · ✅ active · plugin
+> ⭐ 23 · ✅ active · plugin
 
 ## One-liner
 

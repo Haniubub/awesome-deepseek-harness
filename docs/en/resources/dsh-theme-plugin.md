@@ -5,7 +5,7 @@ keywords: "dsh-theme-plugin, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-theme-plugin
 
-> ⭐ 18 · ✅ active · plugin
+> ⭐ 19 · ✅ active · plugin
 
 ## One-liner
 

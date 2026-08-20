@@ -5,7 +5,7 @@ keywords: "webdsh, search, plugin, coding, deepseek harness, dsh"
 ---
 # webdsh
 
-> ⭐ 16 · ✅ 活跃 · 插件
+> ⭐ 17 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

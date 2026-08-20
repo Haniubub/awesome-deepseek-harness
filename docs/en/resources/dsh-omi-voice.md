@@ -5,7 +5,7 @@ keywords: "dsh-omi-voice, ui, plugin, multimodal, deepseek harness, dsh"
 ---
 # dsh-omi-voice
 
-> ⭐ 10 · ✅ active · plugin
+> ⭐ 28 · ✅ active · plugin
 
 ## One-liner
 

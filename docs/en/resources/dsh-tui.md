@@ -5,7 +5,7 @@ keywords: "dsh-TUI, terminal, client, ui, deepseek harness, dsh"
 ---
 # dsh-TUI
 
-> ⭐ 2,055 · ✅ active · client
+> ⭐ 2,164 · ✅ active · client
 
 ## One-liner
 

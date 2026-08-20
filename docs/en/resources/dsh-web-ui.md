@@ -5,7 +5,7 @@ keywords: "dsh-web-ui, ui, plugin, git, observability, deepseek harness, dsh"
 ---
 # dsh-web-ui
 
-> ⭐ 4,817 · ✅ active · plugin
+> ⭐ 5,104 · ✅ active · plugin
 
 ## One-liner
 

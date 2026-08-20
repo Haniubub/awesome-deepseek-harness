@@ -5,7 +5,7 @@ keywords: "dsh-chat-import, developer, plugin, files, coding, deepseek harness, 
 ---
 # dsh-chat-import
 
-> ⭐ 75 · ✅ 活跃 · 插件
+> ⭐ 85 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

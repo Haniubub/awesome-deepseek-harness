@@ -5,7 +5,7 @@ keywords: "dsh-web-search-pro, search, plugin, browser, deepseek harness, dsh"
 ---
 # dsh-web-search-pro
 
-> ⭐ 27 · ✅ active · plugin
+> ⭐ 29 · ✅ active · plugin
 
 ## One-liner
 

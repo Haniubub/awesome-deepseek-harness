@@ -5,7 +5,7 @@ keywords: "mnemon, harness, related, memory, deepseek harness, dsh"
 ---
 # mnemon
 
-> ⭐ 486 · ✅ active · related
+> ⭐ 494 · ✅ active · related
 
 ## One-liner
 

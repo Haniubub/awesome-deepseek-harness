@@ -5888,5 +5888,603 @@
   "usage": "- insert:\n    - id: continual-harness\n      name: dsh-continual-harness\n      config:\n        defaultGlobal: true",
   "license": "",
   "_done": true
+ },
+ "awesome-deepseek-coder": {
+  "intro": "A curated list of open-source projects related to DeepSeek Coder.",
+  "features": [],
+  "install": "",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "notes": {
+  "intro": "- 一个锤子便签风格的导出器，预览与图片导出支持**暖白纸感**、**深夜便签**、**iPhone 备忘录深浅模式**和 **Bear 极简排版**。 - 可用来分享与openclaw的对话记录。 - 完美复刻锤子便签网页版和PC版，支持多便签，分类存储。 - 支持Docker一键私有化部署 - 纯WEB应用，无需安装任何App，打开即用 - 支持PC端和手机版，多端数据同步，支持公网部署 - 支持图片插入。 - 支持一键粘贴到公众号助手。 - 支持直接导出便签为图片，或复制为markdown格式进行分享。 - 自带浏览器持久化，关闭页面也不会丢失数据。 - 开源免费，可私有化部署。 - 工匠精神沁入AI，可以通过AI Skill直接调用工具，生成便签。 - 支持自定义底部标识（点击即可编辑） - API原生封装支持Hermes Agent，OpenClaw直接通过skill驱动管理便签 - 支持 DeepSeek Harness（DSH），让智能体将对话导出为锤子便签。 - 支持接入DeepSeek润色书写内容，语法标点检查，重点加粗，复杂概念通俗化释义。 - 支持一键下载包含图片",
+  "features": [
+   "一个锤子便签风格的导出器，预览与图片导出支持**暖白纸感**、**深夜便签**、**iPhone 备忘录深浅模式**和 **Bear 极简排版**。",
+   "可用来分享与openclaw的对话记录。",
+   "完美复刻锤子便签网页版和PC版，支持多便签，分类存储。",
+   "支持Docker一键私有化部署"
+  ],
+  "install": "dsh plugin --profile web add @zhaoolee/dsh-notes",
+  "usage": "从clawhub安装 notes-export-api这个 skill,\n联网获取最近一周 AI 相关的新闻，将新闻转化为 markdown 生成便签图片，把便签图片绝对路径返回给我，把图片往“下载”文件夹复制一份",
+  "license": "",
+  "_done": true
+ },
+ "awesome-dsh-plugins": {
+  "intro": "<p align=\"center\"> <br> </p> <p align=\"center\"> <a href=\"https://trendshift.io/repositories/147500\" title=\"GitHub Trending 日榜 #22 · 2026-08-14 · 全语言口径\"></a> </p> **自动发现、证据验证的 DeepSeek Harness 插件生态雷达。自动发现 9200+ 候选、逐个 k8s 实测** 安装前就知道哪个能用，不用自己踩坑。 ---",
+  "features": [],
+  "install": "",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "awesome-deepseek-harness-libukai-1": {
+  "intro": "[DeepSeek Harness](https://deepseek.com/harness/)（简称 DSH 或 `dsh`）是 DeepSeek AI 开源的 Agent Harness 项目。它基于 [Cordis](https://github.com/cordiverse/cordis)，采用 **Everything is a Plugin（一切皆插件）** 的架构：模型适配器、工具、会话日志、界面和 Agent Loop 都可以通过插件树组合与替换。 当前核验到的官方开发者预览版为 [`0.1.0-rc.8`](https://github.com/deepseek-ai/deepseek-harness/tree/dsh-v0.1.0-rc.8)。下方各项目标注的 DSH 版本表示其作者实际声明的开发或测试基线，不应自动视为已兼容最新预览版。",
+  "features": [
+   "[目录](#目录)",
+   "[快速开始](#快速开始)",
+   "[官方资源](#官方资源)",
+   "[社区资源](#社区资源)"
+  ],
+  "install": "npx @deepseek-ai/dsh web",
+  "usage": "git clone https://github.com/deepseek-ai/deepseek-harness.git\ncd deepseek-harness\npnpm install\npnpm run build\npnpm dsh web",
+  "license": "",
+  "_done": true
+ },
+ "awesome-dsh-plugin-anil-matcha-1": {
+  "intro": "DeepSeek Harness is a runnable coding agent (Web UI + headless) built on [Cordis](https://github.com/cordiverse/cordis), where every part of the system — models, tools, sandboxes, session storage, UI, even the agent loop itself — is a swappable plugin. That architecture has produced a large, fast-moving plugin ecosystem: well over a thousand community plugins at last count. This list exists to make that ecosystem easy to scan: what a plugin does, in one line, sorted into the category you'd actua",
+  "features": [
+   "[988hj7tczd-oss/dsh-computer-use](https://github.com/988hj7tczd-oss/dsh-computer-use) — Cross-platform Computer Use: virtual-mouse operation",
+   "[Anionex/dsh-computer-use](https://github.com/Anionex/dsh-computer-use) — Accessibility-first macOS computer use with fresh observations, st",
+   "[AbnerAI/dsh-monitor](https://github.com/AbnerAI/dsh-monitor) — Persistent background watchers that wake the agent on new events — the harne",
+   "[akqwpeter-prog/dsh-agent-conductor](https://github.com/akqwpeter-prog/dsh-agent-conductor) — Dispatches tasks from DSH to 11 external agent",
+   "[AngelosZou/dsh-multi-folder](https://github.com/AngelosZou/dsh-multi-folder) — Secondary working directories with equal read/write/exec per",
+   "[anweat/dsh-browser](https://github.com/anweat/dsh-browser) — Self-contained Playwright + OpenCLI browser runtime exposing 9 interactive bro"
+  ],
+  "install": "dsh plugin --profile web add <plugin-name>",
+  "usage": "# run the Web UI (served at http://127.0.0.1:3080 by default)\nnpx @deepseek-ai/dsh web\n\n# or from a source checkout\ngit clone https://github.com/deepseek-ai/deepseek-harness.git\ncd deepseek-harness && pnpm install && pnpm run build && pnpm dsh web",
+  "license": "",
+  "_done": true
+ },
+ "awesome-dsh-plugin-bruc3van-1": {
+  "intro": "[English](./README_EN.md) · [全量目录](./CATALOG.md) · [Star Top 200](./TOP200.md) · [作者自荐](./SHOWCASE.md) · [推荐一个插件](./CONTRIBUTING.md) · [机器可读数据](./data/repositories.json) **如果这个列表帮你找到一个有用的插件，欢迎点一个 Star ⭐。它能帮助更多 DSH 用户发现这个生态。**",
+  "features": [],
+  "install": "",
+  "usage": "",
+  "license": "本列表采用 [MIT License](./LICENSE) 发布；各收录项目遵循其各自许可证。",
+  "_done": true
+ },
+ "awesome-deepseek-integration": {
+  "intro": "Integrate the DeepSeek API into popular softwares. Access [DeepSeek Open Platform](https://platform.deepseek.com/) to get an API key. English / [简体中文](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_cn.md) / [繁體中文](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_zh_tw.md) / [日本語](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_ja.md) / [Español](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/",
+  "features": [
+   "[Awesome DeepSeek Integrations ](#awesome-deepseek-integrations-)"
+  ],
+  "install": "",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "awesome-deepseek-harness-0xsline-1": {
+  "intro": "<p align=\"center\"> <a href=\"#install\">Install</a>&nbsp;&nbsp;&nbsp; <a href=\"contributing.md\">Contribution guide</a>&nbsp;&nbsp;&nbsp; <a href=\"https://deepseekdocs.com/\">DeepSeek Docs</a>&nbsp;&nbsp;&nbsp; <a href=\"https://github.com/topics/dsh-plugin\">Public plugin topic</a>&nbsp;&nbsp;&nbsp; <a href=\"https://github.com/dsh-external/issues\">Issues</a>&nbsp;&nbsp;&nbsp; <a href=\"CATALOG.md\">完整目录</a>&nbsp;&nbsp;&nbsp; </p> <br> <p align=\"center\"> <b>Curated DeepSeek Harness (DSH) ecosystem: plug",
+  "features": [
+   "[Install](#install)",
+   "[Core & Bundles](#core--bundles)",
+   "[Agents & Orchestration](#agents--orchestration)",
+   "[Context & Search](#context--search)"
+  ],
+  "install": "npx @deepseek-ai/dsh web",
+  "usage": "dsh plugin --profile web add \"github:owner/repo#ref\"",
+  "license": "",
+  "_done": true
+ },
+ "awesome-harness-engineering-jiji262-1": {
+  "intro": "This repository is a curated resource list for **Harness Engineering** and **AI Native Engineering**. Entries are filtered for direct relevance. GitHub projects include star counts at collection time. <b> Special Thanks to </b> [linux.do](https://linux.do) Last researched: 2026-05-30 (Asia/Shanghai).",
+  "features": [
+   "[Harness Engineering](https://openai.com/index/harness-engineering/)",
+   "[Unrolling the Codex Agent Loop](https://openai.com/index/unrolling-the-codex-agent-loop/)",
+   "[Building Effective Agents](https://www.anthropic.com/research/building-effective-agents)",
+   "[Harness Design for Long-Running Application Development](https://www.anthropic.com/engineering/harness-design-long-running-apps)"
+  ],
+  "install": "",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "oh-my-dsh-list": {
+  "intro": "DeepSeek Harness（以下简称 DSH）是由深度求索（DeepSeek AI）开源的人工智能 Agent 框架，其核心架构理念为“万物皆可插件”。随着生态体系快速扩展，社区插件数量持续增长，开发者在检索、甄别与选用插件方面的成本随之上升。 本仓库以 GitHub `dsh-plugin` 主题为数据源，对生态全量插件实施周期性自动监测，并在此基础上开展人工遴选、分类编目与信息核验，形成集完整性、时效性与可用性于一体的插件聚合目录。收录结果以分类目录、数据文件与检索站点三种形态同步发布。",
+  "features": [],
+  "install": "# 启动 DeepSeek Harness Web UI（官方开发者预览版）\nnpx @deepseek-ai/dsh web    # 默认地址 http://127.0.0.1:3080\n\n# 插件安装：通过官方插件市场或各插件仓库说明执行",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "awesome-harness-engineering": {
+  "intro": "Harness engineering sits at the intersection of context engineering, evaluation, observability, orchestration, safe autonomy, and software architecture. This list focuses on resources that make agents more dependable in real workflows, especially long-running coding and research tasks. Generic agent tooling is out of scope unless the page directly covers harness design, context management, evaluation, runtime control, or other reliability-critical harness primitives.",
+  "features": [
+   "[Courses & Learning Resources](#courses--learning-resources)",
+   "[Foundations](#foundations)",
+   "[Context, Memory & Working State](#context-memory--working-state)",
+   "[Constraints, Guardrails & Safe Autonomy](#constraints-guardrails--safe-autonomy)"
+  ],
+  "install": "",
+  "usage": "",
+  "license": "[CC0 1.0](./LICENSE)",
+  "_done": true
+ },
+ "awesome-dsh-plugin-alex-yanggg-1": {
+  "intro": "**Language:** English | [简体中文](docs/README.zh-CN.md) DeepSeek Harness plugins can connect an agent to tools, services, devices, and repeatable workflows. This list is intentionally broad: if it gives an agent a useful real-world capability, it belongs here.",
+  "features": [
+   "[Getting started](#getting-started)",
+   "[Plugin catalog](#plugin-catalog)",
+   "[Add a plugin](#add-a-plugin)",
+   "[Catalog rules](#catalog-rules)"
+  ],
+  "install": "",
+  "usage": "python scripts/generate_readmes.py\npython scripts/generate_readmes.py --check",
+  "license": "",
+  "_done": true
+ },
+ "oh-my-dsh-laplaceyoung-1": {
+  "intro": "`deep-research` decomposes a compound question into sub-questions, searches and fetches sources in parallel through DSH's portable web seam, and synthesizes a cited report. Configure a `provider` + `model` and synthesis runs through the LLM; leave them unset and a deterministic template report still lands — every path degrades gracefully, none require a real key to test.",
+  "features": [],
+  "install": "git clone https://github.com/LaplaceYoung/oh-my-dsh.git\ncd oh-my-dsh\npnpm install",
+  "usage": "- id: omd-deep-research\n  name: '@oh-my-dsh/deep-research'\n  config:\n    provider: deepseek-official\n    model: deepseek-v4-flash",
+  "license": "",
+  "_done": true
+ },
+ "dsh-market-list": {
+  "intro": "<p align=\"center\"> </p> DSH 生态增长极快，插件与技能散落在 GitHub 各处 —— **不知道哪个好用、怎么装、怎么组合成一套能干活的环境**。DSH Market 用一个平台收齐它们，并提供两种消费入口：",
+  "features": [
+   "**持续收录** — 每天自动扫描 `dsh-plugin` / `dsh` 等 GitHub topic、社区精选列表，全量收录（当前 3414 个插件 + 整合包通道）",
+   "**实用五维评分** — 维护活跃 / 实用度 / 生态热度 / 便捷度 / 信号质量，加权几何平均融合，每个插件附「为什么推荐」解释",
+   "**中文体验** — 所有插件自动生成中文简介与中文功能标签，中文搜索、中文筛选",
+   "**一键安装** — 插件版确定性脚本路由：skill 型 `git clone`，cordis 型 `dsh plugin add`；失败可重试、可回滚",
+   "**AI 安装** — 插件版可交给 DSH 子代理读 README 验证后安装，需要配置时先向你确认",
+   "**推荐体系** — 冷启动问卷 / 新手友好 / 猜你喜欢（个性化画像）/ 场景推荐（读会话上下文，详见 [DSH 插件版](#dsh-插件版)）"
+  ],
+  "install": "npx @deepseek-ai/dsh plugin --profile web add @dsh-market/plugin",
+  "usage": "├─ collector/   # 数据管道（Node + tsx）：扫描 → 检测 → 评分 → 中文化\n├─ web/         # Web 站（Vite + React + TS + Fuse.js）\n├─ plugin/\n│  ├─ core/     # 插件核心层（纯 Node，零 DSH 依赖，可独立测试）\n│  └─ ui/       # 插件 UI 层（cordis Host RPC + 浏览器 Client 面板）\n├─ schema/      # 共享类型（DshPlugin / MarketData / PracticalScore）\n└─ scripts/     # 工具脚本（截图 / 数据注入 / 视觉评审）",
+  "license": "[MIT](https://github.com/2BingLing/dsh-market/blob/master/LI",
+  "_done": true
+ },
+ "awesome-dsh-plugin-beancookie-1": {
+  "intro": "<p align=\"center\"> <a href=\"https://awesome.re\"></a> <a href=\"https://beancookie.github.io/awesome-dsh-plugin\"></a> </p> <p align=\"center\"> <a href=\"README.en.md\">English</a> | 中文 </p> DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行的 Coding Agent（提供 Web 与 headless 两种形式），底层又是一套「一切皆插件」的框架：模型、工具、沙箱、会话存储、UI、乃至 Agent Loop 本身都是插件。插件既可以扩展官方 Coding Agent，也可以替换其核心部件，甚至组装出完全不同的东西。 <p align=\"center\"> 推荐使用 <a href=\"https://github.com/beancookie/dsh-plugin-registry\">dsh-plugin-registry</a> —— 会话内检索并一键",
+  "features": [
+   "[插件](#插件)",
+   "[相关](#相关)",
+   "[贡献](#贡献)",
+   "[徽章](#徽章)"
+  ],
+  "install": "[![Awesome DSH Plugin](https://beancookie.github.io/awesome-dsh-plugin/badge.svg)](https://beancookie.github.io/awesome-dsh-plugin)",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "awesome-deepseek-harness-plugins-web-casa-1": {
+  "intro": "**328 DeepSeek Harness plugins** · curated from the [cordis.run open plugin index](data/plugins.json). Every listed DeepSeek Harness plugin has a **one-line install command** and a **security scan status** on its cordis.run page. [中文版](README.zh.md) | English ---",
+  "features": [
+   "[🧠 Dev Assistants](#dev-assistants)",
+   "[🔁 Workflow & Automation](#workflow--automation)",
+   "[🎨 Themes & UI](#themes--ui)",
+   "[🔌 Data Integration](#data-integration)"
+  ],
+  "install": "",
+  "usage": "",
+  "license": "[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/",
+  "_done": true
+ },
+ "dsh-plugin-marketplace-yelebai-1": {
+  "intro": "**经过验证的 DSH 插件市场，以及自主维护的中心 Registry。** **简体中文** · [English](./README.en.md) · [更新日志](./CHANGELOG.md) </div>",
+  "features": [],
+  "install": "dsh plugin --profile web add github:YELEBAI/dsh-plugin-marketplace#v0.9.2",
+  "usage": "dsh plugin --profile web add D:/path/to/dsh_Market",
+  "license": "[MIT](./LICENSE) © YELEBAI",
+  "_done": true
+ },
+ "awesome-dsh-plugins-kejixiaoliang-1": {
+  "intro": "**A curated directory of 299+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.** **English** · [中文版](README.zh.md) [Quick Start](#quick-start) · [Hot Plugins](#hot-plugins) · [Categories](#categories) · [Browse All](#browse-all-plugins) · [Full Index](INDEX.md) · [Contributing](CONTRIBUTING.md) </div> ---",
+  "features": [
+   "✅ Official install: `dsh plugin --profile <name> add <pkg>` (forwards to pnpm; npm / git / tarball)",
+   "✅ Official discovery: npm + the GitHub [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic (**no built-in marketplace**)"
+  ],
+  "install": "# Install a plugin (forwards to pnpm; npm / git / tarball all supported)\ndsh plugin --profile <name> add <pkg>\n\n# Example\ndsh plugin add dsh-cc-tui",
+  "usage": "import type { Context } from '@deepseek-ai/cordis'\nexport const name = 'hello-plugin'\nexport function apply(ctx: Context) {\n  // register a tool, a command, a UI node, ...\n}",
+  "license": "",
+  "_done": true
+ },
+ "dsh-plugin-hub-hellohupc-1": {
+  "intro": "全网 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh) 插件聚合检测站: 多数据源自动汇总 → 自己的逻辑去重/分类/排序 → 静态页检索,每小时刷新。 线上地址:https://dsh-plugin-hub.hupc.site",
+  "features": [],
+  "install": "",
+  "usage": "# 跑一次完整 ETL(实时拉取)\npython3 scripts/aggregate.py\n\n# 只用本地缓存调试\npython3 scripts/aggregate.py --offline\n\n# 本地预览站点\nmkdir -p site/data && cp data/plugins.json site/data/plugins.json\ncd site && python3 -m http.server 8000\n# 打开 http://localhost:8000",
+  "license": "MIT",
+  "_done": true
+ },
+ "awesome-deepseek-harness-jiji262-1": {
+  "intro": "[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh`）是 DeepSeek 于 2026 年 8 月 13 日开源的 Agent Harness，核心理念是 **\"Everything is a Plugin\"（万物皆插件）**，基于 [Cordis](https://github.com/cordiverse/cordis) 插件架构，MIT 协议。发布不到一周 star 突破 16 万，GitHub 上 `dsh-plugin` topic 下已有 7800+ 个生态仓库。 一行命令启动 Web UI（默认 `http://127.0.0.1:3080`）： npx @deepseek-ai/dsh web",
+  "features": [
+   "[xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) ⭐ 3.6k - 两阶段 DSH preset：极简对齐引导后加载完整 Standard 工具。",
+   "[liustack/modlens](https://github.com/liustack/modlens) ⭐ 3.2k - 首个 DSH 视觉插件：粘贴图片，输出结构化 JSON 证据（OCR、布局、语义），也是纯文本 Agent 的通用视觉桥。",
+   "[ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) ⭐ 806 - 给纯文本 DSH Agent 装上眼睛：内置免 key 视觉链 + 像素级视觉工具。",
+   "[Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) ⭐ 736 - 更强的视觉工具箱：免费使用、粘贴图片直接识别、多图问答、截图还原前端 UI。",
+   "[NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) ⭐ 593 - AgentTeams 多智能体协作插件。",
+   "[yjh051108/dsh-router-standard](https://github.com/yjh051108/dsh-router-standard) ⭐ 345 - 任务感知的推理模式路由：spec / mixed / react 三档实测行为带与阶段转换。"
+  ],
+  "install": "npx @deepseek-ai/dsh web",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "deepseek-harness-awesome-top-500": {
+  "intro": "",
+  "features": [],
+  "install": "",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "dsh-plugin-hub-list": {
+  "intro": "DeepSeek Harness 的插件生态增长很快，但仓库描述、安装命令和真实权限边界经常散落在不同位置。DSH Plugin Hub 将这些公开证据汇总成一个可搜索目录，帮助用户在安装前先确认： - 项目是否真的声明了 `dsh.bundle`、`dsh.plugin`、`dsh.profile` 或 `dsh.client`； - 安装命令是否绑定到完成静态检查的不可变 Git commit； - 仓库是否活跃、是否有许可证和锁文件； - 是否存在生命周期脚本、网络访问、文件写入、凭据读取或动态代码执行信号； - 当前结果来自自动发现、社区精选，还是离线快照。 本站是独立社区项目，与 DeepSeek 官方没有隶属关系。",
+  "features": [
+   "项目是否真的声明了 `dsh.bundle`、`dsh.plugin`、`dsh.profile` 或 `dsh.client`；",
+   "安装命令是否绑定到完成静态检查的不可变 Git commit；",
+   "仓库是否活跃、是否有许可证和锁文件；",
+   "是否存在生命周期脚本、网络访问、文件写入、凭据读取或动态代码执行信号；"
+  ],
+  "install": "git clone https://github.com/cclank/dsh-plugin-hub.git\ncd dsh-plugin-hub\nnpm ci\nnpm run data:sync\nnpm run dev",
+  "usage": "GITHUB_TOKEN=github_pat_xxx npm run data:sync",
+  "license": "",
+  "_done": true
+ },
+ "awesome-dsh-plugins-white0dew-1": {
+  "intro": "[简体中文](README.zh-CN.md) An independent directory of DeepSeek Harness (DSH) plugins and related tools, with direct links to each original GitHub repository and its primary action. - **Live site:** https://dsh.reshub.vip - **Repository:** https://github.com/white0dew/awesome-dsh-plugins",
+  "features": [
+   "**Live site:** https://dsh.reshub.vip",
+   "**Repository:** https://github.com/white0dew/awesome-dsh-plugins"
+  ],
+  "install": "dsh plugin --profile web add github:OWNER/REPOSITORY",
+  "usage": "",
+  "license": "[MIT](LICENSE)",
+  "_done": true
+ },
+ "awesome-dsh-plugin-billliao-1": {
+  "intro": "DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding agent (Web and headless), built on a framework where everything is a plugin: models, tools, sandboxes, session storage, UI, even the agent loop itself. **6549 plugins** collected from GitHub topic [`dsh-plugin`](https://github.com/topics/dsh-plugin) · [PRs welcome](#contributing)",
+  "features": [
+   "[anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) ⭐16125 — 为 DeepSeek Harness (DSH) 插件生态打造",
+   "[Devin-AXIS/iPolloWork](https://github.com/Devin-AXIS/iPolloWork) ⭐4311 — A next-generation, source-available AI workspace with a self-evolv",
+   "[liustack/modlens](https://github.com/liustack/modlens) ⭐3362 — The first vision plugin for DeepSeek Harness, and the vision bridge for ever"
+  ],
+  "install": "",
+  "usage": "",
+  "license": "[CC0 1.0 Universal](LICENSE)",
+  "_done": true
+ },
+ "dsh-plugin-marketplace-w2112515-1": {
+  "intro": "**The plugin marketplace for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH): browse, review, and install DSH plugins from inside DSH's own Settings UI — with evidence-based install safety, consent-gated install scripts, curated solution packs, and zero telemetry.** **中文文档：[README.zh-CN.md](README.zh-CN.md)**（界面语言跟随 DSH 自动切换）",
+  "features": [
+   "**2,200+ plugins** discovered by a daily scan of every GitHub repository carrying the `dsh-plugin` topic — no GitHub account or token needed",
+   "**Evidence-based install eligibility**: the scanner proves which install targets exist at each plugin's pinned commit, so \"one-click\" means ",
+   "**Consent-gated scripts**: install scripts are shown verbatim and run only after explicit, per-install consent — never persisted, never bulk",
+   "**Curated solution packs** that install a coherent capability baseline in one reviewed action.",
+   "**No telemetry, no install counts, no server** — the catalog is static JSON on GitHub Pages."
+  ],
+  "install": "dsh plugin --profile web add @w2112515/dsh-plugin-marketplace",
+  "usage": "dsh plugin --profile web add github:w2112515/dsh-plugin-marketplace#<40-char-commit>",
+  "license": "",
+  "_done": true
+ },
+ "awesome-dsh-bridges": {
+  "intro": "Bridge your favorite AI coding tools into DeepSeek Harness -- zero migration, full compatibility.",
+  "features": [
+   "dsh-plugin-claude-bridge -- Claude Code (Memory + Skills + Global CLAUDE.md)",
+   "dsh-plugin-codex-bridge -- OpenAI Codex (Skills + Instructions + Config)",
+   "dsh-plugin-opencode-bridge -- OpenCode (Skills + Config)",
+   "dsh-plugin-pi-bridge -- Pi Agent (Skills)"
+  ],
+  "install": "dsh plugin --profile your-profile add dsh-plugin-claude-bridge\ndsh plugin --profile your-profile add dsh-plugin-codex-bridge\ndsh plugin --profile your-profile add dsh-plugin-opencode-bridge\ndsh plugin --profile your-profile add dsh-plugin-pi-bridge",
+  "usage": "",
+  "license": "MIT -- YYTbit",
+  "_done": true
+ },
+ "dsh-plugins-list": {
+  "intro": "Explore **173 plugins** across four broad areas. Each plugin appears once, under the category that best represents its primary use. Last directory review: **August 20, 2026**.",
+  "features": [
+   "[dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) — Equips text-only models for image Q&A, long-screenshot OCR, UI reconst",
+   "[dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool) — Creates and manages sandboxed JavaScript tools through a Monaco-based edit",
+   "[dsh-computer-use](https://github.com/Anionex/dsh-computer-use) — Provides accessibility-first macOS control with fresh-state checks and sco",
+   "[dsh-data-agent](https://github.com/omdsh-dev/dsh-data-agent) — Connects AI workflows to databases and SQL authoring.",
+   "[dsh-toolkit](https://github.com/omdsh-dev/dsh-toolkit) — Bundles ten dependency-free utilities for time, encoding, JSON, math, CSV, regex, ",
+   "[dsh-tool-csv](https://github.com/omdsh-dev/dsh-tool-csv) — Parses, queries, aggregates, and converts RFC 4180 CSV without dependencies."
+  ],
+  "install": "",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "awesome-deepseek-harness-plugins-vvlife-1": {
+  "intro": "A curated list of plugins, tools, skins, bridges, and extensions for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH) — the open-source agent framework from DeepSeek, built on the motto **\"Everything is a Plugin.\"** DSH launched its developer preview on **2026-08-13** (MIT license, Cordis-based). Within a day the community shipped a wave of plugins; this list tracks the notable ones and points to the rest.",
+  "features": [
+   "[How to install a plugin](#how-to-install-a-plugin)",
+   "[Official built-in plugins](#official-built-in-plugins)",
+   "[Community plugins](#community-plugins)",
+   "[Hands-on Notes](#hands-on-notes)"
+  ],
+  "install": "# npm-scoped plugin (recommended)\ndsh plugin add <npm-package>\n\n# repo-hosted plugin (the .dsh-plugin format)\n# add to your profile's cordis.yml, or via the CLI patch layer:\n# github:<owner>/<repo>#<ref>&path:/.dsh-plugin",
+  "usage": "dsh web            # http://127.0.0.1:3080",
+  "license": "The list content is released under [CC0 1.0](LICENSE). Indiv",
+  "_done": true
+ },
+ "awesome-deepseek-harness-plugins-walkinglabs-1": {
+  "intro": "[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) is DeepSeek AI's open-source, plugin-first agent harness: models, tools, skills, sessions, sandboxes, filesystems, loops, orchestration, and UI can all be composed as plugins. flowchart LR User[\"Developer / User\"] --> Web[\"DSH Web UI or CLI\"] Web --> Runtime[\"DeepSeek Harness runtime\"] Runtime --> Agent[\"Agent loop\"] Agent --> Model[\"Model provider\"] Agent --> Tools[\"Tools & skills\"] Runtime -. loads .-> Plugins[\"Plugins\"] Plugi",
+  "features": [],
+  "install": "npx @deepseek-ai/dsh web",
+  "usage": "git clone https://github.com/deepseek-ai/deepseek-harness.git\ncd deepseek-harness\npnpm install\npnpm run build\nmkdir -p scratch-plugin/src",
+  "license": "To the extent possible under law, the maintainers have waive",
+  "_done": true
+ },
+ "awesome-deepseek-harness-dominic789654-1": {
+  "intro": "DeepSeek Harness (\"DSH\") is DeepSeek's agent runtime / harness layer — the \"hands\" that turn the model's reasoning into real actions (context management, tool-call orchestration, execution sandbox, feedback loop, session persistence). Its defining feature is an **open plugin ecosystem**: the community contributes plugins, skills, MCP servers, orchestrators, aggregators, and UIs. This list collects the best of that ecosystem. Contributions welcome — see [Contributing](#contributing).",
+  "features": [],
+  "install": "# Launch the DSH Web UI\nnpx @deepseek-ai/dsh web\n\n# Install a community plugin (from this list) into your profile\ndsh plugin --profile web add \"github:owner/repo#main\"",
+  "usage": "",
+  "license": "[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](ht",
+  "_done": true
+ },
+ "dsh-plugins-sakana-yuyu-1": {
+  "intro": "dsh plugin --profile web add \"github:Sakana-yuyu/dsh-plugins\" 在系统终端运行，不要让 Agent 代跑，然后重启。",
+  "features": [],
+  "install": "dsh plugin --profile web add \"github:Sakana-yuyu/dsh-plugins\"",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "awesome-dsh-plugins-cccakeee-1": {
+  "intro": "[English](README.en.md) | **简体中文** | [🌐 网站](https://deepseekharnessplugins.com) DeepSeek Harness 目前处于 **Developer Preview**。官方采用 Cordis 的“Everything is a plugin”架构：Profile 组合 Bundle，外部插件通常以 `package.json` 的 `dsh` 字段及 patch 文件声明挂载方式。[1] [2] 因此，本目录中的安装方法和兼容性应在你自己的 DSH 版本上先行验证。 **快照日期：2026-08-19。** 本版主目录收录 **1550 个**经源码或安装清单核验的插件与 Skill，按 22 个能力分类组织（与配套网站 [deepseekharnessplugins.com](https://deepseekharnessplugins.com) 同构）；完整清单已拆分到 [`docs/categories/`](docs/categories/) 的 22 个分类页面。同时提供 **全量聚合目录 [`C",
+  "features": [
+   "聚合池是**发现清单**，不是推荐或兼容性列表；只有 `✅` 已核验子集进入下方主目录。",
+   "用 [scripts/aggregate.py](scripts/aggregate.py) 重新拉取并重建 `CATALOG.md` 与 `data/repositories.csv`（需要 `gh` 登录）。"
+  ],
+  "install": "npx @deepseek-ai/dsh web",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "awesome-dsh-plugins-dongsheng123132-1": {
+  "intro": "[中文](README.zh-CN.md) · [Official DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) · [Browse verified bundles](#radar) · [Search from the terminal](#search-from-the-terminal) · [2Origin plugin lab](#2origin-plugin-lab)",
+  "features": [
+   "`copy`: self-contained instructions with no observed runtime, bundled-resource, executable, or permission dependency;",
+   "`wrapper`: instructions that need a command, bundled resource, network, secret, write, or shell adapter;",
+   "`bridge`: a harness hook, plugin protocol, or runtime-specific configuration must be translated;",
+   "`unclassified`: required identity evidence is missing."
+  ],
+  "install": "",
+  "usage": "npx github:dongsheng123132/awesome-dsh-plugins search memory",
+  "license": "",
+  "_done": true
+ },
+ "awesome-deepseek-harness-xiaomingx-1": {
+  "intro": "官方运行时（Node.js）： npx @deepseek-ai/dsh web 外部 profile bundle 安装（pnpm）： dsh plugin --profile web add \"github:owner/repo#ref\" `dsh plugin` 实际转发给 pnpm，支持 npm、Git/GitHub、本地路径、`file:` 与 `link:` 规格。仅声明 `dsh.bundle.patch` 的包会成为激活层。管理面板：设置 → 插件。",
+  "features": [
+   "**[dsh-deepresearch](https://github.com/dsh-external/dsh-deepresearch)** — DeepResearch 插件（cordis 架构）。",
+   "**[dsh-plan-execute](https://github.com/dsh-external/dsh-plan-execute)** — 双模型规划/执行路由：规划模型思考，执行模型行动。",
+   "**[dsh-toolkit](https://github.com/dsh-external/dsh-toolkit)** — 零依赖工具集（计算器/CSV/Diff/编码/JSON/Markdown/正则/时间）。",
+   "**[dsh-101](https://github.com/dsh-external/dsh-101)** — DSH 文档阅读模式。",
+   "**[dsh-equip-engine](https://github.com/wuykjl/dsh-equip-engine)** — 任务驱动的插件装备引擎：双路检索、组合打分、冲突检测。",
+   "**[dsh-claude-move](https://github.com/PerryLink/dsh-claude-move)** — 迁移向导：把 Claude Code、Codex、OpenCode、Hermes 会话迁入 DSH。"
+  ],
+  "install": "npx @deepseek-ai/dsh web",
+  "usage": "dsh plugin --profile web add \"github:owner/repo#ref\"",
+  "license": "",
+  "_done": true
+ },
+ "awesome-dsh-plugins-2026": {
+  "intro": "面向国内开发者、按质量精选并持续维护的 DeepSeek Harness（DSH）2026 插件生态列表。<br> A quality-focused, annually maintained collection of DeepSeek Harness (DSH) plugins for 2026, with Chinese-first descriptions.",
+  "features": [
+   "[🔌 开发框架与工具](#development-tools)",
+   "[🎨 设计与创意](#design-creative)",
+   "[👁️ 视觉与多模态](#vision)",
+   "[🖥️ Web UI 与界面](#web-ui)"
+  ],
+  "install": "",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "dsh-plugin-market-theyoungchen-1": {
+  "intro": "一个 DeepSeek Harness（dsh）插件市场 bundle 插件：在 Web UI 左侧「设置」上方新增「插件市场」入口（同时集成到 设置 → 插件 → 插件市场 标签页），分页浏览 GitHub [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic 里的全部插件，支持搜索、一键安装与实时进度。",
+  "features": [
+   "**双入口**：侧边栏「设置」上方的入口按钮；设置 → 插件 → 插件市场 标签页，内容一致",
+   "**浏览 / 搜索 / 分页**：聚合 `dsh-plugin` topic 全部插件，按 star 排序，关键字搜索，每页 20 条，带「刷新」按钮",
+   "**静态索引 + CDN**：数据优先来自 GitHub Action 每 2 小时生成的 `registry.json`（jsDelivr CDN 分发，国内快），终端零 API 调用、零限流；索引不可用时自动回退搜索 API",
+   "**已安装识别 + 更新**：读 profile 真实依赖 + `repository` 归属校验，已装的插件置顶；自动对比最新版本，有新版显示「更新」按钮，一键覆盖升级",
+   "**一键安装**：确认框 → 真实执行 `pnpm add github:<owner/repo>`（等价于官方 `dsh plugin add`），自动把声明 `dsh.bundle` 的依赖 reconcile 进 `dsh.profile.bundles` 层栈",
+   "**安装可视化**：实时日志 + 已用时长，可随时**终止**（真正杀掉进程）或转**后台下载**"
+  ],
+  "install": "dsh plugin --profile web add github:TheYoungChen/dsh-plugin-market && dsh web",
+  "usage": "cd dsh-plugin-market\npnpm install          # 装 tsdown / react / @types/react 等 devDeps\npnpm build            # 产出 lib/index.mjs + lib/index.js",
+  "license": "[MIT](LICENSE) — Copyright (c) 2025 TheYoungChen",
+  "_done": true
+ },
+ "awesome-deepseek-harness-plugins-imsai-sh-1": {
+  "intro": "面向 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness)（`dsh`）生态的社区插件目录，共收录 **4120** 个插件（含 PR 收录与 GitHub `dsh-plugin` topic 自动发现），目录数据更新于 2026-08-17。 **但这个仓库不只是一份 awesome list。** 维护这份目录所需要的全部基建都在这里开源：一个在线插件市场、一个把市场装进 `dsh` 本体的插件、一条定时自动收集并做格式校验的目录流水线，以及一套免费的公开查询 API。代码采用 MIT 协议，fork 之后就能部署成你自己的插件市场。 [在线网站](https://deepseek1024.com/) · [API 文档](docs/api.md) · [英文目录](catalog/README.md) · [提交插件](CONTRIBUTING.md)",
+  "features": [],
+  "install": "dsh plugin --profile web add dsh1024",
+  "usage": "curl 'https://api.deepseek1024.com/v1/plugins/search?q=memory'",
+  "license": "",
+  "_done": true
+ },
+ "awesome-dsh-plugins-dshworks-1": {
+  "intro": "A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 6,190 entries from 4,222 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against. **[Browse the reef](https://dsh.works/awesome-dsh-plugins/)** — the same registry as a filterable, sortable gallery. Most awesome lists are prose. This one is data: [`data/plugins.json`](dat",
+  "features": [],
+  "install": "",
+  "usage": "curl -s https://dsh.works/awesome-dsh-plugins/plugins.json                 # every entry\ncurl -s https://dsh.works/awesome-dsh-plugins/stats.json                   # just the counts, ~150 bytes",
+  "license": "MIT. Not affiliated with DeepSeek; the harness README calls ",
+  "_done": true
+ },
+ "awesome-dsh-skills": {
+  "intro": "**15 original engineering skills (SKILL.md). Every skill passes a format validator mirroring the official `@deepseek-ai/dsh-skill-filesystem` rules plus an isolated-DSH_HOME load smoke test. Copy, drop in, done.** [中文](README.zh.md) · Sibling repos: [dsh-lab](https://github.com/hackerFish/dsh-lab) · [awesome-dsh-presets](https://github.com/hackerFish/awesome-dsh-presets) · [dsh-video-studio](https://github.com/hackerFish/dsh-video-studio) · [dsh-restart](https://github.com/hackerFish/dsh-restart",
+  "features": [],
+  "install": "git clone https://github.com/hackerFish/awesome-dsh-skills ~/dsh-skills\nmkdir -p ~/.dsh/skills\ncp -r ~/dsh-skills/skills/* ~/.dsh/skills/   # all, or copy individual skill dirs",
+  "usage": "",
+  "license": "[MIT](LICENSE)",
+  "_done": true
+ },
+ "dsh-plugins-lwmxiaobei-1": {
+  "intro": "[English](README.en.md) | 简体中文 社区维护的 DeepSeek Harness 插件导航与介绍目录。",
+  "features": [],
+  "install": "",
+  "usage": "npm run list\nnode bin/dsh-plugins.mjs search vision\nnode bin/dsh-plugins.mjs info Anionex/dsh-vision-toolkit",
+  "license": "",
+  "_done": true
+ },
+ "awesome-dsh-plugins-jqueryscript-1": {
+  "intro": "**Last verified:** 2026-08-20 | **Minimum at admission:** 30 stars | **Plugins:** 101",
+  "features": [
+   "[What qualifies](#what-qualifies)",
+   "[Ranked plugins](#ranked-plugins)",
+   "[Install plugins carefully](#install-plugins-carefully)",
+   "[Related resources](#related-resources)"
+  ],
+  "install": "",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "awesome-dsh-plugins-oslook-1": {
+  "intro": "A curated list of **DeepSeek Harness (DSH)** plugins. DeepSeek Harness is an agent harness where *\"everything is a plugin\"*, and the community has built a large ecosystem of extensions. This list contains **621 repositories** — every public repository.",
+  "features": [],
+  "install": "",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "awesome-dsh-presets": {
+  "intro": "**4 presets (2 derived from official shipped presets with attribution, 2 original) and 4 AGENTS.md rule packs. Every preset passes YAML/`!!js`-dialect parsing, structure checks, and package-existence validation against a real harness install.** [中文](README.zh.md) · Siblings: [dsh-lab](https://github.com/hackerFish/dsh-lab) · [awesome-dsh-skills](https://github.com/hackerFish/awesome-dsh-skills) · [dsh-video-studio](https://github.com/hackerFish/dsh-video-studio)",
+  "features": [
+   "**Presets** (`agent.cordis.yml` + `preset.yml`): drop a directory into `~/.dsh/.agent-presets/` and pick it in new sessions (mechanism per o",
+   "**Rules** (`rules/*.md`): append to `~/.dsh/AGENTS.md`."
+  ],
+  "install": "git clone https://github.com/hackerFish/awesome-dsh-presets ~/dsh-presets\nmkdir -p ~/.dsh/.agent-presets\ncp -r ~/dsh-presets/presets/minimal-zh ~/.dsh/.agent-presets/   # pick what you need\ncat ~/dsh-presets/rules/code-quality.md >> ~/.dsh/AGENTS.md",
+  "usage": "",
+  "license": "[MIT](LICENSE)",
+  "_done": true
+ },
+ "awesome-deepseek-harness-harris1121-1": {
+  "intro": "Awesome DeepSeek Harness is a curated, data-driven guide to plugins, clients, integrations, tools and resources that work with **DeepSeek Harness**. It tracks community adoption and short-term momentum so you can quickly find the projects that matter instead of digging through hundreds of repositories. **2,981 projects tracked · 13 categories · Updated daily · Last data refresh: 2026-08-20** <p align=\"center\"> <a href=\"https://github.com/deepseek-ai/deepseek-harness\"> </a> </p> <p align=\"center\"",
+  "features": [
+   "⭐&nbsp;&nbsp;**Star-first rankings** — GitHub Stars are the primary popularity signal.",
+   "📈&nbsp;&nbsp;**3-day momentum** — Short-term Star gains and growth highlight what's heating up now.",
+   "🔄&nbsp;&nbsp;**Updated daily** — Projects, Stars, classifications and rankings refresh automatically every day.",
+   "🧭&nbsp;&nbsp;**Practical categories** — Browse by what you want DeepSeek Harness to do."
+  ],
+  "install": "npx @deepseek-ai/dsh web",
+  "usage": "git clone https://github.com/deepseek-ai/deepseek-harness.git\ncd deepseek-harness\npnpm install\npnpm run build\npnpm dsh web",
+  "license": "CC0 1.0",
+  "_done": true
+ },
+ "awesome-deepseek-harness-plugins-sihanteng-1": {
+  "intro": "DeepSeek Harness is built on an architecture where every capability — tools, UI, memory, orchestration — is a [Cordis](https://github.com/cordiverse/cordis) plugin. This list tracks the best community plugins and ecosystem projects. **Find more:** add the [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic to your repo for discoverability. **Website:** browse the searchable catalog at **[awesome-deepseek-harness-plugins.pages.dev](https://awesome-deepseek-harness-plugins.pages.dev/)** (so",
+  "features": [
+   "[Official](#official)",
+   "[Tool Plugins](#tool-plugins)",
+   "[Memory & Context](#memory--context)",
+   "[Orchestration & Agents](#orchestration--agents)"
+  ],
+  "install": "",
+  "usage": "- [Plugin Name](https://github.com/user/repo) - One-line description of what it does.",
+  "license": "[CC0 1.0 Universal](LICENSE) — public domain dedication.",
+  "_done": true
+ },
+ "deepseek-harness-desktop-haoyueqin": {
+  "intro": "A desktop shell for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) — the pluggable AI agent harness from DeepSeek. Wrap the official `dsh web` UI into a native-feeling, always-on desktop app.",
+  "features": [
+   "**Zero-intrusion wrapper** — spawns `dsh web` as a child process (bundled Node 24 + `@deepseek-ai/dsh`), loads its localhost UI; the harness",
+   "**Frameless immersive window** — no native title bar; the custom window controls (minimize / maximize / close) blend into the page with Deep",
+   "**Always-on tray** — closing the window hides to the system tray instead of quitting; the backend keeps running for instant resume",
+   "**Auto-start at login** — toggle in the tray menu (Windows/macOS native; Linux via XDG autostart)",
+   "**Port-conflict proof** — `--port 0` lets the OS pick a free port; the shell discovers the real address from dsh's stdout readiness line",
+   "**Shared data home** — uses the same `DSH_HOME` as the CLI (default `~/.dsh`, overridable via the environment variable); plugins, settings, "
+  ],
+  "install": "npm install        # installs electron 43 + toolchain\nnpm run dev        # dev mode: system Node + local node_modules dsh",
+  "usage": "> printf \"electron.exe\" > node_modules/electron/path.txt\n> # and unzip the archive into node_modules/electron/dist/\n>",
+  "license": "[MIT](LICENSE). The DeepSeek Harness itself is [MIT](https:/",
+  "_done": true
+ },
+ "awesome-dsh-list": {
+  "intro": "- ⭐147660 [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) — DeepSeek Harness: Everything is a Plugin. - ⭐88174 [nexu-io/open-design](https://github.com/nexu-io/open-design) — 🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first d… - ⭐40793 [amruthpillai/reactive-resume](https://github.com/amruthpillai/reactive-resume) — A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, por… ",
+  "features": [
+   "⭐147660 [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) — DeepSeek Harness: Everything is a Plugin.",
+   "⭐88174 [nexu-io/open-design](https://github.com/nexu-io/open-design) — 🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design ",
+   "⭐40793 [amruthpillai/reactive-resume](https://github.com/amruthpillai/reactive-resume) — A one-of-a-kind resume builder that keeps your priv",
+   "⭐34664 [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) — DeepSeek-native AI coding agent for your terminal. Engi"
+  ],
+  "install": "",
+  "usage": "",
+  "license": "MIT © awesome-dsh-list contributors",
+  "_done": true
+ },
+ "awesome-dsh-themes": {
+  "intro": "<p align=\"center\"> </p> A curated list of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) themes and `--dsw-*` token skins — 377 entries, 38 with live in-browser previews, 361 verified against a dsh release. **[Open the live gallery](https://dsh.works/awesome-dsh-themes/)** — wild whales, token seas, and a little ❤️. Welcome. Most awesome lists are prose. This one is data: [`data/themes.json`](data/themes.json) is the source of truth; this README is rendered from it. ",
+  "features": [
+   "[The token seam](#the-token-seam)",
+   "[Runtime](#runtime)",
+   "[Token skins](#token-skins)",
+   "[Skins](#skins)"
+  ],
+  "install": "dsh plugin --profile web add github:MoonShadow1976/chiral-pulse",
+  "usage": "dsh plugin --profile web add github:RayYeung1989/claude-parchment-theme",
+  "license": "MIT. **Not affiliated with DeepSeek.**",
+  "_done": true
+ },
+ "awesome-deepseek-harness-rodert-1": {
+  "intro": "这个列表由 GitHub 项目数据自动维护，同时保留人工补充的中文说明。欢迎提交项目或修正分类。 在线浏览：[GitHub Pages](https://rodert.github.io/awesome-deepSeek-harness/) **Languages / 语言:** [简体中文](README.md) · [English](README.en.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Español](README.es.md) · [Русский](README.ru.md) · [Português (Brasil)](README.pt-BR.md) · [Deutsch](README.de.md)",
+  "features": [
+   "[插件](#plugins)",
+   "[集成与 Agent](#integrations)",
+   "[交互界面（TUI / Desktop / Web）](#interfaces)",
+   "[生态与插件市场](#ecosystem)"
+  ],
+  "install": "",
+  "usage": "GITHUB_TOKEN=你的_token python scripts/collect_projects.py\npython scripts/generate_markdown.py",
+  "license": "",
+  "_done": true
+ },
+ "awesome-deepseek-harness-awesome-deepseekharness-1": {
+  "intro": "**Everything is a Plugin.** A curated collection of the best plugins, tools, skills, and resources built for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) — the open-source agent harness from DeepSeek AI, powered by [Cordis](https://github.com/cordiverse/cordis). [Official Repo](https://github.com/deepseek-ai/deepseek-harness) · [Official Site](https://deepseek.com/harness) · [Discord](https://discord.gg/Ycq5dCaS4) · [Discussions](https://github.com/deepseek-ai/deep",
+  "features": [],
+  "install": "",
+  "usage": "",
+  "license": "[CC0-1.0](LICENSE) — public domain, use freely.",
+  "_done": true
+ },
+ "deepseek-harness-desktop-easyhoow": {
+  "intro": "多数社区桌面版是**拉起 `dsh web` 子进程**、再把浏览器窗口指到 `127.0.0.1:3080`。本项目的做法不同：整份官方组合**跑在 Electron 主进程内部**（进程内集成），前端从本地加载，全部 `/api` 请求与事件走 **IPC 桥**——**零端口、零子进程、无本地 HTTP 服务**。会话、目标、后台任务、插件都是应用内的一等状态：关掉窗口（驻留托盘）它们照常运行。",
+  "features": [],
+  "install": "dsh plugin --profile web add <包名>\ndsh plugin --profile web add github:<仓库>",
+  "usage": "npm ci\nnpm start       # 开发运行\nnpm run dist    # 构建安装包（输出到 release/）",
+  "license": "",
+  "_done": true
+ },
+ "awesome-dsh-plugin-wgd753-1": {
+  "intro": "**Aggregation ≠ verification**: repos flagged `tag-only` may just carry the topic and not be real dsh plugins — review before installing.",
+  "features": [],
+  "install": "",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "awesome-dsh-plugins-coolbat-1": {
+  "intro": "An independent, evidence-led directory for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugins. Every listed entry was inspected at an immutable commit for its bundle manifest, referenced patch, license signals, package identity, lifecycle scripts, and material capability signals. This is a compact reviewed subset, not a mirror of every repository carrying the `dsh-plugin` topic. It complements the broad [Awesome DeepSeek Harness Plugin](https://github.com/awesome-dsh-plu",
+  "features": [
+   "**Immutable evidence:** every decision links to a full 40-character commit.",
+   "**Native bundle check:** `package.json` must declare `dsh.bundle.patch` and",
+   "**Separate facts:** structure, license, identity, compatibility, lifecycle,",
+   "**Visible uncertainty:** incomplete or conflicting candidates stay in the",
+   "**No popularity theater:** stars and topic membership are discovery hints,"
+  ],
+  "install": "npm install\nnpm run dev",
+  "usage": "repository@full-commit\n  → package.json::dsh.bundle.patch\n  → referenced patch exists\n  → package identity + license + lifecycle facts\n  → reviewed / held / excluded",
+  "license": "[MIT](./LICENSE)",
+  "_done": true
  }
 }

@@ -5,7 +5,7 @@ keywords: "Open Sea Skin, ui, plugin, deepseek harness, dsh"
 ---
 # Open Sea Skin
 
-> ⭐ 181 · ✅ 活跃 · 插件
+> ⭐ 185 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

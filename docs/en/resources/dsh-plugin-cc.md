@@ -5,7 +5,7 @@ keywords: "dsh-plugin-cc, multi-agent, agent, coding, deepseek harness, dsh"
 ---
 # dsh-plugin-cc
 
-> ⭐ 8 · ✅ active · agent
+> ⭐ 19 · ✅ active · agent
 
 ## One-liner
 

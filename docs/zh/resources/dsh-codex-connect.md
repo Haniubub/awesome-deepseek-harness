@@ -5,7 +5,7 @@ keywords: "dsh-codex-connect, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-codex-connect
 
-> ⭐ 29 · ✅ 活跃 · 插件
+> ⭐ 34 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

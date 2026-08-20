@@ -5,7 +5,7 @@ keywords: "dsh-auto-continue, automation, workflow, ui, deepseek harness, dsh"
 ---
 # dsh-auto-continue
 
-> ⭐ 30 · ✅ 活跃 · 工作流
+> ⭐ 32 · ✅ 活跃 · 工作流
 
 ## 一句话介绍
 

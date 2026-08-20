@@ -5,7 +5,7 @@ keywords: "dsh-mcp-manager, mcp, integration, ui, deepseek harness, dsh"
 ---
 # dsh-mcp-manager
 
-> ⭐ 9 · ✅ active · integration
+> ⭐ 10 · ✅ active · integration
 
 ## One-liner
 

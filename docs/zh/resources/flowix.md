@@ -5,7 +5,7 @@ keywords: "flowix, memory, plugin, coding, multi-agent, deepseek harness, dsh"
 ---
 # flowix
 
-> ⭐ 325 · ✅ 活跃 · 插件
+> ⭐ 329 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

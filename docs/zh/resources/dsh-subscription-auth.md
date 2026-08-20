@@ -5,7 +5,7 @@ keywords: "dsh-subscription-auth, developer, integration, coding, deepseek harne
 ---
 # dsh-subscription-auth
 
-> ⭐ 4 · ✅ 活跃 · 集成
+> ⭐ 5 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

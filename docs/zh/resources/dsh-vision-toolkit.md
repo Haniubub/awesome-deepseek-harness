@@ -5,7 +5,7 @@ keywords: "dsh-vision-toolkit, vision, plugin, multimodal, research, deepseek ha
 ---
 # dsh-vision-toolkit
 
-> ⭐ 744 · ✅ 活跃 · 插件
+> ⭐ 782 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

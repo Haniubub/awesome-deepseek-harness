@@ -5,7 +5,7 @@ keywords: "dsh-usage-dashboard, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-usage-dashboard
 
-> ⭐ 7 · ✅ active · plugin
+> ⭐ 8 · ✅ active · plugin
 
 ## One-liner
 

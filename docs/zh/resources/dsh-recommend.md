@@ -5,7 +5,7 @@ keywords: "dsh-recommend, discovery, plugin, search, ui, deepseek harness, dsh"
 ---
 # dsh-recommend
 
-> ⭐ 18 · ✅ 活跃 · 插件
+> ⭐ 17 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

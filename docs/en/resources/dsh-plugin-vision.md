@@ -5,7 +5,7 @@ keywords: "dsh-plugin-vision, developer, integration, coding, deepseek harness, 
 ---
 # dsh-plugin-vision
 
-> ⭐ 2 · ✅ active · integration
+> ⭐ 3 · ✅ active · integration
 
 ## One-liner
 

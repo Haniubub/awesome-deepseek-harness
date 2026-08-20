@@ -5,7 +5,7 @@ keywords: "mstar-harness, workflow, multi-agent, deepseek harness, dsh"
 ---
 # mstar-harness
 
-> ⭐ 51 · ✅ active · workflow
+> ⭐ 52 · ✅ active · workflow
 
 ## One-liner
 

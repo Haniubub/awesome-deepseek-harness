@@ -5,7 +5,7 @@ keywords: "dsh-calculator, developer, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-calculator
 
-> ⭐ 4 · ✅ active · plugin
+> ⭐ 5 · ✅ active · plugin
 
 ## One-liner
 

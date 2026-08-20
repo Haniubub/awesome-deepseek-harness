@@ -5,7 +5,7 @@ keywords: "beauticode, desktop, client, coding, deepseek harness, dsh"
 ---
 # beauticode
 
-> ⭐ 33 · ✅ 活跃 · 客户端
+> ⭐ 41 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

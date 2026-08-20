@@ -5,7 +5,7 @@ keywords: "dsh-mneme, memory, plugin, deepseek harness, dsh"
 ---
 # dsh-mneme
 
-> ⭐ 27 · ✅ 活跃 · 插件
+> ⭐ 30 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

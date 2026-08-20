@@ -5,7 +5,7 @@ keywords: "dsh-visualize, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-visualize
 
-> ⭐ 184 · ✅ 活跃 · 插件
+> ⭐ 190 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

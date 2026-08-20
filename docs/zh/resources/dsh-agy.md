@@ -5,7 +5,7 @@ keywords: "dsh-agy, search, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-agy
 
-> ⭐ 18 · ✅ 活跃 · 插件
+> ⭐ 19 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

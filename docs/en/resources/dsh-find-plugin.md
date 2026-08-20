@@ -5,7 +5,7 @@ keywords: "dsh-find-plugin, discovery, plugin, search, workflow, deepseek harnes
 ---
 # dsh-find-plugin
 
-> ⭐ 61 · ✅ active · plugin
+> ⭐ 68 · ✅ active · plugin
 
 ## One-liner
 

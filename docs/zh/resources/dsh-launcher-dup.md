@@ -5,7 +5,7 @@ keywords: "dsh-launcher, desktop, client, deepseek harness, dsh"
 ---
 # dsh-launcher
 
-> ⭐ 153 · ✅ 活跃 · 客户端
+> ⭐ 161 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-memory-evolve, memory, plugin, context, automation, deepseek harn
 ---
 # dsh-memory-evolve
 
-> ⭐ 190 · ✅ active · plugin
+> ⭐ 205 · ✅ active · plugin
 
 ## One-liner
 

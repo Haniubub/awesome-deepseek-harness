@@ -5,7 +5,7 @@ keywords: "dsh-genui, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-genui
 
-> ⭐ 242 · ✅ active · plugin
+> ⭐ 263 · ✅ active · plugin
 
 ## One-liner
 

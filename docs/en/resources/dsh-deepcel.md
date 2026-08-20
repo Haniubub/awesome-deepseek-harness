@@ -5,7 +5,7 @@ keywords: "dsh-deepcel, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-deepcel
 
-> ⭐ 11 · ✅ active · plugin
+> ⭐ 12 · ✅ active · plugin
 
 ## One-liner
 

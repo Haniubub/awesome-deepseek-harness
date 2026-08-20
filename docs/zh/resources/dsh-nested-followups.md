@@ -5,7 +5,7 @@ keywords: "dsh-nested-followups, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-nested-followups
 
-> ⭐ 8 · ✅ 活跃 · 插件
+> ⭐ 12 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

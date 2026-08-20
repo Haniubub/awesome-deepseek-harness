@@ -5,7 +5,7 @@ keywords: "deepseek-harness-zh_pro, vision, plugin, coding, deepseek harness, ds
 ---
 # deepseek-harness-zh_pro
 
-> ⭐ 13 · ✅ active · plugin
+> ⭐ 14 · ✅ active · plugin
 
 ## One-liner
 
