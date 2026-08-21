@@ -5,7 +5,7 @@ keywords: "Deepseek-Harness-Desktop (ChisaAlter), desktop, client, ui, deepseek 
 ---
 # Deepseek-Harness-Desktop (ChisaAlter)
 
-> ⭐ 126 · ✅ active · client
+> ⭐ 131 · ✅ active · client
 
 ## One-liner
 

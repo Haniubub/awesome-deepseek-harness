@@ -5,7 +5,7 @@ keywords: "dsh-plugin-dev-skills, desktop, client, coding, multi-agent, deepseek
 ---
 # dsh-plugin-dev-skills
 
-> ⭐ 36 · ✅ 活跃 · 客户端
+> ⭐ 38 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

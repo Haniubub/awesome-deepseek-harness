@@ -5,7 +5,7 @@ keywords: "dsh-plugin-dev-skills, desktop, client, coding, multi-agent, deepseek
 ---
 # dsh-plugin-dev-skills
 
-> ⭐ 36 · ✅ active · client
+> ⭐ 38 · ✅ active · client
 
 ## One-liner
 

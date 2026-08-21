@@ -5,7 +5,7 @@ keywords: "oh-my-dsh, vision, plugin, coding, deepseek harness, dsh"
 ---
 # oh-my-dsh
 
-> ⭐ 10 · ✅ 活跃 · 插件
+> ⭐ 11 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

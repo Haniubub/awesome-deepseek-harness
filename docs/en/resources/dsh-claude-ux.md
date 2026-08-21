@@ -5,7 +5,7 @@ keywords: "dsh-claude-ux, search, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-claude-ux
 
-> ⭐ 59 · ✅ active · plugin
+> ⭐ 60 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "touhou-hakurei, search, plugin, coding, ui, deepseek harness, dsh"
 ---
 # touhou-hakurei
 
-> ⭐ 17 · ✅ active · plugin
+> ⭐ 18 · ✅ active · plugin
 
 ## One-liner
 

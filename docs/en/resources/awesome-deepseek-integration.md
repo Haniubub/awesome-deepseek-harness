@@ -5,7 +5,7 @@ keywords: "awesome-deepseek-integration, registry, awesome-list, search, deepsee
 ---
 # awesome-deepseek-integration
 
-> ⭐ 38,873 · ✅ active · awesome-list
+> ⭐ 38,897 · ✅ active · awesome-list
 
 ## One-liner
 

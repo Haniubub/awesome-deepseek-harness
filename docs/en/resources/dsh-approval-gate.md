@@ -5,7 +5,7 @@ keywords: "dsh-approval-gate, developer, plugin, security, deepseek harness, dsh
 ---
 # dsh-approval-gate
 
-> ⭐ 2 · ✅ active · plugin
+> ⭐ 4 · ✅ active · plugin
 
 ## One-liner
 

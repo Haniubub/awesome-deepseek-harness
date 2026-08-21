@@ -14,11 +14,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 10839,
-    "_stars_prev": 10798,
-    "growth": 41,
+    "stars": 10873,
+    "_stars_prev": 10839,
+    "growth": 34,
     "_source_description": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support.",
-    "_updated": "2026-08-20"
+    "_updated": "2026-08-21"
   },
   {
     "id": "easyeda-agent",
@@ -34,10 +34,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 258,
-    "_updated": "2026-08-20",
-    "_stars_prev": 238,
-    "growth": 20,
+    "stars": 274,
+    "_updated": "2026-08-21",
+    "_stars_prev": 258,
+    "growth": 16,
     "_source_description": "嘉立创EDA专业版(EasyEDA Pro)自动化：给 AI harness 装上画板的「手」—— 一套 typed 原理图/PCB 动作，CLI / Agent Skill / stdio MCP 三形态融合接入。承接嘉立创「不以卖板赚钱，以培养中国工程师为己任」 | EasyEDA Pro automation: the hands of your AI harness — typed schematic/PCB actions via CLI, Agent Skill and stdio MCP."
   },
   {
@@ -54,11 +54,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 86,
+    "stars": 88,
     "_source_description": "DSH Web UI plugin: skill and MCP management（Web界面的skill/MCP管理工具）",
     "_updated": "2026-08-18",
-    "_stars_prev": 75,
-    "growth": 11
+    "_stars_prev": 86,
+    "growth": 2
   },
   {
     "id": "dsh-reverse-skill",
@@ -74,11 +74,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 51,
+    "stars": 58,
     "_source_description": "Complete reverse-skill (85 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authorized pentesting and security research skill pack.",
     "_updated": "2026-08-17",
-    "_stars_prev": 41,
-    "growth": 10
+    "_stars_prev": 51,
+    "growth": 7
   },
   {
     "id": "dsh-science",
@@ -93,10 +93,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 22,
+    "stars": 24,
     "_updated": "2026-08-18",
-    "_stars_prev": 21,
-    "growth": 1
+    "_stars_prev": 22,
+    "growth": 2
   },
   {
     "id": "dsh-plugin-swift-cycle",
@@ -118,25 +118,6 @@
     "growth": 0
   },
   {
-    "id": "dsh-plugin-dev",
-    "name": "dsh-plugin-dev",
-    "type": "skill",
-    "category": "learning",
-    "repository": "https://github.com/omdsh-dev/dsh-plugin-dev",
-    "description": "Field-tested plugin development playbook (skill + docs): cordis dual copies, tsconfig triplets, Windows junctions and multi-frame zstd.",
-    "description_zh": "插件开发踩坑与做法档案（skill + 文档）：cordis 双副本、tsconfig 三件套、Windows junction、多帧 zstd 实测。",
-    "capabilities": [
-      "coding"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 13,
-    "_source_description": "DSH 插件开发踩坑与做法档案（skill + 文档）：cordis 双副本、tsconfig 三件套、Windows junction、多帧 zstd 等实测记录",
-    "_updated": "2026-08-20",
-    "_stars_prev": 12,
-    "growth": 1
-  },
-  {
     "id": "dsh-plugin-development",
     "name": "dsh-plugin-development",
     "type": "skill",
@@ -154,6 +135,25 @@
     "_source_description": "Portable Agent Skill for developing and auditing DeepSeek Harness plugins, with an optional profile-installable DSH bundle adapter.",
     "_updated": "2026-08-17",
     "_stars_prev": 13,
+    "growth": 1
+  },
+  {
+    "id": "dsh-plugin-dev",
+    "name": "dsh-plugin-dev",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/omdsh-dev/dsh-plugin-dev",
+    "description": "Field-tested plugin development playbook (skill + docs): cordis dual copies, tsconfig triplets, Windows junctions and multi-frame zstd.",
+    "description_zh": "插件开发踩坑与做法档案（skill + 文档）：cordis 双副本、tsconfig 三件套、Windows junction、多帧 zstd 实测。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 13,
+    "_source_description": "DSH 插件开发踩坑与做法档案（skill + 文档）：cordis 双副本、tsconfig 三件套、Windows junction、多帧 zstd 等实测记录",
+    "_updated": "2026-08-21",
+    "_stars_prev": 12,
     "growth": 1
   },
   {
@@ -355,7 +355,7 @@
     "verified": false,
     "stars": 2,
     "_source_description": "Security-audit skill pack + plugin_vet supply-chain gate for DeepSeek Harness (dsh): 8 bilingual agent skills (secret scan, dependency audit, supply-chain review, prompt-injection review, audit orchestration, threat modeling, vuln intel, incident response) plus the plugin_vet automated pre-install scanner. Apache-2.0.",
-    "_updated": "2026-08-20"
+    "_updated": "2026-08-21"
   },
   {
     "id": "dsh-skillport",
@@ -389,9 +389,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 2,
+    "stars": 3,
     "_source_description": "dsh plugin bridging the vercel-labs/skills ecosystem: LLM-driven skill search, install, and lifecycle for temp/project/global scopes.",
-    "_updated": "2026-08-15"
+    "_updated": "2026-08-15",
+    "_stars_prev": 2,
+    "growth": 1
   },
   {
     "id": "dsh-explore-skill",
@@ -460,9 +462,9 @@
     "status": "active",
     "verified": false,
     "_updated": "2026-08-16",
-    "stars": 2,
+    "stars": 3,
     "_source_description": "ECC (227k-star operator system) skills for DeepSeek Harness — progressive port, v0.1.0 ships 20 curated skills; adapted from affaan-m/ECC (MIT)",
-    "_stars_prev": 1,
+    "_stars_prev": 2,
     "growth": 1
   },
   {
@@ -483,6 +485,42 @@
     "_source_description": "Matt Pocock's skills for DeepSeek Harness (DSH): grilling, writing-for-agents, wait-what, TDD and more — 25 skills adapted from mattpocock/skills (MIT)",
     "_stars_prev": 1,
     "growth": 1
+  },
+  {
+    "id": "mattpocock-skills-dsh-zh",
+    "name": "mattpocock-skills-dsh-zh",
+    "type": "skill",
+    "category": "coding",
+    "repository": "https://github.com/gongyijie85/mattpocock-skills-dsh-zh",
+    "description": "Matt Pocock's 25 skills fully translated to Chinese (technical terms kept in English with glosses).",
+    "description_zh": "Matt Pocock 25 个技能正文全译中文（技术术语保留英文并附注释）。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "_updated": "2026-08-16",
+    "stars": 1,
+    "_source_description": "Matt Pocock 技能中文版 for DeepSeek Harness: 25 个技能正文全译中文 (Chinese translation of mattpocock/skills, MIT)",
+    "_stars_prev": 0,
+    "growth": 1
+  },
+  {
+    "id": "howto-dsh",
+    "name": "howto-dsh",
+    "type": "skill",
+    "category": "learning",
+    "repository": "https://github.com/dshworks/howto-dsh",
+    "description": "Verified field notes for DeepSeek Harness (dsh): traps, skills, hooks, profiles. Every claim dated against a dsh version, with source paths to re-verify. Not affiliated with DeepSeek.",
+    "description_zh": "Verified field notes for DeepSeek Harness (dsh): traps, skills, hooks, profiles. Every claim dated against a dsh version, with source paths to re-verify. Not affiliated with DeepSeek.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1,
+    "_source_description": "Verified field notes for DeepSeek Harness (dsh): traps, skills, hooks, profiles. Every claim dated against a dsh version, with source paths to re-verify. Not affiliated with DeepSeek.",
+    "_updated": "2026-08-20"
   },
   {
     "id": "dsh-news-briefing",
@@ -517,24 +555,5 @@
     "stars": 0,
     "_source_description": "A Skill-driven Harness/Loop Engineering Workflow Agent Plugin",
     "_updated": "2026-08-14"
-  },
-  {
-    "id": "mattpocock-skills-dsh-zh",
-    "name": "mattpocock-skills-dsh-zh",
-    "type": "skill",
-    "category": "coding",
-    "repository": "https://github.com/gongyijie85/mattpocock-skills-dsh-zh",
-    "description": "Matt Pocock's 25 skills fully translated to Chinese (technical terms kept in English with glosses).",
-    "description_zh": "Matt Pocock 25 个技能正文全译中文（技术术语保留英文并附注释）。",
-    "capabilities": [
-      "coding"
-    ],
-    "status": "active",
-    "verified": false,
-    "_updated": "2026-08-16",
-    "stars": 1,
-    "_source_description": "Matt Pocock 技能中文版 for DeepSeek Harness: 25 个技能正文全译中文 (Chinese translation of mattpocock/skills, MIT)",
-    "_stars_prev": 0,
-    "growth": 1
   }
 ]

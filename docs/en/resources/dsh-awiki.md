@@ -5,7 +5,7 @@ keywords: "dsh-awiki, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-awiki
 
-> ⭐ 7 · ✅ active · plugin
+> ⭐ 9 · ✅ active · plugin
 
 ## One-liner
 

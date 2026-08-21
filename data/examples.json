@@ -32,10 +32,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 11,
+    "stars": 12,
     "_source_description": "基于原turtle ui官方仓库创建的plugin模板仓库",
     "_updated": "2026-08-20",
-    "_stars_prev": 10,
+    "_stars_prev": 11,
     "growth": 1
   },
   {
@@ -90,11 +90,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 10,
+    "stars": 13,
     "_source_description": "Template for deepseek-harness plugin development.",
     "_updated": "2026-08-14",
-    "_stars_prev": 5,
-    "growth": 5
+    "_stars_prev": 10,
+    "growth": 3
   },
   {
     "id": "dsh-101",

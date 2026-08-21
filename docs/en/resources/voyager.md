@@ -5,7 +5,7 @@ keywords: "voyager, search, plugin, coding, ui, deepseek harness, dsh"
 ---
 # voyager
 
-> ⭐ 19,722 · ✅ active · plugin
+> ⭐ 19,755 · ✅ active · plugin
 
 ## One-liner
 

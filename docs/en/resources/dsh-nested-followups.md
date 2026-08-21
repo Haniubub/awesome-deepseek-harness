@@ -5,7 +5,7 @@ keywords: "dsh-nested-followups, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-nested-followups
 
-> ⭐ 12 · ✅ active · plugin
+> ⭐ 13 · ✅ active · plugin
 
 ## One-liner
 

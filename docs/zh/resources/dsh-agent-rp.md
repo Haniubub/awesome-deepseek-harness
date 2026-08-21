@@ -5,7 +5,7 @@ keywords: "dsh-agent-rp, multi-agent, agent, ui, deepseek harness, dsh"
 ---
 # dsh-agent-rp
 
-> ⭐ 162 · ✅ 活跃 · 智能体
+> ⭐ 169 · ✅ 活跃 · 智能体
 
 ## 一句话介绍
 

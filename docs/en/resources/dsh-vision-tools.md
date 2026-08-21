@@ -5,7 +5,7 @@ keywords: "dsh-vision-tools, vision, plugin, multimodal, deepseek harness, dsh"
 ---
 # dsh-vision-tools
 
-> ⭐ 2 · ✅ active · plugin
+> ⭐ 3 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-annotation, input-editing, plugin, ui, deepseek harness, dsh"
 ---
 # dsh-annotation
 
-> ⭐ 81 · ✅ active · plugin
+> ⭐ 87 · ✅ active · plugin
 
 ## One-liner
 

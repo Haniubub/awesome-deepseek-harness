@@ -5,7 +5,7 @@ keywords: "dsh-genui, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-genui
 
-> ⭐ 263 · ✅ 活跃 · 插件
+> ⭐ 282 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-ecc, coding, skill, deepseek harness, dsh"
 ---
 # dsh-ecc
 
-> ⭐ 2 · ✅ active · skill
+> ⭐ 3 · ✅ active · skill
 
 ## One-liner
 

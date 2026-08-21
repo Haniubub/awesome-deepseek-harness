@@ -5,7 +5,7 @@ keywords: "dsh-reverse-skill, learning, skill, coding, search, deepseek harness,
 ---
 # dsh-reverse-skill
 
-> ⭐ 51 · ✅ active · skill
+> ⭐ 58 · ✅ active · skill
 
 ## One-liner
 

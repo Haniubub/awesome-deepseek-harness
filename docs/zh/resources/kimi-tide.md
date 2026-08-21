@@ -5,7 +5,7 @@ keywords: "kimi-tide, ide, integration, coding, multi-agent, deepseek harness, d
 ---
 # kimi-tide
 
-> ⭐ 3 · ✅ 活跃 · 集成
+> ⭐ 4 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

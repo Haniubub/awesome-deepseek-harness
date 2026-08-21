@@ -5,7 +5,7 @@ keywords: "dsh-milestone, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-milestone
 
-> ⭐ 17 · ✅ active · plugin
+> ⭐ 18 · ✅ active · plugin
 
 ## One-liner
 

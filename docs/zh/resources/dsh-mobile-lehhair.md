@@ -5,7 +5,7 @@ keywords: "dsh-mobile, mobile, client, coding, deepseek harness, dsh"
 ---
 # dsh-mobile
 
-> ⭐ 51 · ✅ 活跃 · 客户端
+> ⭐ 79 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

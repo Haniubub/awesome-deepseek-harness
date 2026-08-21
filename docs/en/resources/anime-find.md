@@ -5,7 +5,7 @@ keywords: "anime-find, search, plugin, coding, deepseek harness, dsh"
 ---
 # anime-find
 
-> ⭐ 152 · ✅ active · plugin
+> ⭐ 157 · ✅ active · plugin
 
 ## One-liner
 

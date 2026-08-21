@@ -5,7 +5,7 @@ keywords: "dsh-oauth-mcp-client, mcp, integration, security, deepseek harness, d
 ---
 # dsh-oauth-mcp-client
 
-> ⭐ 8 · ✅ active · integration
+> ⭐ 9 · ✅ active · integration
 
 ## One-liner
 

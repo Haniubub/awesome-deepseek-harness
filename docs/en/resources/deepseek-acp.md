@@ -5,7 +5,7 @@ keywords: "deepseek-acp, developer, integration, coding, multi-agent, deepseek h
 ---
 # deepseek-acp
 
-> ⭐ 8 · ✅ active · integration
+> ⭐ 9 · ✅ active · integration
 
 ## One-liner
 

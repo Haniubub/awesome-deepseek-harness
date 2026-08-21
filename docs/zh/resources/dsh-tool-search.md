@@ -5,7 +5,7 @@ keywords: "dsh-tool-search, developer, plugin, coding, context, deepseek harness
 ---
 # dsh-tool-search
 
-> ⭐ 2 · ✅ 活跃 · 插件
+> ⭐ 3 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

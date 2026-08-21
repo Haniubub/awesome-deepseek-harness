@@ -5,7 +5,7 @@ keywords: "dsh-plugins, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-plugins
 
-> ⭐ 43 · ✅ 活跃 · 插件
+> ⭐ 45 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

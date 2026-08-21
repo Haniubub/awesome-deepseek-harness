@@ -5,7 +5,7 @@ keywords: "dsh-tool-search, developer, plugin, coding, context, deepseek harness
 ---
 # dsh-tool-search
 
-> ⭐ 2 · ✅ active · plugin
+> ⭐ 3 · ✅ active · plugin
 
 ## One-liner
 

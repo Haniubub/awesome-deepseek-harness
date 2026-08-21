@@ -5,7 +5,7 @@ keywords: "awesome-dsh-plugin, registry, awesome-list, coding, deepseek harness,
 ---
 # awesome-dsh-plugin
 
-> ⭐ 964 · ✅ 活跃 · 精选列表
+> ⭐ 966 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

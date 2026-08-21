@@ -5,7 +5,7 @@ keywords: "dsh-plugins, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-plugins
 
-> ⭐ 43 · ✅ active · plugin
+> ⭐ 45 · ✅ active · plugin
 
 ## One-liner
 

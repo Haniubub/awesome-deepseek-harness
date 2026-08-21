@@ -5,7 +5,7 @@ keywords: "awesome-dsh-skills, registry, awesome-list, search, deepseek harness,
 ---
 # awesome-dsh-skills
 
-> ⭐ 2 · ✅ active · awesome-list
+> ⭐ 4 · ✅ active · awesome-list
 
 ## One-liner
 

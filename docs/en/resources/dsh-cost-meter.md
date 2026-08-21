@@ -5,7 +5,7 @@ keywords: "dsh-cost-meter, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-cost-meter
 
-> ⭐ 1 · ✅ active · plugin
+> ⭐ 2 · ✅ active · plugin
 
 ## One-liner
 

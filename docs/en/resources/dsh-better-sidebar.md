@@ -5,7 +5,7 @@ keywords: "DSH Better Sidebar, ui, plugin, files, terminal, git, deepseek harnes
 ---
 # DSH Better Sidebar
 
-> ⭐ 2,436 · ✅ active · plugin
+> ⭐ 2,552 · ✅ active · plugin
 
 ## One-liner
 

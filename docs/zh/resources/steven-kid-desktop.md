@@ -5,7 +5,7 @@ keywords: "deepseek-harness-desktop (steven-kid), desktop, client, deepseek harn
 ---
 # deepseek-harness-desktop (steven-kid)
 
-> ⭐ 155 · ✅ 活跃 · 客户端
+> ⭐ 157 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

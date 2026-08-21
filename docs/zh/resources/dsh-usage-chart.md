@@ -5,7 +5,7 @@ keywords: "dsh-usage-chart, search, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-usage-chart
 
-> ⭐ 7 · ✅ 活跃 · 插件
+> ⭐ 10 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

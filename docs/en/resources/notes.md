@@ -5,7 +5,7 @@ keywords: "notes (zhaoolee), registry, awesome-list, ui, files, deepseek harness
 ---
 # notes (zhaoolee)
 
-> ⭐ 148 · ✅ active · awesome-list
+> ⭐ 149 · ✅ active · awesome-list
 
 ## One-liner
 

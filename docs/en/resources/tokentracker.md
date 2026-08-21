@@ -5,7 +5,7 @@ keywords: "TokenTracker, developer, plugin, observability, deepseek harness, dsh
 ---
 # TokenTracker
 
-> ⭐ 1,380 · ✅ active · plugin
+> ⭐ 1,395 · ✅ active · plugin
 
 ## One-liner
 

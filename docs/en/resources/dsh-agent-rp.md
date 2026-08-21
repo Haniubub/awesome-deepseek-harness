@@ -5,7 +5,7 @@ keywords: "dsh-agent-rp, multi-agent, agent, ui, deepseek harness, dsh"
 ---
 # dsh-agent-rp
 
-> ⭐ 162 · ✅ active · agent
+> ⭐ 169 · ✅ active · agent
 
 ## One-liner
 

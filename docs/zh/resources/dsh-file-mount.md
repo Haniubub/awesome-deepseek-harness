@@ -5,7 +5,7 @@ keywords: "dsh-file-mount, memory, plugin, context, files, deepseek harness, dsh
 ---
 # dsh-file-mount
 
-> ⭐ 10 · ✅ 活跃 · 插件
+> ⭐ 11 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

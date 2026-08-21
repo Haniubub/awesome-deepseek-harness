@@ -5,7 +5,7 @@ keywords: "easyeda-agent, learning, skill, mcp, coding, deepseek harness, dsh"
 ---
 # easyeda-agent
 
-> ⭐ 258 · ✅ active · skill
+> ⭐ 274 · ✅ active · skill
 
 ## One-liner
 

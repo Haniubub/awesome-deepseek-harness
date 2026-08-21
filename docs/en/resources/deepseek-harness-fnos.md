@@ -5,7 +5,7 @@ keywords: "deepseek-harness-fnos, desktop, client, coding, multi-agent, ui, deep
 ---
 # deepseek-harness-fnos
 
-> ⭐ 16 · ✅ active · client
+> ⭐ 18 · ✅ active · client
 
 ## One-liner
 

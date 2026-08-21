@@ -5,7 +5,7 @@ keywords: "dsh-ui-appearance, ui, plugin, coding, multimodal, deepseek harness, 
 ---
 # dsh-ui-appearance
 
-> ⭐ 9 · ✅ active · plugin
+> ⭐ 10 · ✅ active · plugin
 
 ## One-liner
 

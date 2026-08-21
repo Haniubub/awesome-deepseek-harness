@@ -5,7 +5,7 @@ keywords: "webdsh, search, plugin, coding, deepseek harness, dsh"
 ---
 # webdsh
 
-> ⭐ 17 · ✅ active · plugin
+> ⭐ 18 · ✅ active · plugin
 
 ## One-liner
 

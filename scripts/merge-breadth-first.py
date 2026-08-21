@@ -18,7 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
-BF_READMES = "/tmp/dsh_bf/readmes.json"
+BF_READMES = "/tmp/dsh_bf2/readmes_all.json"
 
 URL_RE = re.compile(r"github\.com/([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)")
 HAS_CJK = re.compile(r"[\u4e00-\u9fff]")
@@ -184,33 +184,39 @@ def main():
         (DATA_DIR / fname).write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
         print(f"  {fname}: +{len(data) - before} (now {len(data)})")
 
-    # 7. register the valuable awesome lists themselves
+    # 7. register DSH-relevant awesome lists dynamically
     al = json.loads((DATA_DIR / "awesome-lists.json").read_text())
-    for repo, zh in AWESOME_LISTS:
-        key = repo.lower()
-        if key in existing:
+    al_have = {e["repository"].replace("https://github.com/", "").lower() for e in al}
+    registered = 0
+    for list_repo, md in readmes.items():
+        key = list_repo.lower()
+        if key in al_have or not key.startswith("awesome"):
             continue
-        m = api_get(f"https://api.github.com/repos/{repo}", token)
-        if not m:
-            continue
-        desc = (m.get("description") or "").strip() or f"Awesome list: {repo}"
-        al.append({
-            "id": re.sub(r"[^a-z0-9]+", "-", repo.split("/")[1].lower()).strip("-"),
-            "name": repo.split("/")[1],
-            "type": "awesome-list",
-            "category": "registry",
-            "repository": m["html_url"],
-            "description": desc,
-            "description_zh": zh,
-            "capabilities": ["search"],
-            "status": "active",
-            "verified": False,
-            "stars": m["stargazers_count"],
-        })
-        existing.add(key)
+        links = set(URL_RE.findall(md))
+        dsh_links = [l for l in links if l.lower().startswith("dsh") or "deepseek-harness" in l.lower()]
+        if len(dsh_links) >= 5 or (len(links) >= 20 and ("dsh" in key or "harness" in key or "deepseek" in key)):
+            m = api_get(f"https://api.github.com/repos/{list_repo}", token)
+            if not m:
+                continue
+            desc = (m.get("description") or "").strip() or f"Awesome list: {list_repo}"
+            al.append({
+                "id": re.sub(r"[^a-z0-9]+", "-", list_repo.split("/")[1].lower()).strip("-") + "-" + list_repo.split("/")[0].lower(),
+                "name": list_repo.split("/")[1],
+                "type": "awesome-list",
+                "category": "registry",
+                "repository": m["html_url"],
+                "description": desc,
+                "description_zh": desc,
+                "capabilities": ["search"],
+                "status": "active",
+                "verified": False,
+                "stars": m["stargazers_count"],
+            })
+            al_have.add(key)
+            registered += 1
     al.sort(key=lambda x: -x.get("stars", 0))
     (DATA_DIR / "awesome-lists.json").write_text(json.dumps(al, ensure_ascii=False, indent=2) + "\n")
-    print(f"  awesome-lists.json: {len(al)}")
+    print(f"  awesome-lists.json: {len(al)} (+{registered} dynamic)")
     return 0
 
 

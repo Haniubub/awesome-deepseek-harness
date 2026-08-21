@@ -5,7 +5,7 @@ keywords: "awesome-harness-engineering, registry, awesome-list, search, deepseek
 ---
 # awesome-harness-engineering
 
-> ⭐ 3,876 · ✅ active · awesome-list
+> ⭐ 3,887 · ✅ active · awesome-list
 
 ## One-liner
 

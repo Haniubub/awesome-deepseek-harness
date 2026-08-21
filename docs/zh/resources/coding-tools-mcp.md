@@ -5,7 +5,7 @@ keywords: "Coding Tools MCP, mcp, integration, coding, deepseek harness, dsh"
 ---
 # Coding Tools MCP
 
-> ⭐ 841 · ✅ 活跃 · 集成
+> ⭐ 846 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

@@ -6486,5 +6486,291 @@
   "usage": "repository@full-commit\n  → package.json::dsh.bundle.patch\n  → referenced patch exists\n  → package identity + license + lifecycle facts\n  → reviewed / held / excluded",
   "license": "[MIT](./LICENSE)",
   "_done": true
+ },
+ "dsh-meow-cat": {
+  "intro": "Every time a conversation turn ends in the DeepSeek Harness web UI, a small cat 🐈 runs across the bottom of the window with a \"喵~\" speech bubble and a meow. The meow is synthesized at runtime — no audio assets, no external URLs, no dependencies — and the whole plugin is two plain JavaScript files plus a one-row bundle patch.",
+  "features": [
+   "**Node half** (`lib/index.js`): counts finished turns on the host-plane `agent/status` event (`idle` = no driver remains scheduled) and serv",
+   "**Browser half** (`lib/client.js`): polls the endpoint, and on every increment runs a pure-CSS cat animation across a click-through fixed la",
+   "**Meow synthesis**: a 16-bit mono WAV is generated in memory — a 520→760→430 Hz pitch contour (\"mi-aa-ou\") with mid-note vibrato and a nasal"
+  ],
+  "install": "",
+  "usage": "npx dshpub add dsh-pub/dsh-meow-cat --profile web",
+  "license": "MIT — see [LICENSE](./LICENSE).",
+  "_done": true
+ },
+ "dsh-plugin-hub-bf2": {
+  "intro": "**DeepSeek Harness 社区插件市场：收录 4,261 个 DSH plugin，人工精选验证 2,487** [官网](https://dsh-plugin.org) · [提交 Issue](https://github.com/dshplugin/dsh-plugin-hub/issues) · [提交插件](https://dsh-plugin.org/zh/submit) **简体中文** · [English](README.en.md) </div> ---",
+  "features": [
+   "**原生集成** — 嵌入 Harness「设置 → 插件中心」，界面中英双语，跟随系统语言",
+   "**人工精选 · 每日更新** — 收录 **4,261** 个社区插件，其中 **2,487** 已人工精选验证，由 [dsh-plugin.org](https://dsh-plugin.org) 每日收录、人工审核并发布，来源可溯",
+   "**实时同步** — 数据与官网同源，安装后自动获取最新目录，无需手动升级",
+   "**一键直达** — 详情页即点即看，「在浏览器中打开」随时分享与收藏",
+   "**轻量安全** — 仅浏览器端注入，无宿主服务依赖，无遥测、无隐私采集"
+  ],
+  "install": "dsh plugin --profile web add dsh-plugin",
+  "usage": "dsh plugin --profile web add github:dshplugin/dsh-plugin-hub",
+  "license": "",
+  "_done": true
+ },
+ "dsh-plugins-store-bf2": {
+  "intro": "dsh plugin --profile web add dshmarketplace-plugin Then `/store` in any session, or **Settings → Plugins → Plugin store**. `--profile` is not optional. `dsh plugin` forwards to pnpm inside a profile directory, so `dsh plugin add x` exits with *required option '--profile &lt;name&gt;' not specified* and installs nothing. Swap `web` for your profile if you run another one.",
+  "features": [],
+  "install": "dsh plugin --profile web add dshmarketplace-plugin",
+  "usage": "DSHM_NO_TELEMETRY=1    # disables the install count entirely\nDSHM_API=https://…     # point at a different catalogue",
+  "license": "MIT. Independent project, not affiliated with DeepSeek. Deep",
+  "_done": true
+ },
+ "plugins": {
+  "intro": "DeepSeek Harness plugin & skill directory — official marketplace source code ([duink.com](https://duink.com))",
+  "features": [
+   "**3,387+ plugins & skills indexed** — weekly auto-sync",
+   "**5-star community rating** — based on GitHub Stars, independent of validation progress",
+   "**4-stage validation** — discovery → classification → structure check → sandbox",
+   "**AI Intelligence** — daily overseas AI tech & finance news (/news)",
+   "**What's Worth Plugins** — 7-dimension automated reviews + recommendation score + security scan ([worth-plugins](https://github.com/dsh-univ",
+   "**Trilingual** — 中文 / English / 日本語"
+  ],
+  "install": "",
+  "usage": "npm ci\nnpm run dev        # http://localhost:4321\nnpm run build      # production build → dist/",
+  "license": "",
+  "_done": true
+ },
+ "dshmarketplace": {
+  "intro": "[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) is DeepSeek's open agent harness, where every capability is a plugin. The ecosystem passed a thousand plugins within weeks of launch. Several directories index them already. Nearly all are card walls: repository name, star count, a link straight out to GitHub. That is a table of contents, not a reference — you still have to read the source to learn what a plugin touches. So the differentiator here is **written depth**. A promote",
+  "features": [],
+  "install": "{\n  \"fullName\": \"Anionex/dsh-vision-toolkit\",\n  \"summary\": \"…\",\n  \"summaryZh\": \"…\",\n  \"stars\": 128,\n  \"npmPackage\": \"dsh-vision-toolkit\",\n  \"install\": \"dsh plugin --profile web add dsh-vision-toolkit\",\n  \"installable\": true,\n  \"riskFlags\": [\"install script\"],\n  \"repoUrl\": \"https://github.com/Anionex/dsh-vision-toolkit\",\n  \"url\": \"https://dshmarketplace.dev/plugins/anionex-dsh-vision-toolkit\"\n}",
+  "usage": "curl -s 'https://dshmarketplace.dev/api/v1/index'",
+  "license": "MIT. Plugin metadata belongs to the respective repository ow",
+  "_done": true
+ },
+ "dsh-tui-bf2": {
+  "intro": "本插件被 **DeepSeek Harness 官方公众号** 推文收录，作为\"内测用户精选插件\"展示： <p align=\"center\"> </p> 同时也被 [dshfind](https://dshfind.com/ccch1mneyyy/dsh-TUI) 插件目录收录： <p align=\"center\"> <a href=\"https://dshfind.com/ccch1mneyyy/dsh-TUI\"></a> </p>",
+  "features": [],
+  "install": "# 1. 全局安装 CLI + 本插件（本插件自带 dsh-tui 直达命令）\nnpm install -g @deepseek-ai/dsh @deepseek-harness-tui/dsh-tui\n\n# 2. 启动（首次运行会自动初始化 dsh-tui profile，需 pnpm）\ndsh-tui",
+  "usage": "sh install.sh\n# 或：dsh plugin --profile dsh-tui add @deepseek-harness-tui/dsh-tui\n# 之后 dsh-tui 与 dsh --profile dsh-tui 等价",
+  "license": "[MIT](LICENSE)",
+  "_done": true
+ },
+ "dshthemes": {
+  "intro": "**Every DeepSeek Harness theme, in its own colours.** One line to wear any of them. Most dsh themes have no screenshot. A gallery where half the cards are the same whale placeholder is not a gallery. So this site does not wait for a screenshot: **a theme is a stylesheet, and we read it.** Each theme's `--dsw-*` tokens are resolved against the stock 0.1.0-rc.6 shell and a dsh-shaped frame is painted from six roles — background, surface, border, muted, text, brand. Themes that restyle hashed class",
+  "features": [],
+  "install": "",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "awesome-dshoneys": {
+  "intro": "姊妹项目：[MCP Guard](https://github.com/dshoneys/mcp_guard)（本机 MCP 口审计）· [dsh-docker](https://github.com/dshoneys/dsh-docker)（隔离安装沙箱） [🌐 打开在线目录](https://dshoneys.github.io/awesome-dshoneys/) · [🎭 抽象区（整活）](https://dshoneys.github.io/awesome-dshoneys/meme.html) · [📮 提交或求插件](https://github.com/dshoneys/awesome-dshoneys/issues/new/choose) · [🛡️ 查看安全标准](docs/badge-spec.md) ---",
+  "features": [
+   "**需求优先**：`demandTitle` 是首页主标题（用户要解决什么），包名放在副线。",
+   "**社区复核为主**：维护者审源码与披露后决定上架 / ⚠️ / 暂缓。",
+   "**dsh.so 可选参考**：有扫描页就挂上；没有也可先收录并写清风险。",
+   "**群友实测**：真实使用反馈写在条目里。"
+  ],
+  "install": "",
+  "usage": "",
+  "license": "",
+  "_done": true
+ },
+ "dsh-plugin-registry": {
+  "intro": "**Discover the right DeepSeek Harness plugins without leaving DSH.** Search, browse, and compare DeepSeek Harness plugins directly inside the Settings UI. See what a plugin does, how popular it is, what Registry evidence is available, and how to install it — before leaving your current DSH workspace. [Browse the Registry](https://dshplugin.app/plugins) · [中文文档](./README.zh-CN.md)",
+  "features": [
+   "**Search the Registry** — find plugins by name, repository, description, and supported capabilities.",
+   "**Browse by category** — explore Vision, UI, Terminal, Developer Tools, Browser, Security, Workflows, Remote Access, and more.",
+   "**Compare before installing** — see GitHub Stars, Registry status, repository state, Security Signals, and Compatibility Evidence.",
+   "**Sort the ecosystem** — browse popular, recently updated, newly indexed, or alphabetically sorted plugins."
+  ],
+  "install": "dsh plugin --profile web add dshplugin-registry",
+  "usage": "DeepSeek Harness\n      │\n      ▼\nPlugin Registry UI\n      │\n      │ same-origin\n      ▼\nDSH Plugin Registry Host\n      │\n      │ HTTPS\n      ▼\napi.dshplugin.app\n      │\n      ▼\nDSH Plugin Registry",
+  "license": "MIT",
+  "_done": true
+ },
+ "dsh-watch": {
+  "intro": "The stock jobs subsystem says when work *finishes*. `dsh-watch` says when something *speaks*: arm a listener on a command or a growing file, and new lines arrive as filtered, batched, byte-bounded notices. Then take the human out. Declare the watches in profile config, mount the daemon, and the agent boots, idles at zero cost, and wakes for weeks on whatever its streams say. </td> <td width=\"60%\" valign=\"top\"> </td> </tr> </table>",
+  "features": [],
+  "install": "dsh plugin --profile web add @dshworks/dsh-watch\ndsh --profile web",
+  "usage": "watch(source: \"command\", command: \"npm run dev\", pattern: \"error|warn|Ready\", label: \"dev\")\n→ Watch armed (watch-1) on command: npm run dev.\n\n# …the agent keeps working. When the dev server logs \"Ready in 130ms\",\n# a notice wakes it:\n[watch dev · watch-1] 1 line:\nReady in 130ms",
+  "license": "MIT. Not affiliated with DeepSeek. Registered in",
+  "_done": true
+ },
+ "dsh-plugin-github-io": {
+  "intro": "1. **Fork 或新建仓库**：仓库名必须为 `你的用户名.github.io`（例如 `dsh-plugin.github.io`）。 2. **推送文件**：将本压缩包内**根目录的所有文件**推送到仓库 `main` 分支。 3. **启用 Pages**：仓库 Settings → Pages → Source 选 `Deploy from a branch` → 分支选 `main` / `/ (root)`。 4. **等待构建**：1-2 分钟后访问 `https://你的用户名.github.io/` 即可。",
+  "features": [],
+  "install": "",
+  "usage": "# 方式一：Python 内置服务器\ncd dsh-plugin-release\npython3 -m http.server 3000\n# 访问 http://localhost:3000/\n\n# 方式二：bun\nbun install\nbun run dev",
+  "license": "",
+  "_done": true
+ },
+ "dsh-plugin-bf2": {
+  "intro": "`@loongsuite/dsh-plugin` is a standalone, open-source observability plugin for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`). It observes DSH's native session, agent loop, LLM stream, and tool lifecycle, converts them into OpenTelemetry GenAI traces and metrics, and exports standard OTLP/HTTP protobuf to any compatible backend. LoongSuite is an open-source observability collection ecosystem built on OpenTelemetry. This repository is its native DSH integration. The p",
+  "features": [],
+  "install": "dsh plugin --profile web add @loongsuite/dsh-plugin\ndsh plugin --profile headless add @loongsuite/dsh-plugin",
+  "usage": "dsh plugin --profile web add /absolute/path/to/dsh-plugin",
+  "license": "[Apache-2.0](LICENSE)",
+  "_done": true
+ },
+ "dsh-auxiliary": {
+  "intro": "**Auxiliary models for DeepSeek Harness — dedicated model routes, tools, and system guidance for vision, compaction, reviews, subagents, titles, and image generation, without touching the main conversation model.** <a href=\"https://github.com/dsh-plugins/dsh-auxiliary/actions/workflows/npm-publish.yml\"> </a> <a href=\"https://www.npmjs.com/package/@dsh-plugin/dsh-auxiliary\"> </a> <a href=\"https://www.npmjs.com/package/@dsh-plugin/dsh-auxiliary\"> </a> </div> `dsh-auxiliary` is a [DeepSeek Harness]",
+  "features": [],
+  "install": "npm install          # installs dependencies (typescript, @deepseek-ai/* peers)\nnpm run typecheck    # tsc --noEmit\nnpm run build        # emits lib/",
+  "usage": "vision:\n  provider: anvilcraft-ai     # any registered provider route\n  model: mimo-v2.5            # a vision-capable model on that provider\ntool:\n  enabled: true               # register the inspect_image tool\n  maxImageBytes: 10485760     # per-file size cap\n  timeoutMs: 120000           # cooperative tool-call budget",
+  "license": "[LGPL-3.0](LICENSE)",
+  "_done": true
+ },
+ "mcp-guard": {
+  "intro": "<p align=\"center\"> </p> <p align=\"center\"> <strong>銝剜�</strong> 繚 <a href=\"README.en.md\">English</a> </p> �祆隞��嚗笆�箏銝� **MCP / Agent 撌亙靚�?* �?**�急���閫恣霈?*嚗�蝏剖��′�行嚗? 隞�嚗ttps://github.com/shinjiyu/mcp_guard 敶��嚗0.1.0-beta.1`嚗���嚗?",
+  "features": [
+   "�辣�箏漲 O(1)嚗model/graph.json`嚗?",
+   "\\(R_{\\mathrm{manual}}=R\\setminus R_U\\)嚗model/requirements.json`嚗� �鈭箸�憿?",
+   "�函�嚗python scripts/adl_check.py`",
+   "閫嚗`AGENTS.md`](AGENTS.md)"
+  ],
+  "install": "",
+  "usage": "cargo build --release\n./target/release/mcp-guard tray",
+  "license": "",
+  "_done": true
+ },
+ "dsh-plugin-radar-bf2": {
+  "intro": "**Find · Vet · Install — DSH plugins, with a security scan before anything touches your profile.** </div> Ask DSH *\"is there a plugin that can…\"* and this plugin searches the live [`dsh-plugin` GitHub topic](https://github.com/topics/dsh-plugin) with server-side keyword filtering, cross-checks candidates against two curated registries, then runs a **pre-install security scan** — lifecycle scripts, external domains, subprocesses, credential reads, prompt injection — reports findings either way, a",
+  "features": [],
+  "install": "dsh plugin --profile web add 'github:dshplugin-me/dsh-plugin-radar#v0.1.1'",
+  "usage": "dsh --profile web --dump-config   # shows a \"# == dsh-plugin-radar\" layer\ndsh --profile web",
+  "license": "[BSD-3-Clause](LICENSE). The plugin list data is free to reu",
+  "_done": true
+ },
+ "compass": {
+  "intro": "Guardrails, a hard budget cap, and a self-fixing PR loop for your AI coding agent. `eval-gated guardrails 100/100` · `a budget cap that actually halts` · `you always merge`",
+  "features": [],
+  "install": "# no curl|sh, fully reversible — then just open any repo in your agent\ngit clone https://github.com/dshakes/compass ~/compass && cd ~/compass && ./quickstart.sh\n# or, inside Claude Code:   /plugin marketplace add dshakes/compass",
+  "usage": "compass bench     # → guardrail 100% precision/recall (61-case bench corpus; a separate 147-case bypass corpus gates CI), router 96.9%\n# then ask the agent to `rm -rf /` or write a .env → denied; `rm -rf ./build` → allowed",
+  "license": "",
+  "_done": true
+ },
+ "dsh-docker-bf2": {
+  "intro": "Isolated installability **and MCP loopback** sandbox for DeepSeek Harness plugins. Org: [dshoneys](https://github.com/dshoneys) · sister tool: [mcp_guard](https://github.com/dshoneys/mcp_guard) The image pins `@deepseek-ai/dsh`, keeps `$DSH_HOME` on a tmpfs (never your host `~/.dsh`), and proves a plugin composed with `--dump-config`. That step does not boot a model, so it does not spend tokens.",
+  "features": [
+   "Repeat `dsh plugin add` without polluting the real profile",
+   "Same Node / pnpm / dsh version on every run",
+   "Cache the pnpm store so the 2nd install of the same spec is cheap",
+   "Later: optional `dsh web` or `dsh --profile headless \"...\"` with keys in `.env`"
+  ],
+  "install": "",
+  "usage": "docker compose build\ndocker compose run --rm dsh dsh-selfcheck",
+  "license": "",
+  "_done": true
+ },
+ "dsh-plugin-evaluation-standards": {
+  "intro": "Each dataset is a profile (which metrics to use) and a cases file (test prompts and expected answers). Pick one that fits your plugin, run its cases, and use the results to understand how your plugin behaves.",
+  "features": [
+   "**Have a real scenario?** Open an [issue](https://github.com/dsh-plugin-evaluation/dsh-plugin-evaluation-standards/issues/new) with how a us",
+   "**Have a small set of cases?** Submit a profile and cases following the [contribution guide](CONTRIBUTING.md).",
+   "**Maintain a dataset long term?** Keep it in your own repository and add it to this catalog using the [external dataset listing guide](DATAS"
+  ],
+  "install": "",
+  "usage": "profiles/<id>.json  Which metrics to use and where to find the cases\ncases/<id>.json     Plugin types and test cases",
+  "license": "",
+  "_done": true
+ },
+ "dsh-plugin-radar": {
+  "intro": "`dsh plugin add` is a thin forward to pnpm inside a profile directory, so `--profile` is **mandatory**: $ dsh plugin add some-plugin error: required option '--profile <name>' not specified Plenty of READMEs print the short form anyway. This script reads the command from the [DSH Marketplace](https://dshmarketplace.dev) catalogue, where every listing carries the flag, and drops it on the page you are already looking at.",
+  "features": [],
+  "install": "$ dsh plugin add some-plugin\nerror: required option '--profile <name>' not specified",
+  "usage": "{\n  \"fields\": [\"fullName\", \"category\", \"install\", \"path\", \"npm\"],\n  \"plugins\": [\n    [\"liustack/modlens\", \"vision\", \"dsh plugin --profile web add @liustack/modlens\", \"/plugins/liustack-modlens\", \"@liustack/modlens\"]\n  ]\n}",
+  "license": "",
+  "_done": true
+ },
+ "dsh-deepseek-balance": {
+  "intro": "A DeepSeek Harness plugin that shows your [DeepSeek API balance](https://api-docs.deepseek.com/zh-cn/api/get-user-balance) in the **web UI, pinned above the Settings button** at the sidebar foot.",
+  "features": [
+   "**Balance widget above Settings** — renders `total_balance` followed by the currency (e.g. `110.00 CNY`) in the sidebar foot, directly above",
+   "**Hover details** — hovering the widget opens an animated popover with the full balance information:",
+   "**Configurable color** — a developer/user setting (Settings → 余额/Balance) changes the balance text and popover accent color; color changes a",
+   "**Manual refresh** — a refresh button (with a spin animation) fetches the latest balance on demand; an optional auto-refresh interval can be",
+   "**Transition animations** — popover fade/scale, value-change slide/fade, color transitions, refresh spin.",
+   "**API key stays server-side** — the browser never sees the key. The host half proxies `GET <baseURL>/user/balance` and returns only public b"
+  ],
+  "install": "# from the profile directory\ndsh plugin --profile web add dsh-deepseek-balance --link <path-to-this-package>",
+  "usage": "- insert:\n       - id: dsh-deepseek-balance\n         name: 'dsh-deepseek-balance'",
+  "license": "",
+  "_done": true
+ },
+ "dsh-routed-subagent": {
+  "intro": "A global [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin that lets **any session dispatch a one-shot subagent fully mounted on ANY agent preset**, with **per-call model/provider override** and a **model-availability pre-check**. The stock `subagent` / `subagent_fork` tools force children to inherit the PARENT's preset. This plugin replaces that with a custom subagent provider whose async child setup calls `agentPresets.mount(childCtx, <preset>)` — so the child adopts t",
+  "features": [
+   "**Background by default, parallel dispatch** — the call returns a job id immediately (like the stock subagent tool); the conversation stays ",
+   "**Full preset mount** — the child runs under the target preset's standing composition (not a persona copy): identity, mission section, skill",
+   "**Per-call model override** — `model` / `provider` arguments route the child's LLM call to a different model than this session's (via the of",
+   "**Model pre-check** — an invalid model fails fast with the provider's candidate list instead of an opaque child failure.",
+   "**Official subagent ecosystem** — one-shot lifecycle events, UI rows, trajectory; returns the child's final output.",
+   "**Idempotent provider registration** — multiple presets can mount the row; the host-plane provider registry is never duplicated."
+  ],
+  "install": "",
+  "usage": "// external codex subagent (background, explicit model, live progress)\nawait subagent_routed({\n  engine: 'codex',\n  provider: undefined,       // external engines ignore the DSH provider\n  model: 'gpt-5.6-sol',      // explicit codex thread model\n  prompt: '...',\n  run_in_background: true,\n})",
+  "license": "MIT",
+  "_done": true
+ },
+ "dsh-fork-to-preset": {
+  "intro": "A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin that adds a **\"Fork to preset\"** button to every conversation's header. Pick any agent preset from the roster and fork the current session into a fresh independent child session running under that preset — inheriting the parent's completed turns.",
+  "features": [
+   "Click the **↴ Fork to preset** dropdown in the conversation header",
+   "Select a target agent preset from the roster",
+   "Click the button → a new session opens, mounted on the chosen preset, with the parent's completed-turn history"
+  ],
+  "install": "",
+  "usage": ":: Windows\nmklink /J \"<plugin-dir>\\node_modules\" \"<harness>\\resources\\host\\node_modules\"",
+  "license": "MIT",
+  "_done": true
+ },
+ "dsh-precedent": {
+  "intro": "**Your agent forgets. Your log doesn't.** </div> A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin that reads the session log DSH already writes and hands the agent a short, **cited** ledger of what has actually worked in this workspace — the commands that succeed, the ones that reliably fail, and the variant that fixed them. No capture step. No index to build. No model to download. It works on sessions recorded **before** you installed it.",
+  "features": [
+   "**Not a search tool.** It does not answer \"what did we discuss in June\". It answers \"what already works here\", before you ask. If you want v",
+   "**Not a note-taker.** Nothing asks you to write memories. There is no capture step to forget to run.",
+   "**Not context stuffing.** The injected section is capped and prefix-stable, so it costs a fixed small number of tokens and does not invalida",
+   "**Not a replacement for `AGENTS.md`.** Hand-written intent still wins. Precedent covers the part nobody keeps up to date: what actually happ",
+   "**Not cross-workspace.** By design. See below."
+  ],
+  "install": "dsh plugin --profile web add 'github:dshplugin-me/dsh-precedent#v0.1.0'",
+  "usage": "dsh --profile web --dump-config   # look for the \"# == dsh-precedent\" layer\ndsh --profile web",
+  "license": "[BSD-3-Clause](LICENSE).",
+  "_done": true
+ },
+ "dsh-evoforge": {
+  "intro": "**EvoForge 是安装进 DeepSeek Harness 的原生 out-of-tree 插件套件，不是独立 Harness、Runtime、CLI、Web 服务或 daemon。** DSH 始终是唯一 Agent Host，以及 Session、Goal、Approval、Storage、Jobs、Skill、Tool、Workspace 和 Cordis 生命周期权威。 当前兼容性证据固定在 DeepSeek Harness `47f943859bef60e4160492346772ded9b24f765a`（`0.1.0-rc.5`）。项目仍为 pre-alpha，尚未发布 registry release；当前真实安装路径是本地 tarball 加 DSH 官方 profile 命令。",
+  "features": [],
+  "install": "pnpm install --frozen-lockfile\nPACK_DIR=\"$(mktemp -d)\"\nfor package in \\\n  dsh-evolve dsh-evolve-web dsh-software-delivery dsh-doctor \\\n  dsh-github-review dsh-telegram dsh-evolve-attention dsh-goal-continuity \\\n  dsh-resident dsh-gateway dsh-feishu\ndo\n  pnpm --filter \"$package\" pack --pack-destination \"$PACK_DIR\"\ndone",
+  "usage": "dsh plugin --profile web add \"$PACK_DIR\"/*.tgz\ndsh --profile web --dump-config\ndsh --profile web",
+  "license": "",
+  "_done": true
+ },
+ "howto-dsh": {
+  "intro": "Verified field notes for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`), DeepSeek's agent harness. Traps, skills, hooks, profiles. **Every claim here was tested against a real run, with source paths included so you can re-verify.** Each page states the version and date it was verified against; this README's notes are from `0.1.0-rc.5` (2026-08-13), the pages below from `0.1.0-rc.6` (2026-08-15). dsh is a developer preview and the team promises compatibility-breaking ",
+  "features": [
+   "**`dsh web` now opens your browser.** It waits for the whole Loader tree to",
+   "**The Claude Code and Codex subagents are separate optional Bundles now.**",
+   "**`SubagentReportDelivery` renamed `'wakeup'` to `'next-step'`**, and the",
+   "**The SQLite session store changed format incompatibly** for read, write, and"
+  ],
+  "install": "npx @deepseek-ai/dsh web",
+  "usage": "- dsh-hooks-claude-code:\n    configPath: ./.claude/hooks.json\n    pluginRoot: ./.claude/plugins/my-plugin\n    projectDir: .",
+  "license": "[CC BY 4.0](LICENSE). Attribution: dshworks/howto-dsh.",
+  "_done": true
+ },
+ "dsh-plugin-skill": {
+  "intro": "An agent skill for building tools and plugins for **DeepSeek Harness (dsh)** — the official plugin API, project layout, and workflow, distilled from the real `@deepseek-ai/dsh-tools` type definitions. Written in the standard `SKILL.md` format so every mainstream AI coding agent can load it. If your agent has ever refused to write a dsh plugin (unfamiliar API) or confidently emitted a wrong one (`run` instead of `execute`, missing `output`, no `inject`), this skill fixes both: it gives the agent ",
+  "features": [],
+  "install": "mkdir -p ~/.claude/skills && \\\ngit clone --depth 1 https://github.com/dsh-io/dsh-plugin-skill.git ~/.claude/skills/creating-dsh-plugins\n# swap the destination path for your agent (table above); for Codex/Gemini use ~/.agents/skills",
+  "usage": "",
+  "license": "MIT © 2026 dsh-io",
+  "_done": true
+ },
+ "dsh-humanizer": {
+  "intro": "A writing skill for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`). The core idea is **not \"write like a human\", but \"write like me\"**: strip generic AI-sounding patterns on one side, learn your own writing fingerprint on the other, and turn any draft into something *you* wrote. This is a **skill for the agent**, not an LLM wrapper: it performs no model calls. It only produces rules, fingerprints, scores, and rewrite briefs — the agent does the actual rewriting itsel",
+  "features": [],
+  "install": "# from GitHub (ships prebuilt lib/)\ndsh plugin add github:lynote-ai/dsh-humanizer\n\n# or, once published to npm:\n# dsh plugin add dsh-humanizer",
+  "usage": "- insert:\n    - id: dsh-humanizer\n      name: 'dsh-humanizer'\n      config:\n        strength: standard                          # light | standard | aggressive\n        storagePath: ~/.dsh/voice-profiles.json\n        maxExcerpts: 3",
+  "license": "[BSD-3-Clause](LICENSE)",
+  "_done": true
  }
 }

@@ -5,7 +5,7 @@ keywords: "dsh-plugin-hub, discovery, plugin, ui, workflow, deepseek harness, ds
 ---
 # dsh-plugin-hub
 
-> ⭐ 62 · ✅ active · plugin
+> ⭐ 64 · ✅ active · plugin
 
 ## One-liner
 

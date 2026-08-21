@@ -5,7 +5,7 @@ keywords: "dsh-undo-plugin, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-undo-plugin
 
-> ⭐ 102 · ✅ active · plugin
+> ⭐ 108 · ✅ active · plugin
 
 ## One-liner
 

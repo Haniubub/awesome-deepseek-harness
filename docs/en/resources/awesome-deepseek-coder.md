@@ -5,7 +5,7 @@ keywords: "awesome-deepseek-coder, registry, awesome-list, search, deepseek harn
 ---
 # awesome-deepseek-coder
 
-> ⭐ 810 · ✅ active · awesome-list
+> ⭐ 811 · ✅ active · awesome-list
 
 ## One-liner
 

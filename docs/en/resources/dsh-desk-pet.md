@@ -5,7 +5,7 @@ keywords: "dsh-desk-pet, desktop, client, coding, ui, deepseek harness, dsh"
 ---
 # dsh-desk-pet
 
-> ⭐ 4 · ✅ active · client
+> ⭐ 5 · ✅ active · client
 
 ## One-liner
 

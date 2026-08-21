@@ -5,7 +5,7 @@ keywords: "dsh-plans, workflow, multi-agent, deepseek harness, dsh"
 ---
 # dsh-plans
 
-> ⭐ 36 · ✅ 活跃 · 工作流
+> ⭐ 42 · ✅ 活跃 · 工作流
 
 ## 一句话介绍
 

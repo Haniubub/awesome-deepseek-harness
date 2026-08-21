@@ -5,7 +5,7 @@ keywords: "awesome-deepseek-agent (official), registry, awesome-list, research, 
 ---
 # awesome-deepseek-agent (official)
 
-> ⭐ 5,957 · ✅ 活跃 · 精选列表
+> ⭐ 5,966 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

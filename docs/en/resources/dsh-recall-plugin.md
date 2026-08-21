@@ -5,7 +5,7 @@ keywords: "dsh-recall-plugin, memory, plugin, coding, context, deepseek harness,
 ---
 # dsh-recall-plugin
 
-> ⭐ 23 · ✅ active · plugin
+> ⭐ 24 · ✅ active · plugin
 
 ## One-liner
 

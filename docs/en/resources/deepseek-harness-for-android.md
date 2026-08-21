@@ -5,7 +5,7 @@ keywords: "deepseek-harness-for-android, mobile, client, coding, deepseek harnes
 ---
 # deepseek-harness-for-android
 
-> ⭐ 3 · ✅ active · client
+> ⭐ 4 · ✅ active · client
 
 ## One-liner
 

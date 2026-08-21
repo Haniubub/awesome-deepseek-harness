@@ -5,7 +5,7 @@ keywords: "deepseek-acp, developer, integration, coding, multi-agent, deepseek h
 ---
 # deepseek-acp
 
-> ⭐ 8 · ✅ 活跃 · 集成
+> ⭐ 9 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

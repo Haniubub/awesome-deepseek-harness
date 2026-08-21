@@ -5,7 +5,7 @@ keywords: "dsh-recall-plugin, memory, plugin, coding, context, deepseek harness,
 ---
 # dsh-recall-plugin
 
-> ⭐ 23 · ✅ 活跃 · 插件
+> ⭐ 24 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

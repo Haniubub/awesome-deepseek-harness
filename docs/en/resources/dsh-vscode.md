@@ -5,7 +5,7 @@ keywords: "dsh-vscode, ide, integration, coding, ui, deepseek harness, dsh"
 ---
 # dsh-vscode
 
-> ⭐ 12 · ✅ active · integration
+> ⭐ 14 · ✅ active · integration
 
 ## One-liner
 

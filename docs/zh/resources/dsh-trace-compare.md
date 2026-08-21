@@ -5,7 +5,7 @@ keywords: "dsh-trace-compare, vision, plugin, coding, multi-agent, deepseek harn
 ---
 # dsh-trace-compare
 
-> ⭐ 34 · ✅ 活跃 · 插件
+> ⭐ 41 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

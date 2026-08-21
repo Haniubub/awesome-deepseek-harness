@@ -5,7 +5,7 @@ keywords: "dsh-restart, discovery, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-restart
 
-> ⭐ 5 · ✅ 活跃 · 插件
+> ⭐ 6 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

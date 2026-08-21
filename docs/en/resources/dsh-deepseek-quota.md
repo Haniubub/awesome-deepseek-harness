@@ -5,7 +5,7 @@ keywords: "dsh-deepseek-quota, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-deepseek-quota
 
-> ⭐ 3 · ✅ active · plugin
+> ⭐ 4 · ✅ active · plugin
 
 ## One-liner
 

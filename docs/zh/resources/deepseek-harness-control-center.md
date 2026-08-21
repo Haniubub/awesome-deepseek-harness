@@ -5,7 +5,7 @@ keywords: "deepseek-harness-control-center, vision, plugin, coding, multi-agent,
 ---
 # deepseek-harness-control-center
 
-> ⭐ 57 · ✅ 活跃 · 插件
+> ⭐ 61 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

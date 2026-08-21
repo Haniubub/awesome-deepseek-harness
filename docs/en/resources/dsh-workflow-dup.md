@@ -5,7 +5,7 @@ keywords: "dsh_workflow, workflow, coding, multi-agent, deepseek harness, dsh"
 ---
 # dsh_workflow
 
-> ⭐ 89 · ✅ active · workflow
+> ⭐ 92 · ✅ active · workflow
 
 ## One-liner
 

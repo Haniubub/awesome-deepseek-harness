@@ -5,7 +5,7 @@ keywords: "dsh-grok-tui, terminal, client, deepseek harness, dsh"
 ---
 # dsh-grok-tui
 
-> ⭐ 10 · ✅ active · client
+> ⭐ 11 · ✅ active · client
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "deepseek-harness-for-android, mobile, client, coding, deepseek harnes
 ---
 # deepseek-harness-for-android
 
-> ⭐ 3 · ✅ 活跃 · 客户端
+> ⭐ 4 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

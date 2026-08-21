@@ -5,7 +5,7 @@ keywords: "awesome-harness-engineering, registry, awesome-list, search, deepseek
 ---
 # awesome-harness-engineering
 
-> ⭐ 3,876 · ✅ 活跃 · 精选列表
+> ⭐ 3,887 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

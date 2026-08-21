@@ -5,7 +5,7 @@ keywords: "dsh-a2a, multi-agent, agent, deepseek harness, dsh"
 ---
 # dsh-a2a
 
-> ⭐ 5 · ✅ active · agent
+> ⭐ 6 · ✅ active · agent
 
 ## One-liner
 

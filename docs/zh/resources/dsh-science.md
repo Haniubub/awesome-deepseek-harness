@@ -5,7 +5,7 @@ keywords: "dsh-science, learning, skill, search, deepseek harness, dsh"
 ---
 # dsh-science
 
-> ⭐ 22 · ✅ 活跃 · 技能
+> ⭐ 24 · ✅ 活跃 · 技能
 
 ## 一句话介绍
 

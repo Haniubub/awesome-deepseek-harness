@@ -5,7 +5,7 @@ keywords: "Coding Tools MCP, mcp, integration, coding, deepseek harness, dsh"
 ---
 # Coding Tools MCP
 
-> ⭐ 841 · ✅ active · integration
+> ⭐ 846 · ✅ active · integration
 
 ## One-liner
 

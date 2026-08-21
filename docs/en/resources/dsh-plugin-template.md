@@ -5,7 +5,7 @@ keywords: "dsh-plugin-template, learning, example, coding, deepseek harness, dsh
 ---
 # dsh-plugin-template
 
-> ⭐ 10 · ✅ active · example
+> ⭐ 13 · ✅ active · example
 
 ## One-liner
 

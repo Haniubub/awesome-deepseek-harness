@@ -5,7 +5,7 @@ keywords: "dsh-approval-gate, developer, plugin, security, deepseek harness, dsh
 ---
 # dsh-approval-gate
 
-> ⭐ 2 · ✅ 活跃 · 插件
+> ⭐ 4 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-island, notifications, plugin, deepseek harness, dsh"
 ---
 # dsh-island
 
-> ⭐ 5 · ✅ active · plugin
+> ⭐ 6 · ✅ active · plugin
 
 ## One-liner
 

@@ -14,11 +14,11 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 80407,
+    "stars": 80462,
     "_source_description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
     "_updated": "2026-08-20",
-    "_stars_prev": 80307,
-    "growth": 100
+    "_stars_prev": 80407,
+    "growth": 55
   },
   {
     "id": "codewhale",
@@ -34,11 +34,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 40832,
+    "stars": 40830,
     "_source_description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome.",
-    "_updated": "2026-08-20",
-    "_stars_prev": 40826,
-    "growth": 6
+    "_updated": "2026-08-21",
+    "_stars_prev": 40832,
+    "growth": 0
   },
   {
     "id": "agentmemory",
@@ -54,11 +54,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 27197,
+    "stars": 27233,
     "_source_description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
     "_updated": "2026-08-17",
-    "_stars_prev": 27179,
-    "growth": 18
+    "_stars_prev": 27197,
+    "growth": 36
   },
   {
     "id": "cordis",
@@ -74,11 +74,11 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 6601,
+    "stars": 6867,
     "_source_description": "Meta-Framework of Spatiotemporal Composability",
-    "_updated": "2026-08-13",
-    "_stars_prev": 6328,
-    "growth": 273
+    "_updated": "2026-08-21",
+    "_stars_prev": 6601,
+    "growth": 266
   },
   {
     "id": "deeptide",
@@ -94,10 +94,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 1088,
+    "stars": 1091,
     "_source_description": "Built by DeepSeek, for DeepSeek — a Swift-native macOS coding agent",
     "_updated": "2026-07-08",
-    "_stars_prev": 1085,
+    "_stars_prev": 1088,
     "growth": 3
   },
   {
@@ -115,11 +115,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 629,
+    "stars": 628,
     "_source_description": "Local-first AI agent runtime with sandboxed sessions, MCP tools, memory, credentials, audit/replay, and a built-in console. Run OpenAI, Anthropic, MiniMax, DeepSeek V4, and OpenAI-compatible models on your infrastructure.",
     "_updated": "2026-08-20",
-    "_stars_prev": 623,
-    "growth": 6
+    "_stars_prev": 629,
+    "growth": 0
   },
   {
     "id": "mnemon",
@@ -135,11 +135,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 494,
+    "stars": 500,
     "_source_description": "LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Works with DeepSeek Harness, Claude Code, OpenClaw, and any agent runtime.",
-    "_updated": "2026-08-19",
-    "_stars_prev": 486,
-    "growth": 8
+    "_updated": "2026-08-21",
+    "_stars_prev": 494,
+    "growth": 6
   },
   {
     "id": "claude-paper",
@@ -155,10 +155,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 322,
+    "stars": 324,
     "_source_description": "📖 Cross-agent research paper toolkit for Claude Code, Codex, OpenCode, and DeepSeek Harness—quick summaries, deep study materials, code demos, and a local web viewer.",
     "_updated": "2026-08-14",
-    "_stars_prev": 320,
+    "_stars_prev": 322,
     "growth": 2
   },
   {
@@ -197,7 +197,7 @@
     "verified": false,
     "stars": 57,
     "_source_description": "Open-source sandboxes for AI agents, untrusted code execution, and durable services.",
-    "_updated": "2026-08-20",
+    "_updated": "2026-08-21",
     "_stars_prev": 56,
     "growth": 1
   },

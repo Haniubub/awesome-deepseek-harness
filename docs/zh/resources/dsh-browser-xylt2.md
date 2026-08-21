@@ -5,7 +5,7 @@ keywords: "dsh-browser, browser, plugin, automation, deepseek harness, dsh"
 ---
 # dsh-browser
 
-> ⭐ 345 · ✅ 活跃 · 插件
+> ⭐ 366 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

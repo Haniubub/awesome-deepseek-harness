@@ -5,7 +5,7 @@ keywords: "dsh-agent-messaging, multi-agent, agent, deepseek harness, dsh"
 ---
 # dsh-agent-messaging
 
-> ⭐ 4 · ✅ 活跃 · 智能体
+> ⭐ 5 · ✅ 活跃 · 智能体
 
 ## 一句话介绍
 

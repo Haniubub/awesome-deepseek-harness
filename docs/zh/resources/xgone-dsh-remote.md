@@ -5,7 +5,7 @@ keywords: "xgone/dsh-remote, security, plugin, ui, deepseek harness, dsh"
 ---
 # xgone/dsh-remote
 
-> ⭐ 39 · 🧪 实验性 · 插件
+> ⭐ 41 · 🧪 实验性 · 插件
 
 ## 一句话介绍
 

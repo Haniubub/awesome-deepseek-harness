@@ -5,7 +5,7 @@ keywords: "dsh-mcp-panel, mcp, integration, ui, observability, deepseek harness,
 ---
 # dsh-mcp-panel
 
-> ⭐ 20 · ✅ 活跃 · 集成
+> ⭐ 26 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

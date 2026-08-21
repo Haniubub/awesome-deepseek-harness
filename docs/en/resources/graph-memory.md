@@ -5,7 +5,7 @@ keywords: "graph-memory, memory, plugin, coding, deepseek harness, dsh"
 ---
 # graph-memory
 
-> ⭐ 562 · ✅ active · plugin
+> ⭐ 564 · ✅ active · plugin
 
 ## One-liner
 

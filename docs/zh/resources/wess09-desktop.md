@@ -5,7 +5,7 @@ keywords: "DeepSeekHarnessDesktop (wess09), desktop, client, deepseek harness, d
 ---
 # DeepSeekHarnessDesktop (wess09)
 
-> ⭐ 67 · ✅ 活跃 · 客户端
+> ⭐ 66 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

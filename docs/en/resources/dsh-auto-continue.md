@@ -5,7 +5,7 @@ keywords: "dsh-auto-continue, automation, workflow, ui, deepseek harness, dsh"
 ---
 # dsh-auto-continue
 
-> ⭐ 32 · ✅ active · workflow
+> ⭐ 33 · ✅ active · workflow
 
 ## One-liner
 

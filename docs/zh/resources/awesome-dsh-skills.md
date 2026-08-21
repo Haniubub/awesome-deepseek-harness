@@ -5,7 +5,7 @@ keywords: "awesome-dsh-skills, registry, awesome-list, search, deepseek harness,
 ---
 # awesome-dsh-skills
 
-> ⭐ 2 · ✅ 活跃 · 精选列表
+> ⭐ 4 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-find-skill, learning, plugin, search, workflow, deepseek harness,
 ---
 # dsh-find-skill
 
-> ⭐ 2 · ✅ active · plugin
+> ⭐ 3 · ✅ active · plugin
 
 ## One-liner
 

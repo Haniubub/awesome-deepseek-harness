@@ -5,7 +5,7 @@ keywords: "awesome-deepseek-coder, registry, awesome-list, search, deepseek harn
 ---
 # awesome-deepseek-coder
 
-> ⭐ 810 · ✅ 活跃 · 精选列表
+> ⭐ 811 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

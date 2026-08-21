@@ -5,7 +5,7 @@ keywords: "dsh-web-ui-notify, notifications, plugin, deepseek harness, dsh"
 ---
 # dsh-web-ui-notify
 
-> ⭐ 19 · ✅ active · plugin
+> ⭐ 21 · ✅ active · plugin
 
 ## One-liner
 

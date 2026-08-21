@@ -5,7 +5,7 @@ keywords: "dsh-cost-meter, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-cost-meter
 
-> ⭐ 130 · ✅ 活跃 · 插件
+> ⭐ 139 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

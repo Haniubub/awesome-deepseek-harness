@@ -5,7 +5,7 @@ keywords: "dsh-awiki, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-awiki
 
-> ⭐ 7 · ✅ 活跃 · 插件
+> ⭐ 9 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

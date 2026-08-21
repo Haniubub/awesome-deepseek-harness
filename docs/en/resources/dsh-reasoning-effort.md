@@ -5,7 +5,7 @@ keywords: "dsh-reasoning-effort, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-reasoning-effort
 
-> ⭐ 92 · ✅ active · plugin
+> ⭐ 97 · ✅ active · plugin
 
 ## One-liner
 

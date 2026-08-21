@@ -5,7 +5,7 @@ keywords: "dsh-tianshu-build, multi-agent, agent, coding, ui, deepseek harness, 
 ---
 # dsh-tianshu-build
 
-> ⭐ 34 · ✅ active · agent
+> ⭐ 36 · ✅ active · agent
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "deepseek-harness-app (ipfred), desktop, client, deepseek harness, dsh
 ---
 # deepseek-harness-app (ipfred)
 
-> ⭐ 28 · ✅ active · client
+> ⭐ 29 · ✅ active · client
 
 ## One-liner
 

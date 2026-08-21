@@ -5,7 +5,7 @@ keywords: "awesome-deepseek-harness, registry, awesome-list, coding, ui, deepsee
 ---
 # awesome-deepseek-harness
 
-> ⭐ 964 · ✅ active · awesome-list
+> ⭐ 966 · ✅ active · awesome-list
 
 ## One-liner
 

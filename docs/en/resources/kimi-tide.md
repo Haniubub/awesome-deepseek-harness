@@ -5,7 +5,7 @@ keywords: "kimi-tide, ide, integration, coding, multi-agent, deepseek harness, d
 ---
 # kimi-tide
 
-> ⭐ 3 · ✅ active · integration
+> ⭐ 4 · ✅ active · integration
 
 ## One-liner
 

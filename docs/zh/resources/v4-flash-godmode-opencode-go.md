@@ -5,7 +5,7 @@ keywords: "v4-flash-godmode-opencode-go, vision, plugin, coding, multi-agent, de
 ---
 # v4-flash-godmode-opencode-go
 
-> ⭐ 496 · ✅ 活跃 · 插件
+> ⭐ 494 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

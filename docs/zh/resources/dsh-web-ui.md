@@ -5,7 +5,7 @@ keywords: "dsh-web-ui, ui, plugin, git, observability, deepseek harness, dsh"
 ---
 # dsh-web-ui
 
-> ⭐ 5,104 · ✅ 活跃 · 插件
+> ⭐ 5,349 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "deepseek-harness-desktop (steven-kid), desktop, client, deepseek harn
 ---
 # deepseek-harness-desktop (steven-kid)
 
-> ⭐ 155 · ✅ active · client
+> ⭐ 157 · ✅ active · client
 
 ## One-liner
 

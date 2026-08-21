@@ -5,7 +5,7 @@ keywords: "dsh-launcher, desktop, client, coding, deepseek harness, dsh"
 ---
 # dsh-launcher
 
-> ⭐ 109 · ✅ active · client
+> ⭐ 125 · ✅ active · client
 
 ## One-liner
 

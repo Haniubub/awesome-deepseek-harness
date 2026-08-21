@@ -5,7 +5,7 @@ keywords: "ui-status-label, ui, plugin, deepseek harness, dsh"
 ---
 # ui-status-label
 
-> ⭐ 38 · ✅ active · plugin
+> ⭐ 39 · ✅ active · plugin
 
 ## One-liner
 

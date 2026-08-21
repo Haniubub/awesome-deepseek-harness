@@ -5,7 +5,7 @@ keywords: "deepseek-harness-desktop (ningbainb), desktop, client, deepseek harne
 ---
 # deepseek-harness-desktop (ningbainb)
 
-> ⭐ 153 · ✅ 活跃 · 客户端
+> ⭐ 157 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

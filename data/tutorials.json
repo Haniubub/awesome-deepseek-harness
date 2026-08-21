@@ -12,11 +12,11 @@
     ],
     "status": "active",
     "verified": true,
-    "stars": 1094,
+    "stars": 1118,
     "_source_description": "DeepSeek Harness橙皮书《从开机到拆开》：完整系统提示词、129行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML免费下载",
     "_updated": "2026-08-17",
-    "_stars_prev": 1064,
-    "growth": 30
+    "_stars_prev": 1094,
+    "growth": 24
   },
   {
     "id": "dsh-handbook",
@@ -31,10 +31,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 565,
+    "stars": 604,
     "_source_description": "DeepSeek Harness (dsh) 从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF）",
-    "_updated": "2026-08-18",
-    "_stars_prev": 526,
+    "_updated": "2026-08-21",
+    "_stars_prev": 565,
     "growth": 39
   },
   {
@@ -50,11 +50,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 181,
+    "stars": 182,
     "_source_description": "deepseek harness中文详细学习教程",
     "_updated": "2026-08-13",
-    "_stars_prev": 178,
-    "growth": 3
+    "_stars_prev": 181,
+    "growth": 1
   },
   {
     "id": "dshfind",
@@ -70,10 +70,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 190,
+    "stars": 200,
     "_source_description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
-    "_updated": "2026-08-20",
-    "_stars_prev": 180,
+    "_updated": "2026-08-21",
+    "_stars_prev": 190,
     "growth": 10
   },
   {
@@ -110,10 +110,10 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 31,
+    "stars": 36,
     "_source_description": "Independent, source-backed handbook for DeepSeek AI's official DeepSeek Harness (dsh): agents, plugins, security, troubleshooting, and runbooks.",
     "_updated": "2026-08-20",
-    "_stars_prev": 26,
+    "_stars_prev": 31,
     "growth": 5
   },
   {
@@ -223,9 +223,11 @@
     ],
     "status": "active",
     "verified": false,
-    "stars": 3,
+    "stars": 4,
     "_source_description": "Git-native AI learning OS with a GitLearnOS-exclusive DeepSeek Harness panel, targeted practice, local RAG, and learner-owned memory.",
-    "_updated": "2026-08-20"
+    "_updated": "2026-08-20",
+    "_stars_prev": 3,
+    "growth": 1
   },
   {
     "id": "deepseek-protocol-doctor",

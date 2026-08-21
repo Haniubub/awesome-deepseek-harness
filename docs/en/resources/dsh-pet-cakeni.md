@@ -5,7 +5,7 @@ keywords: "dsh-pet, fun, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-pet
 
-> ⭐ 233 · ✅ active · plugin
+> ⭐ 274 · ✅ active · plugin
 
 ## One-liner
 

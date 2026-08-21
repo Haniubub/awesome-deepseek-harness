@@ -5,7 +5,7 @@ keywords: "gitlearnos, learning, tutorial, coding, git, memory, ui, deepseek har
 ---
 # gitlearnos
 
-> ⭐ 3 · ✅ 活跃 · 教程
+> ⭐ 4 · ✅ 活跃 · 教程
 
 ## 一句话介绍
 

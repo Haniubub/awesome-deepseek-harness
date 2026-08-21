@@ -5,7 +5,7 @@ keywords: "dsh-a2a, multi-agent, agent, deepseek harness, dsh"
 ---
 # dsh-a2a
 
-> ⭐ 5 · ✅ 活跃 · 智能体
+> ⭐ 6 · ✅ 活跃 · 智能体
 
 ## 一句话介绍
 

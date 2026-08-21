@@ -5,7 +5,7 @@ keywords: "dsh-find-skill, learning, plugin, search, workflow, deepseek harness,
 ---
 # dsh-find-skill
 
-> ⭐ 2 · ✅ 活跃 · 插件
+> ⭐ 3 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

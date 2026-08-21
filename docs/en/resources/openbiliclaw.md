@@ -5,7 +5,7 @@ keywords: "openbiliclaw, research, agent, coding, multi-agent, deepseek harness,
 ---
 # openbiliclaw
 
-> ⭐ 2,951 · ✅ active · agent
+> ⭐ 2,971 · ✅ active · agent
 
 ## One-liner
 

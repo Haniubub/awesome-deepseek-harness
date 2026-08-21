@@ -5,7 +5,7 @@ keywords: "dshfind, learning, tutorial, search, deepseek harness, dsh"
 ---
 # dshfind
 
-> ⭐ 190 · ✅ 活跃 · 教程
+> ⭐ 200 · ✅ 活跃 · 教程
 
 ## 一句话介绍
 

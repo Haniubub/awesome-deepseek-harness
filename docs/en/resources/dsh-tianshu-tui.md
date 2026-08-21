@@ -5,7 +5,7 @@ keywords: "dsh-tianshu-tui, terminal, client, workflow, deepseek harness, dsh"
 ---
 # dsh-tianshu-tui
 
-> ⭐ 224 · ✅ active · client
+> ⭐ 226 · ✅ active · client
 
 ## One-liner
 

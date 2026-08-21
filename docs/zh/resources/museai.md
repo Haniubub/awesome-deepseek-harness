@@ -5,7 +5,7 @@ keywords: "museai, vision, plugin, coding, deepseek harness, dsh"
 ---
 # museai
 
-> ⭐ 591 · ✅ 活跃 · 插件
+> ⭐ 595 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

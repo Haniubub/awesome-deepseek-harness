@@ -5,7 +5,7 @@ keywords: "dsh-agent-teams, multi-agent, agent, workflow, deepseek harness, dsh"
 ---
 # dsh-agent-teams
 
-> ⭐ 671 · ✅ active · agent
+> ⭐ 746 · ✅ active · agent
 
 ## One-liner
 

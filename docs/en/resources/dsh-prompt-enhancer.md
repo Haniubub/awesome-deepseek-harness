@@ -5,7 +5,7 @@ keywords: "dsh-prompt-enhancer, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-prompt-enhancer
 
-> ⭐ 34 · ✅ active · plugin
+> ⭐ 39 · ✅ active · plugin
 
 ## One-liner
 

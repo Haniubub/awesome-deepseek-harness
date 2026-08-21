@@ -5,7 +5,7 @@ keywords: "dsh-deepseek-quota, ui, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-deepseek-quota
 
-> ⭐ 3 · ✅ 活跃 · 插件
+> ⭐ 4 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

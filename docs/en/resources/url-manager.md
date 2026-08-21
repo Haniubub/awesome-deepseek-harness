@@ -5,7 +5,7 @@ keywords: "URL Manager, search, plugin, research, files, deepseek harness, dsh"
 ---
 # URL Manager
 
-> ⭐ 2 · ✅ active · plugin
+> ⭐ 3 · ✅ active · plugin
 
 ## One-liner
 

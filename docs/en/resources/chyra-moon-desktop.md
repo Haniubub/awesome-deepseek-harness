@@ -5,7 +5,7 @@ keywords: "deepseek-harness-desktop (chyra-moon), desktop, client, deepseek harn
 ---
 # deepseek-harness-desktop (chyra-moon)
 
-> ⭐ 11 · ✅ active · client
+> ⭐ 10 · ✅ active · client
 
 ## One-liner
 

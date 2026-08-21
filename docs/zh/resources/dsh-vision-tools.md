@@ -5,7 +5,7 @@ keywords: "dsh-vision-tools, vision, plugin, multimodal, deepseek harness, dsh"
 ---
 # dsh-vision-tools
 
-> ⭐ 2 · ✅ 活跃 · 插件
+> ⭐ 3 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-web-billing, ui, plugin, observability, deepseek harness, dsh"
 ---
 # dsh-web-billing
 
-> ⭐ 11 · ✅ 活跃 · 插件
+> ⭐ 10 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

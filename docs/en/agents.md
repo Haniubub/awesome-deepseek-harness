@@ -9,26 +9,26 @@ keywords: "deepseek harness, dsh, agents multi-agent, plugin, awesome"
 
 | # | Project | Growth | Stars | Description |
 |---|---|---|---|---|
-| 1 | [dsh-agent-teams](resources/dsh-agent-teams.md) | ⬆️ +72 | ⭐671 | Multi-agent team-oriented extensions for DSH. |
-| 2 | [dsh-data-agent](resources/dsh-data-agent.md) | ⬆️ +38 | ⭐100 | Session-scoped database connections with a dedicated data agent: let the model connect to databases and write SQL. |
-| 3 | [openbiliclaw](resources/openbiliclaw.md) | ⬆️ +24 | ⭐2,951 | 本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin） |
-| 4 | [dsh-plugin-cc](resources/dsh-plugin-cc.md) | ⬆️ +11 | ⭐19 | Bridge DeepSeek Harness into Claude Code for review, critique, delegation and session import. |
-| 5 | [allinluna](resources/allinluna.md) | ⬆️ +5 | ⭐39 | Resource-aware multi-agent orchestration for Codex and DeepSeek Harness (All in Flash DSH plugin). |
+| 1 | [dsh-agent-teams](resources/dsh-agent-teams.md) | ⬆️ +75 | ⭐746 | Multi-agent team-oriented extensions for DSH. |
+| 2 | [openbiliclaw](resources/openbiliclaw.md) | ⬆️ +20 | ⭐2,971 | 本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin） |
+| 3 | [dsh-plugin-cc](resources/dsh-plugin-cc.md) | ⬆️ +10 | ⭐29 | Bridge DeepSeek Harness into Claude Code for review, critique, delegation and session import. |
+| 4 | [dsh-agent-rp](resources/dsh-agent-rp.md) | ⬆️ +7 | ⭐169 | SillyTavern migration and next-generation Agent roleplay for DSH. |
+| 5 | [dsh-data-agent](resources/dsh-data-agent.md) | ⬆️ +4 | ⭐104 | Session-scoped database connections with a dedicated data agent: let the model connect to databases and write SQL. |
 
 ## 🔥 Top 10
 
 | # | Project | Stars | Description | Status |
 |---|---|---|---|---|
-| 1 | [openbiliclaw](resources/openbiliclaw.md) | ⭐2,951 | 本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin） | ✅ active |
-| 2 | [dsh-agent-teams](resources/dsh-agent-teams.md) | ⭐671 | Multi-agent team-oriented extensions for DSH. | ✅ active |
-| 3 | [dsh-agent-rp](resources/dsh-agent-rp.md) | ⭐162 | SillyTavern migration and next-generation Agent roleplay for DSH. | ✅ active |
-| 4 | [dsh-data-agent](resources/dsh-data-agent.md) | ⭐100 | Session-scoped database connections with a dedicated data agent: let the model connect to databases and write SQL. | ✅ active |
-| 5 | [dsh-openbiliclaw](resources/dsh-openbiliclaw.md) | ⭐47 | OpenBiliClaw 是本地运行的跨平台个性化内容推荐 Agent，持续理解你的兴趣并主动找内容。本仓库是它的 DeepSeek Harness 插件：DSH 界面常驻第四栏（推荐/内容库/对话/画像/设置），注册 22 个 Agent Bridge 工具，让 Agent 也能读推荐、答探测、闭环学习。 | ✅ active |
-| 6 | [allinluna](resources/allinluna.md) | ⭐39 | Resource-aware multi-agent orchestration for Codex and DeepSeek Harness (All in Flash DSH plugin). | ✅ active |
-| 7 | [dsh-interconnect](resources/dsh-interconnect.md) | ⭐34 | Cross-instance message/event handoff plugins (interconnect service + tools). | ✅ active |
-| 8 | [dsh-tianshu-build](resources/dsh-tianshu-build.md) | ⭐34 | DeepSeek X Tianshu  Harness build 是一款完全体开源 coding agent:在 dsh harness 基础之上带视觉、跨会话记忆、验证门、agent 路由、语义 + 图谱代码检索、文件回滚和全屏终端 UI——全部以插件组合。  它是 DeepSeek Harness(dsh)的友好 MIT fork, 它保留了上游一切皆插件的架构，并将以harness最佳形态和架构往下演进。 | ✅ active |
-| 9 | [kixparadigm](resources/kixparadigm.md) | ⭐23 | kixparadigm — AI self-orchestrated minimal paradigm (resident cognition layer) + kixpower multi-agent orchestration · one-command import into DeepSeek Harness (npm i -g) / AI 自编排最小范式（认知层常驻）× kixpower 多智能体编排 · npm 一键导入 DeepSeek Harness | ✅ active |
-| 10 | [dsh-plugin-cc](resources/dsh-plugin-cc.md) | ⭐19 | Bridge DeepSeek Harness into Claude Code for review, critique, delegation and session import. | ✅ active |
+| 1 | [openbiliclaw](resources/openbiliclaw.md) | ⭐2,971 | 本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin） | ✅ active |
+| 2 | [dsh-agent-teams](resources/dsh-agent-teams.md) | ⭐746 | Multi-agent team-oriented extensions for DSH. | ✅ active |
+| 3 | [dsh-agent-rp](resources/dsh-agent-rp.md) | ⭐169 | SillyTavern migration and next-generation Agent roleplay for DSH. | ✅ active |
+| 4 | [dsh-data-agent](resources/dsh-data-agent.md) | ⭐104 | Session-scoped database connections with a dedicated data agent: let the model connect to databases and write SQL. | ✅ active |
+| 5 | [dsh-openbiliclaw](resources/dsh-openbiliclaw.md) | ⭐48 | OpenBiliClaw 是本地运行的跨平台个性化内容推荐 Agent，持续理解你的兴趣并主动找内容。本仓库是它的 DeepSeek Harness 插件：DSH 界面常驻第四栏（推荐/内容库/对话/画像/设置），注册 22 个 Agent Bridge 工具，让 Agent 也能读推荐、答探测、闭环学习。 | ✅ active |
+| 6 | [allinluna](resources/allinluna.md) | ⭐41 | Resource-aware multi-agent orchestration for Codex and DeepSeek Harness (All in Flash DSH plugin). | ✅ active |
+| 7 | [dsh-tianshu-build](resources/dsh-tianshu-build.md) | ⭐36 | DeepSeek X Tianshu  Harness build 是一款完全体开源 coding agent:在 dsh harness 基础之上带视觉、跨会话记忆、验证门、agent 路由、语义 + 图谱代码检索、文件回滚和全屏终端 UI——全部以插件组合。  它是 DeepSeek Harness(dsh)的友好 MIT fork, 它保留了上游一切皆插件的架构，并将以harness最佳形态和架构往下演进。 | ✅ active |
+| 8 | [dsh-interconnect](resources/dsh-interconnect.md) | ⭐34 | Cross-instance message/event handoff plugins (interconnect service + tools). | ✅ active |
+| 9 | [dsh-plugin-cc](resources/dsh-plugin-cc.md) | ⭐29 | Bridge DeepSeek Harness into Claude Code for review, critique, delegation and session import. | ✅ active |
+| 10 | [kixparadigm](resources/kixparadigm.md) | ⭐23 | kixparadigm — AI self-orchestrated minimal paradigm (resident cognition layer) + kixpower multi-agent orchestration · one-command import into DeepSeek Harness (npm i -g) / AI 自编排最小范式（认知层常驻）× kixpower 多智能体编排 · npm 一键导入 DeepSeek Harness | ✅ active |
 
 ## Complete list (24)
 
@@ -37,22 +37,22 @@ keywords: "deepseek harness, dsh, agents multi-agent, plugin, awesome"
 
 | Project | Stars | Description | Status |
 |---|---|---|---|
-| [dsh-agent-teams](resources/dsh-agent-teams.md) | ⭐671 | Multi-agent team-oriented extensions for DSH. | ✅ active |
-| [dsh-agent-rp](resources/dsh-agent-rp.md) | ⭐162 | SillyTavern migration and next-generation Agent roleplay for DSH. | ✅ active |
-| [allinluna](resources/allinluna.md) | ⭐39 | Resource-aware multi-agent orchestration for Codex and DeepSeek Harness (All in Flash DSH plugin). | ✅ active |
+| [dsh-agent-teams](resources/dsh-agent-teams.md) | ⭐746 | Multi-agent team-oriented extensions for DSH. | ✅ active |
+| [dsh-agent-rp](resources/dsh-agent-rp.md) | ⭐169 | SillyTavern migration and next-generation Agent roleplay for DSH. | ✅ active |
+| [allinluna](resources/allinluna.md) | ⭐41 | Resource-aware multi-agent orchestration for Codex and DeepSeek Harness (All in Flash DSH plugin). | ✅ active |
+| [dsh-tianshu-build](resources/dsh-tianshu-build.md) | ⭐36 | DeepSeek X Tianshu  Harness build 是一款完全体开源 coding agent:在 dsh harness 基础之上带视觉、跨会话记忆、验证门、agent 路由、语义 + 图谱代码检索、文件回滚和全屏终端 UI——全部以插件组合。  它是 DeepSeek Harness(dsh)的友好 MIT fork, 它保留了上游一切皆插件的架构，并将以harness最佳形态和架构往下演进。 | ✅ active |
 | [dsh-interconnect](resources/dsh-interconnect.md) | ⭐34 | Cross-instance message/event handoff plugins (interconnect service + tools). | ✅ active |
-| [dsh-tianshu-build](resources/dsh-tianshu-build.md) | ⭐34 | DeepSeek X Tianshu  Harness build 是一款完全体开源 coding agent:在 dsh harness 基础之上带视觉、跨会话记忆、验证门、agent 路由、语义 + 图谱代码检索、文件回滚和全屏终端 UI——全部以插件组合。  它是 DeepSeek Harness(dsh)的友好 MIT fork, 它保留了上游一切皆插件的架构，并将以harness最佳形态和架构往下演进。 | ✅ active |
+| [dsh-plugin-cc](resources/dsh-plugin-cc.md) | ⭐29 | Bridge DeepSeek Harness into Claude Code for review, critique, delegation and session import. | ✅ active |
 | [kixparadigm](resources/kixparadigm.md) | ⭐23 | kixparadigm — AI self-orchestrated minimal paradigm (resident cognition layer) + kixpower multi-agent orchestration · one-command import into DeepSeek Harness (npm i -g) / AI 自编排最小范式（认知层常驻）× kixpower 多智能体编排 · npm 一键导入 DeepSeek Harness | ✅ active |
-| [dsh-plugin-cc](resources/dsh-plugin-cc.md) | ⭐19 | Bridge DeepSeek Harness into Claude Code for review, critique, delegation and session import. | ✅ active |
-| [dsh-plugin-product-subagents](resources/dsh-plugin-product-subagents.md) | ⭐18 | Role-based Codex/Claude Code/ACP subagent providers: continuable children with durable state. | ✅ active |
+| [dsh-plugin-product-subagents](resources/dsh-plugin-product-subagents.md) | ⭐17 | Role-based Codex/Claude Code/ACP subagent providers: continuable children with durable state. | ✅ active |
 | [dsh-advisor](resources/dsh-advisor.md) | ⭐15 | Pair a second model that passively reviews each turn and injects notes. | ✅ active |
-| [dsh-llm-fallbacks](resources/dsh-llm-fallbacks.md) | ⭐11 | Role-based LLM retry and fallback strategy plugin. | ✅ active |
-| [dsh-plugin-yet-another-subagent](resources/dsh-plugin-yet-another-subagent.md) | ⭐11 | Configurable subagent profile system: a single subagent tool with profile parameters, Web UI settings and live progress. | ✅ active |
+| [dsh-llm-fallbacks](resources/dsh-llm-fallbacks.md) | ⭐13 | Role-based LLM retry and fallback strategy plugin. | ✅ active |
+| [dsh-plugin-yet-another-subagent](resources/dsh-plugin-yet-another-subagent.md) | ⭐12 | Configurable subagent profile system: a single subagent tool with profile parameters, Web UI settings and live progress. | ✅ active |
 | [dsh-sidechain](resources/dsh-sidechain.md) | ⭐10 | Side sessions: persistent /side sessions (Codex style) and one-off /btw questions (Claude style) in temporary forks. | ✅ active |
 | [dsh-plugin-claude-bridge](resources/dsh-plugin-claude-bridge.md) | ⭐9 | Bridge Claude Code memory, skills and config into DeepSeek Harness. | ✅ active |
 | [Task Passport](resources/task-passport.md) | ⭐9 | Open task handoff protocol for DeepSeek Harness, WorkBuddy, Claude Code and Codex: verified state, not chat logs. | ✅ active |
-| [dsh-a2a](resources/dsh-a2a.md) | ⭐5 | Agent2Agent mesh for the Harness. | ✅ active |
-| [dsh-agent-messaging](resources/dsh-agent-messaging.md) | ⭐4 | Cross-session agent-to-agent messaging: address another session by name. | ✅ active |
+| [dsh-a2a](resources/dsh-a2a.md) | ⭐6 | Agent2Agent mesh for the Harness. | ✅ active |
+| [dsh-agent-messaging](resources/dsh-agent-messaging.md) | ⭐5 | Cross-session agent-to-agent messaging: address another session by name. | ✅ active |
 | [dsh-crosstalk](resources/dsh-crosstalk.md) | ⭐2 | Cross-session messaging: DSH sessions on the same machine can discover, message and coordinate with each other. | ✅ active |
 | [dsh-slice-agent-loop](resources/dsh-slice-agent-loop.md) | ⭐2 | Drop-in agent loop whose context engine is a bounded slice instead of a growing transcript. | ✅ active |
 | [dsh-subagent-tools](resources/dsh-subagent-tools.md) | ⭐2 | Per-call model/provider/persona/toolFilter overrides for subagent delegation with @preset references. | ✅ active |
@@ -63,6 +63,6 @@ keywords: "deepseek harness, dsh, agents multi-agent, plugin, awesome"
 
 | Project | Stars | Description | Status |
 |---|---|---|---|
-| [openbiliclaw](resources/openbiliclaw.md) | ⭐2,951 | 本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin） | ✅ active |
-| [dsh-data-agent](resources/dsh-data-agent.md) | ⭐100 | Session-scoped database connections with a dedicated data agent: let the model connect to databases and write SQL. | ✅ active |
-| [dsh-openbiliclaw](resources/dsh-openbiliclaw.md) | ⭐47 | OpenBiliClaw 是本地运行的跨平台个性化内容推荐 Agent，持续理解你的兴趣并主动找内容。本仓库是它的 DeepSeek Harness 插件：DSH 界面常驻第四栏（推荐/内容库/对话/画像/设置），注册 22 个 Agent Bridge 工具，让 Agent 也能读推荐、答探测、闭环学习。 | ✅ active |
+| [openbiliclaw](resources/openbiliclaw.md) | ⭐2,971 | 本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin） | ✅ active |
+| [dsh-data-agent](resources/dsh-data-agent.md) | ⭐104 | Session-scoped database connections with a dedicated data agent: let the model connect to databases and write SQL. | ✅ active |
+| [dsh-openbiliclaw](resources/dsh-openbiliclaw.md) | ⭐48 | OpenBiliClaw 是本地运行的跨平台个性化内容推荐 Agent，持续理解你的兴趣并主动找内容。本仓库是它的 DeepSeek Harness 插件：DSH 界面常驻第四栏（推荐/内容库/对话/画像/设置），注册 22 个 Agent Bridge 工具，让 Agent 也能读推荐、答探测、闭环学习。 | ✅ active |

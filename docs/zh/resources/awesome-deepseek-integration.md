@@ -5,7 +5,7 @@ keywords: "awesome-deepseek-integration, registry, awesome-list, search, deepsee
 ---
 # awesome-deepseek-integration
 
-> ⭐ 38,873 · ✅ 活跃 · 精选列表
+> ⭐ 38,897 · ✅ 活跃 · 精选列表
 
 ## 一句话介绍
 

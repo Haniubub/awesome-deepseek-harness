@@ -5,7 +5,7 @@ keywords: "voyager, search, plugin, coding, ui, deepseek harness, dsh"
 ---
 # voyager
 
-> ⭐ 19,722 · ✅ 活跃 · 插件
+> ⭐ 19,755 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "dsh-agent-messaging, multi-agent, agent, deepseek harness, dsh"
 ---
 # dsh-agent-messaging
 
-> ⭐ 4 · ✅ active · agent
+> ⭐ 5 · ✅ active · agent
 
 ## One-liner
 

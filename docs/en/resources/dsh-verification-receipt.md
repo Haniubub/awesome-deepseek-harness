@@ -5,7 +5,7 @@ keywords: "dsh-verification-receipt, developer, plugin, coding, deepseek harness
 ---
 # dsh-verification-receipt
 
-> ⭐ 5 · ✅ active · plugin
+> ⭐ 4 · ✅ active · plugin
 
 ## One-liner
 

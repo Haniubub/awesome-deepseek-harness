@@ -5,7 +5,7 @@ keywords: "URL Manager, search, plugin, research, files, deepseek harness, dsh"
 ---
 # URL Manager
 
-> ⭐ 2 · ✅ 活跃 · 插件
+> ⭐ 3 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

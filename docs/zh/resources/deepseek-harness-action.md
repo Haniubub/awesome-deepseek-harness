@@ -5,7 +5,7 @@ keywords: "deepseek-harness-action, developer, integration, coding, automation, 
 ---
 # deepseek-harness-action
 
-> ⭐ 11 · ✅ 活跃 · 集成
+> ⭐ 13 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

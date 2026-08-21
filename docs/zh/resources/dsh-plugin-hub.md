@@ -5,7 +5,7 @@ keywords: "dsh-plugin-hub, discovery, plugin, ui, workflow, deepseek harness, ds
 ---
 # dsh-plugin-hub
 
-> ⭐ 62 · ✅ 活跃 · 插件
+> ⭐ 64 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

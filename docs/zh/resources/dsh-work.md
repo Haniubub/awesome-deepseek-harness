@@ -5,7 +5,7 @@ keywords: "dsh-work, desktop, client, coding, mcp, multi-agent, search, deepseek
 ---
 # dsh-work
 
-> ⭐ 606 · ✅ 活跃 · 客户端
+> ⭐ 610 · ✅ 活跃 · 客户端
 
 ## 一句话介绍
 

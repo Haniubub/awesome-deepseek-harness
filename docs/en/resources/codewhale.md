@@ -5,7 +5,7 @@ keywords: "CodeWhale, harness, related, workflow, deepseek harness, dsh"
 ---
 # CodeWhale
 
-> ⭐ 40,832 · ✅ active · related
+> ⭐ 40,830 · ✅ active · related
 
 ## One-liner
 

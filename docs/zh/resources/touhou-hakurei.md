@@ -5,7 +5,7 @@ keywords: "touhou-hakurei, search, plugin, coding, ui, deepseek harness, dsh"
 ---
 # touhou-hakurei
 
-> ⭐ 17 · ✅ 活跃 · 插件
+> ⭐ 18 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

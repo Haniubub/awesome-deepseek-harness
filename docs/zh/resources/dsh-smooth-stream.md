@@ -5,7 +5,7 @@ keywords: "dsh-smooth-stream, ui, plugin, deepseek harness, dsh"
 ---
 # dsh-smooth-stream
 
-> ⭐ 43 · ✅ 活跃 · 插件
+> ⭐ 45 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

@@ -5,7 +5,7 @@ keywords: "anysearch-dsh, search, plugin, deepseek harness, dsh"
 ---
 # anysearch-dsh
 
-> ⭐ 154 · ✅ 活跃 · 插件
+> ⭐ 174 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 

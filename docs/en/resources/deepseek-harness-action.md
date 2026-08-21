@@ -5,7 +5,7 @@ keywords: "deepseek-harness-action, developer, integration, coding, automation, 
 ---
 # deepseek-harness-action
 
-> ⭐ 11 · ✅ active · integration
+> ⭐ 13 · ✅ active · integration
 
 ## One-liner
 

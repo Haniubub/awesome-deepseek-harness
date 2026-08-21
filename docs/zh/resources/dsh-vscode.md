@@ -5,7 +5,7 @@ keywords: "dsh-vscode, ide, integration, coding, ui, deepseek harness, dsh"
 ---
 # dsh-vscode
 
-> ⭐ 12 · ✅ 活跃 · 集成
+> ⭐ 14 · ✅ 活跃 · 集成
 
 ## 一句话介绍
 

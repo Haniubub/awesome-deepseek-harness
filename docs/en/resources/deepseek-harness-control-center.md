@@ -5,7 +5,7 @@ keywords: "deepseek-harness-control-center, vision, plugin, coding, multi-agent,
 ---
 # deepseek-harness-control-center
 
-> ⭐ 57 · ✅ active · plugin
+> ⭐ 61 · ✅ active · plugin
 
 ## One-liner
 

@@ -5,7 +5,7 @@ keywords: "dsh-auto-mode, vision, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-auto-mode
 
-> ⭐ 114 · ✅ 活跃 · 插件
+> ⭐ 115 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 
