@@ -4919,5 +4919,22 @@
     "subcategory": "cost-billing",
     "_source_description": "DSH client plugin: auto-sends 「继续」 when a turn is interrupted/errored/overlong. No model/provider switching. Ships with a settings card.",
     "_updated": "2026-08-20"
+  },
+  {
+    "id": "dsh-humanizer",
+    "name": "dsh-humanizer",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/lynote-ai/dsh-humanizer",
+    "description": "Writing tool for the agent: removes AI-sounding patterns and clones your personal voice. 8 deterministic tools scan text, build a style fingerprint from your samples, and return rewrite briefs.",
+    "description_zh": "写作工具：去除 AI 腔并贴合个人文风。8 个确定性工具扫描文本、从样本提取文风指纹，并返回改写 brief。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "experimental",
+    "verified": false,
+    "stars": 0,
+    "install": "dsh plugin add github:lynote-ai/dsh-humanizer",
+    "license": "BSD-3-Clause"
   }
 ]
