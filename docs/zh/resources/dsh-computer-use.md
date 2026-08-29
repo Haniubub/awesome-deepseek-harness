@@ -1,25 +1,25 @@
 ---
 title: "dsh-computer-use"
-description: "模型无关的 Computer Use：隔离浏览器、Windows 原生助手与第三方桥接。"
-keywords: "dsh-computer-use, browser, plugin, automation, deepseek harness, dsh"
+description: "Computer Use 插件：虚拟鼠标真人操作 for DeepSeek Harness（screen_observe + computer_click 等 11 个模型友好工具，跨平台 cua-driver 引擎）"
+keywords: "dsh-computer-use, vision, plugin, browser, coding, deepseek harness, dsh"
 ---
 # dsh-computer-use
 
-> ⭐ 1 · ✅ 活跃 · 插件
+> ⭐ 17 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 
-模型无关的 Computer Use：隔离浏览器、Windows 原生助手与第三方桥接。
+Computer Use 插件：虚拟鼠标真人操作 for DeepSeek Harness（screen_observe + computer_click 等 11 个模型友好工具，跨平台 cua-driver 引擎）
 
 ## 详细介绍
 
 Model-agnostic Computer Use capability for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): an isolated browser, a Windows native helper, provider-neutral observation, a Chrome **Cookie Bridge** for importing your logged-in sessions, and a text planner (DeepSeek) plus a third-party vision model for perception.
 
 ## 作者
-**[xiaoheizi1212](https://github.com/xiaoheizi1212)**
+**[988hj7tczd-oss](https://github.com/988hj7tczd-oss)**
 
 ## 链接
 
-- [GitHub 仓库](https://github.com/xiaoheizi1212/dsh-computer-use)
-- [完整 README](https://github.com/xiaoheizi1212/dsh-computer-use#readme)
+- [GitHub 仓库](https://github.com/988hj7tczd-oss/dsh-computer-use)
+- [完整 README](https://github.com/988hj7tczd-oss/dsh-computer-use#readme)
 - [返回dsh-computer-use所在分类](../plugins.md)

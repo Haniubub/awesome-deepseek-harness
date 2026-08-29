@@ -1,6 +1,6 @@
 ---
 title: "Tutorials & Learning"
-description: "Top 10 and full list of 13 curated tutorials & learning for DeepSeek Harness (dsh)."
+description: "Top 10 and full list of 15 curated tutorials & learning for DeepSeek Harness (dsh)."
 keywords: "deepseek harness, dsh, tutorials learning, plugin, awesome"
 ---
 # Tutorials & Learning
@@ -23,17 +23,17 @@ keywords: "deepseek harness, dsh, tutorials learning, plugin, awesome"
 | 2 | [dsh-handbook](resources/dsh-handbook.md) | ⭐604 | From 0 to 1 handbook: installation, plugin development, performance tuning, real-world cases and same-model multi-agent comparisons (CN + EN PDF). | ✅ active |
 | 3 | [dshfind](resources/dshfind.md) | ⭐200 | Learn DSH principles, plugin marketplace and best practices — from chapter-by-chapter Cordis paper reading to an auto-aggregated plugin market. | ✅ active |
 | 4 | [deepseek-harness-tutorial](resources/deepseek-harness-tutorial.md) | ⭐182 | Detailed Chinese learning tutorial for DeepSeek Harness. | ✅ active |
-| 5 | [dsh-harness-tutorial](resources/dsh-harness-tutorial.md) | ⭐54 | DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent —— 一切皆插件的中文教程（VitePress 站点 + 8 个 Demo + mini-harness 教学项目） | ✅ active |
-| 6 | [deepseek-harness-handbook](resources/deepseek-harness-handbook.md) | ⭐36 | Independent, source-backed handbook for DeepSeek AI's official DeepSeek Harness (dsh): agents, plugins, security, troubleshooting, and runbooks. | ✅ active |
-| 7 | [dsh-explain](resources/dsh-explain.md) | ⭐11 | Local-first learning mode: cross-session global learning threads, explain-by-source, ExplainContext and compression. | ✅ active |
-| 8 | [deepseek-harness-learning](resources/deepseek-harness-learning.md) | ⭐7 | Learning website built from a systematic breakdown of the deepseek-harness repository, for developers curious how AI agent frameworks work. | ✅ active |
-| 9 | [deepseek-harness-prompts](resources/deepseek-harness-prompts.md) | ⭐6 | DeepSeek Harness prompts for different modes. | ✅ active |
-| 10 | [dsh-book-deepseek-harness](resources/dsh-book-deepseek-harness.md) | ⭐6 | 'Deep Dive into DeepSeek Harness' — source-level architecture book: 37 chapter files, PDF, Mermaid diagrams and writing conventions. | ✅ active |
+| 5 | [dsh-memory](resources/dsh-memory-1.md) | ⭐66 | 白箱AGI架构探索：元认知（自我认知循环）、持续学习（知识飞轮）、世界模型（条件空间+语义时空图）、自我改进（自举纪律）、零LLM白箱管线与可审计信任护栏。 | ✅ active |
+| 6 | [dsh-harness-tutorial](resources/dsh-harness-tutorial.md) | ⭐54 | DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent —— 一切皆插件的中文教程（VitePress 站点 + 8 个 Demo + mini-harness 教学项目） | ✅ active |
+| 7 | [deepseek-harness-handbook](resources/deepseek-harness-handbook.md) | ⭐36 | Independent, source-backed handbook for DeepSeek AI's official DeepSeek Harness (dsh): agents, plugins, security, troubleshooting, and runbooks. | ✅ active |
+| 8 | [dsh-explain](resources/dsh-explain.md) | ⭐11 | Local-first learning mode: cross-session global learning threads, explain-by-source, ExplainContext and compression. | ✅ active |
+| 9 | [deepseek-harness-learning](resources/deepseek-harness-learning.md) | ⭐7 | Learning website built from a systematic breakdown of the deepseek-harness repository, for developers curious how AI agent frameworks work. | ✅ active |
+| 10 | [deepseek-harness-prompts](resources/deepseek-harness-prompts.md) | ⭐6 | DeepSeek Harness prompts for different modes. | ✅ active |
 
-## Complete list (13)
+## Complete list (15)
 
 
-**Learning (13)**
+**Learning (15)**
 
 | Project | Stars | Description | Status |
 |---|---|---|---|
@@ -41,6 +41,7 @@ keywords: "deepseek harness, dsh, tutorials learning, plugin, awesome"
 | [dsh-handbook](resources/dsh-handbook.md) | ⭐604 | From 0 to 1 handbook: installation, plugin development, performance tuning, real-world cases and same-model multi-agent comparisons (CN + EN PDF). | ✅ active |
 | [dshfind](resources/dshfind.md) | ⭐200 | Learn DSH principles, plugin marketplace and best practices — from chapter-by-chapter Cordis paper reading to an auto-aggregated plugin market. | ✅ active |
 | [deepseek-harness-tutorial](resources/deepseek-harness-tutorial.md) | ⭐182 | Detailed Chinese learning tutorial for DeepSeek Harness. | ✅ active |
+| [dsh-memory](resources/dsh-memory-1.md) | ⭐66 | 白箱AGI架构探索：元认知（自我认知循环）、持续学习（知识飞轮）、世界模型（条件空间+语义时空图）、自我改进（自举纪律）、零LLM白箱管线与可审计信任护栏。 | ✅ active |
 | [dsh-harness-tutorial](resources/dsh-harness-tutorial.md) | ⭐54 | DeepSeek Harness Agent 的原理与实现：从零到一实现一个 AI Agent —— 一切皆插件的中文教程（VitePress 站点 + 8 个 Demo + mini-harness 教学项目） | ✅ active |
 | [deepseek-harness-handbook](resources/deepseek-harness-handbook.md) | ⭐36 | Independent, source-backed handbook for DeepSeek AI's official DeepSeek Harness (dsh): agents, plugins, security, troubleshooting, and runbooks. | ✅ active |
 | [dsh-explain](resources/dsh-explain.md) | ⭐11 | Local-first learning mode: cross-session global learning threads, explain-by-source, ExplainContext and compression. | ✅ active |
@@ -50,3 +51,4 @@ keywords: "deepseek harness, dsh, tutorials learning, plugin, awesome"
 | [dsh-learn-everything](resources/dsh-learn-everything.md) | ⭐5 | Feynman learning-mode plugin: teach → teach-back → judge → re-explain loop rendered as rich HTML lesson cards. | ✅ active |
 | [gitlearnos](resources/gitlearnos.md) | ⭐4 | Git-native AI learning OS with a GitLearnOS-exclusive DeepSeek Harness panel, targeted practice, local RAG, and learner-owned memory. | ✅ active |
 | [deepseek-protocol-doctor](resources/deepseek-protocol-doctor.md) | ⭐2 | Checks DeepSeek tool loops, reasoning_content, strict schemas and captured SSE; also works as a DSH plugin. | ✅ active |
+| [DeepSeek Harness Brain](resources/deepseek-harness-brain.md) | – | Source-cited Obsidian knowledge base with a plain-English guide, architecture notes, an installable assistant skill, and portability guidance for DeepSeek Harness. | ✅ active |

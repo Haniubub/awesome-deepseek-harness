@@ -1,15 +1,15 @@
 ---
 title: "dsh-advisor"
-description: "配对第二模型被动审查每一回合并注入建议。"
-keywords: "dsh-advisor, multi-agent, agent, context, deepseek harness, dsh"
+description: "Advisor - Pair a second model that passively reviews each turn and injects notes.  搭配一个会在每轮对话被动注入见解和审查的副模型。"
+keywords: "dsh-advisor, developer, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-advisor
 
-> ⭐ 15 · ✅ 活跃 · 智能体
+> ⭐ 16 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 
-配对第二模型被动审查每一回合并注入建议。
+Advisor - Pair a second model that passively reviews each turn and injects notes.  搭配一个会在每轮对话被动注入见解和审查的副模型。
 
 ## 详细介绍
 
@@ -22,4 +22,4 @@ A standalone dsh plugin bundle porting the omp "advisor" subsystem: a per-sessio
 
 - [GitHub 仓库](https://github.com/omdsh-dev/dsh-advisor)
 - [完整 README](https://github.com/omdsh-dev/dsh-advisor#readme)
-- [返回dsh-advisor所在分类](../agents.md)
+- [返回dsh-advisor所在分类](../plugins.md)

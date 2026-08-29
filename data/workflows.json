@@ -21,6 +21,23 @@
     "growth": 16
   },
   {
+    "id": "dsh-agent-team-gui",
+    "name": "dsh-agent-team-gui",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/toolclub/dsh-agent-team-gui",
+    "description": "Persistent multi-model workflow teams for DeepSeek Harness — dynamic lead planning, bounded DAGs, per-agent model/tools, Run Center and Token insights.",
+    "description_zh": "Persistent multi-model workflow teams for DeepSeek Harness — dynamic lead planning, bounded DAGs, per-agent model/tools, Run Center and Token insights.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 159
+  },
+  {
     "id": "dsh-workflow-dup",
     "name": "dsh_workflow",
     "type": "workflow",
@@ -204,6 +221,23 @@
     "growth": 2
   },
   {
+    "id": "dsh-plannotator",
+    "name": "dsh-plannotator",
+    "type": "workflow",
+    "category": "workflow",
+    "repository": "https://github.com/titanwings/dsh-plannotator",
+    "description": "DSH 计划批注插件：选中计划原文、逐条批注，并把结构化反馈送回 Agent。 / A DSH plan-review plugin for anchored annotations and structured Agent feedback.",
+    "description_zh": "DSH 计划批注插件：选中计划原文、逐条批注，并把结构化反馈送回 Agent。 / A DSH plan-review plugin for anchored annotations and structured Agent feedback.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 10
+  },
+  {
     "id": "dsh-deepresearch",
     "name": "dsh-deepresearch",
     "type": "workflow",
@@ -321,7 +355,7 @@
     "growth": 1
   },
   {
-    "id": "dsh-companion",
+    "id": "dsh-companion-1",
     "name": "dsh-companion",
     "type": "workflow",
     "category": "automation",
@@ -340,6 +374,21 @@
     "_updated": "2026-08-16",
     "_stars_prev": 4,
     "growth": 1
+  },
+  {
+    "id": "dsh-loop",
+    "name": "dsh-loop",
+    "type": "workflow",
+    "category": "automation",
+    "repository": "https://github.com/vlln/dsh-loop",
+    "description": "DSH 插件：定时循环（/loop 命令 + loop 工具 + 活动状态条）。官方 bundle 插件，dsh plugin --profile web add 安装",
+    "description_zh": "DSH 插件：定时循环（/loop 命令 + loop 工具 + 活动状态条）。官方 bundle 插件，dsh plugin --profile web add 安装",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
   },
   {
     "id": "dsh-prime-agent",
@@ -398,6 +447,21 @@
     "stars": 4,
     "_source_description": "DeepSeek Harness plugin for continual self-evolution: persistent memory, periodic review-and-refine, cross-session shared knowledge, and automatic rollback — a plan→validate→apply→rollback loop driven by a model-callable harness_refine tool.",
     "_updated": "2026-08-20"
+  },
+  {
+    "id": "dsh-tool-time",
+    "name": "dsh-tool-time",
+    "type": "workflow",
+    "category": "automation",
+    "repository": "https://github.com/omdsh-dev/dsh-tool-time",
+    "description": "DSH 时间工具插件：严格 ISO 8601 解析、IANA 时区转换、UTC 日历运算、固定时长差，零依赖",
+    "description_zh": "DSH 时间工具插件：严格 ISO 8601 解析、IANA 时区转换、UTC 日历运算、固定时长差，零依赖",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
   },
   {
     "id": "dsh-agent-orchestration",

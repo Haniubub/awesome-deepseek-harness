@@ -1,6 +1,6 @@
 ---
 title: "Skills"
-description: "DeepSeek Harness (dsh) 精选 skills：🔥 Top 10 与完整列表（30 条）。"
+description: "DeepSeek Harness (dsh) 精选 skills：🔥 Top 10 与完整列表（44 条）。"
 keywords: "deepseek harness, dsh, skills, plugin, awesome"
 ---
 # Skills
@@ -20,34 +20,48 @@ keywords: "deepseek harness, dsh, skills, plugin, awesome"
 | # | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|---|
 | 1 | [memos](resources/memos.md) | ⭐10,873 | Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support. | ✅ 活跃 |
-| 2 | [easyeda-agent](resources/easyeda-agent.md) | ⭐274 | EasyEDA Pro automation: Go daemon + in-app connector + agent skill + stdio MCP server for typed schematic/PCB actions, workflow gates, and DRC. | ✅ 活跃 |
-| 3 | [dsh-skill-viewer](resources/dsh-skill-viewer.md) | ⭐88 | DSH Web 技能设置区：热启停、删除与新增。 | ✅ 活跃 |
-| 4 | [dsh-reverse-skill](resources/dsh-reverse-skill.md) | ⭐58 | Complete reverse-skill (85 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authorized pentesting and security research skill pack. | ✅ 活跃 |
-| 5 | [dsh-science](resources/dsh-science.md) | ⭐24 | Claude Science-style research workbench: ReAct research-loop engine (research_* tools), versioned artifacts with provenance (artifact_* tools), and 10 science skills for genomics/pathogens/bioinformatics. | ✅ 活跃 |
-| 6 | [dsh-plugin-development](resources/dsh-plugin-development.md) | ⭐14 | Portable Agent Skill for developing and auditing DeepSeek Harness plugins, with an optional profile-installable DSH bundle adapter. | ✅ 活跃 |
-| 7 | [dsh_plugin_swift_cycle](resources/dsh-plugin-swift-cycle.md) | ⭐14 | Swift Cycle governance skill adapter for DeepSeek Harness; user-invoked, version-pinned, and offline-verifiable. | ✅ 活跃 |
-| 8 | [dsh-plugin-dev](resources/dsh-plugin-dev.md) | ⭐13 | 插件开发踩坑与做法档案（skill + 文档）：cordis 双副本、tsconfig 三件套、Windows junction、多帧 zstd 实测。 | ✅ 活跃 |
-| 9 | [dsh-plugin-skills](resources/dsh-plugin-skills.md) | ⭐11 | 构建与测试 DSH 插件的 Agent 技能：从脚手架到发布。 | ✅ 活跃 |
-| 10 | [dsh-godot-skill](resources/dsh-godot-skill.md) | ⭐9 | Godot Engine 4.x 全栈游戏开发技能插件。 | ✅ 活跃 |
+| 2 | [dsh-routing-suite](resources/dsh-routing-suite.md) | ⭐6,940 | dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23). | ✅ 活跃 |
+| 3 | [easyeda-agent](resources/easyeda-agent.md) | ⭐274 | EasyEDA Pro automation: Go daemon + in-app connector + agent skill + stdio MCP server for typed schematic/PCB actions, workflow gates, and DRC. | ✅ 活跃 |
+| 4 | [dsh-taskboard](resources/dsh-taskboard.md) | ⭐195 | Native local Taskboard plugin for DeepSeek Harness. SQLite-backed projects, Agent claim/review, and a native Web UI — no iframe, no second chat runtime. | ✅ 活跃 |
+| 5 | [deepseek-harness-genui](resources/deepseek-harness-genui.md) | ⭐107 | Task-specific React apps for DeepSeek Harness with state carried into the next Agent turn | ✅ 活跃 |
+| 6 | [dsh-skill-viewer](resources/dsh-skill-viewer.md) | ⭐88 | DSH Web 技能设置区：热启停、删除与新增。 | ✅ 活跃 |
+| 7 | [dsh-reverse-skill](resources/dsh-reverse-skill.md) | ⭐58 | Complete reverse-skill (85 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authorized pentesting and security research skill pack. | ✅ 活跃 |
+| 8 | [dsh-save-money](resources/dsh-save-money.md) | ⭐35 | Save-money plugin for DSH (DeepSeek Harness) — define your own "pause / resume" time windows; at pause time running long tasks are paused (not stopped) automatically, and they resume when the window ends. | ✅ 活跃 |
+| 9 | [dsh-skill-picker](resources/dsh-skill-picker.md) | ⭐25 | DSH 实现 workbuddy 同款选择 skill 功能 | WorkBuddy-style skill picker for DeepSeek Harness: pick a skill in the composer, insert the official /skill-name gesture, and DSH loads it with your message. | ✅ 活跃 |
+| 10 | [dsh-science](resources/dsh-science.md) | ⭐24 | Claude Science-style research workbench: ReAct research-loop engine (research_* tools), versioned artifacts with provenance (artifact_* tools), and 10 science skills for genomics/pathogens/bioinformatics. | ✅ 活跃 |
 
-## 完整列表（30）
+## 完整列表（44）
 
 
-**学习（18）**
+**学习（32）**
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
 | [memos](resources/memos.md) | ⭐10,873 | Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support. | ✅ 活跃 |
+| [dsh-routing-suite](resources/dsh-routing-suite.md) | ⭐6,940 | dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23). | ✅ 活跃 |
 | [easyeda-agent](resources/easyeda-agent.md) | ⭐274 | EasyEDA Pro automation: Go daemon + in-app connector + agent skill + stdio MCP server for typed schematic/PCB actions, workflow gates, and DRC. | ✅ 活跃 |
+| [dsh-taskboard](resources/dsh-taskboard.md) | ⭐195 | Native local Taskboard plugin for DeepSeek Harness. SQLite-backed projects, Agent claim/review, and a native Web UI — no iframe, no second chat runtime. | ✅ 活跃 |
+| [deepseek-harness-genui](resources/deepseek-harness-genui.md) | ⭐107 | Task-specific React apps for DeepSeek Harness with state carried into the next Agent turn | ✅ 活跃 |
 | [dsh-reverse-skill](resources/dsh-reverse-skill.md) | ⭐58 | Complete reverse-skill (85 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authorized pentesting and security research skill pack. | ✅ 活跃 |
+| [dsh-save-money](resources/dsh-save-money.md) | ⭐35 | Save-money plugin for DSH (DeepSeek Harness) — define your own "pause / resume" time windows; at pause time running long tasks are paused (not stopped) automatically, and they resume when the window ends. | ✅ 活跃 |
+| [dsh-skill-picker](resources/dsh-skill-picker.md) | ⭐25 | DSH 实现 workbuddy 同款选择 skill 功能 | WorkBuddy-style skill picker for DeepSeek Harness: pick a skill in the composer, insert the official /skill-name gesture, and DSH loads it with your message. | ✅ 活跃 |
 | [dsh-science](resources/dsh-science.md) | ⭐24 | Claude Science-style research workbench: ReAct research-loop engine (research_* tools), versioned artifacts with provenance (artifact_* tools), and 10 science skills for genomics/pathogens/bioinformatics. | ✅ 活跃 |
+| [dsh-media-skills](resources/dsh-media-skills.md) | ⭐19 | Free image reading & generation for DeepSeek Harness (rc.7 / rc.8 / v0.1.1-rc.1 / rc.2) — paste-image reading with auto vision transcription, DeepSeek-V4-Flash-Vision-Exp / GLM-4V-Flash / SenseNova / Gemini failover, Kolors + U1 Fast generation. No keys in repo. | ✅ 活跃 |
+| [dsh-opencode-palette](resources/dsh-opencode-palette.md) | ⭐18 | 🎨 看腻了 DSH 默认皮肤？34 款 opencode 经典配色一键换上——tokyonight、dracula、gruvbox、matrix、rose-pine……即点即换，重启不丢。34 opencode themes for DeepSeek Harness, one click, persisted. More by @FeatherHunter: ⚡ dsh-prompt · 🧠 dsh-mattpocock-skills-deck | ✅ 活跃 |
+| [dsh-directorx](resources/dsh-directorx.md) | ⭐16 | DirectorX as a DeepSeek Harness plugin: AI video/image/audio skills, knowledge corpus, and configurable vision/image/video/audio model tools. | ✅ 活跃 |
+| [dsh-evoresearch](resources/dsh-evoresearch.md) | ⭐14 | 自进化科研工作流 | ✅ 活跃 |
 | [dsh-plugin-development](resources/dsh-plugin-development.md) | ⭐14 | Portable Agent Skill for developing and auditing DeepSeek Harness plugins, with an optional profile-installable DSH bundle adapter. | ✅ 活跃 |
 | [dsh_plugin_swift_cycle](resources/dsh-plugin-swift-cycle.md) | ⭐14 | Swift Cycle governance skill adapter for DeepSeek Harness; user-invoked, version-pinned, and offline-verifiable. | ✅ 活跃 |
 | [dsh-plugin-dev](resources/dsh-plugin-dev.md) | ⭐13 | 插件开发踩坑与做法档案（skill + 文档）：cordis 双副本、tsconfig 三件套、Windows junction、多帧 zstd 实测。 | ✅ 活跃 |
+| [dsh-claude-move](resources/dsh-claude-move.md) | ⭐11 | Four-source migration wizard for DeepSeek Harness: move Claude Code, Codex, OpenCode and Hermes sessions, memories, skills, instructions and slash commands into DSH (/move wizard + resumable sessions, approval-gated, idempotent). | ✅ 活跃 |
 | [dsh-plugin-skills](resources/dsh-plugin-skills.md) | ⭐11 | 构建与测试 DSH 插件的 Agent 技能：从脚手架到发布。 | ✅ 活跃 |
+| [dsh-fail-logger](resources/dsh-fail-logger.md) | ⭐9 | DeepSeek Harness（DSH）插件：自动记录所有执行模式（原生工具 / PTC run_code / 代码内嵌工具调用）的工具失败错因，去重、计数、确定性排序后沉淀进 skill 的机器维护实录区段——让 Agent 越用越少错。 | ✅ 活跃 |
+| [dsh-task-status](resources/dsh-task-status.md) | ⭐9 | DSH 插件：后台任务状态条（对话页任务进度 + 实时输出 tail）。官方 bundle 插件，dsh plugin --profile web add 安装 | ✅ 活跃 |
 | [dsh-codex-port](resources/dsh-codex-port.md) | ⭐8 | DeepSeek Harness 技能移植插件：把 ~/.codex 的 Codex 官方插件（186+ 个、583+ 技能）一键移植为 DSH 技能（codex_list/port/status），frontmatter 自动转换、幂等跳过。· Batch-port the Codex plugin family into DSH skills. | ✅ 活跃 |
+| [dsh-capability-receipt](resources/dsh-capability-receipt.md) | ⭐4 | Content-addressed receipts for skills actually loaded by DeepSeek Harness | ✅ 活跃 |
 | [dsh-remotion](resources/dsh-remotion.md) | ⭐4 | DSH 视频创作技能插件：注册 Remotion 官方移植技能（React 编程式视频，38 个规则文件），安装即用。· Remotion skill plugin for DeepSeek Harness. | ✅ 活跃 |
 | [dsh-find-skill](resources/dsh-find-skill.md) | ⭐3 | 桥接 vercel-labs/skills 生态：LLM 驱动技能搜索、安装与管理。 | ✅ 活跃 |
+| [dsh-local-ai](resources/dsh-local-ai.md) | ⭐3 | Local-model (Ollama) integration for DeepSeek Harness: discover, pull, remove, and inspect local models, route requests to them by task type or keyword with automatic fallback to the cloud, and get a one-shot status overview via /ollama. | ✅ 活跃 |
 | [dsh-memoryhub](resources/dsh-memoryhub.md) | ⭐3 | MemoryHub (mh) plugin for DeepSeek Harness (dsh): auto-loads checkpoint memory on session start, adds mh_* tools and the mh skill, and a Memory tab in the web UI | ✅ 活跃 |
 | [dsh-skillradar](resources/dsh-skillradar.md) | ⭐3 | 扫描会话可见技能，按与近期对话的相关度排序。 | ✅ 活跃 |
 | [deepseek-harness-skillx](resources/dsh-explore-skill.md) | ⭐2 | DSH 工作流技能合集。 | ✅ 活跃 |

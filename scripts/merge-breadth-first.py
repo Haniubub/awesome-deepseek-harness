@@ -18,7 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
-BF_READMES = "/tmp/dsh_bf2/readmes_all.json"
+BF_READMES = str(ROOT / "work" / "readmes_all.json")
 
 URL_RE = re.compile(r"github\.com/([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)")
 HAS_CJK = re.compile(r"[\u4e00-\u9fff]")
@@ -60,14 +60,20 @@ AWESOME_LISTS = [
 ]
 
 
+_NO_PROXY_OPENER = None
+
+
 def api_get(url, token):
+    global _NO_PROXY_OPENER
     headers = {"Accept": "application/vnd.github+json", "User-Agent": "bf-merge"}
     if token:
         headers["Authorization"] = f"Bearer {token}"
+    if _NO_PROXY_OPENER is None:
+        _NO_PROXY_OPENER = urllib.request.build_opener(urllib.request.ProxyHandler({}))
     for i in range(3):
         try:
             req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=20) as resp:
+            with _NO_PROXY_OPENER.open(req, timeout=20) as resp:
                 return json.loads(resp.read())
         except urllib.error.HTTPError as e:
             if e.code == 404:
@@ -82,19 +88,34 @@ def api_get(url, token):
 
 
 def is_noise(name, desc):
-    n, d = name.lower(), (desc or "").lower()
-    if "dsh-external" in n or "dsharp" in n:
-        return True
+    """Filter repos that use 'dsh'/'deepseek' but are unrelated to the Harness."""
+    n = name.lower()
+    repo = n.split("/")[-1]  # check the repo name, not the owner
+    d = (desc or "").lower()
+    if "dsh-external" in n:
+        return True  # dead org namespace (redirects handled separately)
+    if "dsharp" in n or "discord" in d:
+        return True  # DSharpPlus etc.
     if n in EXCLUDE:
         return True
-    return not (n.startswith("dsh") or n.startswith("deepseek-harness")
-                or "deepseek harness" in d or "dsh-plugin" in d or "dsh " in d)
-
+    # keep only strongly-DSH-related signals
+    return not (
+        repo.startswith("dsh")
+        or repo.startswith("deepseek-harness")
+        or "deepseek harness" in d
+        or "dsh-plugin" in d
+        or " dsh " in d
+        or d.startswith("dsh ")
+        or "for deepseek harness" in d
+        or "deepseek harness" in d
+    )
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--token", default=None)
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--batch-start", type=int, default=0)
+    parser.add_argument("--batch-size", type=int, default=2000)
     args = parser.parse_args()
     token = args.token or os.environ.get("GH_TOKEN")
 
@@ -102,6 +123,7 @@ def main():
 
     # 1. collect all links
     pool = {}
+    print(f"readmes: {len(readmes)}", flush=True)
     for list_repo, md in readmes.items():
         for m in URL_RE.finditer(md):
             full = m.group(1).rstrip("/")
@@ -111,14 +133,12 @@ def main():
             key = full.lower()
             pool.setdefault(key, {"list": list_repo})
 
+    print(f"pool links: {len(pool)}", flush=True)
     # 2. resolve dsh-external redirects
     external = [k for k in pool if k.startswith("dsh-external/")]
+    # dsh-external org was emptied; redirect targets were resolved in earlier
+    # rounds and are already in the registry — drop the dead namespace.
     for key in external:
-        meta = api_get(f"https://api.github.com/repos/{key}", token)
-        if meta:
-            real = meta["html_url"].replace("https://github.com/", "").lower()
-            if real != key:
-                pool.setdefault(real, {"list": "dsh-external-redirect"})
         pool.pop(key, None)
 
     # 3. dedupe vs registry
@@ -132,15 +152,36 @@ def main():
 
     # 4. fetch metadata for new candidates
     new_pool = {k: v for k, v in pool.items() if k not in existing and not is_noise(k, "")}
-    metas = {}
-    with ThreadPoolExecutor(max_workers=12) as ex:
-        futs = {ex.submit(api_get, f"https://api.github.com/repos/{k}", token): k for k in new_pool}
-        for fut in as_completed(futs):
-            k = futs[fut]
-            m = fut.result()
-            if m and not m.get("archived"):
-                metas[k] = m
-            time.sleep(0.03)
+    print(f"new candidates to fetch: {len(new_pool)}", flush=True)
+    cache_path = ROOT / "work" / "metas_cache.json"
+    cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
+    todo = [k for k in new_pool if k not in cache]
+    todo = todo[args.batch_start:args.batch_start + args.batch_size]
+    print(f"cache hits: {len(new_pool) - len(todo)}, to fetch: {len(todo)} (batch {args.batch_start}+{args.batch_size})", flush=True)
+    metas = dict(cache)
+    with ThreadPoolExecutor(max_workers=6) as ex:
+        futs = {ex.submit(api_get, f"https://api.github.com/repos/{k}", token): k for k in todo}
+        done = 0
+        try:
+            for fut in as_completed(futs):
+                k = futs[fut]
+                m = fut.result()
+                if m:
+                    cache[k] = m
+                    if not m.get("archived"):
+                        metas[k] = m
+                done += 1
+                if done % 100 == 0:
+                    print(f"  fetched {done}/{len(todo)}", flush=True)
+                    cache_path.parent.mkdir(exist_ok=True)
+                    cache_path.write_text(json.dumps(cache, ensure_ascii=False))
+                time.sleep(0.01)
+        except Exception:
+            import traceback
+            traceback.print_exc()
+            print(f"  ERROR after {done} fetches", flush=True)
+        cache_path.parent.mkdir(exist_ok=True)
+        cache_path.write_text(json.dumps(cache, ensure_ascii=False))
 
     # 5. filter noise with real descriptions, then classify
     fresh = [m for m in metas.values() if (m.get("description") or "").strip() and not is_noise(m["full_name"], m.get("description"))]

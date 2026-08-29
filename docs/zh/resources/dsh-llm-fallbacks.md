@@ -1,15 +1,15 @@
 ---
 title: "dsh-llm-fallbacks"
-description: "基于角色的模型重试与备用策略插件。"
-keywords: "dsh-llm-fallbacks, multi-agent, agent, context, automation, deepseek harness, dsh"
+description: "An dsh plugin for role-based LLM retry&fallback strategy. 基于角色的模型重试备用策略插件"
+keywords: "dsh-llm-fallbacks, developer, plugin, coding, deepseek harness, dsh"
 ---
 # dsh-llm-fallbacks
 
-> ⭐ 13 · ✅ 活跃 · 智能体
+> ⭐ 20 · ✅ 活跃 · 插件
 
 ## 一句话介绍
 
-基于角色的模型重试与备用策略插件。
+An dsh plugin for role-based LLM retry&fallback strategy. 基于角色的模型重试备用策略插件
 
 ## 详细介绍
 
@@ -22,4 +22,4 @@ keywords: "dsh-llm-fallbacks, multi-agent, agent, context, automation, deepseek 
 
 - [GitHub 仓库](https://github.com/omdsh-dev/dsh-llm-fallbacks)
 - [完整 README](https://github.com/omdsh-dev/dsh-llm-fallbacks#readme)
-- [返回dsh-llm-fallbacks所在分类](../agents.md)
+- [返回dsh-llm-fallbacks所在分类](../plugins.md)

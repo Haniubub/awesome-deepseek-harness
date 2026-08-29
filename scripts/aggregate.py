@@ -31,17 +31,17 @@ DATA_DIR = ROOT / "data"
 # Source files (produced by the research phase)
 # --------------------------------------------------------------------------
 SOURCES = [
-    "/tmp/dsh_r5/topic_plugin.json",
-    "/tmp/dsh_r3/topic_dsh.json",
-    "/tmp/dsh_r5/name_desc.json",
-    "/tmp/dsh_r5/name_dsh_plugin.json",
-    "/tmp/dsh_search/q2_dsh-skill.json",
-    "/tmp/dsh_search/q2_dsh-mcp.json",
-    "/tmp/dsh_search/q2_dsh-agent.json",
-    "/tmp/dsh_search/q_dsh-market.json",
-    "/tmp/dsh_search/q_dsh-memory.json",
-    "/tmp/dsh_search/q_dsh-toolkit.json",
-    "/tmp/dsh_search/name_harness.json",
+    str(ROOT / "work" / "search_topic_plugin.json"),
+    str(ROOT / "work" / 'topic_dsh.json'),
+    str(ROOT / "work" / "search_name_desc.json"),
+    str(ROOT / "work" / "search_name_dsh_plugin.json"),
+    str(ROOT / "work" / 'q2_dsh-skill.json'),
+    str(ROOT / "work" / 'q2_dsh-mcp.json'),
+    str(ROOT / "work" / 'q2_dsh-agent.json'),
+    str(ROOT / "work" / 'q_dsh-market.json'),
+    str(ROOT / "work" / 'q_dsh-memory.json'),
+    str(ROOT / "work" / 'q_dsh-toolkit.json'),
+    str(ROOT / "work" / 'name_harness.json'),
 ]
 AWESOME_FILES = sorted(Path("/tmp/awesome_lists").glob("*.md")) + [
     Path("/tmp/awesome0x.md"),
@@ -57,19 +57,18 @@ HAS_CJK = re.compile(r"[\u4e00-\u9fff]")
 def is_noise(name, desc):
     """Filter repos that use 'dsh'/'deepseek' but are unrelated to the Harness."""
     n = name.lower()
+    repo = n.split("/")[-1]  # check the repo name, not the owner
     d = (desc or "").lower()
     if "dsh-external" in n:
         return True  # dead org namespace (redirects handled separately)
     if "dsharp" in n or "discord" in d:
         return True  # DSharpPlus etc.
-    if n in ("deepseek-ai/deepseek-harness", "deepseek-ai/deepseek-harness.git"):
-        return True  # the official repo itself is not a plugin
     if n in EXCLUDE:
         return True
     # keep only strongly-DSH-related signals
     return not (
-        n.startswith("dsh")
-        or n.startswith("deepseek-harness")
+        repo.startswith("dsh")
+        or repo.startswith("deepseek-harness")
         or "deepseek harness" in d
         or "dsh-plugin" in d
         or " dsh " in d
@@ -77,8 +76,6 @@ def is_noise(name, desc):
         or "for deepseek harness" in d
         or "deepseek harness" in d
     )
-
-
 # Known-unrelated projects using the same name space (see "Not the Same Project").
 EXCLUDE = {
     "henryz838978/deepseek-harness",     # standalone DeepSeek API wrapper (pip lib)

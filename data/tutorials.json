@@ -38,6 +38,26 @@
     "growth": 39
   },
   {
+    "id": "dshfind",
+    "name": "dshfind",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/hikariming/dshfind",
+    "description": "Learn DSH principles, plugin marketplace and best practices — from chapter-by-chapter Cordis paper reading to an auto-aggregated plugin market.",
+    "description_zh": "DSH 原理学习、插件市场与最佳实践：从 Cordis 论文逐章精读到插件自动聚合市场。",
+    "capabilities": [
+      "learning",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 200,
+    "_source_description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
+    "_updated": "2026-08-21",
+    "_stars_prev": 190,
+    "growth": 10
+  },
+  {
     "id": "deepseek-harness-tutorial",
     "name": "deepseek-harness-tutorial",
     "type": "tutorial",
@@ -57,24 +77,19 @@
     "growth": 1
   },
   {
-    "id": "dshfind",
-    "name": "dshfind",
+    "id": "dsh-memory-1",
+    "name": "dsh-memory",
     "type": "tutorial",
     "category": "learning",
-    "repository": "https://github.com/hikariming/dshfind",
-    "description": "Learn DSH principles, plugin marketplace and best practices — from chapter-by-chapter Cordis paper reading to an auto-aggregated plugin market.",
-    "description_zh": "DSH 原理学习、插件市场与最佳实践：从 Cordis 论文逐章精读到插件自动聚合市场。",
+    "repository": "https://github.com/FuRongJun-1999/dsh-memory",
+    "description": "白箱AGI架构探索：元认知（自我认知循环）、持续学习（知识飞轮）、世界模型（条件空间+语义时空图）、自我改进（自举纪律）、零LLM白箱管线与可审计信任护栏。",
+    "description_zh": "白箱AGI架构探索：元认知（自我认知循环）、持续学习（知识飞轮）、世界模型（条件空间+语义时空图）、自我改进（自举纪律）、零LLM白箱管线与可审计信任护栏。",
     "capabilities": [
-      "learning",
-      "search"
+      "coding"
     ],
     "status": "active",
     "verified": false,
-    "stars": 200,
-    "_source_description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
-    "_updated": "2026-08-21",
-    "_stars_prev": 190,
-    "growth": 10
+    "stars": 66
   },
   {
     "id": "dsh-harness-tutorial",
@@ -246,5 +261,22 @@
     "stars": 2,
     "_source_description": "Checks DeepSeek tool loops, reasoning_content, strict schemas, and captured SSE. Also works as a DSH plugin.",
     "_updated": "2026-08-18"
+  },
+  {
+    "id": "deepseek-harness-brain",
+    "name": "DeepSeek Harness Brain",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/AgriciDaniel/deepseek-harness-brain",
+    "description": "Source-cited Obsidian knowledge base with a plain-English guide, architecture notes, an installable assistant skill, and portability guidance for DeepSeek Harness.",
+    "description_zh": "带来源引用的 Obsidian 知识库，包含浅显指南、架构笔记、可安装助手技能，以及 DeepSeek Harness 可移植性指南。",
+    "capabilities": [
+      "learning",
+      "research",
+      "memory"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0
   }
 ]

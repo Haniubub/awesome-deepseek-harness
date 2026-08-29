@@ -42,6 +42,23 @@
     "growth": 1
   },
   {
+    "id": "dsh-plugin-bridge",
+    "name": "dsh-plugin-bridge",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/Totoro-qaq/dsh-plugin-bridge",
+    "description": "DeepSeek Harness plugin for previewable cross-preset session migration. Fixed-schema handoffs preserve state, source-model intent, and unresolved images; the original session stays untouched.",
+    "description_zh": "DeepSeek Harness plugin for previewable cross-preset session migration. Fixed-schema handoffs preserve state, source-model intent, and unresolved images; the original session stays untouched.",
+    "capabilities": [
+      "coding",
+      "multimodal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 163,
+    "subcategory": "code-testing"
+  },
+  {
     "id": "dsh-openpencil",
     "name": "dsh-openpencil",
     "type": "integration",
@@ -79,6 +96,56 @@
     "_updated": "2026-08-21",
     "_stars_prev": 126,
     "growth": 7
+  },
+  {
+    "id": "dsh-crew",
+    "name": "dsh-crew",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/ZSeven-W/dsh-crew",
+    "description": "DeepSeek Harness (DSH) plugin: dispatch work to DSH agents from Claude Code / Codex — native subagent progress, in-host worker sessions with per-tier presets, and a multimodal bridge that lends the text-only harness vision and image generation.",
+    "description_zh": "DeepSeek Harness (DSH) plugin: dispatch work to DSH agents from Claude Code / Codex — native subagent progress, in-host worker sessions with per-tier presets, and a multimodal bridge that lends the text-only harness vision and image generation.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "multimodal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 119
+  },
+  {
+    "id": "dsh-skill-mcp-panel",
+    "name": "dsh-skill-mcp-panel",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/Fishquito7/dsh-skill-mcp-panel",
+    "description": "DSH Web UI plugin: skill and MCP management（Web界面的skill/MCP管理工具）",
+    "description_zh": "DSH Web UI plugin: skill and MCP management（Web界面的skill/MCP管理工具）",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 111
+  },
+  {
+    "id": "dsh-tabbit",
+    "name": "dsh-tabbit",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/Tabbit-Browser/dsh-tabbit",
+    "description": "Tabbit Browser plugins for Deepseek Harness",
+    "description_zh": "Tabbit Browser plugins for Deepseek Harness",
+    "capabilities": [
+      "browser",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 96
   },
   {
     "id": "dsh-qqbot",
@@ -119,6 +186,72 @@
     "growth": 3
   },
   {
+    "id": "dsh-lark-bot",
+    "name": "dsh-lark-bot",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/PlutoKeating/dsh-lark-bot",
+    "description": "DeepSeek Harness (dsh) 接入飞书/Lark bot，扫码即用：流式卡片、项目工作区、并行任务、多角色 Agent、跨会话通知、对话内模型/密钥管理与安全网守护（dsh 崩溃后飞书仍可自救）。A scan-to-connect bridge bot connecting DeepSeek Harness (dsh) into Feishu/Lark: streaming cards, workspaces, parallel tasks, multi-role agents, cross-session notify, in-chat model/key management, and a safety-net guardian.",
+    "description_zh": "DeepSeek Harness (dsh) 接入飞书/Lark bot，扫码即用：流式卡片、项目工作区、并行任务、多角色 Agent、跨会话通知、对话内模型/密钥管理与安全网守护（dsh 崩溃后飞书仍可自救）。A scan-to-connect bridge bot connecting DeepSeek Harness (dsh) into Feishu/Lark: streaming cards, workspaces, parallel tasks, multi-role agents, cross-session notify, in-chat model/key management, and a safety-net guardian.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 37
+  },
+  {
+    "id": "dsh-browser-1",
+    "name": "dsh-browser",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/wqty123/dsh-browser",
+    "description": "Shared real browser plugin for DeepSeek Harness",
+    "description_zh": "Shared real browser plugin for DeepSeek Harness",
+    "capabilities": [
+      "browser",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 37
+  },
+  {
+    "id": "dsh-plugin-guide",
+    "name": "dsh-plugin-guide",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/PerryLink/dsh-plugin-guide",
+    "description": "Installable DSH bundle: the dsh-plugin-guide plugin-development knowledge base as an on-demand agent skill. Official docs archive (EN/ZH), Cordis primer, 114-repo community archive, 1654 archived Discussions, 20+ battle-tested pitfalls.",
+    "description_zh": "Installable DSH bundle: the dsh-plugin-guide plugin-development knowledge base as an on-demand agent skill. Official docs archive (EN/ZH), Cordis primer, 114-repo community archive, 1654 archived Discussions, 20+ battle-tested pitfalls.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 32
+  },
+  {
+    "id": "dsh-lark-link",
+    "name": "dsh-lark-link",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/amlyczz/dsh-lark-link",
+    "description": "High-reliability Feishu/Lark bridge for DeepSeek Harness — QR one-click auth, multi-mode agents, card-based commands, zero-loss outbox, media in/out, session-log doctor, reusable DSH Web GUI",
+    "description_zh": "High-reliability Feishu/Lark bridge for DeepSeek Harness — QR one-click auth, multi-mode agents, card-based commands, zero-loss outbox, media in/out, session-log doctor, reusable DSH Web GUI",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 30
+  },
+  {
     "id": "deepseek-harness-docker",
     "name": "deepseek-harness-docker",
     "type": "integration",
@@ -137,6 +270,58 @@
     "subcategory": "files-import",
     "_stars_prev": 24,
     "growth": 3
+  },
+  {
+    "id": "dsh-mcp-panel",
+    "name": "dsh-mcp-panel",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/PerryLink/dsh-mcp-panel",
+    "description": "Read-only runtime management panel for the official DSH MCP client: /mcp command and a Settings tab.",
+    "description_zh": "官方 DSH MCP 客户端的只读运行时管理面板：/mcp 命令 + 设置 Tab。",
+    "capabilities": [
+      "mcp",
+      "ui",
+      "observability"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 26,
+    "_source_description": "MCP management console for the official DeepSeek Harness MCP client: /mcp command with health diagnostics and pipeline trial calls, a Settings MCP tab with server CRUD (approval-gated writes, automatic backups) and a tool trial console over the official tool pipeline (Apache-2.0, dsh-plugin).",
+    "_updated": "2026-08-21",
+    "_stars_prev": 20,
+    "growth": 6
+  },
+  {
+    "id": "dsh-feishu",
+    "name": "dsh-feishu",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/PGZXB/dsh-feishu",
+    "description": "The Feishu UI for DeepSeek Harness  — a panel-driven control console: every slash command a button on the ⚙️ control-panel card, in-card approvals & questions, live streaming cards, one-QR setup. | DeepSeek Harness 的飞书 UI：面板驱动控制台——每个命令都是卡片按钮，卡内审批与提问，流式卡片，扫码一键配置。",
+    "description_zh": "The Feishu UI for DeepSeek Harness  — a panel-driven control console: every slash command a button on the ⚙️ control-panel card, in-card approvals & questions, live streaming cards, one-QR setup. | DeepSeek Harness 的飞书 UI：面板驱动控制台——每个命令都是卡片按钮，卡内审批与提问，流式卡片，扫码一键配置。",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 26
+  },
+  {
+    "id": "dsh-bottom-info-bar",
+    "name": "dsh-bottom-info-bar",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/songoao25/dsh-bottom-info-bar",
+    "description": "Bottom Info Bar — an information bar plugin for DeepSeek Harness: provider/model, live balance, peak/off-peak pricing with countdown, and real persisted per-session spend in a single line.",
+    "description_zh": "Bottom Info Bar — an information bar plugin for DeepSeek Harness: provider/model, live balance, peak/off-peak pricing with countdown, and real persisted per-session spend in a single line.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 26
   },
   {
     "id": "deepseek-harness-vsc-extension",
@@ -177,6 +362,22 @@
     "growth": 1
   },
   {
+    "id": "dsh-computer-use-2",
+    "name": "dsh-computer-use",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/ZRui-C/dsh-computer-use",
+    "description": "Text-first browser & background macOS control for DeepSeek Harness (DSH): target the right process and window without taking the user's pointer. 为 DSH 提供文本优先的电脑控制：后台操作 Chromium 与 macOS，不抢前台、不移动鼠标。",
+    "description_zh": "Text-first browser & background macOS control for DeepSeek Harness (DSH): target the right process and window without taking the user's pointer. 为 DSH 提供文本优先的电脑控制：后台操作 Chromium 与 macOS，不抢前台、不移动鼠标。",
+    "capabilities": [
+      "browser",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 24
+  },
+  {
     "id": "chatccc",
     "name": "chatccc",
     "type": "integration",
@@ -197,25 +398,90 @@
     "growth": 2
   },
   {
-    "id": "dsh-mcp-panel",
-    "name": "dsh-mcp-panel",
+    "id": "dsh-mcp-manager",
+    "name": "dsh-mcp-manager",
     "type": "integration",
     "category": "mcp",
-    "repository": "https://github.com/PerryLink/dsh-mcp-panel",
-    "description": "Read-only runtime management panel for the official DSH MCP client: /mcp command and a Settings tab.",
-    "description_zh": "官方 DSH MCP 客户端的只读运行时管理面板：/mcp 命令 + 设置 Tab。",
+    "repository": "https://github.com/Js2Hou/dsh-mcp-manager",
+    "description": "用于 DeepSeek Harness 的 MCP 可视化管理插件：在「设置 → MCP」中查看已安装/启用的 MCP 服务器，支持增删、启用/停用，并实时查看连接状态。",
+    "description_zh": "用于 DeepSeek Harness 的 MCP 可视化管理插件：在「设置 → MCP」中查看已安装/启用的 MCP 服务器，支持增删、启用/停用，并实时查看连接状态。",
     "capabilities": [
-      "mcp",
-      "ui",
-      "observability"
+      "coding",
+      "mcp"
     ],
     "status": "active",
     "verified": false,
-    "stars": 26,
-    "_source_description": "MCP management console for the official DeepSeek Harness MCP client: /mcp command with health diagnostics and pipeline trial calls, a Settings MCP tab with server CRUD (approval-gated writes, automatic backups) and a tool trial console over the official tool pipeline (Apache-2.0, dsh-plugin).",
+    "stars": 17
+  },
+  {
+    "id": "dsh-hdc-bridge",
+    "name": "dsh-hdc-bridge",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/1na-ko/dsh-hdc-bridge",
+    "description": "DSH 原生鸿蒙开发助手：hdc 设备闭环调试 + 设备面板（官方 client 插件形态）+ 离线官方知识层（Tier-1 随包）+ DevEco CLI 构建/签名/模拟器控制 / DSH-native HarmonyOS dev assistant: hdc device loop, live device panel, offline official knowledge, DevEco CLI build/sign/emulator",
+    "description_zh": "DSH 原生鸿蒙开发助手：hdc 设备闭环调试 + 设备面板（官方 client 插件形态）+ 离线官方知识层（Tier-1 随包）+ DevEco CLI 构建/签名/模拟器控制 / DSH-native HarmonyOS dev assistant: hdc device loop, live device panel, offline official knowledge, DevEco CLI build/sign/emulator",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 16
+  },
+  {
+    "id": "dsh-movein",
+    "name": "dsh-movein",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/sjh9714/dsh-movein",
+    "description": "Migrate Claude Code setup into DeepSeek Harness. Import skills, commands, agents, hooks, permission rules, and MCP config. Codex and OpenCode supported.",
+    "description_zh": "Migrate Claude Code setup into DeepSeek Harness. Import skills, commands, agents, hooks, permission rules, and MCP config. Codex and OpenCode supported.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 15
+  },
+  {
+    "id": "dsh-vscode",
+    "name": "dsh-vscode",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/Lixxx1/dsh-vscode",
+    "description": "DSH Sidebar — a Claude Code/Codex-style VS Code sidebar for DeepSeek Harness. 像 Claude Code、Codex 一样，在 VS Code 侧边栏中使用 DSH。",
+    "description_zh": "DSH Sidebar — a Claude Code/Codex-style VS Code sidebar for DeepSeek Harness. 像 Claude Code、Codex 一样，在 VS Code 侧边栏中使用 DSH。",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 14,
+    "_source_description": "在 VS Code 中使用 DeepSeek Harness. Use DeepSeek Harness in VS Code",
     "_updated": "2026-08-21",
-    "_stars_prev": 20,
-    "growth": 6
+    "_stars_prev": 12,
+    "growth": 2
+  },
+  {
+    "id": "dsh-chatgpt-bridge",
+    "name": "dsh-chatgpt-bridge",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/jiezeng2004-design/dsh-chatgpt-bridge",
+    "description": "MCP bridge that lets ChatGPT web create, view, continue, and control DeepSeek Harness (DSH) agent sessions.",
+    "description_zh": "MCP bridge that lets ChatGPT web create, view, continue, and control DeepSeek Harness (DSH) agent sessions.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 14
   },
   {
     "id": "dsh-git-graph",
@@ -239,66 +505,6 @@
     "growth": 1
   },
   {
-    "id": "ikanban",
-    "name": "ikanban",
-    "type": "integration",
-    "category": "browser",
-    "repository": "https://github.com/isomoes/ikanban",
-    "description": "Monorepo for the iKanban browser-surface fork for DeepSeek Harness.",
-    "description_zh": "Monorepo for the iKanban browser-surface fork for DeepSeek Harness.",
-    "capabilities": [
-      "browser",
-      "coding"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 12,
-    "_source_description": "iKanban 是一个面向键盘操作、基于 DeepSeek Harness 的多智能体编码工作空间。它专为跨项目地驱动、审查和协调并行智能体工作而构建，将会话管理、差异审查和项目感知导航集于一处。",
-    "_updated": "2026-08-21",
-    "_stars_prev": 11,
-    "growth": 1
-  },
-  {
-    "id": "dsh-vscode",
-    "name": "dsh-vscode",
-    "type": "integration",
-    "category": "ide",
-    "repository": "https://github.com/Lixxx1/dsh-vscode",
-    "description": "DSH Sidebar — a Claude Code/Codex-style VS Code sidebar for DeepSeek Harness. 像 Claude Code、Codex 一样，在 VS Code 侧边栏中使用 DSH。",
-    "description_zh": "DSH Sidebar — a Claude Code/Codex-style VS Code sidebar for DeepSeek Harness. 像 Claude Code、Codex 一样，在 VS Code 侧边栏中使用 DSH。",
-    "capabilities": [
-      "coding",
-      "ui"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 14,
-    "_source_description": "在 VS Code 中使用 DeepSeek Harness. Use DeepSeek Harness in VS Code",
-    "_updated": "2026-08-21",
-    "_stars_prev": 12,
-    "growth": 2
-  },
-  {
-    "id": "deepseek-harness-acp",
-    "name": "deepseek-harness-acp",
-    "type": "integration",
-    "category": "acp",
-    "repository": "https://github.com/openma-ai/deepseek-harness-acp",
-    "description": "ACP server implementation for DeepSeek Harness: exposes the full DSH agent to ACP clients while reusing credentials and sessions.",
-    "description_zh": "DeepSeek Harness 的 ACP 服务器实现：复用凭据与会话，将完整 DSH Agent 暴露给 ACP 客户端。",
-    "capabilities": [
-      "workflow",
-      "coding"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 12,
-    "_source_description": "ACP server implementation for DeepSeek harness. dsh-acp",
-    "_updated": "2026-08-21",
-    "_stars_prev": 10,
-    "growth": 2
-  },
-  {
     "id": "deepseek-harness-action",
     "name": "deepseek-harness-action",
     "type": "integration",
@@ -319,6 +525,46 @@
     "_stars_prev": 11,
     "growth": 2,
     "subcategory": "code-testing"
+  },
+  {
+    "id": "ikanban",
+    "name": "ikanban",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/isomoes/ikanban",
+    "description": "Monorepo for the iKanban browser-surface fork for DeepSeek Harness.",
+    "description_zh": "Monorepo for the iKanban browser-surface fork for DeepSeek Harness.",
+    "capabilities": [
+      "browser",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 12,
+    "_source_description": "iKanban 是一个面向键盘操作、基于 DeepSeek Harness 的多智能体编码工作空间。它专为跨项目地驱动、审查和协调并行智能体工作而构建，将会话管理、差异审查和项目感知导航集于一处。",
+    "_updated": "2026-08-21",
+    "_stars_prev": 11,
+    "growth": 1
+  },
+  {
+    "id": "deepseek-harness-acp",
+    "name": "deepseek-harness-acp",
+    "type": "integration",
+    "category": "acp",
+    "repository": "https://github.com/openma-ai/deepseek-harness-acp",
+    "description": "ACP server implementation for DeepSeek Harness: exposes the full DSH agent to ACP clients while reusing credentials and sessions.",
+    "description_zh": "DeepSeek Harness 的 ACP 服务器实现：复用凭据与会话，将完整 DSH Agent 暴露给 ACP 客户端。",
+    "capabilities": [
+      "workflow",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 12,
+    "_source_description": "ACP server implementation for DeepSeek harness. dsh-acp",
+    "_updated": "2026-08-21",
+    "_stars_prev": 10,
+    "growth": 2
   },
   {
     "id": "dsh-search-mcp",
@@ -360,6 +606,22 @@
     "growth": 1
   },
   {
+    "id": "dsh-annotate",
+    "name": "dsh-annotate",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/BrambleXu/dsh-annotate",
+    "description": "Visual browser element annotation for DeepSeek Harness, capturing DOM, styles, accessibility data, comments, and viewport screenshots. DeepSeek Harness 浏览器元素标注插件，捕获 DOM、样式、可访问性数据、评论和视口截图。",
+    "description_zh": "Visual browser element annotation for DeepSeek Harness, capturing DOM, styles, accessibility data, comments, and viewport screenshots. DeepSeek Harness 浏览器元素标注插件，捕获 DOM、样式、可访问性数据、评论和视口截图。",
+    "capabilities": [
+      "browser",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 11
+  },
+  {
     "id": "dsh-mcp-manager-dup",
     "name": "dsh-mcp-manager",
     "type": "integration",
@@ -378,6 +640,53 @@
     "_updated": "2026-08-16",
     "_stars_prev": 9,
     "growth": 1
+  },
+  {
+    "id": "dsh-acp-for-bitfun",
+    "name": "dsh-acp-for-bitfun",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/bobleer/dsh-acp-for-bitfun",
+    "description": "BitFun 与 DSH ACP 交互对接 插件",
+    "description_zh": "BitFun 与 DSH ACP 交互对接 插件",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 10
+  },
+  {
+    "id": "dsh-better-browser",
+    "name": "dsh-better-browser",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/titanwings/dsh-better-browser",
+    "description": "DSH 真实浏览器插件：通过 Kimi WebBridge 让 Agent 操作用户已登录的浏览器，并提供 13 个 webbridge_* 工具。 / Let DSH Agents use your signed-in browser through thirteen Kimi WebBridge tools.",
+    "description_zh": "DSH 真实浏览器插件：通过 Kimi WebBridge 让 Agent 操作用户已登录的浏览器，并提供 13 个 webbridge_* 工具。 / Let DSH Agents use your signed-in browser through thirteen Kimi WebBridge tools.",
+    "capabilities": [
+      "browser",
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 10
+  },
+  {
+    "id": "dsh-feishu-1",
+    "name": "dsh-feishu",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/xmanrui/dsh-feishu",
+    "description": "通过扫码把飞书机器人接入DeepSeek Harness",
+    "description_zh": "通过扫码把飞书机器人接入DeepSeek Harness",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 10
   },
   {
     "id": "dsh-harness-mcp-server",
@@ -459,6 +768,21 @@
     "growth": 1
   },
   {
+    "id": "dsh-im-bridge",
+    "name": "dsh-im-bridge",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/BiBoyang/dsh-im-bridge",
+    "description": "DSH 插件：把 DeepSeek Harness 桥接到 IM（v0.1 微信/iLink；钉钉/飞书/Telegram 预留）。turn/approval 推送 + 远程批准/注入，持久去重/收敛分段/合并窗口。",
+    "description_zh": "DSH 插件：把 DeepSeek Harness 桥接到 IM（v0.1 微信/iLink；钉钉/飞书/Telegram 预留）。turn/approval 推送 + 远程批准/注入，持久去重/收敛分段/合并窗口。",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 9
+  },
+  {
     "id": "dsh-browser-xylt",
     "name": "dsh-browser",
     "type": "integration",
@@ -499,6 +823,23 @@
     "growth": 1
   },
   {
+    "id": "dsh-vision-2",
+    "name": "dsh-vision",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/54xkeee/dsh-vision",
+    "description": "Vision for DeepSeek Harness: Doubao Web by default (zero-cost, no API key), Antigravity IDE quota (flash/pro), any IDE CLI, Gemini — auto detail escalation, evidence memory",
+    "description_zh": "Vision for DeepSeek Harness: Doubao Web by default (zero-cost, no API key), Antigravity IDE quota (flash/pro), any IDE CLI, Gemini — auto detail escalation, evidence memory",
+    "capabilities": [
+      "coding",
+      "memory",
+      "multimodal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 8
+  },
+  {
     "id": "telegram",
     "name": "telegram",
     "type": "integration",
@@ -516,6 +857,53 @@
     "_updated": "2026-08-13",
     "_stars_prev": 6,
     "growth": 1
+  },
+  {
+    "id": "dsh-chatnode-wechat",
+    "name": "dsh-chatnode-wechat",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/Jesse-njx/dsh-chatnode-wechat",
+    "description": "Chat with, monitor, and approve your DSH agents from WeChat — an iLink gateway + conversation node bundle for DeepSeek Harness",
+    "description_zh": "Chat with, monitor, and approve your DSH agents from WeChat — an iLink gateway + conversation node bundle for DeepSeek Harness",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7
+  },
+  {
+    "id": "dsh-lark-bridge",
+    "name": "dsh-lark-bridge",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/imetn/dsh-lark-bridge",
+    "description": "Bidirectional Lark/Feishu controller for DeepSeek Harness",
+    "description_zh": "Bidirectional Lark/Feishu controller for DeepSeek Harness",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7
+  },
+  {
+    "id": "dsh-message-preview",
+    "name": "dsh-message-preview",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/asukasec/dsh-message-preview",
+    "description": "Right-side user-message navigator for the DeepSeek Harness Web UI.",
+    "description_zh": "Right-side user-message navigator for the DeepSeek Harness Web UI.",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7
   },
   {
     "id": "dsh-telegram-relay",
@@ -557,6 +945,41 @@
     "growth": 3
   },
   {
+    "id": "dsh-mcp-lens",
+    "name": "dsh-mcp-lens",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/labmimors/dsh-mcp-lens",
+    "description": "DeepSeek Harness MCP tool search for large catalogs: 1,000 MCP tools behind 2 MCP-facing schemas, exact-schema calls, allow/deny controls, and a local calculator.",
+    "description_zh": "DeepSeek Harness MCP tool search for large catalogs: 1,000 MCP tools behind 2 MCP-facing schemas, exact-schema calls, allow/deny controls, and a local calculator.",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6
+  },
+  {
+    "id": "dsh-acp-plugin",
+    "name": "dsh-acp-plugin",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/agentic-control-plane/dsh-acp-plugin",
+    "description": "Agentic Control Plane for DeepSeek Harness — policy-check every tool call before it runs",
+    "description_zh": "Agentic Control Plane for DeepSeek Harness — policy-check every tool call before it runs",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6,
+    "subcategory": "security-ops"
+  },
+  {
     "id": "dsh4vscode",
     "name": "dsh4vscode",
     "type": "integration",
@@ -596,6 +1019,54 @@
     "growth": 1
   },
   {
+    "id": "dsh-talk",
+    "name": "dsh-talk",
+    "type": "integration",
+    "category": "browser",
+    "repository": "https://github.com/PerryLink/dsh-talk",
+    "description": "Voice-first session loop for DeepSeek Harness: a composer microphone button with browser/local speech-to-text (Web Speech, FunASR, whisper.cpp), a speak tool for text-to-speech replies (browser, edge-tts, piper), event announcements with mute, and speak-to-interrupt.",
+    "description_zh": "Voice-first session loop for DeepSeek Harness: a composer microphone button with browser/local speech-to-text (Web Speech, FunASR, whisper.cpp), a speak tool for text-to-speech replies (browser, edge-tts, piper), event announcements with mute, and speak-to-interrupt.",
+    "capabilities": [
+      "browser",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
+  },
+  {
+    "id": "dsh-cowork",
+    "name": "dsh-cowork",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/Jesse-njx/dsh-cowork",
+    "description": "READ + WRITE for office documents & notebooks in DeepSeek Harness — doc_read/doc_write tools (xlsx, pdf, docx, pptx, ipynb) plus MCP server and CLI",
+    "description_zh": "READ + WRITE for office documents & notebooks in DeepSeek Harness — doc_read/doc_write tools (xlsx, pdf, docx, pptx, ipynb) plus MCP server and CLI",
+    "capabilities": [
+      "coding",
+      "mcp"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
+  },
+  {
+    "id": "dsh-feishu-bridge",
+    "name": "dsh-feishu-bridge",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/wz-heng/dsh-feishu-bridge",
+    "description": "Fail-closed Feishu (Lark) channel bridge for DeepSeek Harness (dsh) — chat with a bot, get agent turns back. Opt-in human-in-the-loop bash approval (Allow/Deny cards, fail-closed timeout), one-message /pair onboarding, webhook signature/timestamp/replay verification, daily latest-SDK canary. Community plugin, not DeepSeek-official.",
+    "description_zh": "Fail-closed Feishu (Lark) channel bridge for DeepSeek Harness (dsh) — chat with a bot, get agent turns back. Opt-in human-in-the-loop bash approval (Allow/Deny cards, fail-closed timeout), one-message /pair onboarding, webhook signature/timestamp/replay verification, daily latest-SDK canary. Community plugin, not DeepSeek-official.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 5
+  },
+  {
     "id": "picgo-dsh-plugin",
     "name": "PicGo DSH Plugin",
     "type": "integration",
@@ -631,6 +1102,73 @@
     "_updated": "2026-08-18"
   },
   {
+    "id": "kimi-tide",
+    "name": "kimi-tide",
+    "type": "integration",
+    "category": "ide",
+    "repository": "https://github.com/tafcear/kimi-tide",
+    "description": "月汐 — Kimi Code (Moonshot) 接入 DeepSeek Harness 的完整方案：标准 DSH 插件 + Kimi CLI 桥接维护 fork + Agent 协作闭环方法论",
+    "description_zh": "月汐 — Kimi Code (Moonshot) 接入 DeepSeek Harness 的完整方案：标准 DSH 插件 + Kimi CLI 桥接维护 fork + Agent 协作闭环方法论",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "_source_description": "🌊 kimi-tide（月汐）— DSH 模型路由插件：预设+规则驱动，每步自动在 Kimi 与 DeepSeek 间选路；图像护栏 + 配额面板 + 决策可观测 · preset+rule model router for DeepSeek Harness",
+    "_updated": "2026-08-21",
+    "_stars_prev": 3,
+    "growth": 1
+  },
+  {
+    "id": "dsh-session-sync",
+    "name": "dsh-session-sync",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/PerryLink/dsh-session-sync",
+    "description": "Cross-device DeepSeek Harness session sync: a dedicated git mirror with append-only keep-both conflict resolution (fork files, never silently overwritten), /sync command and sync_* tools",
+    "description_zh": "Cross-device DeepSeek Harness session sync: a dedicated git mirror with append-only keep-both conflict resolution (fork files, never silently overwritten), /sync command and sync_* tools",
+    "capabilities": [
+      "coding",
+      "git"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
+  },
+  {
+    "id": "dsh-session-hub",
+    "name": "dsh-session-hub",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/Asaiuta/dsh-session-hub",
+    "description": "Aggregate and natively control multiple remote DeepSeek Harness (DSH) servers' sessions from one official Web UI — hub gateway + official-UI bridge. 多服务器 DSH 会话聚合与原生操控",
+    "description_zh": "Aggregate and natively control multiple remote DeepSeek Harness (DSH) servers' sessions from one official Web UI — hub gateway + official-UI bridge. 多服务器 DSH 会话聚合与原生操控",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
+  },
+  {
+    "id": "dsh-plugin-opencode-bridge",
+    "name": "dsh-plugin-opencode-bridge",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/YYTbit/dsh-plugin-opencode-bridge",
+    "description": "Bridge opencode skills and config into DeepSeek Harness",
+    "description_zh": "Bridge opencode skills and config into DeepSeek Harness",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
+  },
+  {
     "id": "dsh-subagent-cwd",
     "name": "dsh-subagent-cwd",
     "type": "integration",
@@ -648,7 +1186,7 @@
     "_updated": "2026-08-15"
   },
   {
-    "id": "dsh-mcp-manager",
+    "id": "dsh-mcp-manager-1",
     "name": "dsh-mcp-manager",
     "type": "integration",
     "category": "mcp",
@@ -701,26 +1239,6 @@
     "stars": 3,
     "_source_description": "SHOPLINE AI Toolkit for DeepSeek Harness (dsh-plugin): official SHOPLINE Developer MCP bridge + SHOPLINE agent skills, mirroring the Shopify AI Toolkit architecture. dsh-plugin",
     "_updated": "2026-08-20"
-  },
-  {
-    "id": "kimi-tide",
-    "name": "kimi-tide",
-    "type": "integration",
-    "category": "ide",
-    "repository": "https://github.com/tafcear/kimi-tide",
-    "description": "月汐 — Kimi Code (Moonshot) 接入 DeepSeek Harness 的完整方案：标准 DSH 插件 + Kimi CLI 桥接维护 fork + Agent 协作闭环方法论",
-    "description_zh": "月汐 — Kimi Code (Moonshot) 接入 DeepSeek Harness 的完整方案：标准 DSH 插件 + Kimi CLI 桥接维护 fork + Agent 协作闭环方法论",
-    "capabilities": [
-      "coding",
-      "multi-agent"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 4,
-    "_source_description": "🌊 kimi-tide（月汐）— DSH 模型路由插件：预设+规则驱动，每步自动在 Kimi 与 DeepSeek 间选路；图像护栏 + 配额面板 + 决策可观测 · preset+rule model router for DeepSeek Harness",
-    "_updated": "2026-08-21",
-    "_stars_prev": 3,
-    "growth": 1
   },
   {
     "id": "vscode-deepseek-harness",
@@ -781,6 +1299,39 @@
     "_updated": "2026-08-20"
   },
   {
+    "id": "dsh-github",
+    "name": "dsh-github",
+    "type": "integration",
+    "category": "channel",
+    "repository": "https://github.com/PerryLink/dsh-github",
+    "description": "Official-grade GitHub CI for DeepSeek Harness: composite action.yml, PR review bot with idempotent inline comments and a status-check gate, plus PR/issues tools with every write gated by human approval (Apache-2.0, dsh-plugin).",
+    "description_zh": "Official-grade GitHub CI for DeepSeek Harness: composite action.yml, PR review bot with idempotent inline comments and a status-check gate, plus PR/issues tools with every write gated by human approval (Apache-2.0, dsh-plugin).",
+    "capabilities": [
+      "coding",
+      "git"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "deepseek-harness-plugin-mcp",
+    "name": "deepseek-harness-plugin-mcp",
+    "type": "integration",
+    "category": "mcp",
+    "repository": "https://github.com/bobleer/deepseek-harness-plugin-mcp",
+    "description": "MCP server that lets any agent discover, install, and run DeepSeek Harness plugins (topic: dsh-plugin).",
+    "description_zh": "MCP server that lets any agent discover, install, and run DeepSeek Harness plugins (topic: dsh-plugin).",
+    "capabilities": [
+      "coding",
+      "mcp",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
     "id": "dsh-github-integration",
     "name": "dsh-github-integration",
     "type": "integration",
@@ -832,6 +1383,36 @@
     "stars": 2,
     "_source_description": "A cat runs across the bottom of the DeepSeek Harness web UI with a synthesized meow every time a conversation turn ends.",
     "_updated": "2026-08-14"
+  },
+  {
+    "id": "dsh-plugin-codex-bridge",
+    "name": "dsh-plugin-codex-bridge",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/YYTbit/dsh-plugin-codex-bridge",
+    "description": "Bridge codex skills and config into DeepSeek Harness",
+    "description_zh": "Bridge codex skills and config into DeepSeek Harness",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2
+  },
+  {
+    "id": "dsh-plugin-pi-bridge",
+    "name": "dsh-plugin-pi-bridge",
+    "type": "integration",
+    "category": "developer",
+    "repository": "https://github.com/YYTbit/dsh-plugin-pi-bridge",
+    "description": "Bridge pi skills and config into DeepSeek Harness",
+    "description_zh": "Bridge pi skills and config into DeepSeek Harness",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2
   },
   {
     "id": "dsh-chrome",

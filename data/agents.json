@@ -40,6 +40,22 @@
     "growth": 75
   },
   {
+    "id": "dsh-univer-office",
+    "name": "dsh-univer-office",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/dream-num/dsh-univer-office",
+    "description": "Give DeepSeek Harness a real office environment.  Univer Office Plugin brings spreadsheets, docs, slides, canvases, relational tables, and more into one runtime — with connected data, validation, versioned changes, and isolated worktrees for multi-agent collaboration.",
+    "description_zh": "Give DeepSeek Harness a real office environment.  Univer Office Plugin brings spreadsheets, docs, slides, canvases, relational tables, and more into one runtime — with connected data, validation, versioned changes, and isolated worktrees for multi-agent collaboration.",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 191
+  },
+  {
     "id": "dsh-agent-rp",
     "name": "dsh-agent-rp",
     "type": "agent",
@@ -58,6 +74,22 @@
     "_updated": "2026-08-21",
     "_stars_prev": 162,
     "growth": 7
+  },
+  {
+    "id": "dsh-auto-review",
+    "name": "dsh-auto-review",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/PerryLink/dsh-auto-review",
+    "description": "Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent returns structured allow/deny verdicts with reasons, fail-closed by default, fully auditable from the session log (approval/asked -> autoReview/verdict -> approval/decided).",
+    "description_zh": "Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent returns structured allow/deny verdicts with reasons, fail-closed by default, fully auditable from the session log (approval/asked -> autoReview/verdict -> approval/decided).",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 116
   },
   {
     "id": "dsh-data-agent",
@@ -100,23 +132,24 @@
     "growth": 1
   },
   {
-    "id": "dsh-interconnect",
-    "name": "dsh-interconnect",
+    "id": "allinluna",
+    "name": "allinluna",
     "type": "agent",
     "category": "multi-agent",
-    "repository": "https://github.com/Chinesezjc/dsh-interconnect",
-    "description": "Cross-instance message/event handoff plugins (interconnect service + tools).",
-    "description_zh": "跨实例消息/事件交接插件（interconnect 服务 + 工具）。",
+    "repository": "https://github.com/zenx0x/allinluna",
+    "description": "Resource-aware multi-agent orchestration for Codex and DeepSeek Harness (All in Flash DSH plugin).",
+    "description_zh": "面向 Codex 与 DeepSeek Harness 的资源感知多 Agent 编排。",
     "capabilities": [
-      "multi-agent"
+      "multi-agent",
+      "workflow"
     ],
     "status": "active",
     "verified": false,
-    "stars": 34,
-    "_source_description": "Cross-instance message/event handoff plugins for DSH (interconnect service + tools)",
-    "_updated": "2026-08-19",
-    "_stars_prev": 33,
-    "growth": 1
+    "stars": 41,
+    "_source_description": "Resource-aware multi-agent orchestration for Codex and DeepSeek Harness (All in Flash DSH plugin)",
+    "_updated": "2026-08-14",
+    "_stars_prev": 39,
+    "growth": 2
   },
   {
     "id": "dsh-tianshu-build",
@@ -140,24 +173,43 @@
     "growth": 2
   },
   {
-    "id": "allinluna",
-    "name": "allinluna",
+    "id": "dsh-interconnect",
+    "name": "dsh-interconnect",
     "type": "agent",
     "category": "multi-agent",
-    "repository": "https://github.com/zenx0x/allinluna",
-    "description": "Resource-aware multi-agent orchestration for Codex and DeepSeek Harness (All in Flash DSH plugin).",
-    "description_zh": "面向 Codex 与 DeepSeek Harness 的资源感知多 Agent 编排。",
+    "repository": "https://github.com/Chinesezjc/dsh-interconnect",
+    "description": "Cross-instance message/event handoff plugins (interconnect service + tools).",
+    "description_zh": "跨实例消息/事件交接插件（interconnect 服务 + 工具）。",
     "capabilities": [
-      "multi-agent",
-      "workflow"
+      "multi-agent"
     ],
     "status": "active",
     "verified": false,
-    "stars": 41,
-    "_source_description": "Resource-aware multi-agent orchestration for Codex and DeepSeek Harness (All in Flash DSH plugin)",
-    "_updated": "2026-08-14",
-    "_stars_prev": 39,
-    "growth": 2
+    "stars": 34,
+    "_source_description": "Cross-instance message/event handoff plugins for DSH (interconnect service + tools)",
+    "_updated": "2026-08-19",
+    "_stars_prev": 33,
+    "growth": 1
+  },
+  {
+    "id": "dsh-plugin-cc",
+    "name": "dsh-plugin-cc",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/cpj-dev/dsh-plugin-cc",
+    "description": "Bridge DeepSeek Harness into Claude Code for review, critique, delegation and session import.",
+    "description_zh": "将 DSH 桥接到 Claude Code：审查、批判、委托与会话导入。",
+    "capabilities": [
+      "multi-agent",
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 29,
+    "_source_description": "Bridge Deepseek-harness into Claude Code for review, critique, delegation, and session import.",
+    "_updated": "2026-08-18",
+    "_stars_prev": 19,
+    "growth": 10
   },
   {
     "id": "kixparadigm",
@@ -197,26 +249,6 @@
     "_updated": "2026-08-17",
     "_stars_prev": 18,
     "growth": 0
-  },
-  {
-    "id": "dsh-advisor",
-    "name": "dsh-advisor",
-    "type": "agent",
-    "category": "multi-agent",
-    "repository": "https://github.com/omdsh-dev/dsh-advisor",
-    "description": "Pair a second model that passively reviews each turn and injects notes.",
-    "description_zh": "配对第二模型被动审查每一回合并注入建议。",
-    "capabilities": [
-      "multi-agent",
-      "context"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 15,
-    "_source_description": "Advisor - Pair a second model that passively reviews each turn and injects notes.  搭配一个会在每轮对话被动注入见解和审查的副模型。",
-    "_updated": "2026-08-21",
-    "_stars_prev": 12,
-    "growth": 3
   },
   {
     "id": "dsh-plugin-yet-another-subagent",
@@ -279,26 +311,6 @@
     "growth": 1
   },
   {
-    "id": "dsh-llm-fallbacks",
-    "name": "dsh-llm-fallbacks",
-    "type": "agent",
-    "category": "multi-agent",
-    "repository": "https://github.com/omdsh-dev/dsh-llm-fallbacks",
-    "description": "Role-based LLM retry and fallback strategy plugin.",
-    "description_zh": "基于角色的模型重试与备用策略插件。",
-    "capabilities": [
-      "context",
-      "automation"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 13,
-    "_source_description": "An dsh plugin for role-based LLM retry&fallback strategy. 基于角色的模型重试备用策略插件",
-    "_updated": "2026-08-21",
-    "_stars_prev": 11,
-    "growth": 2
-  },
-  {
     "id": "dsh-plugin-claude-bridge",
     "name": "dsh-plugin-claude-bridge",
     "type": "agent",
@@ -317,6 +329,38 @@
     "_updated": "2026-08-14",
     "_stars_prev": 8,
     "growth": 1
+  },
+  {
+    "id": "dsh-background-agents",
+    "name": "dsh-background-agents",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/PerryLink/dsh-background-agents",
+    "description": "Interactive long-session background agents for DeepSeek Harness: start a durable continuable child agent, watch its progress in the Web UI sidebar, message it any time, and interrupt it - all through the official subagent seam.",
+    "description_zh": "Interactive long-session background agents for DeepSeek Harness: start a durable continuable child agent, watch its progress in the Web UI sidebar, message it any time, and interrupt it - all through the official subagent seam.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7
+  },
+  {
+    "id": "dsh-ha-orchestrator",
+    "name": "dsh-ha-orchestrator",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/Saktawdi/dsh-ha-orchestrator",
+    "description": "DeepSeek Harness（dsh）动态 Cordis 插件：模型高可用回退 + 五种模式子智能体编排（fanout / pipeline / supervisor / map-reduce / router）",
+    "description_zh": "DeepSeek Harness（dsh）动态 Cordis 插件：模型高可用回退 + 五种模式子智能体编排（fanout / pipeline / supervisor / map-reduce / router）",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 7
   },
   {
     "id": "dsh-a2a",
@@ -338,6 +382,22 @@
     "growth": 1
   },
   {
+    "id": "dsh-reasoning-settings",
+    "name": "dsh-reasoning-settings",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/JuneLearn/dsh-reasoning-settings",
+    "description": "让 DeepSeek Harness 的第三方 API 支持低、中、高等推理强度，并可为每次子 Agent 调用选择模型｜Add Low, Medium, High, and other reasoning levels to third-party APIs, with model selection for each subagent call",
+    "description_zh": "让 DeepSeek Harness 的第三方 API 支持低、中、高等推理强度，并可为每次子 Agent 调用选择模型｜Add Low, Medium, High, and other reasoning levels to third-party APIs, with model selection for each subagent call",
+    "capabilities": [
+      "coding",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 6
+  },
+  {
     "id": "dsh-agent-messaging",
     "name": "dsh-agent-messaging",
     "type": "agent",
@@ -355,26 +415,6 @@
     "_updated": "2026-08-15",
     "_stars_prev": 4,
     "growth": 1
-  },
-  {
-    "id": "dsh-plugin-cc",
-    "name": "dsh-plugin-cc",
-    "type": "agent",
-    "category": "multi-agent",
-    "repository": "https://github.com/cpj-dev/dsh-plugin-cc",
-    "description": "Bridge DeepSeek Harness into Claude Code for review, critique, delegation and session import.",
-    "description_zh": "将 DSH 桥接到 Claude Code：审查、批判、委托与会话导入。",
-    "capabilities": [
-      "multi-agent",
-      "coding"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 29,
-    "_source_description": "Bridge Deepseek-harness into Claude Code for review, critique, delegation, and session import.",
-    "_updated": "2026-08-18",
-    "_stars_prev": 19,
-    "growth": 10
   },
   {
     "id": "dsh-crosstalk",
@@ -429,6 +469,23 @@
     "_updated": "2026-08-14",
     "_stars_prev": 1,
     "growth": 1
+  },
+  {
+    "id": "dsh-swarm-router",
+    "name": "dsh-swarm-router",
+    "type": "agent",
+    "category": "multi-agent",
+    "repository": "https://github.com/r600a-code/dsh-swarm-router",
+    "description": "DSH plugin: sub-agent matrix swarm — routes heterogeneous tasks to the most suitable model (OpenRouter-like + cfgpu.com/llm/square), dispatches each via in-process subagents. 32/32 benchmark green.",
+    "description_zh": "DSH plugin: sub-agent matrix swarm — routes heterogeneous tasks to the most suitable model (OpenRouter-like + cfgpu.com/llm/square), dispatches each via in-process subagents. 32/32 benchmark green.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2
   },
   {
     "id": "dsh-supervisor",

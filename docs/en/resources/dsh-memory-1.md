@@ -1,0 +1,25 @@
+---
+title: "dsh-memory"
+description: "白箱AGI架构探索：元认知（自我认知循环）、持续学习（知识飞轮）、世界模型（条件空间+语义时空图）、自我改进（自举纪律）、零LLM白箱管线与可审计信任护栏。"
+keywords: "dsh-memory, learning, tutorial, coding, deepseek harness, dsh"
+---
+# dsh-memory
+
+> ⭐ 66 · ✅ active · tutorial
+
+## One-liner
+
+白箱AGI架构探索：元认知（自我认知循环）、持续学习（知识飞轮）、世界模型（条件空间+语义时空图）、自我改进（自举纪律）、零LLM白箱管线与可审计信任护栏。
+
+## About
+
+**项目定位**：个人的大型研究项目——目标用户是**对 AGI 有需要的研究人员**（白箱智能 / 可解释性 / 协议工程 / 记忆机制 / 扮演论研究者），不是面向普通用户的消费级插件。它把「智能论 v3.4」协议的理论（条件论 / 扮演论 / 信息差 / 端口架构与锚定验证）工程化为**可运行、可审计、可复现**的机制： - **白箱优先**：知识问答 **100% 白箱处理（零 LLM）**，LLM 降级为外部校验器——机制可解释、可追溯、可验证（详见「白箱智能管线」） - **协议驱动**：每项能力都是「智能论 v3.4 / 条件论 / 扮演论 / 端口架构」条款的具体工程实现，可对照协议验证 - **机制可解释**：白箱处理的每一步（条件识别 → 单元匹配 → 组合生成 → 自校验 → 固化）都有证据链可查 - **可审计**：工具调用、记忆写入、自校验判定全链路留痕；护栏宪章约束对外行为 这不是又一个"记忆插件"。灵枢（AEIS）是一套遵循「智能论 v3.4」协议的**时空记忆引擎**（端口架构 + 锚定验证 + 认知图/条件路由 + 原生神经网络），它把当前大模型范式缺
+
+## Author
+**[FuRongJun-1999](https://github.com/FuRongJun-1999)**
+
+## Links
+
+- [GitHub Repository](https://github.com/FuRongJun-1999/dsh-memory)
+- [Full README](https://github.com/FuRongJun-1999/dsh-memory#readme)
+- [Back to the Tutorials & Learning list](../tutorials.md)

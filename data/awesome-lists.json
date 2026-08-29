@@ -211,25 +211,6 @@
     "_source_description": "Curated DeepSeek Harness (DSH) plugins, extensions, tools, skills, clients, runtimes, integrations, and verified references — English and Chinese."
   },
   {
-    "id": "awesome-deepseek-harness-dominic789654-1",
-    "name": "awesome-deepseek-harness (Dominic789654)",
-    "type": "awesome-list",
-    "category": "registry",
-    "repository": "https://github.com/Dominic789654/awesome-deepseek-harness",
-    "description": "Curated list of plugins, skills, MCP servers, patch/profile layers, orchestrators and UIs for DeepSeek Harness.",
-    "description_zh": "DSH 插件、技能、MCP 服务器、patch/profile 层、编排器与 UI 精选列表。",
-    "capabilities": [
-      "search"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 174,
-    "_source_description": "A curated list of plugins, skills, MCP servers, patch/profile layers, orchestrators & UIs for DeepSeek Harness (DSH). Visualization · PPT · Coding · Agents · Loops (auto-research) and more. #dsh",
-    "_updated": "2026-08-21",
-    "_stars_prev": 167,
-    "growth": 7
-  },
-  {
     "id": "awesome-deepseek-harness-libukai-1",
     "name": "awesome-deepseek-harness (libukai)",
     "type": "awesome-list",
@@ -248,6 +229,25 @@
     "_updated": "2026-08-21",
     "_stars_prev": 163,
     "growth": 12
+  },
+  {
+    "id": "awesome-deepseek-harness-dominic789654-1",
+    "name": "awesome-deepseek-harness (Dominic789654)",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/Dominic789654/awesome-deepseek-harness",
+    "description": "Curated list of plugins, skills, MCP servers, patch/profile layers, orchestrators and UIs for DeepSeek Harness.",
+    "description_zh": "DSH 插件、技能、MCP 服务器、patch/profile 层、编排器与 UI 精选列表。",
+    "capabilities": [
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 174,
+    "_source_description": "A curated list of plugins, skills, MCP servers, patch/profile layers, orchestrators & UIs for DeepSeek Harness (DSH). Visualization · PPT · Coding · Agents · Loops (auto-research) and more. #dsh",
+    "_updated": "2026-08-21",
+    "_stars_prev": 167,
+    "growth": 7
   },
   {
     "id": "notes",
@@ -289,6 +289,22 @@
     "growth": 16
   },
   {
+    "id": "dsh-skin-market",
+    "name": "dsh-skin-market",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/kingOfSoySauce/dsh-skin-market",
+    "description": "DeepSeek Harness skin market 皮肤市场 已收录200+DSH 皮肤 完善评分系统加人工审核，有便捷的社区收录入口；有在线页面方便在线浏览，也有插件方便管理本地皮肤",
+    "description_zh": "DeepSeek Harness skin market 皮肤市场 已收录200+DSH 皮肤 完善评分系统加人工审核，有便捷的社区收录入口；有在线页面方便在线浏览，也有插件方便管理本地皮肤",
+    "capabilities": [
+      "coding",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 105
+  },
+  {
     "id": "awesome-dsh-plugin-beancookie-1",
     "name": "awesome-dsh-plugin",
     "type": "awesome-list",
@@ -306,6 +322,25 @@
     "_updated": "2026-08-21",
     "_stars_prev": 94,
     "growth": 0
+  },
+  {
+    "id": "awesome-dsh-plugin-alex-yanggg-1",
+    "name": "awesome-DSH-plugin (Alex-Yanggg)",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/Alex-Yanggg/awesome-DSH-plugin",
+    "description": "Meticulously curated list of plugins, extensions, tools and development resources for DSH.",
+    "description_zh": "精心整理的 DSH 插件、扩展、工具与开发资源列表。",
+    "capabilities": [
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 77,
+    "_source_description": "A meticulously curated list of useful plugins, extensions, tools and development resources built for DSH, covering productivity enhancement, functional expansion, debugging utilities and custom development modules.",
+    "_updated": "2026-08-15",
+    "_stars_prev": 76,
+    "growth": 1
   },
   {
     "id": "zat-dsh-engine",
@@ -328,25 +363,6 @@
     "growth": 3
   },
   {
-    "id": "awesome-dsh-plugin-alex-yanggg-1",
-    "name": "awesome-DSH-plugin (Alex-Yanggg)",
-    "type": "awesome-list",
-    "category": "registry",
-    "repository": "https://github.com/Alex-Yanggg/awesome-DSH-plugin",
-    "description": "Meticulously curated list of plugins, extensions, tools and development resources for DSH.",
-    "description_zh": "精心整理的 DSH 插件、扩展、工具与开发资源列表。",
-    "capabilities": [
-      "search"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 77,
-    "_source_description": "A meticulously curated list of useful plugins, extensions, tools and development resources built for DSH, covering productivity enhancement, functional expansion, debugging utilities and custom development modules.",
-    "_updated": "2026-08-15",
-    "_stars_prev": 76,
-    "growth": 1
-  },
-  {
     "id": "oh-my-dsh-list",
     "name": "oh-my-dsh",
     "type": "awesome-list",
@@ -364,6 +380,22 @@
     "_updated": "2026-08-21",
     "_stars_prev": 66,
     "growth": 2
+  },
+  {
+    "id": "dsh-meow-memory",
+    "name": "dsh-meow-memory",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/Phant0Meow/dsh-meow-memory",
+    "description": "Cross-session memory plugin for DeepSeek Harness: seven-layer SQLite store (soul/user/project/fact/lesson/topic/rules), BM25 retrieval, per-window dream consolidation. 跨会话七层长期记忆插件。",
+    "description_zh": "Cross-session memory plugin for DeepSeek Harness: seven-layer SQLite store (soul/user/project/fact/lesson/topic/rules), BM25 retrieval, per-window dream consolidation. 跨会话七层长期记忆插件。",
+    "capabilities": [
+      "coding",
+      "memory"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 58
   },
   {
     "id": "plugin-registry",
@@ -384,6 +416,22 @@
     "_updated": "2026-08-19",
     "_stars_prev": 55,
     "growth": 2
+  },
+  {
+    "id": "dsh-session-manager",
+    "name": "dsh-session-manager",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/dream12347/dsh-session-manager",
+    "description": "DSH 会话管理插件：删除（回收站恢复/彻底清除）、统计、继续/暂停、打开日志目录、对话顶部抽屉、工作区分组与排序、上下文压缩阈值设置。DSH session manager: delete with trash/restore/purge, stats, continue/pause, log folder, header drawer, workspace grouping, context compaction threshold.",
+    "description_zh": "DSH 会话管理插件：删除（回收站恢复/彻底清除）、统计、继续/暂停、打开日志目录、对话顶部抽屉、工作区分组与排序、上下文压缩阈值设置。DSH session manager: delete with trash/restore/purge, stats, continue/pause, log folder, header drawer, workspace grouping, context compaction threshold.",
+    "capabilities": [
+      "coding",
+      "context"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 54
   },
   {
     "id": "oh-my-dsh-laplaceyoung-1",
@@ -422,24 +470,20 @@
     "_updated": "2026-05-30"
   },
   {
-    "id": "dsh-suite",
-    "name": "dsh-suite",
+    "id": "dsh-config-manager",
+    "name": "dsh-config-manager",
     "type": "awesome-list",
     "category": "registry",
-    "repository": "https://github.com/whyihaveyou/dsh-suite",
-    "description": "Living DSH plugin directory (785+ plugins, refreshed hourly) with daily compatibility CI, a bilingual catalog site and an in-app plugin store.",
-    "description_zh": "活体插件目录（785+ 插件，每小时刷新）：每日兼容性 CI、双语目录站与应用内插件商店。",
+    "repository": "https://github.com/xiajiajun516/dsh-config-manager",
+    "description": "DeepSeek Harness (DSH) backup & restore plugin — export, import, migrate and sync your complete DSH configuration, plugins, MCP servers, skills and workspace. One-click migration to another machine.",
+    "description_zh": "DeepSeek Harness (DSH) backup & restore plugin — export, import, migrate and sync your complete DSH configuration, plugins, MCP servers, skills and workspace. One-click migration to another machine.",
     "capabilities": [
-      "search",
-      "workflow"
+      "coding",
+      "mcp"
     ],
     "status": "active",
     "verified": false,
-    "stars": 43,
-    "_source_description": "The living DeepSeek Harness plugin directory — refreshed hourly, compat-tested daily, with an in-app plugin store and scaffolder. DSH 插件活目录：每小时刷新，每日兼容实测，内置插件商店与脚手架。",
-    "_updated": "2026-08-21",
-    "_stars_prev": 42,
-    "growth": 1
+    "stars": 48
   },
   {
     "id": "dsh-market-list",
@@ -460,6 +504,67 @@
     "_updated": "2026-08-21",
     "_stars_prev": 39,
     "growth": 7
+  },
+  {
+    "id": "dsh-suite",
+    "name": "dsh-suite",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/whyihaveyou/dsh-suite",
+    "description": "Living DSH plugin directory (785+ plugins, refreshed hourly) with daily compatibility CI, a bilingual catalog site and an in-app plugin store.",
+    "description_zh": "活体插件目录（785+ 插件，每小时刷新）：每日兼容性 CI、双语目录站与应用内插件商店。",
+    "capabilities": [
+      "search",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 43,
+    "_source_description": "The living DeepSeek Harness plugin directory — refreshed hourly, compat-tested daily, with an in-app plugin store and scaffolder. DSH 插件活目录：每小时刷新，每日兼容实测，内置插件商店与脚手架。",
+    "_updated": "2026-08-21",
+    "_stars_prev": 42,
+    "growth": 1
+  },
+  {
+    "id": "awesome-deepseek-harness-plugins-web-casa-1",
+    "name": "awesome-deepseek-harness-plugins",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/web-casa/Awesome-DeepSeek-Harness-Plugins",
+    "description": "Awesome DSH Cordis Plugins — the official, auto-generated list of DeepSeek Harness Cordis plugins, curated by cordis.run 由 cordis.run 精选维护的 DeepSeek Harness Cordis 插件官方自动生成列表。",
+    "description_zh": "DeepSeek Harness 插件精选",
+    "capabilities": [
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 33,
+    "_source_description": "Awesome DSH Cordis Plugins — the official, auto-generated list of DeepSeek Harness Cordis plugins, curated by cordis.run 由 cordis.run 精选维护的 DeepSeek Harness Cordis 插件官方自动生成列表。",
+    "_updated": "2026-08-17",
+    "_stars_prev": 24,
+    "growth": 9
+  },
+  {
+    "id": "sandbase-skills",
+    "name": "sandbase-skills",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/sandbaseai/sandbase-skills",
+    "description": "88 installable open-source Agent Skills for research, social intelligence, marketing, and business workflows—compatible with Codex, Claude Code, Cursor, Gemini CLI, and DeepSeek Harness.",
+    "description_zh": "88 installable open-source Agent Skills for research, social intelligence, marketing, and business workflows—compatible with Codex, Claude Code, Cursor, Gemini CLI, and DeepSeek Harness.",
+    "capabilities": [
+      "coding",
+      "multi-agent",
+      "search",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 31,
+    "_source_description": "88 installable open-source Agent Skills for research, social intelligence, marketing, and business workflows—compatible with Codex, Claude Code, Cursor, Gemini CLI, and DeepSeek Harness.",
+    "_updated": "2026-08-20",
+    "_stars_prev": 25,
+    "growth": 6
   },
   {
     "id": "dsh-meme-hub",
@@ -502,47 +607,6 @@
     "_updated": "2026-08-19",
     "_stars_prev": 26,
     "growth": 1
-  },
-  {
-    "id": "sandbase-skills",
-    "name": "sandbase-skills",
-    "type": "awesome-list",
-    "category": "registry",
-    "repository": "https://github.com/sandbaseai/sandbase-skills",
-    "description": "88 installable open-source Agent Skills for research, social intelligence, marketing, and business workflows—compatible with Codex, Claude Code, Cursor, Gemini CLI, and DeepSeek Harness.",
-    "description_zh": "88 installable open-source Agent Skills for research, social intelligence, marketing, and business workflows—compatible with Codex, Claude Code, Cursor, Gemini CLI, and DeepSeek Harness.",
-    "capabilities": [
-      "coding",
-      "multi-agent",
-      "search",
-      "workflow"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 31,
-    "_source_description": "88 installable open-source Agent Skills for research, social intelligence, marketing, and business workflows—compatible with Codex, Claude Code, Cursor, Gemini CLI, and DeepSeek Harness.",
-    "_updated": "2026-08-20",
-    "_stars_prev": 25,
-    "growth": 6
-  },
-  {
-    "id": "awesome-deepseek-harness-plugins-web-casa-1",
-    "name": "awesome-deepseek-harness-plugins",
-    "type": "awesome-list",
-    "category": "registry",
-    "repository": "https://github.com/web-casa/Awesome-DeepSeek-Harness-Plugins",
-    "description": "Awesome DSH Cordis Plugins — the official, auto-generated list of DeepSeek Harness Cordis plugins, curated by cordis.run 由 cordis.run 精选维护的 DeepSeek Harness Cordis 插件官方自动生成列表。",
-    "description_zh": "DeepSeek Harness 插件精选",
-    "capabilities": [
-      "search"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 33,
-    "_source_description": "Awesome DSH Cordis Plugins — the official, auto-generated list of DeepSeek Harness Cordis plugins, curated by cordis.run 由 cordis.run 精选维护的 DeepSeek Harness Cordis 插件官方自动生成列表。",
-    "_updated": "2026-08-17",
-    "_stars_prev": 24,
-    "growth": 9
   },
   {
     "id": "deepseek-plugin-store",
@@ -655,6 +719,22 @@
     "_updated": "2026-08-18"
   },
   {
+    "id": "dsh-backup",
+    "name": "dsh-backup",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/xiaoyuyu6420/dsh-backup",
+    "description": "One command backs up & restores all of ~/.dsh for DeepSeek Harness: /backup, scheduled auto-backup, upgrade snapshots, session-log doctor & repair, out-of-process rescue console, credential redaction, GitHub sync. 一条命令备份/恢复 DSH 全部数据：升级快照、会话日志体检修复、起不来也能自救的救援通道、凭据脱敏。",
+    "description_zh": "One command backs up & restores all of ~/.dsh for DeepSeek Harness: /backup, scheduled auto-backup, upgrade snapshots, session-log doctor & repair, out-of-process rescue console, credential redaction, GitHub sync. 一条命令备份/恢复 DSH 全部数据：升级快照、会话日志体检修复、起不来也能自救的救援通道、凭据脱敏。",
+    "capabilities": [
+      "coding",
+      "git"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 14
+  },
+  {
     "id": "awesome-deepseek-harness-jiji262-1",
     "name": "awesome-deepseek-harness (jiji262)",
     "type": "awesome-list",
@@ -750,6 +830,22 @@
     "growth": 1
   },
   {
+    "id": "dsh-checkpoint-rewind",
+    "name": "dsh-checkpoint-rewind",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/PerryLink/dsh-checkpoint-rewind",
+    "description": "Claude Code /rewind for DeepSeek Harness — git-first workspace snapshots before every mutation, turn-boundary session forks, one-shot /rewind restore. A dsh-plugin capability seam.",
+    "description_zh": "Claude Code /rewind for DeepSeek Harness — git-first workspace snapshots before every mutation, turn-boundary session forks, one-shot /rewind restore. A dsh-plugin capability seam.",
+    "capabilities": [
+      "coding",
+      "git"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 12
+  },
+  {
     "id": "awesome-deepseek-harness-plugins-vvlife-1",
     "name": "awesome-deepseek-harness-plugins",
     "type": "awesome-list",
@@ -787,6 +883,40 @@
     "_updated": "2026-08-21",
     "_stars_prev": 8,
     "growth": 1
+  },
+  {
+    "id": "dsh-composer-history",
+    "name": "dsh-composer-history",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/PerryLink/dsh-composer-history",
+    "description": "Terminal-style input history for the DeepSeek Harness web composer: edge-first arrows with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, workspace recall - and sliding-context awareness (compaction summaries in recall/search, compaction notice with one-click /compact fill).",
+    "description_zh": "Terminal-style input history for the DeepSeek Harness web composer: edge-first arrows with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, workspace recall - and sliding-context awareness (compaction summaries in recall/search, compaction notice with one-click /compact fill).",
+    "capabilities": [
+      "browser",
+      "coding",
+      "context",
+      "search",
+      "terminal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 8
+  },
+  {
+    "id": "dsh-us-stocks",
+    "name": "dsh-us-stocks",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/Realyujie/dsh-us-stocks",
+    "description": "US stock market data tools for DeepSeek Harness, powered by yahoo-finance2",
+    "description_zh": "US stock market data tools for DeepSeek Harness, powered by yahoo-finance2",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 8
   },
   {
     "id": "awesome-dsh-plugins-cccakeee-1",
@@ -918,6 +1048,56 @@
     "growth": 1
   },
   {
+    "id": "awesome-dsh-skills",
+    "name": "awesome-dsh-skills",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/hackerFish/awesome-dsh-skills",
+    "description": "实测可用的 DeepSeek Harness 技能库：每个 SKILL.md 都通过格式校验与加载冒烟，复制即用（中文优先）",
+    "description_zh": "DSH 技能目录",
+    "capabilities": [
+      "search"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "_source_description": "实测可用的 DeepSeek Harness 技能库：每个 SKILL.md 都通过格式校验与加载冒烟，复制即用（中文优先）",
+    "_updated": "2026-08-18",
+    "_stars_prev": 2,
+    "growth": 2
+  },
+  {
+    "id": "dsh-plugin-store",
+    "name": "dsh-plugin-store",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/sandbaseai/dsh-plugin-store",
+    "description": "Native plugin marketplace for DeepSeek Harness: discover, filter, install, and manage 4,000+ community plugin packages.",
+    "description_zh": "Native plugin marketplace for DeepSeek Harness: discover, filter, install, and manage 4,000+ community plugin packages.",
+    "capabilities": [
+      "coding"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
+  },
+  {
+    "id": "dsh-undo",
+    "name": "dsh-undo",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/LingLambda/dsh-undo",
+    "description": "Context undo/redo plugin for DeepSeek Harness (dsh): roll the model context back to the last completed step and restore it again.",
+    "description_zh": "Context undo/redo plugin for DeepSeek Harness (dsh): roll the model context back to the last completed step and restore it again.",
+    "capabilities": [
+      "coding",
+      "context"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4
+  },
+  {
     "id": "dsh-plugins-lwmxiaobei-1",
     "name": "dsh-plugins",
     "type": "awesome-list",
@@ -1040,6 +1220,23 @@
     "_updated": "2026-08-17"
   },
   {
+    "id": "dsh-mask",
+    "name": "dsh-mask",
+    "type": "awesome-list",
+    "category": "registry",
+    "repository": "https://github.com/PerryLink/dsh-mask",
+    "description": "PII masking middleware for DeepSeek Harness: anonymize names, phones, emails, ID cards, bank cards, keys, and addresses to placeholders before they reach the model, restore them at the display layer, keep the restore table only in memory and a controlled storage domain, never log plaintext, and expose /mask and the mask_test tool",
+    "description_zh": "PII masking middleware for DeepSeek Harness: anonymize names, phones, emails, ID cards, bank cards, keys, and addresses to placeholders before they reach the model, restore them at the display layer, keep the restore table only in memory and a controlled storage domain, never log plaintext, and expose /mask and the mask_test tool",
+    "capabilities": [
+      "coding",
+      "memory",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
     "id": "awesome-dsh-plugin-wgd753-1",
     "name": "awesome-dsh-plugin",
     "type": "awesome-list",
@@ -1072,25 +1269,6 @@
     "stars": 2,
     "_source_description": "Evidence-led bilingual directory of DeepSeek Harness plugins, reviewed at immutable commits.",
     "_updated": "2026-08-21"
-  },
-  {
-    "id": "awesome-dsh-skills",
-    "name": "awesome-dsh-skills",
-    "type": "awesome-list",
-    "category": "registry",
-    "repository": "https://github.com/hackerFish/awesome-dsh-skills",
-    "description": "实测可用的 DeepSeek Harness 技能库：每个 SKILL.md 都通过格式校验与加载冒烟，复制即用（中文优先）",
-    "description_zh": "DSH 技能目录",
-    "capabilities": [
-      "search"
-    ],
-    "status": "active",
-    "verified": false,
-    "stars": 4,
-    "_source_description": "实测可用的 DeepSeek Harness 技能库：每个 SKILL.md 都通过格式校验与加载冒烟，复制即用（中文优先）",
-    "_updated": "2026-08-18",
-    "_stars_prev": 2,
-    "growth": 2
   },
   {
     "id": "awesome-dsh-plugins-jqueryscript-1",

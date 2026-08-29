@@ -24,6 +24,9 @@ def repo_fullname(url):
     return url.replace("https://github.com/", "").rstrip("/")
 
 
+_NO_PROXY = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+
+
 def fetch(repo, token):
     headers = {"Accept": "application/vnd.github+json",
                "User-Agent": "awesome-dsh-metadata"}
@@ -31,7 +34,7 @@ def fetch(repo, token):
         headers["Authorization"] = f"Bearer {token}"
     url = "https://api.github.com/repos/" + repo
     req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=15) as resp:
+    with _NO_PROXY.open(req, timeout=15) as resp:
         d = json.loads(resp.read())
     return {
         "stars": d["stargazers_count"],
