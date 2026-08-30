@@ -1,6 +1,6 @@
 ---
 title: "Skills"
-description: "Top 10 and full list of 44 curated skills for DeepSeek Harness (dsh)."
+description: "Top 10 and full list of 45 curated skills for DeepSeek Harness (dsh)."
 keywords: "deepseek harness, dsh, skills, plugin, awesome"
 ---
 # Skills
@@ -30,7 +30,7 @@ keywords: "deepseek harness, dsh, skills, plugin, awesome"
 | 9 | [dsh-skill-picker](resources/dsh-skill-picker.md) | ⭐25 | DSH 实现 workbuddy 同款选择 skill 功能 | WorkBuddy-style skill picker for DeepSeek Harness: pick a skill in the composer, insert the official /skill-name gesture, and DSH loads it with your message. | ✅ active |
 | 10 | [dsh-science](resources/dsh-science.md) | ⭐24 | Claude Science-style research workbench: ReAct research-loop engine (research_* tools), versioned artifacts with provenance (artifact_* tools), and 10 science skills for genomics/pathogens/bioinformatics. | ✅ active |
 
-## Complete list (44)
+## Complete list (45)
 
 
 **Learning (32)**
@@ -82,13 +82,14 @@ keywords: "deepseek harness, dsh, skills, plugin, awesome"
 | [mattpocock-skills-dsh](resources/mattpocock-skills-dsh.md) | ⭐2 | Matt Pocock full promoted skill set (25 SKILL.md: grilling, writing-for-agents, wait-what, TDD, code review, wayfinder, ask-matt router) ported to DSH. | ✅ active |
 | [mattpocock-skills-dsh-zh](resources/mattpocock-skills-dsh-zh.md) | ⭐1 | Matt Pocock's 25 skills fully translated to Chinese (technical terms kept in English with glosses). | ✅ active |
 
-**Research (3)**
+**Research (4)**
 
 | Project | Stars | Description | Status |
 |---|---|---|---|
 | [dsh-book2skill](resources/dsh-book2skill.md) | ⭐4 | Book-to-skill plugin: a 5-stage long task that fetches, parses, understands, generates and installs a skill. | ✅ active |
 | [dsh-web-novel-research](resources/dsh-web-novel-research.md) | ⭐3 | Chinese web-novel plot lookup skill: free mirror-site workflow with GBK decoding and duplicate-chapter disambiguation. | ✅ active |
 | [dsh-news-briefing](resources/dsh-news-briefing.md) | – | News briefing skill: multi-dimensional story scoring, anti-clickbait rules, content prioritization and Chinese editorial style. | ✅ active |
+| [seo-audit](resources/seo-audit.md) | – | Full local & technical SEO audit toolkit for DeepSeek Harness: deterministic Python measurement (53 scripts) + LLM judgment (24 sub-skills, 18 agents), weighted scoring, gated multi-agent fan-out, schema.org, E-E-A-T, GBP, GEO/AI Overviews. | ✅ active |
 
 **UI & experience (1)**
 

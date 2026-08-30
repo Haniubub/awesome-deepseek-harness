@@ -773,5 +773,22 @@
     "stars": 0,
     "_source_description": "A Skill-driven Harness/Loop Engineering Workflow Agent Plugin",
     "_updated": "2026-08-14"
+  },
+  {
+    "id": "seo-audit",
+    "name": "seo-audit",
+    "type": "skill",
+    "category": "research",
+    "repository": "https://github.com/Haniubub/seo-toolkit",
+    "description": "Full local & technical SEO audit toolkit for DeepSeek Harness: deterministic Python measurement (53 scripts) + LLM judgment (24 sub-skills, 18 agents), weighted scoring, gated multi-agent fan-out, schema.org, E-E-A-T, GBP, GEO/AI Overviews.",
+    "description_zh": "面向 DeepSeek Harness 的本地化与技术 SEO 审计工具包：确定性 Python 测量（53 个脚本）+ LLM 判断（24 个子技能、18 个代理）、加权评分、按业务类型门控的多代理扇出、schema.org、E-E-A-T、GBP、GEO/AI Overviews。",
+    "capabilities": [
+      "search",
+      "research",
+      "multi-agent"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0
   }
 ]

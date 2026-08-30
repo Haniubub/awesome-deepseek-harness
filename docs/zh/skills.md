@@ -1,6 +1,6 @@
 ---
 title: "Skills"
-description: "DeepSeek Harness (dsh) 精选 skills：🔥 Top 10 与完整列表（44 条）。"
+description: "DeepSeek Harness (dsh) 精选 skills：🔥 Top 10 与完整列表（45 条）。"
 keywords: "deepseek harness, dsh, skills, plugin, awesome"
 ---
 # Skills
@@ -30,7 +30,7 @@ keywords: "deepseek harness, dsh, skills, plugin, awesome"
 | 9 | [dsh-skill-picker](resources/dsh-skill-picker.md) | ⭐25 | DSH 实现 workbuddy 同款选择 skill 功能 | WorkBuddy-style skill picker for DeepSeek Harness: pick a skill in the composer, insert the official /skill-name gesture, and DSH loads it with your message. | ✅ 活跃 |
 | 10 | [dsh-science](resources/dsh-science.md) | ⭐24 | Claude Science-style research workbench: ReAct research-loop engine (research_* tools), versioned artifacts with provenance (artifact_* tools), and 10 science skills for genomics/pathogens/bioinformatics. | ✅ 活跃 |
 
-## 完整列表（44）
+## 完整列表（45）
 
 
 **学习（32）**
@@ -82,13 +82,14 @@ keywords: "deepseek harness, dsh, skills, plugin, awesome"
 | [mattpocock-skills-dsh](resources/mattpocock-skills-dsh.md) | ⭐2 | Matt Pocock 完整发布技能集（25 个 SKILL.md：grilling、writing-for-agents、wait-what、TDD、code-review、wayfinder、ask-matt 路由等）的 DSH 移植。 | ✅ 活跃 |
 | [mattpocock-skills-dsh-zh](resources/mattpocock-skills-dsh-zh.md) | ⭐1 | Matt Pocock 25 个技能正文全译中文（技术术语保留英文并附注释）。 | ✅ 活跃 |
 
-**研究（3）**
+**研究（4）**
 
 | 项目 | 星数 | 说明 | 状态 |
 |---|---|---|---|
 | [dsh-book2skill](resources/dsh-book2skill.md) | ⭐4 | 书转技能插件：获取→解析→理解→生成→安装的五阶段长任务。 | ✅ 活跃 |
 | [dsh-web-novel-research](resources/dsh-web-novel-research.md) | ⭐3 | 中文网文情节查证技能：免费镜像站流程，GBK 解码与跨卷重复章节消歧。 | ✅ 活跃 |
 | [dsh-news-briefing](resources/dsh-news-briefing.md) | – | 新闻简报技能：多维故事评分、反标题党规则、内容优先级与中文编辑风格。 | ✅ 活跃 |
+| [seo-audit](resources/seo-audit.md) | – | 面向 DeepSeek Harness 的本地化与技术 SEO 审计工具包：确定性 Python 测量（53 个脚本）+ LLM 判断（24 个子技能、18 个代理）、加权评分、按业务类型门控的多代理扇出、schema.org、E-E-A-T、GBP、GEO/AI Overviews。 | ✅ 活跃 |
 
 **界面与体验（1）**
 
