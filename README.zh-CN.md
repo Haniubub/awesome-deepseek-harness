@@ -625,7 +625,7 @@ dsh web
 | 9 | [dsh-skill-picker](https://github.com/a735624258/dsh-skill-picker) | ⭐25 | DSH 实现 workbuddy 同款选择 skill 功能 | WorkBuddy-style skill picker for DeepSeek Harness: pick a skill in the composer, insert the official /skill-name gesture, and DSH loads it with your message. | ✅ 活跃 |
 | 10 | [dsh-science](https://github.com/biociao/dsh-science) | ⭐24 | Claude Science-style research workbench: ReAct research-loop engine (research_* tools), versioned artifacts with provenance (artifact_* tools), and 10 science skills for genomics/pathogens/bioinformatics. | ✅ 活跃 |
 
-#### 完整列表（44）
+#### 完整列表（45）
 
 - [memos](https://github.com/MemTensor/MemOS) ⭐10,873 — Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support.（✅ 活跃）
 - [dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) ⭐6,940 — dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).（✅ 活跃）
@@ -671,6 +671,7 @@ dsh web
 - [mattpocock-skills-dsh-zh](https://github.com/gongyijie85/mattpocock-skills-dsh-zh) ⭐1 — Matt Pocock 25 个技能正文全译中文（技术术语保留英文并附注释）。（✅ 活跃）
 - [dsh-news-briefing](https://github.com/canghai666x/dsh-news-briefing)  — 新闻简报技能：多维故事评分、反标题党规则、内容优先级与中文编辑风格。（✅ 活跃）
 - [mstar-workflow](https://github.com/btspoony/mstar-workflow)  — A Skill-driven Harness/Loop Engineering Workflow Agent Plugin（💤 停更）
+- [seo-audit](https://github.com/Haniubub/seo-toolkit)  — 面向 DeepSeek Harness 的本地化与技术 SEO 审计工具包：确定性 Python 测量（53 个脚本）+ LLM 判断（24 个子技能、18 个代理）、加权评分、按业务类型门控的多代理扇出、schema.org、E-E-A-T、GBP、GEO/AI Overviews。（✅ 活跃）
 
 ### Workflows & Automation
 
@@ -1749,7 +1750,7 @@ awesome-deepseek-harness/
 | 9 | [dsh-skill-picker](https://github.com/a735624258/dsh-skill-picker) | ⭐25 | DSH 实现 workbuddy 同款选择 skill 功能 | WorkBuddy-style skill picker for DeepSeek Harness: pick a skill in the composer, insert the official /skill-name gesture, and DSH loads it with your message. | ✅ 活跃 |
 | 10 | [dsh-science](https://github.com/biociao/dsh-science) | ⭐24 | Claude Science-style research workbench: ReAct research-loop engine (research_* tools), versioned artifacts with provenance (artifact_* tools), and 10 science skills for genomics/pathogens/bioinformatics. | ✅ 活跃 |
 
-#### 完整列表（44）
+#### 完整列表（45）
 
 - [memos](https://github.com/MemTensor/MemOS) ⭐10,873 — Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support.（✅ 活跃）
 - [dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) ⭐6,940 — dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).（✅ 活跃）
@@ -1795,6 +1796,7 @@ awesome-deepseek-harness/
 - [mattpocock-skills-dsh-zh](https://github.com/gongyijie85/mattpocock-skills-dsh-zh) ⭐1 — Matt Pocock 25 个技能正文全译中文（技术术语保留英文并附注释）。（✅ 活跃）
 - [dsh-news-briefing](https://github.com/canghai666x/dsh-news-briefing)  — 新闻简报技能：多维故事评分、反标题党规则、内容优先级与中文编辑风格。（✅ 活跃）
 - [mstar-workflow](https://github.com/btspoony/mstar-workflow)  — A Skill-driven Harness/Loop Engineering Workflow Agent Plugin（💤 停更）
+- [seo-audit](https://github.com/Haniubub/seo-toolkit)  — 面向 DeepSeek Harness 的本地化与技术 SEO 审计工具包：确定性 Python 测量（53 个脚本）+ LLM 判断（24 个子技能、18 个代理）、加权评分、按业务类型门控的多代理扇出、schema.org、E-E-A-T、GBP、GEO/AI Overviews。（✅ 活跃）
 
 ### Workflows & Automation
 

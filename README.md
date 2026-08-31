@@ -624,7 +624,7 @@ Plugins intended to become active DSH bundles should expose the corresponding `d
 | 9 | [dsh-skill-picker](https://github.com/a735624258/dsh-skill-picker) | ⭐25 | DSH 实现 workbuddy 同款选择 skill 功能 | WorkBuddy-style skill picker for DeepSeek Harness: pick a skill in the composer, insert the official /skill-name gesture, and DSH loads it with your message. | ✅ active |
 | 10 | [dsh-science](https://github.com/biociao/dsh-science) | ⭐24 | Claude Science-style research workbench: ReAct research-loop engine (research_* tools), versioned artifacts with provenance (artifact_* tools), and 10 science skills for genomics/pathogens/bioinformatics. | ✅ active |
 
-#### Complete list (44)
+#### Complete list (45)
 
 - [memos](https://github.com/MemTensor/MemOS) ⭐10,873 — Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support. (✅ active)
 - [dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) ⭐6,940 — dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23). (✅ active)
@@ -670,6 +670,7 @@ Plugins intended to become active DSH bundles should expose the corresponding `d
 - [mattpocock-skills-dsh-zh](https://github.com/gongyijie85/mattpocock-skills-dsh-zh) ⭐1 — Matt Pocock's 25 skills fully translated to Chinese (technical terms kept in English with glosses). (✅ active)
 - [dsh-news-briefing](https://github.com/canghai666x/dsh-news-briefing)  — News briefing skill: multi-dimensional story scoring, anti-clickbait rules, content prioritization and Chinese editorial style. (✅ active)
 - [mstar-workflow](https://github.com/btspoony/mstar-workflow)  — A Skill-driven Harness/Loop Engineering Workflow Agent Plugin (💤 inactive)
+- [seo-audit](https://github.com/Haniubub/seo-toolkit)  — Full local & technical SEO audit toolkit for DeepSeek Harness: deterministic Python measurement (53 scripts) + LLM judgment (24 sub-skills, 18 agents), weighted scoring, gated multi-agent fan-out, schema.org, E-E-A-T, GBP, GEO/AI Overviews. (✅ active)
 
 ### Workflows & Automation
 
@@ -1748,7 +1749,7 @@ awesome-deepseek-harness/
 | 9 | [dsh-skill-picker](https://github.com/a735624258/dsh-skill-picker) | ⭐25 | DSH 实现 workbuddy 同款选择 skill 功能 | WorkBuddy-style skill picker for DeepSeek Harness: pick a skill in the composer, insert the official /skill-name gesture, and DSH loads it with your message. | ✅ active |
 | 10 | [dsh-science](https://github.com/biociao/dsh-science) | ⭐24 | Claude Science-style research workbench: ReAct research-loop engine (research_* tools), versioned artifacts with provenance (artifact_* tools), and 10 science skills for genomics/pathogens/bioinformatics. | ✅ active |
 
-#### Complete list (44)
+#### Complete list (45)
 
 - [memos](https://github.com/MemTensor/MemOS) ⭐10,873 — Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support. (✅ active)
 - [dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) ⭐6,940 — dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23). (✅ active)
@@ -1794,6 +1795,7 @@ awesome-deepseek-harness/
 - [mattpocock-skills-dsh-zh](https://github.com/gongyijie85/mattpocock-skills-dsh-zh) ⭐1 — Matt Pocock's 25 skills fully translated to Chinese (technical terms kept in English with glosses). (✅ active)
 - [dsh-news-briefing](https://github.com/canghai666x/dsh-news-briefing)  — News briefing skill: multi-dimensional story scoring, anti-clickbait rules, content prioritization and Chinese editorial style. (✅ active)
 - [mstar-workflow](https://github.com/btspoony/mstar-workflow)  — A Skill-driven Harness/Loop Engineering Workflow Agent Plugin (💤 inactive)
+- [seo-audit](https://github.com/Haniubub/seo-toolkit)  — Full local & technical SEO audit toolkit for DeepSeek Harness: deterministic Python measurement (53 scripts) + LLM judgment (24 sub-skills, 18 agents), weighted scoring, gated multi-agent fan-out, schema.org, E-E-A-T, GBP, GEO/AI Overviews. (✅ active)
 
 ### Workflows & Automation
 
