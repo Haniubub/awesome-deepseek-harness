@@ -21,6 +21,22 @@
     "growth": 55
   },
   {
+    "id": "ruflo",
+    "name": "ruflo",
+    "type": "related",
+    "category": "harness",
+    "repository": "https://github.com/ruvnet/ruflo",
+    "description": "The original agent meta-harness: deploy intelligent multi-player swarms, coordinate autonomous workflows, adaptive memory, self-learning intelligence, RAG integration and native Claude Code / Codex integrations.",
+    "description_zh": "Agent 元级 harness：多智能体集群部署、自主工作流编排、自适应记忆、自学习智能、RAG 集成，原生支持 Claude Code / Codex 等。",
+    "capabilities": [
+      "multi-agent",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 69896
+  },
+  {
     "id": "codewhale",
     "name": "CodeWhale",
     "type": "related",
@@ -39,6 +55,22 @@
     "_updated": "2026-08-21",
     "_stars_prev": 40832,
     "growth": 0
+  },
+  {
+    "id": "deepseek-reasonix",
+    "name": "DeepSeek-Reasonix",
+    "type": "related",
+    "category": "harness",
+    "repository": "https://github.com/esengine/DeepSeek-Reasonix",
+    "description": "DeepSeek-native AI coding agent for your terminal, engineered around prefix-cache stability — leave it running.",
+    "description_zh": "面向终端、DeepSeek 原生的 AI 编程代理，围绕前缀缓存稳定性设计——可常驻运行。",
+    "capabilities": [
+      "coding",
+      "terminal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 35284
   },
   {
     "id": "agentmemory",

@@ -103,6 +103,22 @@
     "subcategory": "vision-tools"
   },
   {
+    "id": "dashi-taskboard",
+    "name": "dashi-taskboard",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/chuspeeism/dashi-taskboard",
+    "description": "Modern, flexibly embeddable task board supporting Codex and DeepSeek Harness: manage tasks across sessions in one panel.",
+    "description_zh": "现代化可灵活嵌入的任务面板，支持 Codex 与 DeepSeek Harness，一个面板统一管理跨会话任务。",
+    "capabilities": [
+      "ui",
+      "workflow"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2813
+  },
+  {
     "id": "dsh-better-sidebar",
     "name": "DSH Better Sidebar",
     "type": "plugin",
@@ -1503,6 +1519,22 @@
     "_stars_prev": 48,
     "growth": 1,
     "subcategory": "generative-ui"
+  },
+  {
+    "id": "dsh-whale-musume",
+    "name": "dsh-whale-musume",
+    "type": "plugin",
+    "category": "fun",
+    "repository": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
+    "description": "Whale-girl desktop pet for the DSH web UI: pat-to-raise growth, work-state poses, 494 dialogue lines, 30 achievements, drag physics, theme sync and a built-in settings panel; local-first, zero telemetry (MIT, 102 unit tests). / 元气鲸鱼娘桌宠：摸头养成、工作状态联动、494 条台词与 30 项成就；全本地零遥测。",
+    "description_zh": "元气鲸鱼娘桌宠：摸头养成、工作状态联动、494 条台词与 30 项成就，支持拖拽物理、主题适配与内置设置面板；全本地、零遥测（MIT，102 项单测）。",
+    "capabilities": [
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 48,
+    "subcategory": "desktop-pet"
   },
   {
     "id": "dsh-plugins",
@@ -6173,6 +6205,23 @@
     "stars": 4
   },
   {
+    "id": "dsh-composer-layout",
+    "name": "DSH Composer Layout",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/lavapapa/dsh-composer-layout",
+    "description": "Lets you read a long answer while drafting the next detailed prompt beside it in DSH Web.",
+    "description_zh": "让 DSH Web 的长回答与正在撰写的详细提示词并排可见，边读边写。",
+    "capabilities": [
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 4,
+    "install": "dsh plugin --profile web add dsh-composer-layout@latest",
+    "license": "MIT"
+  },
+  {
     "id": "dsh-webbridge",
     "name": "dsh-webbridge",
     "type": "plugin",
@@ -6987,6 +7036,36 @@
     "subcategory": "desktop-pets"
   },
   {
+    "id": "dsh-session-hotkeys",
+    "name": "dsh-session-hotkeys",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/YEYEYEYESHIFU/dsh-session-hotkeys",
+    "description": "Session hotkeys for the DSH Web GUI: switch sessions like browser tabs (positional Alt+1-9, pinned slots, previous/next), keyboard model switching, alternate send and archive confirmation, every binding rebindable with Windows/macOS presets.",
+    "description_zh": "会话热键：像切浏览器标签页一样用键盘管理 DSH Web 会话（Alt+1-9 顺序切换、固定槽位、上/下一个、新建/归档/重命名、键盘模型切换与备用发送），键位可在面板录制重绑，Windows/macOS 双预设。",
+    "capabilities": [
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
+    "id": "dsh-think-translate",
+    "name": "dsh-think-translate",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/UncleK/dsh-think-translate",
+    "description": "Display-layer UI translation for DSH Web: thinking chain, task cards and answer text in 8 target languages; local Ollama primary with in-panel model download, Google/Bing fallback.",
+    "description_zh": "DSH Web 界面显示层翻译：思考链、任务卡片与回答正文翻译为 8 种目标语言；本地 Ollama 为主力（面板内下载），Google/Bing 兜底。",
+    "capabilities": [
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 3
+  },
+  {
     "id": "dsh-jesse-memory",
     "name": "dsh-memory (Jesse-njx)",
     "type": "plugin",
@@ -7447,6 +7526,53 @@
     "subcategory": "cost-billing"
   },
   {
+    "id": "dsh-result-only-view",
+    "name": "dsh-result-only-view",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/YEYEYEYESHIFU/dsh-result-only-view",
+    "description": "Results-only view toggle for the DSH Web GUI: folds thinking/tool-call process rows so conversations show only user messages and final replies; live summary chips for running steps, click-to-expand turn trace with hover-peek, auto/manual fold modes. / 「只看结果」开关：折叠思考与工具调用过程行，只留用户消息与最终回复；实时摘要芯片、回合痕迹行（点击展开/悬停预览）、自动/手动折叠。",
+    "description_zh": "「只看结果」开关：折叠思考与工具调用过程行，对话只留用户消息与最终回复；运行中显示实时摘要芯片，回合后痕迹行可点击展开并支持悬停预览，自动/手动折叠模式。",
+    "capabilities": [
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2
+  },
+  {
+    "id": "dsh-better-stats",
+    "name": "dsh-better-stats",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/null5069/dsh-better-stats",
+    "description": "Enhanced stats strip for the DeepSeek Harness Web UI: official CNY pricing (peak/off-peak tiers, auto price sync), per-model accounting, live timers, agent-team tree merging, direct balance, budget alerts and streaming cost estimation.",
+    "description_zh": "DSH Web 输入框下方的增强统计条：官方人民币计价（峰谷分时、价目自动同步）、多模型分账、实时计时、子代理树合并、余额直连、预算预警与流式成本估算。",
+    "capabilities": [
+      "observability",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2
+  },
+  {
+    "id": "dsh-explorer-plugin",
+    "name": "dsh-explorer-plugin",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/dgadelha1/dsh-explorer-plugin",
+    "description": "VS Code-style workspace file tree + Monaco editor with real TextMate grammars (28 languages), multi-tab editing and a live file watcher, docked into the DSH web GUI. / 工作区文件树 + Monaco 编辑器：多标签、实时文件监听、VS Code 真实 TextMate 语法高亮（28 种语言），直接嵌入 DSH 网页 GUI。",
+    "description_zh": "工作区文件树 + Monaco 编辑器：多标签、实时文件监听、VS Code 真实 TextMate 语法高亮（28 种语言），直接嵌入 DSH 网页 GUI。",
+    "capabilities": [
+      "files",
+      "ui"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 2
+  },
+  {
     "id": "dsh-voice-webspeech",
     "name": "dsh-voice-webspeech",
     "type": "plugin",
@@ -7782,6 +7908,41 @@
     "stars": 1
   },
   {
+    "id": "dsh-cubox",
+    "name": "dsh-cubox",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/zhengjy01/dsh-cubox",
+    "description": "Cubox sync plugin for DeepSeek Harness: scheduled sync of your bookmarks, an AI daily brief generated from your own prompt template straight into Obsidian, and per-card markdown export — via the /c/api/cli endpoints.",
+    "description_zh": "DeepSeek Harness 的 Cubox 收藏同步插件：定时同步收藏，按你的 prompt 用 LLM 生成今日收藏简报直接写入 Obsidian，并可导出每张收藏为 Markdown。",
+    "capabilities": [
+      "automation"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 1,
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-product-subagent-console",
+    "name": "dsh-product-subagent-console",
+    "type": "plugin",
+    "category": "multi-agent",
+    "repository": "https://github.com/Jokasa7/dsh-product-subagent-console",
+    "description": "Adds a conversation-level multi-agent workbench for editable task plans, real child-session trees, plan-to-runtime comparison, and evidence-backed recovery previews.",
+    "description_zh": "为 DSH 对话增加多 Agent 工作台，支持可编辑任务方案、真实子会话树、计划与实际运行对照，以及基于证据的恢复预览。",
+    "capabilities": [
+      "workflow",
+      "multi-agent",
+      "ui",
+      "observability"
+    ],
+    "status": "experimental",
+    "verified": false,
+    "stars": 1,
+    "license": "MIT"
+  },
+  {
     "id": "dsh-git-branch-switcher",
     "name": "dsh-git-branch-switcher",
     "type": "plugin",
@@ -7997,5 +8158,90 @@
     "status": "active",
     "verified": false,
     "stars": 0
+  },
+  {
+    "id": "dsh-upload",
+    "name": "dsh-upload",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/Ei-Ayw/dsh-upload",
+    "description": "Upload button for the DSH web composer: local files land as bytes in the session workspace (.uploads/<sessionId>/), the absolute path is appended to the draft (visible and editable), and the agent reads the file with its own fs tools. Zero dependencies. / DSH Web 的上传按钮：点 📎 选本地文件，字节落盘到会话工作区 .uploads/<会话ID>/，绝对路径追加进输入框（可见可编辑），AI 用自带 fs 工具直接读取。零依赖。",
+    "description_zh": "DSH Web 的上传按钮：点 📎 选本地文件，字节落盘到会话工作区 .uploads/<会话ID>/，绝对路径追加进输入框（可见可编辑），AI 用自带 fs 工具直接读取。零依赖。",
+    "capabilities": [
+      "files"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0
+  },
+  {
+    "id": "dsh-word-docs",
+    "name": "dsh-word-docs",
+    "type": "plugin",
+    "category": "developer",
+    "repository": "https://github.com/Ei-Ayw/dsh-word-docs",
+    "description": "Word document toolkit for DeepSeek Harness: generate, edit, extract, stat and convert .docx with a pure-stdlib Python engine (zero dependencies), registering the word_docs tool and word-docs skill. / DeepSeek Harness 的 Word 文档工具：纯 Python 标准库生成、编辑、提取、统计并转换 .docx，零依赖。",
+    "description_zh": "DeepSeek Harness 的 Word 文档工具：纯 Python 标准库实现，生成、编辑、提取、统计并转换 .docx，零依赖，注册 word_docs 工具与 word-docs 技能。",
+    "capabilities": [
+      "files"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0
+  },
+  {
+    "id": "dsh-vibegap",
+    "name": "dsh-vibegap",
+    "type": "plugin",
+    "category": "fun",
+    "repository": "https://github.com/ktao732084-arch/vibegap",
+    "description": "Vocabulary spelling cards in DSH Web that appear during running sessions, persist progress locally, and optionally share the VibeGap desktop cursor.",
+    "description_zh": "在 DSH Web 会话运行时自动出现的拼写单词卡；本地持久化进度，并可选与 VibeGap 桌面端共享游标。",
+    "capabilities": [
+      "ui",
+      "learning",
+      "notifications"
+    ],
+    "status": "experimental",
+    "verified": false,
+    "stars": 0,
+    "install": "dsh plugin --profile web add dsh-vibegap",
+    "license": "MIT"
+  },
+  {
+    "id": "dsh-pr-checks",
+    "name": "dsh-pr-checks",
+    "type": "plugin",
+    "category": "ui",
+    "repository": "https://github.com/pauloapoloni/dsh-pr-checks",
+    "description": "DSH plugin (host + web client): status and progress of GitHub Actions checks of the open PRs, grouped by workspace/project, in the sidebar footer.",
+    "description_zh": "DSH 插件（宿主端 + Web 客户端）：在侧边栏底部按工作区/项目分组展示各打开 PR 的 GitHub Actions 检查状态与进度。",
+    "capabilities": [
+      "ui",
+      "git"
+    ],
+    "status": "experimental",
+    "verified": false,
+    "stars": 0,
+    "license": "MIT",
+    "subcategory": "sidebar-panels"
+  },
+  {
+    "id": "dsh-task-dispatcher",
+    "name": "dsh-task-dispatcher",
+    "type": "plugin",
+    "category": "automation",
+    "repository": "https://github.com/zhengjy01/dsh-task-dispatcher",
+    "description": "TickTick (滴答清单) daily task dispatcher for DeepSeek Harness: interval-based pulls of today's due tasks, notify (flomo + macOS), optional auto-execute in headless DSH sessions, worker workspace selection, and a web task board.",
+    "description_zh": "DeepSeek Harness 的滴答清单任务派发器：按间隔拉取今天到期任务，flomo+macOS 通知，可选自动执行（每任务一个 headless 会话）、执行会话工作区选择与 Web 任务看板。",
+    "capabilities": [
+      "automation",
+      "workflow",
+      "notifications"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0,
+    "license": "MIT"
   }
 ]

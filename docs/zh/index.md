@@ -72,24 +72,24 @@ DeepSeek Harness（`dsh`）是 DeepSeek AI 开源的智能体 Harness，围绕�
 |---|---|---|---|---|
 | 1 | [open-design](resources/open-design.md) | ⭐90,033 | 🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode / Hermes & 20+ CLIs via BYOK. | ✅ 活跃 |
 | 2 | [DeerFlow](resources/deer-flow.md) | ⭐80,462 | 字节跳动开源的长时间跨度 SuperAgent harness：技能、记忆、沙箱、子代理、工具与消息网关。 | ✅ 活跃 |
-| 3 | [CodeWhale](resources/codewhale.md) | ⭐40,830 | 开源、社区驱动的 Agent Harness。 | ✅ 活跃 |
-| 4 | [awesome-deepseek-integration](resources/awesome-deepseek-integration.md) | ⭐38,897 | 官方：DeepSeek 生态集成目录 | ✅ 活跃 |
-| 5 | [agentmemory](resources/agentmemory.md) | ⭐27,233 | 基于真实基准的 AI 编码 Agent 持久记忆（DSH agentmemory 移植的上游项目）。 | ✅ 活跃 |
-| 6 | [voyager](resources/voyager.md) | ⭐19,755 | Enhancement suite for Gemini, AI Studio, Claude & ChatGPT — plus a prompt manager for any web UI, DeepSeek Harness included. / 面向 Gemini、AI Studio、Claude 与 ChatGPT 的增强套件；提示词管理器可用于任意 Web UI，含 DeepSeek Harness。 | ✅ 活跃 |
-| 7 | [deepseek-harness-desktop (Anywhere Labs)](resources/anywhere-labs-desktop.md) | ⭐17,280 | 为 DeepSeek Harness 生态打造的现代化桌面端体验（插件）。 | ✅ 活跃 |
-| 8 | [awesome-dsh-plugin](resources/awesome-dsh-plugin.md) | ⭐11,012 | 大型 DSH 插件精选目录（双语）。 | ✅ 活跃 |
-| 9 | [memos](resources/memos.md) | ⭐10,873 | Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support. | ✅ 活跃 |
-| 10 | [dsh-routing-suite](resources/dsh-routing-suite.md) | ⭐6,940 | dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23). | ✅ 活跃 |
-| 11 | [Cordis](resources/cordis.md) | ⭐6,867 | 时空可组合性元框架——DeepSeek Harness 底层的插件运行时。 | ✅ 活跃 |
-| 12 | [awesome-deepseek-agent (official)](resources/awesome-deepseek-agent.md) | ⭐5,966 | 官方精选：将 DeepSeek 模型集成到主流 Agent/编码助手工具的指南（AstrBot、Cherry Studio、Claude Code、Codex、DeepSeek-TUI、Reasonix 等）。 | ✅ 活跃 |
-| 13 | [dsh-web-ui](resources/dsh-web-ui.md) | ⭐5,349 | DSH Web 大型插件与皮肤集合：任务看板、Git 图、侧栏、远程/移动 UI、宠物、Token 统计与主题。 | ✅ 活跃 |
-| 14 | [desktop-cc-gui](resources/desktop-cc-gui.md) | ⭐4,058 | Multi-engine AI coding desktop client (Tauri). Claude Code, Codex, Gemini, OpenCode, DeepSeek Harness and more in one GUI. | ✅ 活跃 |
-| 15 | [petdex](resources/petdex.md) | ⭐3,945 | A public gallery of animated pets for Codex, Claude Code, DeepSeek Harness, Hermes, OpenCode, Gemini CLI, and more. | ✅ 活跃 |
-| 16 | [awesome-harness-engineering](resources/awesome-harness-engineering.md) | ⭐3,887 | Harness 工程精选（跨生态） | ✅ 活跃 |
-| 17 | [dsh-anchored-standard](resources/dsh-anchored-standard.md) | ⭐3,697 | Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99) | ✅ 活跃 |
-| 18 | [modlens](resources/modlens.md) | ⭐3,495 | DSH 首个视觉插件，也是所有纯文本编码 Agent 的视觉桥梁：粘贴图片即可用。 | ✅ 活跃 |
-| 19 | [echobird](resources/echobird.md) | ⭐3,105 | One-click install + model switch:Claude Code,Codex CLI (OpenAI), Grok Build (xAI), DeepSeek Harness, Kimi Code (Moonshot) ,Qwen Code,Aider,OpenCode,MiMo Code (Xiaomi),ZCode (Z.AI),OpenClaw,Pi,OpenScience,Vibe-Trading,Claude Desktop (3P profile),ChatGPT desktop,OpenCode Desktop, | ✅ 活跃 |
-| 20 | [openbiliclaw](resources/openbiliclaw.md) | ⭐2,971 | 本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin） | ✅ 活跃 |
+| 3 | [ruflo](resources/ruflo.md) | ⭐69,896 | Agent 元级 harness：多智能体集群部署、自主工作流编排、自适应记忆、自学习智能、RAG 集成，原生支持 Claude Code / Codex 等。 | ✅ 活跃 |
+| 4 | [CodeWhale](resources/codewhale.md) | ⭐40,830 | 开源、社区驱动的 Agent Harness。 | ✅ 活跃 |
+| 5 | [awesome-deepseek-integration](resources/awesome-deepseek-integration.md) | ⭐38,897 | 官方：DeepSeek 生态集成目录 | ✅ 活跃 |
+| 6 | [archify](resources/archify.md) | ⭐36,264 | Agent 技能：生成漂亮、可验证的架构图、流程图、时序图、数据流与生命周期图——自包含、可审查。 | ✅ 活跃 |
+| 7 | [DeepSeek-Reasonix](resources/deepseek-reasonix.md) | ⭐35,284 | 面向终端、DeepSeek 原生的 AI 编程代理，围绕前缀缓存稳定性设计——可常驻运行。 | ✅ 活跃 |
+| 8 | [agentmemory](resources/agentmemory.md) | ⭐27,233 | 基于真实基准的 AI 编码 Agent 持久记忆（DSH agentmemory 移植的上游项目）。 | ✅ 活跃 |
+| 9 | [voyager](resources/voyager.md) | ⭐19,755 | Enhancement suite for Gemini, AI Studio, Claude & ChatGPT — plus a prompt manager for any web UI, DeepSeek Harness included. / 面向 Gemini、AI Studio、Claude 与 ChatGPT 的增强套件；提示词管理器可用于任意 Web UI，含 DeepSeek Harness。 | ✅ 活跃 |
+| 10 | [deepseek-harness-desktop (Anywhere Labs)](resources/anywhere-labs-desktop.md) | ⭐17,280 | 为 DeepSeek Harness 生态打造的现代化桌面端体验（插件）。 | ✅ 活跃 |
+| 11 | [learn-harness-engineering](resources/learn-harness-engineering.md) | ⭐14,556 | Harness 工程入门教程，从 0 到 1。 | ✅ 活跃 |
+| 12 | [awesome-dsh-plugin](resources/awesome-dsh-plugin.md) | ⭐11,012 | 大型 DSH 插件精选目录（双语）。 | ✅ 活跃 |
+| 13 | [memos](resources/memos.md) | ⭐10,873 | Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support. | ✅ 活跃 |
+| 14 | [dsh-routing-suite](resources/dsh-routing-suite.md) | ⭐6,940 | dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23). | ✅ 活跃 |
+| 15 | [Cordis](resources/cordis.md) | ⭐6,867 | 时空可组合性元框架——DeepSeek Harness 底层的插件运行时。 | ✅ 活跃 |
+| 16 | [awesome-deepseek-agent (official)](resources/awesome-deepseek-agent.md) | ⭐5,966 | 官方精选：将 DeepSeek 模型集成到主流 Agent/编码助手工具的指南（AstrBot、Cherry Studio、Claude Code、Codex、DeepSeek-TUI、Reasonix 等）。 | ✅ 活跃 |
+| 17 | [dsh-web-ui](resources/dsh-web-ui.md) | ⭐5,349 | DSH Web 大型插件与皮肤集合：任务看板、Git 图、侧栏、远程/移动 UI、宠物、Token 统计与主题。 | ✅ 活跃 |
+| 18 | [desktop-cc-gui](resources/desktop-cc-gui.md) | ⭐4,058 | Multi-engine AI coding desktop client (Tauri). Claude Code, Codex, Gemini, OpenCode, DeepSeek Harness and more in one GUI. | ✅ 活跃 |
+| 19 | [petdex](resources/petdex.md) | ⭐3,945 | A public gallery of animated pets for Codex, Claude Code, DeepSeek Harness, Hermes, OpenCode, Gemini CLI, and more. | ✅ 活跃 |
+| 20 | [awesome-harness-engineering](resources/awesome-harness-engineering.md) | ⭐3,887 | Harness 工程精选（跨生态） | ✅ 活跃 |
 
 ---
 

@@ -1,5 +1,21 @@
 [
   {
+    "id": "archify",
+    "name": "archify",
+    "type": "skill",
+    "category": "coding",
+    "repository": "https://github.com/tt-a1i/archify",
+    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams — self-contained and reviewable.",
+    "description_zh": "Agent 技能：生成漂亮、可验证的架构图、流程图、时序图、数据流与生命周期图——自包含、可审查。",
+    "capabilities": [
+      "coding",
+      "research"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 36264
+  },
+  {
     "id": "memos",
     "name": "memos",
     "type": "skill",
@@ -790,5 +806,22 @@
     "status": "active",
     "verified": false,
     "stars": 0
+  },
+  {
+    "id": "firecrawl-research-engine",
+    "name": "firecrawl-research-engine",
+    "type": "skill",
+    "category": "research",
+    "repository": "https://github.com/hecailiaoPFS/firecrawl-research-engine",
+    "description": "Multi-tier technical research & verification skill using Firecrawl with graceful degradation, cross-source verification, and inline citations. Works with DSH / Claude Code / Codex / Cursor.",
+    "description_zh": "基于 Firecrawl 的 LLM 深度技术调研与验证技能：搜索优先、精抓补充、自动降级、交叉验证、强制溯源，让技术回答准确、可查、不幻觉。支持 DSH / Claude Code / Codex / Cursor。",
+    "capabilities": [
+      "search",
+      "research"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 0,
+    "license": "MIT"
   }
 ]

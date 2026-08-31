@@ -1,5 +1,20 @@
 [
   {
+    "id": "learn-harness-engineering",
+    "name": "learn-harness-engineering",
+    "type": "tutorial",
+    "category": "learning",
+    "repository": "https://github.com/walkinglabs/learn-harness-engineering",
+    "description": "Harness engineering beginner tutorial, from 0 to 1.",
+    "description_zh": "Harness 工程入门教程，从 0 到 1。",
+    "capabilities": [
+      "learning"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 14556
+  },
+  {
     "id": "deepseek-harness-orange-book",
     "name": "DeepSeek Harness Orange Book",
     "type": "tutorial",
